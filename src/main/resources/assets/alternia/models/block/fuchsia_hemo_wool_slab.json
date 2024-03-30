@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "alternia:block/fuchsia_wool",
+    "top": "alternia:block/fuchsia_wool",
+    "side": "alternia:block/fuchsia_wool"
+  },
+  "render_type": "solid"
+}

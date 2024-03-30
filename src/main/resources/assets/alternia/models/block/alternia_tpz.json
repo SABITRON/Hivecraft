@@ -1,0 +1,8 @@
+{
+  "parent": "alternia:custom/alternia_tpz",
+  "textures": {
+    "all": "alternia:block/alternia_tpz_block",
+    "particle": "alternia:block/alternia_tpz_block"
+  },
+  "render_type": "solid"
+}

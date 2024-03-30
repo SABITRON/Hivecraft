@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "alternia:alternia_beach",
+  "features": "alternia:fuchsia_hemo_flower",
+  "step": "vegetal_decoration"
+}

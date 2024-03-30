@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "tag": "alternia:darkstone_bricks_tag"
+  },
+  "result": "alternia:darkstone_tiles"
+}

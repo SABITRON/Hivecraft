@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "alternia:alternia_hills",
+  "features": "alternia:rust_hemo_flower",
+  "step": "vegetal_decoration"
+}

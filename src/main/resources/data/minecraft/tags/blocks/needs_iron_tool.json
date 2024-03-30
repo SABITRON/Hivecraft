@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "alternia:darkstone_gold_ore",
+    "alternia:darkstone_diamond_ore",
+    "alternia:darkstone_redstone_ore",
+    "alternia:darkstone_emerald_ore",
+    "alternia:lit_darkstone_redstone_ore"
+  ]
+}

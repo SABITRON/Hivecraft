@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "alternia:block/alternia_tpz"
+    },
+    "facing=east": {
+      "model": "alternia:block/alternia_tpz",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "alternia:block/alternia_tpz",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "alternia:block/alternia_tpz",
+      "y": 270
+    }
+  }
+}

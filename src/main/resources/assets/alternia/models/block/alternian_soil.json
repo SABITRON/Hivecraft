@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "alternia:block/alternian_soil",
+    "particle": "alternia:block/alternian_soil"
+  },
+  "render_type": "solid"
+}

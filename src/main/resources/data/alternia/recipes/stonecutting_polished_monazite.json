@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "alternia:monazite"
+  },
+  "result": "alternia:polished_monazite"
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "bottom": "alternia:block/darkstone_shingles",
+    "top": "alternia:block/darkstone_shingles",
+    "side": "alternia:block/darkstone_shingles"
+  },
+  "render_type": "solid"
+}

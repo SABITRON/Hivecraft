@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "alternia:cobalt_block"
+    }
+  ],
+  "result": {
+    "item": "alternia:cobalt_ingot",
+    "count": 9
+  }
+}

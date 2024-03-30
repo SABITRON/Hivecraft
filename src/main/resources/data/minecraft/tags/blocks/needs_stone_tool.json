@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "alternia:darkstone_iron_ore",
+    "alternia:darkstone_copper_ore",
+    "alternia:darkstone_lapis_ore",
+    "alternia:darkstone_uranium_ore",
+    "alternia:darkstone_salt_ore",
+    "alternia:darkstone_zinc_ore",
+    "alternia:darkstone_sulfur_ore"
+  ]
+}

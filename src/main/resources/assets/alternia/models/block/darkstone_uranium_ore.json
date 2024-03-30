@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "alternia:block/darktstone_uranium_ore",
+    "particle": "alternia:block/darktstone_uranium_ore"
+  },
+  "render_type": "solid"
+}

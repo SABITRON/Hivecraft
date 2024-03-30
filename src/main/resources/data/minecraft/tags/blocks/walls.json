@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "alternia:cobbled_darkstone_wall",
+    "alternia:darkstone_brick_wall",
+    "alternia:darkstone_wall",
+    "alternia:cracked_darkstone_brick_wall",
+    "alternia:smooth_darkstone_wall",
+    "alternia:hive_drywall_wall",
+    "alternia:darkstone_tiles_wall",
+    "alternia:packed_darkstone_wall",
+    "alternia:darkstone_shingles_wall"
+  ]
+}

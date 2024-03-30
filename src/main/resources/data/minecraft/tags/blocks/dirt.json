@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "alternia:alternian_soil",
+    "alternia:alternian_grass_block",
+    "alternia:empty_bug_nest",
+    "alternia:alternian_farmland"
+  ]
+}

@@ -1,0 +1,71 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.grub.idle": {
+			"loop": true,
+			"animation_length": 3,
+			"bones": {
+				"base": {
+					"scale": {
+						"0.0": {
+							"vector": [1, 1, 1]
+						},
+						"0.75": {
+							"vector": [0.9, 1.1, 0.9],
+							"easing": "easeOutSine"
+						},
+						"1.5": {
+							"vector": [1, 1, 1],
+							"easing": "linear"
+						},
+						"2.25": {
+							"vector": [1.1, 0.9, 1.1],
+							"easing": "easeOutSine"
+						},
+						"3.0": {
+							"vector": [1, 1, 1]
+						}
+					}
+				}
+			}
+		},
+		"animation.grub.moving": {
+			"loop": true,
+			"animation_length": 2,
+			"bones": {
+				"base": {
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"1.25": {
+							"vector": [0, 0, -2],
+							"easing": "linear"
+						},
+						"2.0": {
+							"vector": [0, 0, 0],
+							"easing": "easeInBack"
+						}
+					},
+					"scale": {
+						"0.0": {
+							"vector": [1, 1, 1]
+						},
+						"0.5": {
+							"vector": [0.9, 0.9, 1.2],
+							"easing": "easeInExpo"
+						},
+						"1.7083": {
+							"vector": [1.1, 1.1, 0.9],
+							"easing": "easeOutElastic"
+						},
+						"2.0": {
+							"vector": [1, 1, 1]
+						}
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

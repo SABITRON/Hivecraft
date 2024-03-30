@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "alternia:block/hive_drywall_slab"
+    },
+    "type=top": {
+      "model": "alternia:block/hive_drywall_slab_top"
+    },
+    "type=double": {
+      "model": "alternia:block/hive_drywall_slab_full"
+    }
+  }
+}

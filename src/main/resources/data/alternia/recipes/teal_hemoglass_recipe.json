@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "alternia:hiveglass"
+    },
+    "b": {
+      "item": "alternia:teal_hemodye"
+    }
+  },
+  "result": {
+    "item": "alternia:teal_hemoglass",
+    "count": 8
+  }
+}

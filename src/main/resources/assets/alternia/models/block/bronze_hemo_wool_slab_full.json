@@ -1,0 +1,9 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "alternia:block/bronze_wool",
+    "top": "alternia:block/bronze_wool",
+    "side": "alternia:block/bronze_wool"
+  },
+  "render_type": "solid"
+}

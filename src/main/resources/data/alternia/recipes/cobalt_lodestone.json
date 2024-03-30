@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "alternia:smooth_darkstone"
+    },
+    "b": {
+      "item": "alternia:darkstone_tiles"
+    },
+    "c": {
+      "item": "alternia:cobalt_block"
+    }
+  },
+  "result": {
+    "item": "minecraft:lodestone",
+    "count": 1
+  }
+}

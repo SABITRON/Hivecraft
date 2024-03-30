@@ -1,0 +1,12 @@
+{
+  "type": "minestuck:source_grist_cost",
+  "grist_cost": {
+      "minestuck:chalk": 1
+  },
+  "ingredient": {
+      "item": "alternia:lusus_hide"
+  },
+  "sources": [
+      "minecraft:leather"
+  ]
+}

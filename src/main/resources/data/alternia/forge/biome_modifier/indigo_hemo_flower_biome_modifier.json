@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "alternia:alternia_swamp",
+  "features": "alternia:indigo_hemo_flower",
+  "step": "vegetal_decoration"
+}

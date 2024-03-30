@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "blockstate=0": {
+      "model": "alternia:block/bug_nest_grasshoppers"
+    },
+    "blockstate=1": {
+      "model": "alternia:block/grasshoppers_blockstate_0"
+    },
+    "blockstate=2": {
+      "model": "alternia:block/grasshoppers_blockstate_1"
+    },
+    "blockstate=3": {
+      "model": "alternia:block/grasshoppers_blockstate_2"
+    }
+  }
+}

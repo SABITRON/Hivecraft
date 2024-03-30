@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "alternia:hive_drywall"
+  },
+  "result": "alternia:hive_drywall_panel"
+}

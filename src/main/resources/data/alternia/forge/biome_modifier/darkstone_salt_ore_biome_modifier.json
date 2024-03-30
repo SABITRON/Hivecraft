@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "alternia:alternia_ocean",
+    "alternia:deep_alternia_ocean"
+  ],
+  "features": "alternia:darkstone_salt_ore",
+  "step": "underground_ores"
+}

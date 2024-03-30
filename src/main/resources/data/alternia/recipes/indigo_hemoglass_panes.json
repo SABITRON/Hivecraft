@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "alternia:indigo_hemoglass"
+    }
+  },
+  "result": {
+    "item": "alternia:indigo_hemoglass_pane",
+    "count": 16
+  }
+}

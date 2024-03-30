@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "alternia:oracle_wood",
+    "alternia:oracle_log",
+    "alternia:bramble_wood",
+    "alternia:bramble_log",
+    "alternia:stripped_oracle_log",
+    "alternia:stripped_oracle_wood",
+    "alternia:stripped_bramble_log",
+    "alternia:stripped_bramble_wood"
+  ]
+}

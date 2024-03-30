@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "experience": 1,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "alternia:darkstone_cobalt_ore"
+  },
+  "result": "alternia:cobalt_ingot"
+}

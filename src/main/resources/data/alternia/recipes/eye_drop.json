@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "alternia:salt"
+    },
+    {
+      "item": "alternia:salt"
+    },
+    {
+      "item": "alternia:salt"
+    },
+    {
+      "item": "alternia:salt"
+    },
+    {
+      "item": "minecraft:water_bucket"
+    },
+    {
+      "item": "alternia:salt"
+    },
+    {
+      "item": "alternia:salt"
+    },
+    {
+      "item": "alternia:salt"
+    },
+    {
+      "item": "alternia:salt"
+    }
+  ],
+  "result": {
+    "item": "alternia:eye_drops",
+    "count": 8
+  }
+}

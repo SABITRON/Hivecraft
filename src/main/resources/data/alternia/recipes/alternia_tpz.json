@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " d ",
+    "ebe",
+    "ece"
+  ],
+  "key": {
+    "b": {
+      "item": "minestuck:computer_parts"
+    },
+    "c": {
+      "item": "minestuck:plutonium_core"
+    },
+    "d": {
+      "item": "minecraft:heavy_weighted_pressure_plate"
+    },
+    "e": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "alternia:alternia_tpz",
+    "count": 1
+  }
+}

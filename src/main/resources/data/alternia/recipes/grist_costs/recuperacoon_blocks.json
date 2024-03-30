@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:iodine": 2,
+    "minestuck:mercury": 2,
+    "minestuck:uranium": 1
+  },
+  "ingredient": {
+    "tag": "alternia:recuperacoon_valid_blocks"
+  }
+}

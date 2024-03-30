@@ -1,0 +1,40 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:OracleWood"
+      },
+      {
+        "value": "CUSTOM:OracleLog"
+      },
+      {
+        "value": "CUSTOM:BrambleWood"
+      },
+      {
+        "value": "CUSTOM:BrambleLog"
+      },
+      {
+        "value": "CUSTOM:StrippedOracleLog"
+      },
+      {
+        "value": "CUSTOM:StrippedOracleWood"
+      },
+      {
+        "value": "CUSTOM:StrippedBrambleLog"
+      },
+      {
+        "value": "CUSTOM:StrippedBrambleWood"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "logs_that_burn",
+    "namespace": "minecraft"
+  }
+}

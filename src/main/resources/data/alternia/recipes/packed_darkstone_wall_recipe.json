@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "alternia:packed_darkstone"
+    }
+  },
+  "result": {
+    "item": "alternia:packed_darkstone_wall",
+    "count": 6
+  }
+}

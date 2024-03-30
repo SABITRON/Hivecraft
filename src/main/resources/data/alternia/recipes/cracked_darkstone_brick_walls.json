@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "alternia:cracked_darkstone_bricks"
+    }
+  },
+  "result": {
+    "item": "alternia:cracked_darkstone_brick_wall",
+    "count": 6
+  }
+}

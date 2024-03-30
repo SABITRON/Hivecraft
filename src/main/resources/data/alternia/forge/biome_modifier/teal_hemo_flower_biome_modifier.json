@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "alternia:oracle_canopy",
+    "alternia:oracle_canopy_modified"
+  ],
+  "features": "alternia:teal_hemo_flower",
+  "step": "vegetal_decoration"
+}

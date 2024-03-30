@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "alternia:shimmering_desert",
+  "features": "alternia:violet_hemo_flower",
+  "step": "vegetal_decoration"
+}

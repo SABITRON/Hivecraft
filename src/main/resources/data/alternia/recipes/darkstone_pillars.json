@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "a",
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "alternia:darkstone_tiles"
+    }
+  },
+  "result": {
+    "item": "alternia:darkstone_pillar",
+    "count": 3
+  }
+}

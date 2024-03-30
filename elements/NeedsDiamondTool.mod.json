@@ -1,0 +1,25 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:DarkstoneCobaltOre"
+      },
+      {
+        "value": "CUSTOM:RawCobaltBlock"
+      },
+      {
+        "value": "CUSTOM:CobaltBlock"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "needs_diamond_tool",
+    "namespace": "minecraft"
+  }
+}

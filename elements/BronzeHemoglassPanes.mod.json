@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 16,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:RustHemoglass"
+      },
+      {
+        "value": "CUSTOM:RustHemoglass"
+      },
+      {
+        "value": "CUSTOM:RustHemoglass"
+      },
+      {
+        "value": "CUSTOM:RustHemoglass"
+      },
+      {
+        "value": "CUSTOM:RustHemoglass"
+      },
+      {
+        "value": "CUSTOM:RustHemoglass"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:RustHemoglassPane"
+    },
+    "name": "bronze_hemoglass_panes",
+    "namespace": "mod"
+  }
+}

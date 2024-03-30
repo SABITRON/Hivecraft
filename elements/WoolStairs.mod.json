@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:LususWool"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:LususWool"
+      },
+      {
+        "value": "CUSTOM:LususWool"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:LususWool"
+      },
+      {
+        "value": "CUSTOM:LususWool"
+      },
+      {
+        "value": "CUSTOM:LususWool"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:LususWoolStairs"
+    },
+    "name": "wool_stairs",
+    "namespace": "mod"
+  }
+}

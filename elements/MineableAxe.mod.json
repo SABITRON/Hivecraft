@@ -1,0 +1,187 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:OracleWood"
+      },
+      {
+        "value": "CUSTOM:OracleLog"
+      },
+      {
+        "value": "CUSTOM:OraclePlanks"
+      },
+      {
+        "value": "CUSTOM:OracleStairs"
+      },
+      {
+        "value": "CUSTOM:OracleSlab"
+      },
+      {
+        "value": "CUSTOM:OracleFence"
+      },
+      {
+        "value": "CUSTOM:OracleFenceGate"
+      },
+      {
+        "value": "CUSTOM:OraclePressurePlate"
+      },
+      {
+        "value": "CUSTOM:OracleButton"
+      },
+      {
+        "value": "CUSTOM:BrambleWood"
+      },
+      {
+        "value": "CUSTOM:BrambleLog"
+      },
+      {
+        "value": "CUSTOM:BramblePlanks"
+      },
+      {
+        "value": "CUSTOM:BrambleStairs"
+      },
+      {
+        "value": "CUSTOM:BrambleSlab"
+      },
+      {
+        "value": "CUSTOM:BrambleFence"
+      },
+      {
+        "value": "CUSTOM:BrambleFenceGate"
+      },
+      {
+        "value": "CUSTOM:BramblePressurePlate"
+      },
+      {
+        "value": "CUSTOM:BrambleButton"
+      },
+      {
+        "value": "CUSTOM:HiveTrapdoor"
+      },
+      {
+        "value": "CUSTOM:HiveDrywall"
+      },
+      {
+        "value": "CUSTOM:HiveDrywallSlab"
+      },
+      {
+        "value": "CUSTOM:HiveDrywallStairs"
+      },
+      {
+        "value": "CUSTOM:HiveDrywallWall"
+      },
+      {
+        "value": "CUSTOM:Hiveglass"
+      },
+      {
+        "value": "CUSTOM:HiveglassPane"
+      },
+      {
+        "value": "CUSTOM:HiveDoor"
+      },
+      {
+        "value": "CUSTOM:GrubNest"
+      },
+      {
+        "value": "CUSTOM:RustMeatBlock"
+      },
+      {
+        "value": "CUSTOM:BronzeMeatBlock"
+      },
+      {
+        "value": "CUSTOM:GoldMeatBlock"
+      },
+      {
+        "value": "CUSTOM:LimeMeatBlock"
+      },
+      {
+        "value": "CUSTOM:OliveMeatBlock"
+      },
+      {
+        "value": "CUSTOM:JadeMeatBlock"
+      },
+      {
+        "value": "CUSTOM:TealMeatBlock"
+      },
+      {
+        "value": "CUSTOM:CobaltMeatBlock"
+      },
+      {
+        "value": "CUSTOM:IndigoMeatBlock"
+      },
+      {
+        "value": "CUSTOM:PurpleMeatBlock"
+      },
+      {
+        "value": "CUSTOM:VioletMeatBlock"
+      },
+      {
+        "value": "CUSTOM:FuchsiaMeatBlock"
+      },
+      {
+        "value": "CUSTOM:RustRecuperacoonCore"
+      },
+      {
+        "value": "CUSTOM:BronzeRecuperacoonCore"
+      },
+      {
+        "value": "CUSTOM:GoldRecuperacoonCore"
+      },
+      {
+        "value": "CUSTOM:LimeRecuperacoonCore"
+      },
+      {
+        "value": "CUSTOM:OliveRecuperacoonCore"
+      },
+      {
+        "value": "CUSTOM:JadeRecuperacoonCore"
+      },
+      {
+        "value": "CUSTOM:TealRecuperacoonCore"
+      },
+      {
+        "value": "CUSTOM:CobaltRecuperacoonCore"
+      },
+      {
+        "value": "CUSTOM:IndigoRecuperacoonCore"
+      },
+      {
+        "value": "CUSTOM:PurpleRecuperacoonCore"
+      },
+      {
+        "value": "CUSTOM:VioletRecuperacoonCore"
+      },
+      {
+        "value": "CUSTOM:FuchsiaRecuperacoonCore"
+      },
+      {
+        "value": "CUSTOM:StrippedOracleLog"
+      },
+      {
+        "value": "CUSTOM:StrippedOracleWood"
+      },
+      {
+        "value": "CUSTOM:StrippedBrambleLog"
+      },
+      {
+        "value": "CUSTOM:StrippedBrambleWood"
+      },
+      {
+        "value": "CUSTOM:HiveDrywallPanel"
+      },
+      {
+        "value": "CUSTOM:HiveDrywallPanelSlab"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "mineable/axe",
+    "namespace": "minecraft"
+  }
+}

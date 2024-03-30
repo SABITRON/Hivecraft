@@ -1,0 +1,28 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:CobaltArmor.helmet"
+      },
+      {
+        "value": "CUSTOM:CobaltArmor.body"
+      },
+      {
+        "value": "CUSTOM:CobaltArmor.legs"
+      },
+      {
+        "value": "CUSTOM:CobaltArmor.boots"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "trimmable_armor",
+    "namespace": "minecraft"
+  }
+}

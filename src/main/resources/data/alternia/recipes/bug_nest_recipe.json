@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aba",
+    "aca",
+    "ada"
+  ],
+  "key": {
+    "a": {
+      "item": "alternia:bramble_slab"
+    },
+    "b": {
+      "item": "minecraft:water_bucket"
+    },
+    "c": {
+      "item": "alternia:alternian_soil"
+    },
+    "d": {
+      "item": "alternia:bramble_planks"
+    }
+  },
+  "result": {
+    "item": "alternia:empty_bug_nest",
+    "count": 1
+  }
+}

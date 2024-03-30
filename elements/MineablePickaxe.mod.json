@@ -1,0 +1,196 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:CobbledDarkstone"
+      },
+      {
+        "value": "CUSTOM:Darkstone"
+      },
+      {
+        "value": "CUSTOM:DarkstoneBrickStairs"
+      },
+      {
+        "value": "CUSTOM:DarkstoneBrickSlab"
+      },
+      {
+        "value": "CUSTOM:DarkstoneBricks"
+      },
+      {
+        "value": "CUSTOM:CobbledDarkstoneStairs"
+      },
+      {
+        "value": "CUSTOM:CobbledDarkstoneSlab"
+      },
+      {
+        "value": "CUSTOM:CobbledDarkstoneWall"
+      },
+      {
+        "value": "CUSTOM:DarkstoneBrickWall"
+      },
+      {
+        "value": "CUSTOM:CrackedDarkstoneBricks"
+      },
+      {
+        "value": "CUSTOM:DarkstoneSlab"
+      },
+      {
+        "value": "CUSTOM:DarkstoneStairs"
+      },
+      {
+        "value": "CUSTOM:DarkstoneWall"
+      },
+      {
+        "value": "CUSTOM:CrackedDarkstoneBrickWall"
+      },
+      {
+        "value": "CUSTOM:CrackedDarkstoneBrickStairs"
+      },
+      {
+        "value": "CUSTOM:CrackedDarkstoneBrickSlab"
+      },
+      {
+        "value": "CUSTOM:DarkstonePillar"
+      },
+      {
+        "value": "CUSTOM:SmoothDarkstone"
+      },
+      {
+        "value": "CUSTOM:SmoothDarkstoneSlab"
+      },
+      {
+        "value": "CUSTOM:SmoothDarkstoneWall"
+      },
+      {
+        "value": "CUSTOM:SmoothDarkstoneStairs"
+      },
+      {
+        "value": "CUSTOM:AlterniaTpz"
+      },
+      {
+        "value": "CUSTOM:IridescentSandstone"
+      },
+      {
+        "value": "CUSTOM:Monazite"
+      },
+      {
+        "value": "CUSTOM:PolishedMonazite"
+      },
+      {
+        "value": "CUSTOM:DarkstoneIronOre"
+      },
+      {
+        "value": "CUSTOM:DarkstoneCoalOre"
+      },
+      {
+        "value": "CUSTOM:DarkstoneGoldOre"
+      },
+      {
+        "value": "CUSTOM:DarkstoneDiamondOre"
+      },
+      {
+        "value": "CUSTOM:DarkstoneRedstoneOre"
+      },
+      {
+        "value": "CUSTOM:DarkstoneEmeraldOre"
+      },
+      {
+        "value": "CUSTOM:DarkstoneCopperOre"
+      },
+      {
+        "value": "CUSTOM:DarkstoneQuartzOre"
+      },
+      {
+        "value": "CUSTOM:DarkstoneLapisOre"
+      },
+      {
+        "value": "CUSTOM:DarkstoneCruxiteOre"
+      },
+      {
+        "value": "CUSTOM:DarkstoneUraniumOre"
+      },
+      {
+        "value": "CUSTOM:DarkstoneTiles"
+      },
+      {
+        "value": "CUSTOM:DarkstoneTilesStairs"
+      },
+      {
+        "value": "CUSTOM:DarkstoneTilesSlab"
+      },
+      {
+        "value": "CUSTOM:DarkstoneTilesWall"
+      },
+      {
+        "value": "CUSTOM:Darksandstone"
+      },
+      {
+        "value": "CUSTOM:DarkstoneBoulderSmall"
+      },
+      {
+        "value": "CUSTOM:DarkstoneBoulder"
+      },
+      {
+        "value": "CUSTOM:MonaziteBoulderSmall"
+      },
+      {
+        "value": "CUSTOM:MonaziteBoulder"
+      },
+      {
+        "value": "CUSTOM:DarkstoneSaltOre"
+      },
+      {
+        "value": "CUSTOM:DarkstoneCobaltOre"
+      },
+      {
+        "value": "CUSTOM:RawCobaltBlock"
+      },
+      {
+        "value": "CUSTOM:CobaltBlock"
+      },
+      {
+        "value": "CUSTOM:DarkstoneZincOre"
+      },
+      {
+        "value": "CUSTOM:LitDarkstoneRedstoneOre"
+      },
+      {
+        "value": "CUSTOM:PackedDarkstone"
+      },
+      {
+        "value": "CUSTOM:PackedDarkstoneSlab"
+      },
+      {
+        "value": "CUSTOM:PackedDarkstoneStairs"
+      },
+      {
+        "value": "CUSTOM:PackedDarkstoneWall"
+      },
+      {
+        "value": "CUSTOM:DarkstoneShingles"
+      },
+      {
+        "value": "CUSTOM:DarkstoneShinglesStairs"
+      },
+      {
+        "value": "CUSTOM:DarkstoneShinglesSlab"
+      },
+      {
+        "value": "CUSTOM:DarkstoneShinglesWall"
+      },
+      {
+        "value": "CUSTOM:DarkstoneSulfurOre"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "mineable/pickaxe",
+    "namespace": "minecraft"
+  }
+}

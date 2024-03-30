@@ -1,0 +1,36 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "amount": 1000,
+      "fluid": "minecraft:water"
+    },
+    {
+      "item": "alternia:darkstone_dust"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "alternia:salt"
+    },
+    {
+      "item": "alternia:salt"
+    },
+    {
+      "tag": "alternia:hemodye"
+    },
+    {
+      "item": "alternia:rotten_troll_flesh"
+    }
+  ],
+  "results": [
+    {
+      "amount": 1000,
+      "fluid": "alternia:sopor_slime"
+    }
+  ]
+}

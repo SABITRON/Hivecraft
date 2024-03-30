@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "alternia:darkstone_tiles"
+    }
+  },
+  "result": {
+    "item": "alternia:darkstone_tiles_wall",
+    "count": 6
+  }
+}

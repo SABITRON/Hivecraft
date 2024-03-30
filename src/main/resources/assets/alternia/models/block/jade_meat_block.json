@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "alternia:block/jade_meat_block_top",
+    "up": "alternia:block/jade_meat_block_top",
+    "north": "alternia:block/jade_meat_block",
+    "east": "alternia:block/jade_meat_block",
+    "south": "alternia:block/jade_meat_block",
+    "west": "alternia:block/jade_meat_block",
+    "particle": "alternia:block/jade_meat_block_top"
+  },
+  "render_type": "solid"
+}

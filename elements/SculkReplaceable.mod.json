@@ -1,0 +1,40 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:Darkstone"
+      },
+      {
+        "value": "CUSTOM:AlternianSoil"
+      },
+      {
+        "value": "CUSTOM:AlternianGrassBlock"
+      },
+      {
+        "value": "CUSTOM:Darksand"
+      },
+      {
+        "value": "CUSTOM:IridescentSand"
+      },
+      {
+        "value": "CUSTOM:IridescentSandstone"
+      },
+      {
+        "value": "CUSTOM:Monazite"
+      },
+      {
+        "value": "CUSTOM:Darksandstone"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "sculk_replaceable",
+    "namespace": "minecraft"
+  }
+}

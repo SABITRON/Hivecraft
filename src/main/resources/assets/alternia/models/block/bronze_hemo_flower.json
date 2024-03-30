@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "alternia:block/bronze_iris",
+    "particle": "alternia:block/bronze_iris"
+  },
+  "render_type": "cutout"
+}

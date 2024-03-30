@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "alternia:block/bramble_log_top",
+    "up": "alternia:block/bramble_log_top",
+    "north": "alternia:block/bramble_log_side",
+    "east": "alternia:block/bramble_log_side",
+    "south": "alternia:block/bramble_log_side",
+    "west": "alternia:block/bramble_log_side",
+    "particle": "alternia:block/bramble_log_top"
+  },
+  "render_type": "solid"
+}

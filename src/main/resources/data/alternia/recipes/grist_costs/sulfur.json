@@ -1,0 +1,9 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:sulfur": 9
+  },
+  "ingredient": {
+    "item": "alternia:sulfur"
+  }
+}

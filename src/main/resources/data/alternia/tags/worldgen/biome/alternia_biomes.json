@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "alternia:alternia_mountains",
+    "alternia:alternia_ocean",
+    "alternia:alternia_plains",
+    "alternia:oracle_canopy",
+    "alternia:rocky_plains",
+    "alternia:shimmering_desert",
+    "alternia:alternia_river",
+    "alternia:oracle_canopy_modified",
+    "alternia:rocky_plateau",
+    "alternia:alternia_beach",
+    "alternia:alternia_hills",
+    "alternia:alternia_swamp",
+    "alternia:bramble_forest",
+    "alternia:deep_alternia_ocean"
+  ]
+}

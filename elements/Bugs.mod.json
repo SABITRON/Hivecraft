@@ -1,0 +1,31 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:Beetle"
+      },
+      {
+        "value": "CUSTOM:RawGrubMeat"
+      },
+      {
+        "value": "CUSTOM:LiveGrub"
+      },
+      {
+        "value": "CUSTOM:CookedGrubMeat"
+      },
+      {
+        "value": "CUSTOM:CookedGrub"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "bugs",
+    "namespace": "minestuck"
+  }
+}

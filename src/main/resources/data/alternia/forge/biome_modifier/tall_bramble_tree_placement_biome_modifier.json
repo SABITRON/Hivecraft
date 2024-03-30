@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "alternia:bramble_forest",
+  "features": "alternia:tall_bramble_tree_placement",
+  "step": "surface_structures"
+}

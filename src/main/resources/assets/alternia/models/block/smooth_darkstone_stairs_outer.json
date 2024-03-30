@@ -1,0 +1,9 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "alternia:block/smooth_darkstone",
+    "top": "alternia:block/smooth_darkstone",
+    "side": "alternia:block/smooth_darkstone"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "alternia:block/bramble_planks",
+    "top": "alternia:block/bramble_planks",
+    "side": "alternia:block/bramble_planks"
+  },
+  "render_type": "solid"
+}

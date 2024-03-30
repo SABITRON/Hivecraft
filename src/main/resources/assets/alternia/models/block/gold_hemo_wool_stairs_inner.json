@@ -1,0 +1,9 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "alternia:block/gold_wool",
+    "top": "alternia:block/gold_wool",
+    "side": "alternia:block/gold_wool"
+  },
+  "render_type": "solid"
+}

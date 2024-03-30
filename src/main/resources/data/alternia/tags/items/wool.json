@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "alternia:rust_hemo_wool",
+    "alternia:bronze_hemo_wool",
+    "alternia:gold_hemo_wool",
+    "alternia:lime_hemo_wool",
+    "alternia:olive_hemo_wool",
+    "alternia:jade_hemo_wool",
+    "alternia:teal_hemo_wool",
+    "alternia:cobalt_hemo_wool",
+    "alternia:indigo_hemo_wool",
+    "alternia:purple_hemo_wool",
+    "alternia:violet_hemo_wool",
+    "alternia:fuchsia_hemo_wool"
+  ]
+}

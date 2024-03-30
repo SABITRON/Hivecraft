@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_glass_pane_side_alt",
+  "textures": {
+    "edge": "alternia:block/hiveglass_border",
+    "pane": "alternia:block/indigo_hemoglass"
+  },
+  "render_type": "translucent"
+}

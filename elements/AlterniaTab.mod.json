@@ -1,0 +1,11 @@
+{
+  "_fv": 57,
+  "_type": "tab",
+  "definition": {
+    "name": "Hivecraft",
+    "icon": {
+      "value": "CUSTOM:ModIcon"
+    },
+    "showSearch": false
+  }
+}

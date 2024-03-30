@@ -1,0 +1,31 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:DarkstoneGoldOre"
+      },
+      {
+        "value": "CUSTOM:DarkstoneDiamondOre"
+      },
+      {
+        "value": "CUSTOM:DarkstoneRedstoneOre"
+      },
+      {
+        "value": "CUSTOM:DarkstoneEmeraldOre"
+      },
+      {
+        "value": "CUSTOM:LitDarkstoneRedstoneOre"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "needs_iron_tool",
+    "namespace": "minecraft"
+  }
+}

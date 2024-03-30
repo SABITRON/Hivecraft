@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "minecraft:diamond_shovel"
+  },
+  "base": {
+    "item": "alternia:cobalt_ingot"
+  },
+  "addition": {
+    "item": "alternia:cobalt_ingot"
+  },
+  "result": {
+    "item": "alternia:cobalt_shovel"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "alternia:crushed_raw_cobalt"
+    }
+  ],
+  "results": [
+    {
+      "count": 9,
+      "item": "alternia:cobalt_nugget"
+    },
+    {
+      "chance": 1,
+      "item": "minecraft:glowstone_dust"
+    }
+  ]
+}

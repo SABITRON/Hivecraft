@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 8,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:PiePlate"
+      },
+      {
+        "value": "CUSTOM:PiePlate"
+      },
+      {
+        "value": "CUSTOM:PiePlate"
+      },
+      {
+        "value": "CUSTOM:PiePlate"
+      },
+      {
+        "value": "CUSTOM:SoporSlime.bucket"
+      },
+      {
+        "value": "CUSTOM:PiePlate"
+      },
+      {
+        "value": "CUSTOM:PiePlate"
+      },
+      {
+        "value": "CUSTOM:PiePlate"
+      },
+      {
+        "value": "CUSTOM:PiePlate"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Items.PUMPKIN_PIE"
+    },
+    "name": "sopor_pie",
+    "namespace": "mod"
+  }
+}

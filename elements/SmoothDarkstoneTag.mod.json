@@ -1,0 +1,22 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:SmoothDarkstone"
+      },
+      {
+        "value": "TAG:alternia:darkstone_tag"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "smooth_darkstone_tag",
+    "namespace": "mod"
+  }
+}

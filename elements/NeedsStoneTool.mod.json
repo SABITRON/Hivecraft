@@ -1,0 +1,37 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:DarkstoneIronOre"
+      },
+      {
+        "value": "CUSTOM:DarkstoneCopperOre"
+      },
+      {
+        "value": "CUSTOM:DarkstoneLapisOre"
+      },
+      {
+        "value": "CUSTOM:DarkstoneUraniumOre"
+      },
+      {
+        "value": "CUSTOM:DarkstoneSaltOre"
+      },
+      {
+        "value": "CUSTOM:DarkstoneZincOre"
+      },
+      {
+        "value": "CUSTOM:DarkstoneSulfurOre"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "needs_stone_tool",
+    "namespace": "minecraft"
+  }
+}

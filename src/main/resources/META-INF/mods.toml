@@ -1,0 +1,53 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="Academic Free License v3.0"
+
+[[mods]]
+modId="alternia"
+version="1.0.12"
+displayName="Hivecraft: An Alternia addon for Minestuck"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/hivecraft-an-alternia-addon-for-minestuck"
+logoFile="logo.png"
+credits="Uses some textures from Minecraft, Minestuck, Zinc ore texture from Create"
+authors="V_SABITRON"
+
+[[dependencies.alternia]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="NONE"
+    side="BOTH"
+
+
+[[dependencies.alternia]]
+    modId="infiniverse"
+    mandatory=true
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.alternia]]
+    modId="minestuck"
+    mandatory=true
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.alternia]]
+    modId="geckolib"
+    mandatory=true
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.alternia]]
+    modId="create"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.alternia]]
+    modId="geckolib"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+

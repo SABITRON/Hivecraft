@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "alternia:pie_plate"
+    },
+    {
+      "item": "alternia:pie_plate"
+    },
+    {
+      "item": "alternia:pie_plate"
+    },
+    {
+      "item": "alternia:pie_plate"
+    },
+    {
+      "item": "alternia:sopor_slime_bucket"
+    },
+    {
+      "item": "alternia:pie_plate"
+    },
+    {
+      "item": "alternia:pie_plate"
+    },
+    {
+      "item": "alternia:pie_plate"
+    },
+    {
+      "item": "alternia:pie_plate"
+    }
+  ],
+  "result": {
+    "item": "minestuck:sopor_slime_pie",
+    "count": 8
+  }
+}

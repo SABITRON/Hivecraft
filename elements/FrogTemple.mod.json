@@ -1,0 +1,22 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Biomes",
+    "items": [],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [
+      {
+        "value": "#alternia:alternia_biomes"
+      },
+      {
+        "value": "#is_overworld"
+      }
+    ],
+    "damageTypes": [],
+    "name": "has_structure/frog_temple",
+    "namespace": "minestuck"
+  }
+}

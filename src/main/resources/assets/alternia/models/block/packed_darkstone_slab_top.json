@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "bottom": "alternia:block/packed_darkstone",
+    "top": "alternia:block/packed_darkstone",
+    "side": "alternia:block/packed_darkstone_slab_side"
+  },
+  "render_type": "solid"
+}

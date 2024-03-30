@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "alternia:block/indigo_peony",
+    "particle": "alternia:block/indigo_peony"
+  },
+  "render_type": "cutout"
+}

@@ -1,0 +1,55 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:RustHemoWool"
+      },
+      {
+        "value": "CUSTOM:BronzeHemoWool"
+      },
+      {
+        "value": "CUSTOM:GoldHemoWool"
+      },
+      {
+        "value": "CUSTOM:LimeHemoWool"
+      },
+      {
+        "value": "CUSTOM:OliveHemoWool"
+      },
+      {
+        "value": "CUSTOM:JadeHemoWool"
+      },
+      {
+        "value": "CUSTOM:TealHemoWool"
+      },
+      {
+        "value": "CUSTOM:CobaltHemoWool"
+      },
+      {
+        "value": "CUSTOM:IndigoHemoWool"
+      },
+      {
+        "value": "CUSTOM:PurpleHemoWool"
+      },
+      {
+        "value": "CUSTOM:VioletHemoWool"
+      },
+      {
+        "value": "CUSTOM:FuchsiaHemoWool"
+      },
+      {
+        "value": "CUSTOM:LususWool"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "wool",
+    "namespace": "minecraft"
+  }
+}

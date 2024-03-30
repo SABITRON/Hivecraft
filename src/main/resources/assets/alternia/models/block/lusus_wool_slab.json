@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "alternia:block/lusus_wool",
+    "top": "alternia:block/lusus_wool",
+    "side": "alternia:block/lusus_wool"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "alternia:block/lime_recuperacoon_core_top",
+    "up": "alternia:block/lime_recuperacoon_core_top",
+    "north": "alternia:block/lime_recuperacoon_core",
+    "east": "alternia:block/lime_recuperacoon_core",
+    "south": "alternia:block/lime_recuperacoon_core",
+    "west": "alternia:block/lime_recuperacoon_core",
+    "particle": "alternia:block/lime_recuperacoon_core_top"
+  },
+  "render_type": "solid"
+}

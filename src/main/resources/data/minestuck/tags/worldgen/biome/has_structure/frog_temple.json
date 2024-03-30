@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#alternia:alternia_biomes",
+    "#is_overworld"
+  ]
+}

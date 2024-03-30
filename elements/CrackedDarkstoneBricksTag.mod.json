@@ -1,0 +1,22 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:CrackedDarkstoneBricks"
+      },
+      {
+        "value": "TAG:alternia:darkstone_bricks_tag"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "cracked_darkstone_bricks_tag",
+    "namespace": "mod"
+  }
+}

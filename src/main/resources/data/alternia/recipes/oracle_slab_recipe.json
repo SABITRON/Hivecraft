@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_slab",
+  "category": "building",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "alternia:oracle_planks"
+    }
+  },
+  "result": {
+    "item": "alternia:oracle_slab",
+    "count": 6
+  }
+}

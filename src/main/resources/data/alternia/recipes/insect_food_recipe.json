@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "alternia:shattergrain"
+    },
+    {
+      "item": "minecraft:stick"
+    },
+    {
+      "tag": "forge:seeds"
+    },
+    {
+      "tag": "minecraft:flowers"
+    }
+  ],
+  "result": {
+    "item": "alternia:insect_food",
+    "count": 2
+  }
+}

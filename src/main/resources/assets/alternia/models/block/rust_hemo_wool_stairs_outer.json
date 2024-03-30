@@ -1,0 +1,9 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "alternia:block/rust_wool",
+    "top": "alternia:block/rust_wool",
+    "side": "alternia:block/rust_wool"
+  },
+  "render_type": "solid"
+}

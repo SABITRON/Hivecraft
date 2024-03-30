@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "alternia:hive_drywall"
+    }
+  },
+  "result": {
+    "item": "alternia:hive_trapdoor",
+    "count": 2
+  }
+}

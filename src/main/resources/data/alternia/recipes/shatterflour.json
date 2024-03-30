@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "alternia:shattergrain"
+    }
+  ],
+  "result": {
+    "item": "alternia:shatterflour",
+    "count": 2
+  }
+}

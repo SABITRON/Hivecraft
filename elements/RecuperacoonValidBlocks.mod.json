@@ -1,0 +1,88 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:RustMeatBlock"
+      },
+      {
+        "value": "CUSTOM:BronzeMeatBlock"
+      },
+      {
+        "value": "CUSTOM:GoldMeatBlock"
+      },
+      {
+        "value": "CUSTOM:LimeMeatBlock"
+      },
+      {
+        "value": "CUSTOM:OliveMeatBlock"
+      },
+      {
+        "value": "CUSTOM:JadeMeatBlock"
+      },
+      {
+        "value": "CUSTOM:TealMeatBlock"
+      },
+      {
+        "value": "CUSTOM:CobaltMeatBlock"
+      },
+      {
+        "value": "CUSTOM:IndigoMeatBlock"
+      },
+      {
+        "value": "CUSTOM:PurpleMeatBlock"
+      },
+      {
+        "value": "CUSTOM:VioletMeatBlock"
+      },
+      {
+        "value": "CUSTOM:FuchsiaMeatBlock"
+      },
+      {
+        "value": "CUSTOM:RustRecuperacoonCore"
+      },
+      {
+        "value": "CUSTOM:BronzeRecuperacoonCore"
+      },
+      {
+        "value": "CUSTOM:GoldRecuperacoonCore"
+      },
+      {
+        "value": "CUSTOM:LimeRecuperacoonCore"
+      },
+      {
+        "value": "CUSTOM:OliveRecuperacoonCore"
+      },
+      {
+        "value": "CUSTOM:JadeRecuperacoonCore"
+      },
+      {
+        "value": "CUSTOM:TealRecuperacoonCore"
+      },
+      {
+        "value": "CUSTOM:CobaltRecuperacoonCore"
+      },
+      {
+        "value": "CUSTOM:IndigoRecuperacoonCore"
+      },
+      {
+        "value": "CUSTOM:PurpleRecuperacoonCore"
+      },
+      {
+        "value": "CUSTOM:VioletRecuperacoonCore"
+      },
+      {
+        "value": "CUSTOM:FuchsiaRecuperacoonCore"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "recuperacoon_valid_blocks",
+    "namespace": "mod"
+  }
+}

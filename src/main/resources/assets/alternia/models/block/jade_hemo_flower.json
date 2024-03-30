@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "alternia:block/jade_celosia",
+    "particle": "alternia:block/jade_celosia"
+  },
+  "render_type": "cutout"
+}

@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "alternia:rust_hemo_flower",
+    "alternia:bronze_hemo_flower",
+    "alternia:gold_hemo_flower",
+    "alternia:lime_hemoflower",
+    "alternia:olive_hemo_flower",
+    "alternia:jade_hemo_flower",
+    "alternia:teal_hemo_flower",
+    "alternia:cobalt_hemo_flower",
+    "alternia:indigo_hemo_flower",
+    "alternia:purple_hemo_flower",
+    "alternia:violet_hemo_flower",
+    "alternia:fuchsia_hemo_flower"
+  ]
+}

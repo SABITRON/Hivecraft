@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "alternia:block/darkstone_coal_ore",
+    "particle": "alternia:block/darkstone_coal_ore"
+  },
+  "render_type": "solid"
+}

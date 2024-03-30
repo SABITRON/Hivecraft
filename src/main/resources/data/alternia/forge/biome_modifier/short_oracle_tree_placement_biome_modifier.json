@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "alternia:oracle_canopy",
+    "alternia:oracle_canopy_modified"
+  ],
+  "features": "alternia:short_oracle_tree_placement",
+  "step": "surface_structures"
+}

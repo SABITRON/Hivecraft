@@ -1,0 +1,9 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "alternia:block/lime_wool",
+    "top": "alternia:block/lime_wool",
+    "side": "alternia:block/lime_wool"
+  },
+  "render_type": "solid"
+}

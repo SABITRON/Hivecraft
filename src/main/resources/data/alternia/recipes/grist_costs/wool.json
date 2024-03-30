@@ -1,0 +1,12 @@
+{
+  "type": "minestuck:source_grist_cost",
+  "grist_cost": {
+      "minestuck:build": 1
+  },
+  "ingredient": {
+      "tag": "alternia:wool"
+  },
+  "sources": [
+      "minecraft:white_wool"
+  ]
+}

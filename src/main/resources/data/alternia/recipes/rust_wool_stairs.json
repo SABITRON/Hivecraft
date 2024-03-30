@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "a  ",
+    "aa ",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "alternia:rust_hemo_wool"
+    }
+  },
+  "result": {
+    "item": "alternia:rust_hemo_wool_stairs",
+    "count": 4
+  }
+}

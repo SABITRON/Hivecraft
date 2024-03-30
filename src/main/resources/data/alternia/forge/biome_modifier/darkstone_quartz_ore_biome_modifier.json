@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#alternia:alternia_biomes",
+  "features": "alternia:darkstone_quartz_ore",
+  "step": "underground_ores"
+}

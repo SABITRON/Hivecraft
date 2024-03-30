@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "alternia:monazite"
+    },
+    {
+      "item": "alternia:monazite"
+    },
+    {
+      "item": "alternia:monazite"
+    },
+    {
+      "item": "alternia:monazite"
+    }
+  ],
+  "result": {
+    "item": "alternia:polished_monazite",
+    "count": 4
+  }
+}

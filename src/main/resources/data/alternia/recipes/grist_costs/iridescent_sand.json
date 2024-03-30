@@ -1,0 +1,9 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:quartz": 1
+  },
+  "ingredient": {
+    "item": "alternia:iridescent_sand"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "alternia:block/cracked_darkstone_bricks",
+    "top": "alternia:block/cracked_darkstone_bricks",
+    "side": "alternia:block/cracked_darkstone_bricks"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_wall_post",
+  "textures": {
+    "wall": "alternia:block/darkstone",
+    "particle": "alternia:block/darkstone"
+  },
+  "render_type": "solid"
+}

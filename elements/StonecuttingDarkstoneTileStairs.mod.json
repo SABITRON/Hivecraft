@@ -1,0 +1,22 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Stone cutting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "stoneCuttingInputStack": {
+      "value": "TAG:alternia:darkstone_tiles_tag"
+    },
+    "stoneCuttingReturnStack": {
+      "value": "CUSTOM:DarkstoneTilesStairs"
+    },
+    "name": "stonecutting_darkstone_tile_stairs",
+    "namespace": "mod"
+  }
+}

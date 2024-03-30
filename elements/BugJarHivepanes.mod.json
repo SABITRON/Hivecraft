@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 8,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "TAG:minecraft:planks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:HiveglassPane"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:HiveglassPane"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:HiveglassPane"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BugJar"
+    },
+    "name": "bug_jar_hivepanes",
+    "namespace": "mod"
+  }
+}

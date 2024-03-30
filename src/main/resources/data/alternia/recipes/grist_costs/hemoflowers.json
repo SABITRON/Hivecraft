@@ -1,0 +1,10 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+      "minestuck:build": 4,
+      "minestuck:iodine": 1
+  },
+  "ingredient": {
+      "tag": "alternia:hemo_flowers"
+  }
+}

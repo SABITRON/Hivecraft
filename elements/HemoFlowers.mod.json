@@ -1,0 +1,52 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:RustHemoFlower"
+      },
+      {
+        "value": "CUSTOM:BronzeHemoFlower"
+      },
+      {
+        "value": "CUSTOM:GoldHemoFlower"
+      },
+      {
+        "value": "CUSTOM:LimeHemoflower"
+      },
+      {
+        "value": "CUSTOM:OliveHemoFlower"
+      },
+      {
+        "value": "CUSTOM:JadeHemoFlower"
+      },
+      {
+        "value": "CUSTOM:TealHemoFlower"
+      },
+      {
+        "value": "CUSTOM:CobaltHemoFlower"
+      },
+      {
+        "value": "CUSTOM:IndigoHemoFlower"
+      },
+      {
+        "value": "CUSTOM:PurpleHemoFlower"
+      },
+      {
+        "value": "CUSTOM:VioletHemoFlower"
+      },
+      {
+        "value": "CUSTOM:FuchsiaHemoFlower"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "hemo_flowers",
+    "namespace": "mod"
+  }
+}

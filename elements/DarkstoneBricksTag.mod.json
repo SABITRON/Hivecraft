@@ -1,0 +1,22 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "TAG:alternia:smooth_darkstone_tag"
+      },
+      {
+        "value": "CUSTOM:DarkstoneBricks"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "darkstone_bricks_tag",
+    "namespace": "mod"
+  }
+}

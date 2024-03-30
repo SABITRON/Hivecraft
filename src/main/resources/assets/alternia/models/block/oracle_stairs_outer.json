@@ -1,0 +1,9 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "alternia:block/oracle_planks",
+    "top": "alternia:block/oracle_planks",
+    "side": "alternia:block/oracle_planks"
+  },
+  "render_type": "solid"
+}

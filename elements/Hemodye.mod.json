@@ -1,0 +1,52 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:RustHemodye"
+      },
+      {
+        "value": "CUSTOM:BronzeHemodye"
+      },
+      {
+        "value": "CUSTOM:GoldHemodye"
+      },
+      {
+        "value": "CUSTOM:LimeHemodye"
+      },
+      {
+        "value": "CUSTOM:OliveHemodye"
+      },
+      {
+        "value": "CUSTOM:JadeHemodye"
+      },
+      {
+        "value": "CUSTOM:TealHemodye"
+      },
+      {
+        "value": "CUSTOM:CobaltHemodye"
+      },
+      {
+        "value": "CUSTOM:IndigoHemodye"
+      },
+      {
+        "value": "CUSTOM:PurpleHemodye"
+      },
+      {
+        "value": "CUSTOM:VioletHemodye"
+      },
+      {
+        "value": "CUSTOM:FuchsiaHemodye"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "hemodye",
+    "namespace": "mod"
+  }
+}

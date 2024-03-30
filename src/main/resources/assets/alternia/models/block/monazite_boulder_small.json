@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "alternia:block/monazite_debris_short",
+    "particle": "alternia:block/monazite_debris_short"
+  },
+  "render_type": "cutout"
+}

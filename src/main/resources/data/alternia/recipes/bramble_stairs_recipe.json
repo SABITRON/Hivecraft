@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_stairs",
+  "category": "building",
+  "pattern": [
+    "a  ",
+    "aa ",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "alternia:bramble_planks"
+    }
+  },
+  "result": {
+    "item": "alternia:bramble_stairs",
+    "count": 4
+  }
+}

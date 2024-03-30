@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "a",
+        "b"
+    ],
+    "key": {
+        "a": [
+            {
+                "item": "alternia:rotten_troll_flesh"
+            },
+            {
+                "item": "minecraft:rotten_flesh"
+            }
+        ],
+        "b": {
+            "item": "alternia:empty_bug_nest"
+        }
+    },
+    "result": {
+        "item": "alternia:flesh_bug_nest",
+        "count": 1
+    }
+}

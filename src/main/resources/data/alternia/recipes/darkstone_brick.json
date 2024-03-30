@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "alternia:smooth_darkstone"
+    }
+  },
+  "result": {
+    "item": "alternia:darkstone_bricks",
+    "count": 4
+  }
+}

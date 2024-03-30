@@ -1,0 +1,9 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "alternia:block/violet_wool",
+    "top": "alternia:block/violet_wool",
+    "side": "alternia:block/violet_wool"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "alternia:alternia_plains",
+  "features": "alternia:lime_hemoflower",
+  "step": "vegetal_decoration"
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:ore",
+  "config": {
+    "size": 10,
+    "discard_chance_on_air_exposure": 1,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "block_match",
+          "block": "alternia:darkstone"
+        },
+        "state": {
+          "Name": "alternia:sopor_slime",
+          "Properties": {
+            "level": "0"
+          }
+        }
+      }
+    ]
+  }
+}

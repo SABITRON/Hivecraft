@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "alternia:block/bug_nest_bottom",
+    "up": "alternia:block/bug_nest_grasshoppers_3",
+    "north": "alternia:block/bug_nest_side",
+    "east": "alternia:block/bug_nest_side",
+    "south": "alternia:block/bug_nest_side",
+    "west": "alternia:block/bug_nest_side",
+    "particle": "alternia:block/bug_nest_bottom"
+  },
+  "render_type": "solid"
+}

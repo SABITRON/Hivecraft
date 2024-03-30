@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "alternia:bug_jar"
+    },
+    {
+      "item": "minestuck:cone_of_flies"
+    },
+    {
+      "item": "minestuck:grasshopper"
+    },
+    {
+      "item": "alternia:beetle"
+    }
+  ],
+  "result": {
+    "item": "minestuck:jar_of_bugs",
+    "count": 1
+  }
+}

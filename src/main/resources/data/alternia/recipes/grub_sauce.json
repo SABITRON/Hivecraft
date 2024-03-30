@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:paper"
+    },
+    "b": {
+      "item": "alternia:cooked_grub"
+    }
+  },
+  "result": {
+    "item": "minestuck:grub_sauce",
+    "count": 4
+  }
+}

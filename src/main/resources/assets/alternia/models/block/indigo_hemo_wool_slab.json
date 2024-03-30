@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "alternia:block/indigo_wool",
+    "top": "alternia:block/indigo_wool",
+    "side": "alternia:block/indigo_wool"
+  },
+  "render_type": "solid"
+}

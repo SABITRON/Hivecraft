@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "alternia:darkstone",
+    "alternia:alternian_soil",
+    "alternia:alternian_grass_block",
+    "alternia:darksand",
+    "alternia:iridescent_sand",
+    "alternia:iridescent_sandstone",
+    "alternia:monazite",
+    "alternia:darksandstone"
+  ]
+}

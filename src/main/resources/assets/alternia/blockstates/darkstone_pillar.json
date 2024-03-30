@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "alternia:block/darkstone_pillar",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "alternia:block/darkstone_pillar"
+    },
+    "axis=z": {
+      "model": "alternia:block/darkstone_pillar",
+      "x": 90
+    }
+  }
+}

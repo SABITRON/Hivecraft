@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "alternia:violet_hemo_flower"
+    }
+  ],
+  "result": {
+    "item": "alternia:violet_hemodye",
+    "count": 1
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "alternia:rocky_plains",
+    "alternia:rocky_plateau"
+  ],
+  "features": "alternia:monazite_boulder",
+  "step": "vegetal_decoration"
+}

@@ -1,0 +1,28 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "CUSTOM:CobaltIngot"
+    },
+    "smithingInputAdditionStack": {
+      "value": "CUSTOM:CobaltIngot"
+    },
+    "smithingInputTemplateStack": {
+      "value": "Items.DIAMOND_LEGGINGS"
+    },
+    "smithingReturnStack": {
+      "value": "CUSTOM:CobaltArmor.legs"
+    },
+    "name": "cobalt_armor_leggings_recipe",
+    "namespace": "mod"
+  }
+}

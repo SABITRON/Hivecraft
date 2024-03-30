@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "alternia:bramble_forest",
+    "alternia:oracle_canopy"
+  ],
+  "features": "alternia:grub_nest_placement",
+  "step": "surface_structures"
+}

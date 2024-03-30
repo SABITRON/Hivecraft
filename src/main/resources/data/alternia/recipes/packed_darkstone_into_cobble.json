@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "alternia:packed_darkstone"
+    }
+  ],
+  "result": {
+    "item": "alternia:cobbled_darkstone",
+    "count": 2
+  }
+}

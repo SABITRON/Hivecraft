@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 3,
+  "ingredient": {
+    "item": "alternia:live_grub"
+  },
+  "result": "alternia:raw_grub_meat"
+}

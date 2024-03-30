@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "alternia:block/bronze_hemoglass",
+    "particle": "alternia:block/bronze_hemoglass"
+  },
+  "render_type": "translucent"
+}

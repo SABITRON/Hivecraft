@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "alternia:block/indigo_meat_block",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "alternia:block/indigo_meat_block"
+    },
+    "axis=z": {
+      "model": "alternia:block/indigo_meat_block",
+      "x": 90
+    }
+  }
+}

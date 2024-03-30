@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#alternia:alternia_biomes",
+  "features": "alternia:darkstone_boulder_small",
+  "step": "vegetal_decoration"
+}

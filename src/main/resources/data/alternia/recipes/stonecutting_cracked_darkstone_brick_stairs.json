@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "tag": "alternia:cracked_darkstone_bricks_tag"
+  },
+  "result": "alternia:cracked_darkstone_brick_stairs"
+}

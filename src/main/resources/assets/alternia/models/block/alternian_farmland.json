@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "alternia:block/alternian_soil",
+    "up": "alternia:block/alternian_farmland",
+    "north": "alternia:block/alternian_soil",
+    "east": "alternia:block/alternian_soil",
+    "south": "alternia:block/alternian_soil",
+    "west": "alternia:block/alternian_soil",
+    "particle": "alternia:block/alternian_soil"
+  },
+  "render_type": "cutout_mipped"
+}

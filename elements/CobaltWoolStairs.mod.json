@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:RustHemoWool"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:RustHemoWool"
+      },
+      {
+        "value": "CUSTOM:RustHemoWool"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:RustHemoWool"
+      },
+      {
+        "value": "CUSTOM:RustHemoWool"
+      },
+      {
+        "value": "CUSTOM:RustHemoWool"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:RustHemoWoolStairs"
+    },
+    "name": "cobalt_wool_stairs",
+    "namespace": "mod"
+  }
+}

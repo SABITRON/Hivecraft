@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "alternia:block/bramble_slab"
+    },
+    "type=top": {
+      "model": "alternia:block/bramble_slab_top"
+    },
+    "type=double": {
+      "model": "alternia:block/bramble_slab_full"
+    }
+  }
+}

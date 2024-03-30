@@ -1,0 +1,58 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Biomes",
+    "items": [],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [
+      {
+        "value": "CUSTOM:AlterniaMountains"
+      },
+      {
+        "value": "CUSTOM:AlterniaOcean"
+      },
+      {
+        "value": "CUSTOM:AlterniaPlains"
+      },
+      {
+        "value": "CUSTOM:OracleCanopy"
+      },
+      {
+        "value": "CUSTOM:RockyPlains"
+      },
+      {
+        "value": "CUSTOM:ShimmeringDesert"
+      },
+      {
+        "value": "CUSTOM:AlterniaRiver"
+      },
+      {
+        "value": "CUSTOM:OracleCanopyModified"
+      },
+      {
+        "value": "CUSTOM:RockyPlateau"
+      },
+      {
+        "value": "CUSTOM:AlterniaBeach"
+      },
+      {
+        "value": "CUSTOM:AlterniaHills"
+      },
+      {
+        "value": "CUSTOM:AlterniaSwamp"
+      },
+      {
+        "value": "CUSTOM:BrambleForest"
+      },
+      {
+        "value": "CUSTOM:DeepAlterniaOcean"
+      }
+    ],
+    "damageTypes": [],
+    "name": "alternia_biomes",
+    "namespace": "alternia"
+  }
+}

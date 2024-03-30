@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 16,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:LiveGrub"
+      },
+      {
+        "value": "CUSTOM:LiveGrub"
+      },
+      {
+        "value": "CUSTOM:LiveGrub"
+      },
+      {
+        "value": "CUSTOM:LiveGrub"
+      },
+      {
+        "value": "CUSTOM:GoldHemodye"
+      },
+      {
+        "value": "CUSTOM:LiveGrub"
+      },
+      {
+        "value": "CUSTOM:LiveGrub"
+      },
+      {
+        "value": "CUSTOM:LiveGrub"
+      },
+      {
+        "value": "CUSTOM:LiveGrub"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:GoldMeatBlock"
+    },
+    "name": "gold_grub_block",
+    "namespace": "mod"
+  }
+}

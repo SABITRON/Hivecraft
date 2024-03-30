@@ -1,0 +1,9 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "alternia:block/hive_drywall",
+    "top": "alternia:block/hive_drywall",
+    "side": "alternia:block/hive_drywall"
+  },
+  "render_type": "solid"
+}

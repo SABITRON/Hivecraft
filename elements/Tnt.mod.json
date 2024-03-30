@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "TAG:alternia:sand"
+      },
+      {
+        "value": "Items.GUNPOWDER"
+      },
+      {
+        "value": "TAG:alternia:sand"
+      },
+      {
+        "value": "Items.GUNPOWDER"
+      },
+      {
+        "value": "TAG:alternia:sand"
+      },
+      {
+        "value": "Items.GUNPOWDER"
+      },
+      {
+        "value": "TAG:alternia:sand"
+      },
+      {
+        "value": "Items.GUNPOWDER"
+      },
+      {
+        "value": "TAG:alternia:sand"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Blocks.TNT"
+    },
+    "name": "tnt",
+    "namespace": "mod"
+  }
+}

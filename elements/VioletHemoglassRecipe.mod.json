@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 8,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Hiveglass"
+      },
+      {
+        "value": "CUSTOM:Hiveglass"
+      },
+      {
+        "value": "CUSTOM:Hiveglass"
+      },
+      {
+        "value": "CUSTOM:Hiveglass"
+      },
+      {
+        "value": "CUSTOM:RustHemodye"
+      },
+      {
+        "value": "CUSTOM:Hiveglass"
+      },
+      {
+        "value": "CUSTOM:Hiveglass"
+      },
+      {
+        "value": "CUSTOM:Hiveglass"
+      },
+      {
+        "value": "CUSTOM:Hiveglass"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:RustHemoglass"
+    },
+    "name": "violet_hemoglass_recipe",
+    "namespace": "mod"
+  }
+}

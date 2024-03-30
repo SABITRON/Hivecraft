@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "alternia:block/rust_meat_block_top",
+    "up": "alternia:block/rust_meat_block_top",
+    "north": "alternia:block/rust_meat_block",
+    "east": "alternia:block/rust_meat_block",
+    "south": "alternia:block/rust_meat_block",
+    "west": "alternia:block/rust_meat_block",
+    "particle": "alternia:block/rust_meat_block_top"
+  },
+  "render_type": "solid"
+}

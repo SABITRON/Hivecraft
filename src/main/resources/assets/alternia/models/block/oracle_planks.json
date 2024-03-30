@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "alternia:block/oracle_planks",
+    "particle": "alternia:block/oracle_planks"
+  },
+  "render_type": "solid"
+}

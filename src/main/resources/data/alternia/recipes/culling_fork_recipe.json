@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " aa",
+    " ba",
+    "b  "
+  ],
+  "key": {
+    "a": {
+      "item": "alternia:cobalt_sword"
+    },
+    "b": {
+      "item": "alternia:cobalt_ingot"
+    }
+  },
+  "result": {
+    "item": "alternia:culling_fork",
+    "count": 1
+  }
+}

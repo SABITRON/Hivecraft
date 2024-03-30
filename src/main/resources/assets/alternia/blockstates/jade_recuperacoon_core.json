@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "alternia:block/jade_recuperacoon_core",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "alternia:block/jade_recuperacoon_core"
+    },
+    "axis=z": {
+      "model": "alternia:block/jade_recuperacoon_core",
+      "x": 90
+    }
+  }
+}

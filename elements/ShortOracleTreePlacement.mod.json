@@ -1,0 +1,16 @@
+{
+  "_fv": 57,
+  "_type": "feature",
+  "definition": {
+    "generationStep": "SURFACE_STRUCTURES",
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:OracleCanopy"
+      },
+      {
+        "value": "CUSTOM:OracleCanopyModified"
+      }
+    ],
+    "featurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"feature_container\" deletable=\"false\" x=\"40\" y=\"40\"><value name=\"feature\"><block type=\"feature_tree_simple\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" inputs=\"0\"></mutation><field name=\"type\">dark oak</field><field name=\"base_height\">6</field><field name=\"height_variation_a\">3</field><field name=\"height_variation_b\">0</field><field name=\"force_dirt\">FALSE</field><field name=\"ignore_vines\">TRUE</field><value name=\"dirt\"><block type=\"mcitem_allblocks\"><field name=\"value\">CUSTOM:AlternianSoil</field></block></value><value name=\"trunk\"><block type=\"mcitem_allblocks\"><field name=\"value\">CUSTOM:OracleLog</field></block></value><value name=\"foliage\"><block type=\"mcitem_allblocks\"><field name=\"value\">CUSTOM:OracleLeaves</field></block></value><value name=\"root_placer\"><block type=\"root_placer_none\"></block></value></block></value><next><block type=\"placement_rarity\"><field name=\"rarity\">4</field><next><block type=\"placement_in_square\"><next><block type=\"placement_heightmap\"><field name=\"heightmap\">OCEAN_FLOOR_WG</field><next><block type=\"placement_block_survival_filter\"><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">Blocks.SAPLING#0</field></block></value></block></next></block></next></block></next></block></next></block></xml>"
+  }
+}

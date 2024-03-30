@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "particle": "alternia_tpz_block"
+      },
+      "name": "default"
+    }
+  }
+}

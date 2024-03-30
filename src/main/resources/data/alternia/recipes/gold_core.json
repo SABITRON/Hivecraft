@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aba",
+    " c "
+  ],
+  "key": {
+    "a": {
+      "item": "alternia:live_grub"
+    },
+    "b": {
+      "item": "alternia:sopor_slime_bucket"
+    },
+    "c": {
+      "item": "alternia:gold_meat_block"
+    }
+  },
+  "result": {
+    "item": "alternia:gold_recuperacoon_core",
+    "count": 4
+  }
+}

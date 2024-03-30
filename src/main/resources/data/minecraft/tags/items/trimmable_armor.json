@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "alternia:cobalt_armor_helmet",
+    "alternia:cobalt_armor_chestplate",
+    "alternia:cobalt_armor_leggings",
+    "alternia:cobalt_armor_boots"
+  ]
+}

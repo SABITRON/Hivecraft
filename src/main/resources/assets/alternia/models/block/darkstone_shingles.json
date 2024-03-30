@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "alternia:block/darkstone_shingles",
+    "particle": "alternia:block/darkstone_shingles"
+  },
+  "render_type": "solid"
+}

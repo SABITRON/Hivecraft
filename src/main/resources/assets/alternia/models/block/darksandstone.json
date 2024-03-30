@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "alternia:block/darksandstone_bottom",
+    "up": "alternia:block/darksandstone_top",
+    "north": "alternia:block/darksandstone_side",
+    "east": "alternia:block/darksandstone_side",
+    "south": "alternia:block/darksandstone_side",
+    "west": "alternia:block/darksandstone_side",
+    "particle": "alternia:block/darksandstone_bottom"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "alternia:block/violet_hyacinth",
+    "particle": "alternia:block/violet_hyacinth"
+  },
+  "render_type": "cutout"
+}

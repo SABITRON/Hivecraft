@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_wall_side_tall",
+  "textures": {
+    "wall": "alternia:block/packed_darkstone",
+    "particle": "alternia:block/packed_darkstone"
+  },
+  "render_type": "solid"
+}

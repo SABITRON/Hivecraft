@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 6,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:DarkstoneShingles"
+      },
+      {
+        "value": "CUSTOM:DarkstoneShingles"
+      },
+      {
+        "value": "CUSTOM:DarkstoneShingles"
+      },
+      {
+        "value": "CUSTOM:DarkstoneShingles"
+      },
+      {
+        "value": "CUSTOM:DarkstoneShingles"
+      },
+      {
+        "value": "CUSTOM:DarkstoneShingles"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:DarkstoneShinglesWall"
+    },
+    "name": "darkstone_shingles_wall_recipe",
+    "namespace": "mod"
+  }
+}

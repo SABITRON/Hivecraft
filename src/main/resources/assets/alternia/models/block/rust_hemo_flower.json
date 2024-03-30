@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "alternia:block/rust_tulip",
+    "particle": "alternia:block/rust_tulip"
+  },
+  "render_type": "cutout"
+}

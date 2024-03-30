@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_glass_pane_noside",
+  "textures": {
+    "pane": "alternia:block/indigo_hemoglass"
+  },
+  "render_type": "translucent"
+}

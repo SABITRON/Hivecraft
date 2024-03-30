@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "alternia:block/jade_recuperacoon_core_top",
+    "up": "alternia:block/jade_recuperacoon_core_top",
+    "north": "alternia:block/jade_recuperacoon_core",
+    "east": "alternia:block/jade_recuperacoon_core",
+    "south": "alternia:block/jade_recuperacoon_core",
+    "west": "alternia:block/jade_recuperacoon_core",
+    "particle": "alternia:block/jade_recuperacoon_core_top"
+  },
+  "render_type": "solid"
+}

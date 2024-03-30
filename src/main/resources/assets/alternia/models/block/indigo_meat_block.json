@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "alternia:block/indigo_meat_block_top",
+    "up": "alternia:block/indigo_meat_block_top",
+    "north": "alternia:block/indigo_meat_block",
+    "east": "alternia:block/indigo_meat_block",
+    "south": "alternia:block/indigo_meat_block",
+    "west": "alternia:block/indigo_meat_block",
+    "particle": "alternia:block/indigo_meat_block_top"
+  },
+  "render_type": "solid"
+}

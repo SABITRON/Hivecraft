@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "alternia:block/stripped_oracle_log_top",
+    "up": "alternia:block/stripped_oracle_log_top",
+    "north": "alternia:block/stripped_oracle_log_side",
+    "east": "alternia:block/stripped_oracle_log_side",
+    "south": "alternia:block/stripped_oracle_log_side",
+    "west": "alternia:block/stripped_oracle_log_side",
+    "particle": "alternia:block/stripped_oracle_log_top"
+  },
+  "render_type": "solid"
+}

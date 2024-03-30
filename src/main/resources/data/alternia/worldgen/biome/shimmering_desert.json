@@ -1,0 +1,57 @@
+{
+  "has_precipitation": false,
+  "temperature": 2,
+  "downfall": 0,
+  "effects": {
+    "foliage_color": -10265495,
+    "grass_color": -12238252,
+    "sky_color": -14671579,
+    "fog_color": -14671579,
+    "water_color": -11782062,
+    "water_fog_color": -13556176
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "alternia:zombie_troll",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 3
+      }
+    ],
+    "creature": [],
+    "ambient": [],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
+  },
+  "features": [
+    [],
+    [
+      "minecraft:lake_lava_underground"
+    ],
+    [],
+    [],
+    [
+      "minecraft:desert_well"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:patch_dead_bush_2"
+    ],
+    []
+  ]
+}

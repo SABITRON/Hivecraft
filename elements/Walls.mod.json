@@ -1,0 +1,43 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:CobbledDarkstoneWall"
+      },
+      {
+        "value": "CUSTOM:DarkstoneBrickWall"
+      },
+      {
+        "value": "CUSTOM:DarkstoneWall"
+      },
+      {
+        "value": "CUSTOM:CrackedDarkstoneBrickWall"
+      },
+      {
+        "value": "CUSTOM:SmoothDarkstoneWall"
+      },
+      {
+        "value": "CUSTOM:HiveDrywallWall"
+      },
+      {
+        "value": "CUSTOM:DarkstoneTilesWall"
+      },
+      {
+        "value": "CUSTOM:PackedDarkstoneWall"
+      },
+      {
+        "value": "CUSTOM:DarkstoneShinglesWall"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "walls",
+    "namespace": "minecraft"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "alternia:rust_hemodye",
+    "alternia:bronze_hemodye",
+    "alternia:gold_hemodye",
+    "alternia:lime_hemodye",
+    "alternia:olive_hemodye",
+    "alternia:jade_hemodye",
+    "alternia:teal_hemodye",
+    "alternia:cobalt_hemodye",
+    "alternia:indigo_hemodye",
+    "alternia:purple_hemodye",
+    "alternia:violet_hemodye",
+    "alternia:fuchsia_hemodye"
+  ]
+}

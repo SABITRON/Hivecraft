@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "alternia:cobbled_darkstone"
+    }
+  ],
+  "result": {
+    "item": "alternia:darkstone_dust",
+    "count": 2
+  }
+}

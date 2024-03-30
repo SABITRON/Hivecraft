@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "alternia:block/grub_nest_top",
+    "up": "alternia:block/grub_nest_top",
+    "north": "alternia:block/grub_nest_side",
+    "east": "alternia:block/grub_nest_side",
+    "south": "alternia:block/grub_nest_side",
+    "west": "alternia:block/grub_nest_side",
+    "particle": "alternia:block/grub_nest_top"
+  },
+  "render_type": "solid"
+}

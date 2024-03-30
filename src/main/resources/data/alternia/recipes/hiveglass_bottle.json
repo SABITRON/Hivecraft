@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "a a",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "alternia:hiveglass"
+    }
+  },
+  "result": {
+    "item": "minecraft:glass_bottle",
+    "count": 3
+  }
+}

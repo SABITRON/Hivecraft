@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "alternia:cobalt_pickaxe",
+    "alternia:cobalt_axe",
+    "alternia:cobalt_sword",
+    "alternia:cobalt_shovel",
+    "alternia:cobalt_hoe",
+    "alternia:cobalt_armor_helmet",
+    "alternia:cobalt_armor_chestplate",
+    "alternia:cobalt_armor_leggings",
+    "alternia:cobalt_armor_boots"
+  ]
+}

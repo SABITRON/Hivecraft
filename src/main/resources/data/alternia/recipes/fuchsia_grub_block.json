@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "alternia:live_grub"
+    },
+    "b": {
+      "item": "alternia:fuchsia_hemodye"
+    }
+  },
+  "result": {
+    "item": "alternia:fuchsia_meat_block",
+    "count": 16
+  }
+}

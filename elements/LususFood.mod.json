@@ -1,0 +1,31 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:RawGrubMeat"
+      },
+      {
+        "value": "CUSTOM:LiveGrub"
+      },
+      {
+        "value": "CUSTOM:CookedGrubMeat"
+      },
+      {
+        "value": "CUSTOM:CookedGrub"
+      },
+      {
+        "value": "CUSTOM:LususMeat"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "lusus_food",
+    "namespace": "mod"
+  }
+}

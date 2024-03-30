@@ -1,0 +1,22 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "BLOCKS",
+    "xpReward": 1.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:Darkstone"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:SmoothDarkstone"
+    },
+    "name": "polished_darkstone",
+    "namespace": "mod"
+  }
+}

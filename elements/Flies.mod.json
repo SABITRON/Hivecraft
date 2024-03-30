@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "blockstates",
+  "definition": {
+    "block": "BugNestFlies",
+    "blockstateList": [
+      {
+        "texture": "bug_nest_bottom",
+        "textureTop": "bug_nest_flies_2",
+        "textureLeft": "bug_nest_side",
+        "textureFront": "bug_nest_side",
+        "textureRight": "bug_nest_side",
+        "textureBack": "bug_nest_side",
+        "particleTexture": "",
+        "renderType": 0,
+        "customModelName": "Normal",
+        "luminance": 0,
+        "boundingBoxes": []
+      },
+      {
+        "texture": "bug_nest_bottom",
+        "textureTop": "bug_nest_flies_3",
+        "textureLeft": "bug_nest_side",
+        "textureFront": "bug_nest_side",
+        "textureRight": "bug_nest_side",
+        "textureBack": "bug_nest_side",
+        "particleTexture": "",
+        "renderType": 0,
+        "customModelName": "Normal",
+        "luminance": 0,
+        "boundingBoxes": []
+      },
+      {
+        "texture": "bug_nest_bottom",
+        "textureTop": "bug_nest_flies_4",
+        "textureLeft": "bug_nest_side",
+        "textureFront": "bug_nest_side",
+        "textureRight": "bug_nest_side",
+        "textureBack": "bug_nest_side",
+        "particleTexture": "",
+        "renderType": 0,
+        "customModelName": "Normal",
+        "luminance": 0,
+        "boundingBoxes": []
+      }
+    ]
+  }
+}

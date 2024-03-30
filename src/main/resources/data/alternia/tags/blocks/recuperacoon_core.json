@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "alternia:rust_recuperacoon_core",
+    "alternia:bronze_recuperacoon_core",
+    "alternia:gold_recuperacoon_core",
+    "alternia:lime_recuperacoon_core",
+    "alternia:olive_recuperacoon_core",
+    "alternia:jade_recuperacoon_core",
+    "alternia:teal_recuperacoon_core",
+    "alternia:cobalt_recuperacoon_core",
+    "alternia:indigo_recuperacoon_core",
+    "alternia:purple_recuperacoon_core",
+    "alternia:violet_recuperacoon_core",
+    "alternia:fuchsia_recuperacoon_core"
+  ]
+}

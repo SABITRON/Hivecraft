@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:RawCobalt"
+      },
+      {
+        "value": "CUSTOM:RawCobalt"
+      },
+      {
+        "value": "CUSTOM:RawCobalt"
+      },
+      {
+        "value": "CUSTOM:RawCobalt"
+      },
+      {
+        "value": "CUSTOM:RawCobalt"
+      },
+      {
+        "value": "CUSTOM:RawCobalt"
+      },
+      {
+        "value": "CUSTOM:RawCobalt"
+      },
+      {
+        "value": "CUSTOM:RawCobalt"
+      },
+      {
+        "value": "CUSTOM:RawCobalt"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:RawCobaltBlock"
+    },
+    "name": "raw_cobalt_block_recipe",
+    "namespace": "mod"
+  }
+}

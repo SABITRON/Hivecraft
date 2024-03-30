@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "alternia:hiveglass"
+    }
+  },
+  "result": {
+    "item": "alternia:hiveglass_pane",
+    "count": 16
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 36000,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "blastingInputStack": {
+      "value": "CUSTOM:Sulfur"
+    },
+    "blastingReturnStack": {
+      "value": "Items.BLAZE_POWDER"
+    },
+    "name": "alternian_blaze_powder",
+    "namespace": "mod"
+  }
+}

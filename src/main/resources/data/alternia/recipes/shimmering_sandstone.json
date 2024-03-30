@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "alternia:iridescent_sand"
+    }
+  },
+  "result": {
+    "item": "alternia:iridescent_sandstone",
+    "count": 1
+  }
+}

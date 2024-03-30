@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " ab",
+    "aca",
+    "ba "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:gold_block"
+    },
+    "b": {
+      "item": "alternia:culling_fork"
+    },
+    "c": {
+      "item": "alternia:cobalt_ingot"
+    }
+  },
+  "result": {
+    "item": "alternia:poseidons_entente",
+    "count": 1
+  }
+}

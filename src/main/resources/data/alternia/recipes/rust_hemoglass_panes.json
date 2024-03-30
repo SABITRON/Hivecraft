@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "alternia:rust_hemoglass"
+    }
+  },
+  "result": {
+    "item": "alternia:rust_hemoglass_pane",
+    "count": 16
+  }
+}

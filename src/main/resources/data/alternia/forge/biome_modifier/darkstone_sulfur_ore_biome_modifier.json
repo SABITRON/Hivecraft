@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "alternia:rocky_plains",
+    "alternia:rocky_plateau",
+    "alternia:shimmering_desert"
+  ],
+  "features": "alternia:darkstone_sulfur_ore",
+  "step": "underground_ores"
+}

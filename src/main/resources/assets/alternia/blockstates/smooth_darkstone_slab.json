@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "alternia:block/smooth_darkstone_slab"
+    },
+    "type=top": {
+      "model": "alternia:block/smooth_darkstone_slab_top"
+    },
+    "type=double": {
+      "model": "alternia:block/smooth_darkstone_slab_full"
+    }
+  }
+}

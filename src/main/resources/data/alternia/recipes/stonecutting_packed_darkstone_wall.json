@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "alternia:packed_darkstone"
+  },
+  "result": "alternia:packed_darkstone_wall"
+}

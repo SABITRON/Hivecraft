@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:BrambleSlab"
+      },
+      {
+        "value": "Items.WATER_BUCKET"
+      },
+      {
+        "value": "CUSTOM:BrambleSlab"
+      },
+      {
+        "value": "CUSTOM:BrambleSlab"
+      },
+      {
+        "value": "CUSTOM:AlternianSoil"
+      },
+      {
+        "value": "CUSTOM:BrambleSlab"
+      },
+      {
+        "value": "CUSTOM:BrambleSlab"
+      },
+      {
+        "value": "CUSTOM:BramblePlanks"
+      },
+      {
+        "value": "CUSTOM:BrambleSlab"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:EmptyBugNest"
+    },
+    "name": "bug_nest_recipe",
+    "namespace": "mod"
+  }
+}

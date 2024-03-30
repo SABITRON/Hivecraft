@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "alternia:alternian_grass_block",
+    "alternia:alternian_soil",
+    "alternia:alternian_farmland",
+    "alternia:darksand",
+    "alternia:iridescent_sand"
+  ]
+}

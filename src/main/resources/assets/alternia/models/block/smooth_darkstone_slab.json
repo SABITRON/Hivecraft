@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "alternia:block/smooth_darkstone",
+    "top": "alternia:block/smooth_darkstone",
+    "side": "alternia:block/smooth_darkstone_slab"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "tag": "alternia:cobbled_darkstone_tag"
+  },
+  "result": "alternia:cobbled_darkstone_wall"
+}

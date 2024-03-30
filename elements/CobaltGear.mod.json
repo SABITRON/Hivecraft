@@ -1,0 +1,43 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:CobaltPickaxe"
+      },
+      {
+        "value": "CUSTOM:CobaltAxe"
+      },
+      {
+        "value": "CUSTOM:CobaltSword"
+      },
+      {
+        "value": "CUSTOM:CobaltShovel"
+      },
+      {
+        "value": "CUSTOM:CobaltHoe"
+      },
+      {
+        "value": "CUSTOM:CobaltArmor.helmet"
+      },
+      {
+        "value": "CUSTOM:CobaltArmor.body"
+      },
+      {
+        "value": "CUSTOM:CobaltArmor.legs"
+      },
+      {
+        "value": "CUSTOM:CobaltArmor.boots"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "cobalt_gear",
+    "namespace": "alternia"
+  }
+}

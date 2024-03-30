@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "tag": "minecraft:wool"
+    },
+    {
+      "item": "alternia:rust_hemodye"
+    }
+  ],
+  "result": {
+    "item": "alternia:rust_hemo_wool",
+    "count": 1
+  }
+}

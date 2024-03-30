@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "fluid",
+  "definition": {
+    "name": "Sopor Slime",
+    "bucketName": "Bucket of Sopor Slime",
+    "textureStill": "sopor_slime",
+    "textureFlowing": "sopor_slime_flow",
+    "tintType": "No tint",
+    "canMultiply": false,
+    "flowRate": 5,
+    "levelDecrease": 1,
+    "slopeFindDistance": 4,
+    "spawnParticles": true,
+    "dripParticle": {
+      "value": "SLIME"
+    },
+    "flowStrength": 1.0,
+    "luminosity": 0,
+    "density": 2000,
+    "viscosity": 2000,
+    "temperature": 300,
+    "type": "WATER",
+    "generateBucket": true,
+    "textureBucket": "sopor_slime_bucket",
+    "creativeTab": {
+      "value": "CUSTOM:AlterniaTab"
+    },
+    "emptySound": {
+      "value": "item.bucket.empty_lava"
+    },
+    "rarity": "COMMON",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "resistance": 100.0,
+    "luminance": 0,
+    "lightOpacity": 1,
+    "emissiveRendering": false,
+    "tickRate": 0,
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "colorOnMap": "LIME",
+    "onEntityCollides": {
+      "name": "SoporSlimeEffect"
+    }
+  }
+}

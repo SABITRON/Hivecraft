@@ -1,0 +1,13 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "alternia:troll_horn"
+  },
+  "input2": {
+    "item": "minecraft:dragon_egg"
+  },
+  "mode": "and",
+  "output": {
+    "item": "alternia:matriorb"
+  }
+}

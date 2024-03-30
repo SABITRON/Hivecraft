@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "alternia:beetle",
+    "alternia:raw_grub_meat",
+    "alternia:live_grub",
+    "alternia:cooked_grub_meat",
+    "alternia:cooked_grub"
+  ]
+}

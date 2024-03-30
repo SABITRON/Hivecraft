@@ -1,0 +1,89 @@
+{
+  "_fv": 57,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:AlterniaBeach"
+      },
+      {
+        "value": "CUSTOM:AlterniaHills"
+      },
+      {
+        "value": "CUSTOM:AlterniaMountains"
+      },
+      {
+        "value": "CUSTOM:AlterniaOcean"
+      },
+      {
+        "value": "CUSTOM:AlterniaPlains"
+      },
+      {
+        "value": "CUSTOM:AlterniaRiver"
+      },
+      {
+        "value": "CUSTOM:AlterniaSwamp"
+      },
+      {
+        "value": "CUSTOM:OracleCanopy"
+      },
+      {
+        "value": "CUSTOM:OracleCanopyModified"
+      },
+      {
+        "value": "CUSTOM:RockyPlains"
+      },
+      {
+        "value": "CUSTOM:RockyPlateau"
+      },
+      {
+        "value": "CUSTOM:ShimmeringDesert"
+      },
+      {
+        "value": "CUSTOM:BrambleForest"
+      },
+      {
+        "value": "CUSTOM:DeepAlterniaOcean"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "CUSTOM:Darkstone"
+    },
+    "fluidBlock": {
+      "value": "Blocks.FLOWING_WATER"
+    },
+    "airColor": {
+      "value": -13097408,
+      "falpha": 0.0
+    },
+    "canRespawnHere": true,
+    "hasFog": false,
+    "isDark": true,
+    "doesWaterVaporize": false,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": true,
+    "imitateOverworldBehaviour": false,
+    "portalFrame": {
+      "value": ""
+    },
+    "portalParticles": {
+      "value": "PORTAL"
+    },
+    "portalLuminance": 0,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "enableIgniter": true,
+    "igniterName": "Alternia Portal Igniter",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "igniterTab": {
+      "value": "No creative tab entry"
+    },
+    "texture": "",
+    "portalTexture": "alternia_tpz_block",
+    "enablePortal": false
+  }
+}

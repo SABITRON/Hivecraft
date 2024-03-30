@@ -1,0 +1,28 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:diamond": 3000000,
+    "minestuck:ruby": 3000000,
+    "minestuck:quartz": 3000000,
+    "minestuck:garnet": 3000000,
+    "minestuck:amethyst": 3000000,
+    "minestuck:cobalt": 3000000,
+    "minestuck:rust": 3000000,
+    "minestuck:uranium": 3000000,
+    "minestuck:chalk": 3000000,
+    "minestuck:mercury": 3000000,
+    "minestuck:caulk": 3000000,
+    "minestuck:iodine": 3000000,
+    "minestuck:tar": 3000000,
+    "minestuck:build": 3000000,
+    "minestuck:gold": 3000000,
+    "minestuck:marble": 3000000,
+    "minestuck:shale": 3000000,
+    "minestuck:sulfur": 3000000,
+    "minestuck:amber": 3000000,
+    "minestuck:zillium": 1
+  },
+  "ingredient": {
+    "item": "alternia:matriorb"
+  }
+}

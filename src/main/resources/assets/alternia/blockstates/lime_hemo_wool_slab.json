@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "alternia:block/lime_hemo_wool_slab"
+    },
+    "type=top": {
+      "model": "alternia:block/lime_hemo_wool_slab_top"
+    },
+    "type=double": {
+      "model": "alternia:block/lime_hemo_wool_slab_full"
+    }
+  }
+}

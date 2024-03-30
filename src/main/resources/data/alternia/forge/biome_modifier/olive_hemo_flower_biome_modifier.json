@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "alternia:bramble_forest",
+  "features": "alternia:olive_hemo_flower",
+  "step": "vegetal_decoration"
+}

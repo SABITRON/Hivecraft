@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "alternia:darkstone_dust"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "alternia:salt"
+    },
+    {
+      "item": "alternia:salt"
+    },
+    {
+      "item": "minecraft:water_bucket"
+    },
+    {
+      "tag": "alternia:hemodye"
+    },
+    {
+      "item": "minecraft:bucket"
+    },
+    {
+      "item": "alternia:rotten_troll_flesh"
+    }
+  ],
+  "result": {
+    "item": "alternia:sopor_slime_bucket",
+    "count": 1
+  }
+}

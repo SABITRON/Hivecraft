@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "alternia:block/darkstone_pillar_top",
+    "up": "alternia:block/darkstone_pillar_top",
+    "north": "alternia:block/darkstone_pillar_side",
+    "east": "alternia:block/darkstone_pillar_side",
+    "south": "alternia:block/darkstone_pillar_side",
+    "west": "alternia:block/darkstone_pillar_side",
+    "particle": "alternia:block/darkstone_pillar_top"
+  },
+  "render_type": "solid"
+}
