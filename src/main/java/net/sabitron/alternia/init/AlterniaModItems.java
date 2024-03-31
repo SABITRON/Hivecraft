@@ -72,6 +72,10 @@ public class AlterniaModItems {
 	public static final RegistryObject<Item> ALTERNIAN_SOIL = block(AlterniaModBlocks.ALTERNIAN_SOIL);
 	public static final RegistryObject<Item> ALTERNIAN_FARMLAND = block(AlterniaModBlocks.ALTERNIAN_FARMLAND);
 	public static final RegistryObject<Item> DARKSTONE = block(AlterniaModBlocks.DARKSTONE);
+	public static final RegistryObject<Item> FLUSHED_DARKSTONE = block(AlterniaModBlocks.FLUSHED_DARKSTONE);
+	public static final RegistryObject<Item> PITCH_DARKSTONE = block(AlterniaModBlocks.PITCH_DARKSTONE);
+	public static final RegistryObject<Item> PALE_DARKSTONE = block(AlterniaModBlocks.PALE_DARKSTONE);
+	public static final RegistryObject<Item> ASHEN_DARKSTONE = block(AlterniaModBlocks.ASHEN_DARKSTONE);
 	public static final RegistryObject<Item> DARKSTONE_BOULDER = block(AlterniaModBlocks.DARKSTONE_BOULDER);
 	public static final RegistryObject<Item> DARKSTONE_BOULDER_SMALL = block(AlterniaModBlocks.DARKSTONE_BOULDER_SMALL);
 	public static final RegistryObject<Item> DARKSTONE_STAIRS = block(AlterniaModBlocks.DARKSTONE_STAIRS);
@@ -96,6 +100,10 @@ public class AlterniaModItems {
 	public static final RegistryObject<Item> MONAZITE_BOULDER = block(AlterniaModBlocks.MONAZITE_BOULDER);
 	public static final RegistryObject<Item> MONAZITE_BOULDER_SMALL = block(AlterniaModBlocks.MONAZITE_BOULDER_SMALL);
 	public static final RegistryObject<Item> POLISHED_MONAZITE = block(AlterniaModBlocks.POLISHED_MONAZITE);
+	public static final RegistryObject<Item> POLISHED_FLUSHED_DARKSTONE = block(AlterniaModBlocks.POLISHED_FLUSHED_DARKSTONE);
+	public static final RegistryObject<Item> POLISHED_PITCH_DARKSTONE = block(AlterniaModBlocks.POLISHED_PITCH_DARKSTONE);
+	public static final RegistryObject<Item> POLISHED_PALE_DARKSTONE = block(AlterniaModBlocks.POLISHED_PALE_DARKSTONE);
+	public static final RegistryObject<Item> POLISHED_ASHEN_DARKSTONE = block(AlterniaModBlocks.POLISHED_ASHEN_DARKSTONE);
 	public static final RegistryObject<Item> DARKSAND = block(AlterniaModBlocks.DARKSAND);
 	public static final RegistryObject<Item> DARKSANDSTONE = block(AlterniaModBlocks.DARKSANDSTONE);
 	public static final RegistryObject<Item> IRIDESCENT_SAND = block(AlterniaModBlocks.IRIDESCENT_SAND);

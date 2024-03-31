@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "alternia:flushed_darkstone"
+    }
+  },
+  "result": {
+    "item": "alternia:polished_flushed_darkstone",
+    "count": 4
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#alternia:alternia_biomes",
+  "features": "alternia:pitch_darkstone",
+  "step": "underground_ores"
+}

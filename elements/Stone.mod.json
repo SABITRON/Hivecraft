@@ -9,6 +9,18 @@
       },
       {
         "value": "CUSTOM:Monazite"
+      },
+      {
+        "value": "CUSTOM:PitchDarkstone"
+      },
+      {
+        "value": "CUSTOM:FlushedDarkstone"
+      },
+      {
+        "value": "CUSTOM:AshenDarkstone"
+      },
+      {
+        "value": "CUSTOM:PaleDarkstone"
       }
     ],
     "blocks": [],

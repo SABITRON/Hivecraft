@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "alternia:pitch_darkstone"
+    }
+  },
+  "result": {
+    "item": "alternia:polished_pitch_darkstone",
+    "count": 4
+  }
+}

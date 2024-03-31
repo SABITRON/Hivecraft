@@ -2,6 +2,10 @@
   "replace": false,
   "values": [
     "alternia:darkstone",
-    "alternia:monazite"
+    "alternia:monazite",
+    "alternia:pitch_darkstone",
+    "alternia:flushed_darkstone",
+    "alternia:ashen_darkstone",
+    "alternia:pale_darkstone"
   ]
 }

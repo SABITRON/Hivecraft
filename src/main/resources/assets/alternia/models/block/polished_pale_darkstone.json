@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "alternia:block/polished_pale",
+    "particle": "alternia:block/polished_pale"
+  },
+  "render_type": "solid"
+}

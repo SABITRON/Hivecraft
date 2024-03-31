@@ -184,6 +184,30 @@
       },
       {
         "value": "CUSTOM:DarkstoneSulfurOre"
+      },
+      {
+        "value": "CUSTOM:PitchDarkstone"
+      },
+      {
+        "value": "CUSTOM:FlushedDarkstone"
+      },
+      {
+        "value": "CUSTOM:AshenDarkstone"
+      },
+      {
+        "value": "CUSTOM:PaleDarkstone"
+      },
+      {
+        "value": "CUSTOM:PolishedPitchDarkstone"
+      },
+      {
+        "value": "CUSTOM:PolishedFlushedDarkstone"
+      },
+      {
+        "value": "CUSTOM:PolishedAshenDarkstone"
+      },
+      {
+        "value": "CUSTOM:PolishedPaleDarkstone"
       }
     ],
     "functions": [],

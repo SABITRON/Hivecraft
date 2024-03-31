@@ -60,6 +60,14 @@
     "alternia:darkstone_shingles_stairs",
     "alternia:darkstone_shingles_slab",
     "alternia:darkstone_shingles_wall",
-    "alternia:darkstone_sulfur_ore"
+    "alternia:darkstone_sulfur_ore",
+    "alternia:pitch_darkstone",
+    "alternia:flushed_darkstone",
+    "alternia:ashen_darkstone",
+    "alternia:pale_darkstone",
+    "alternia:polished_pitch_darkstone",
+    "alternia:polished_flushed_darkstone",
+    "alternia:polished_ashen_darkstone",
+    "alternia:polished_pale_darkstone"
   ]
 }

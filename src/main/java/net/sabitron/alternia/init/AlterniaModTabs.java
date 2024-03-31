@@ -22,6 +22,10 @@ public class AlterniaModTabs {
 				tabData.accept(AlterniaModBlocks.ALTERNIAN_SOIL.get().asItem());
 				tabData.accept(AlterniaModBlocks.ALTERNIAN_FARMLAND.get().asItem());
 				tabData.accept(AlterniaModBlocks.DARKSTONE.get().asItem());
+				tabData.accept(AlterniaModBlocks.FLUSHED_DARKSTONE.get().asItem());
+				tabData.accept(AlterniaModBlocks.PITCH_DARKSTONE.get().asItem());
+				tabData.accept(AlterniaModBlocks.PALE_DARKSTONE.get().asItem());
+				tabData.accept(AlterniaModBlocks.ASHEN_DARKSTONE.get().asItem());
 				tabData.accept(AlterniaModBlocks.DARKSTONE_BOULDER.get().asItem());
 				tabData.accept(AlterniaModBlocks.DARKSTONE_BOULDER_SMALL.get().asItem());
 				tabData.accept(AlterniaModBlocks.DARKSTONE_STAIRS.get().asItem());
@@ -46,6 +50,10 @@ public class AlterniaModTabs {
 				tabData.accept(AlterniaModBlocks.MONAZITE_BOULDER.get().asItem());
 				tabData.accept(AlterniaModBlocks.MONAZITE_BOULDER_SMALL.get().asItem());
 				tabData.accept(AlterniaModBlocks.POLISHED_MONAZITE.get().asItem());
+				tabData.accept(AlterniaModBlocks.POLISHED_FLUSHED_DARKSTONE.get().asItem());
+				tabData.accept(AlterniaModBlocks.POLISHED_PITCH_DARKSTONE.get().asItem());
+				tabData.accept(AlterniaModBlocks.POLISHED_PALE_DARKSTONE.get().asItem());
+				tabData.accept(AlterniaModBlocks.POLISHED_ASHEN_DARKSTONE.get().asItem());
 				tabData.accept(AlterniaModBlocks.DARKSAND.get().asItem());
 				tabData.accept(AlterniaModBlocks.DARKSANDSTONE.get().asItem());
 				tabData.accept(AlterniaModBlocks.IRIDESCENT_SAND.get().asItem());
