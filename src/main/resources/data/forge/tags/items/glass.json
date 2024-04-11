@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "alternia:hiveglass",
+    "alternia:rust_hemoglass",
+    "alternia:bronze_hemoglass",
+    "alternia:gold_hemoglass",
+    "alternia:lime_hemoglass",
+    "alternia:olive_hemoglass",
+    "alternia:jade_hemoglass",
+    "alternia:teal_hemoglass",
+    "alternia:cobalt_hemoglass",
+    "alternia:indigo_hemoglass",
+    "alternia:purple_hemoglass",
+    "alternia:violet_hemoglass",
+    "alternia:fuchsia_hemoglass"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aca",
+    "ddd"
+  ],
+  "key": {
+    "a": {
+      "item": "alternia:cobalt_sheet"
+    },
+    "b": {
+      "item": "alternia:cobalt_beacon_core"
+    },
+    "c": {
+      "item": "minecraft:blast_furnace"
+    },
+    "d": {
+      "item": "alternia:sulfur_block"
+    }
+  },
+  "result": {
+    "item": "create:blaze_burner",
+    "count": 2
+  }
+}

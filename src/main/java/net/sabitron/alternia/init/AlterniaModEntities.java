@@ -7,6 +7,7 @@ package net.sabitron.alternia.init;
 import net.sabitron.alternia.entity.ZombieTrollEntity;
 import net.sabitron.alternia.entity.SpiderLususEntity;
 import net.sabitron.alternia.entity.GrubEntity;
+import net.sabitron.alternia.entity.FairyBullEntity;
 import net.sabitron.alternia.entity.CatLususEntity;
 import net.sabitron.alternia.AlterniaMod;
 
@@ -41,6 +42,10 @@ public class AlterniaModEntities {
 			EntityType.Builder.<SpiderLususEntity>of(SpiderLususEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(SpiderLususEntity::new)
 
 					.sized(1.4f, 0.9f));
+	public static final RegistryObject<EntityType<FairyBullEntity>> FAIRY_BULL = register("fairy_bull",
+			EntityType.Builder.<FairyBullEntity>of(FairyBullEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(32).setUpdateInterval(3).setCustomClientFactory(FairyBullEntity::new)
+
+					.sized(0.8f, 0.9f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -53,6 +58,7 @@ public class AlterniaModEntities {
 			ZombieTrollEntity.init();
 			CatLususEntity.init();
 			SpiderLususEntity.init();
+			FairyBullEntity.init();
 		});
 	}
 
@@ -62,5 +68,6 @@ public class AlterniaModEntities {
 		event.put(ZOMBIE_TROLL.get(), ZombieTrollEntity.createAttributes().build());
 		event.put(CAT_LUSUS.get(), CatLususEntity.createAttributes().build());
 		event.put(SPIDER_LUSUS.get(), SpiderLususEntity.createAttributes().build());
+		event.put(FAIRY_BULL.get(), FairyBullEntity.createAttributes().build());
 	}
 }

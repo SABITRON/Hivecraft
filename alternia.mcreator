@@ -303,7 +303,7 @@
     {
       "name": "ModIcon",
       "type": "item",
-      "sortid": 263,
+      "sortid": 296,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mod_icon",
@@ -443,7 +443,7 @@
     {
       "name": "AlterniaPlains",
       "type": "biome",
-      "sortid": 264,
+      "sortid": 297,
       "compiles": true,
       "locked_code": false,
       "registry_name": "alternia_plains",
@@ -457,7 +457,7 @@
     {
       "name": "AlterniaTab",
       "type": "tab",
-      "sortid": 265,
+      "sortid": 298,
       "compiles": true,
       "locked_code": false,
       "registry_name": "alternia_tab",
@@ -468,7 +468,7 @@
     {
       "name": "Alternia",
       "type": "dimension",
-      "sortid": 266,
+      "sortid": 299,
       "compiles": true,
       "locked_code": true,
       "registry_name": "alternia",
@@ -500,7 +500,7 @@
     {
       "name": "Walls",
       "type": "tag",
-      "sortid": 267,
+      "sortid": 300,
       "compiles": true,
       "locked_code": false,
       "registry_name": "walls",
@@ -514,7 +514,7 @@
     {
       "name": "Stone",
       "type": "tag",
-      "sortid": 268,
+      "sortid": 301,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stone",
@@ -528,7 +528,7 @@
     {
       "name": "Cobblestone",
       "type": "tag",
-      "sortid": 269,
+      "sortid": 302,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cobblestone",
@@ -542,7 +542,7 @@
     {
       "name": "RustHemodye",
       "type": "item",
-      "sortid": 156,
+      "sortid": 165,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rust_hemodye",
@@ -557,7 +557,7 @@
     {
       "name": "BronzeHemodye",
       "type": "item",
-      "sortid": 165,
+      "sortid": 176,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bronze_hemodye",
@@ -572,7 +572,7 @@
     {
       "name": "GoldHemodye",
       "type": "item",
-      "sortid": 174,
+      "sortid": 187,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gold_hemodye",
@@ -587,7 +587,7 @@
     {
       "name": "LimeHemodye",
       "type": "item",
-      "sortid": 183,
+      "sortid": 198,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lime_hemodye",
@@ -602,7 +602,7 @@
     {
       "name": "OliveHemodye",
       "type": "item",
-      "sortid": 192,
+      "sortid": 209,
       "compiles": true,
       "locked_code": false,
       "registry_name": "olive_hemodye",
@@ -617,7 +617,7 @@
     {
       "name": "JadeHemodye",
       "type": "item",
-      "sortid": 201,
+      "sortid": 220,
       "compiles": true,
       "locked_code": false,
       "registry_name": "jade_hemodye",
@@ -632,7 +632,7 @@
     {
       "name": "TealHemodye",
       "type": "item",
-      "sortid": 210,
+      "sortid": 231,
       "compiles": true,
       "locked_code": false,
       "registry_name": "teal_hemodye",
@@ -647,7 +647,7 @@
     {
       "name": "CobaltHemodye",
       "type": "item",
-      "sortid": 219,
+      "sortid": 242,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cobalt_hemodye",
@@ -662,7 +662,7 @@
     {
       "name": "IndigoHemodye",
       "type": "item",
-      "sortid": 228,
+      "sortid": 253,
       "compiles": true,
       "locked_code": false,
       "registry_name": "indigo_hemodye",
@@ -677,7 +677,7 @@
     {
       "name": "PurpleHemodye",
       "type": "item",
-      "sortid": 237,
+      "sortid": 264,
       "compiles": true,
       "locked_code": false,
       "registry_name": "purple_hemodye",
@@ -692,7 +692,7 @@
     {
       "name": "VioletHemodye",
       "type": "item",
-      "sortid": 246,
+      "sortid": 275,
       "compiles": true,
       "locked_code": false,
       "registry_name": "violet_hemodye",
@@ -707,7 +707,7 @@
     {
       "name": "FuchsiaHemodye",
       "type": "item",
-      "sortid": 255,
+      "sortid": 286,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fuchsia_hemodye",
@@ -722,7 +722,7 @@
     {
       "name": "AlterniaOcean",
       "type": "biome",
-      "sortid": 270,
+      "sortid": 303,
       "compiles": true,
       "locked_code": false,
       "registry_name": "alternia_ocean",
@@ -935,7 +935,7 @@
     {
       "name": "OracleWoodRecipe",
       "type": "recipe",
-      "sortid": 271,
+      "sortid": 304,
       "compiles": true,
       "locked_code": false,
       "registry_name": "oracle_wood_recipe",
@@ -949,7 +949,7 @@
     {
       "name": "OraclePlanksLogRecipe",
       "type": "recipe",
-      "sortid": 272,
+      "sortid": 305,
       "compiles": true,
       "locked_code": false,
       "registry_name": "oracle_planks_log_recipe",
@@ -963,7 +963,7 @@
     {
       "name": "OraclePlanksWoodRecipe",
       "type": "recipe",
-      "sortid": 273,
+      "sortid": 306,
       "compiles": true,
       "locked_code": false,
       "registry_name": "oracle_planks_wood_recipe",
@@ -977,7 +977,7 @@
     {
       "name": "OracleStairsRecipe",
       "type": "recipe",
-      "sortid": 274,
+      "sortid": 307,
       "compiles": true,
       "locked_code": false,
       "registry_name": "oracle_stairs_recipe",
@@ -991,7 +991,7 @@
     {
       "name": "OracleSlabRecipe",
       "type": "recipe",
-      "sortid": 275,
+      "sortid": 308,
       "compiles": true,
       "locked_code": false,
       "registry_name": "oracle_slab_recipe",
@@ -1005,7 +1005,7 @@
     {
       "name": "OracleFenceRecipe",
       "type": "recipe",
-      "sortid": 276,
+      "sortid": 309,
       "compiles": true,
       "locked_code": false,
       "registry_name": "oracle_fence_recipe",
@@ -1019,7 +1019,7 @@
     {
       "name": "OracleFenceGateRecipe",
       "type": "recipe",
-      "sortid": 277,
+      "sortid": 310,
       "compiles": true,
       "locked_code": false,
       "registry_name": "oracle_fence_gate_recipe",
@@ -1033,7 +1033,7 @@
     {
       "name": "OraclePressurePlateRecipe",
       "type": "recipe",
-      "sortid": 278,
+      "sortid": 311,
       "compiles": true,
       "locked_code": false,
       "registry_name": "oracle_pressure_plate_recipe",
@@ -1047,7 +1047,7 @@
     {
       "name": "OracleButtonRecipe",
       "type": "recipe",
-      "sortid": 279,
+      "sortid": 312,
       "compiles": true,
       "locked_code": false,
       "registry_name": "oracle_button_recipe",
@@ -1061,7 +1061,7 @@
     {
       "name": "WoodenFences",
       "type": "tag",
-      "sortid": 280,
+      "sortid": 313,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wooden_fences",
@@ -1075,7 +1075,7 @@
     {
       "name": "FenceGates",
       "type": "tag",
-      "sortid": 281,
+      "sortid": 314,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fence_gates",
@@ -1089,7 +1089,7 @@
     {
       "name": "Planks",
       "type": "tag",
-      "sortid": 282,
+      "sortid": 315,
       "compiles": true,
       "locked_code": false,
       "registry_name": "planks",
@@ -1103,7 +1103,7 @@
     {
       "name": "Logs",
       "type": "tag",
-      "sortid": 283,
+      "sortid": 316,
       "compiles": true,
       "locked_code": false,
       "registry_name": "logs",
@@ -1117,7 +1117,7 @@
     {
       "name": "LeavesTag",
       "type": "tag",
-      "sortid": 284,
+      "sortid": 317,
       "compiles": true,
       "locked_code": false,
       "registry_name": "leaves_tag",
@@ -1131,7 +1131,7 @@
     {
       "name": "OracleCanopy",
       "type": "biome",
-      "sortid": 285,
+      "sortid": 318,
       "compiles": true,
       "locked_code": false,
       "registry_name": "oracle_canopy",
@@ -1181,7 +1181,7 @@
     {
       "name": "ShimmeringDesert",
       "type": "biome",
-      "sortid": 286,
+      "sortid": 319,
       "compiles": true,
       "locked_code": false,
       "registry_name": "shimmering_desert",
@@ -1195,7 +1195,7 @@
     {
       "name": "DirtBlocks",
       "type": "tag",
-      "sortid": 287,
+      "sortid": 320,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dirt_blocks",
@@ -1209,7 +1209,7 @@
     {
       "name": "LogBlocks",
       "type": "tag",
-      "sortid": 288,
+      "sortid": 321,
       "compiles": true,
       "locked_code": false,
       "registry_name": "log_blocks",
@@ -1223,7 +1223,7 @@
     {
       "name": "StoneCraftingMaterials",
       "type": "tag",
-      "sortid": 289,
+      "sortid": 322,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stone_crafting_materials",
@@ -1237,7 +1237,7 @@
     {
       "name": "AlterniaMountains",
       "type": "biome",
-      "sortid": 290,
+      "sortid": 323,
       "compiles": true,
       "locked_code": false,
       "registry_name": "alternia_mountains",
@@ -1285,7 +1285,7 @@
     {
       "name": "RockyPlains",
       "type": "biome",
-      "sortid": 291,
+      "sortid": 324,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rocky_plains",
@@ -1519,7 +1519,7 @@
     {
       "name": "IronOre",
       "type": "loottable",
-      "sortid": 292,
+      "sortid": 325,
       "compiles": true,
       "locked_code": true,
       "registry_name": "iron_ore",
@@ -1533,7 +1533,7 @@
     {
       "name": "GoldOre",
       "type": "loottable",
-      "sortid": 293,
+      "sortid": 326,
       "compiles": true,
       "locked_code": true,
       "registry_name": "gold_ore",
@@ -1547,7 +1547,7 @@
     {
       "name": "CoalOre",
       "type": "loottable",
-      "sortid": 294,
+      "sortid": 327,
       "compiles": true,
       "locked_code": true,
       "registry_name": "coal_ore",
@@ -1561,7 +1561,7 @@
     {
       "name": "DiamondOre",
       "type": "loottable",
-      "sortid": 295,
+      "sortid": 328,
       "compiles": true,
       "locked_code": true,
       "registry_name": "diamond_ore",
@@ -1575,7 +1575,7 @@
     {
       "name": "RedstoneOre",
       "type": "loottable",
-      "sortid": 296,
+      "sortid": 329,
       "compiles": true,
       "locked_code": true,
       "registry_name": "redstone_ore",
@@ -1589,7 +1589,7 @@
     {
       "name": "EmeraldOre",
       "type": "loottable",
-      "sortid": 297,
+      "sortid": 330,
       "compiles": true,
       "locked_code": true,
       "registry_name": "emerald_ore",
@@ -1603,7 +1603,7 @@
     {
       "name": "QuartzOre",
       "type": "loottable",
-      "sortid": 298,
+      "sortid": 331,
       "compiles": true,
       "locked_code": true,
       "registry_name": "quartz_ore",
@@ -1617,7 +1617,7 @@
     {
       "name": "LapisOre",
       "type": "loottable",
-      "sortid": 299,
+      "sortid": 332,
       "compiles": true,
       "locked_code": true,
       "registry_name": "lapis_ore",
@@ -1631,7 +1631,7 @@
     {
       "name": "CopperOre",
       "type": "loottable",
-      "sortid": 300,
+      "sortid": 333,
       "compiles": true,
       "locked_code": true,
       "registry_name": "copper_ore",
@@ -1645,7 +1645,7 @@
     {
       "name": "UraniumOre",
       "type": "loottable",
-      "sortid": 301,
+      "sortid": 334,
       "compiles": true,
       "locked_code": true,
       "registry_name": "uranium_ore",
@@ -1659,7 +1659,7 @@
     {
       "name": "CruxiteOre",
       "type": "loottable",
-      "sortid": 302,
+      "sortid": 335,
       "compiles": true,
       "locked_code": true,
       "registry_name": "cruxite_ore",
@@ -1748,7 +1748,7 @@
     {
       "name": "AlterniaBiomes",
       "type": "tag",
-      "sortid": 303,
+      "sortid": 336,
       "compiles": true,
       "locked_code": false,
       "registry_name": "alternia_biomes",
@@ -1762,7 +1762,7 @@
     {
       "name": "CoalOres",
       "type": "tag",
-      "sortid": 304,
+      "sortid": 337,
       "compiles": true,
       "locked_code": true,
       "registry_name": "coal_ores",
@@ -1776,7 +1776,7 @@
     {
       "name": "IronOres",
       "type": "tag",
-      "sortid": 305,
+      "sortid": 338,
       "compiles": true,
       "locked_code": true,
       "registry_name": "iron_ores",
@@ -1790,7 +1790,7 @@
     {
       "name": "GoldOres",
       "type": "tag",
-      "sortid": 306,
+      "sortid": 339,
       "compiles": true,
       "locked_code": true,
       "registry_name": "gold_ores",
@@ -1804,7 +1804,7 @@
     {
       "name": "CopperOres",
       "type": "tag",
-      "sortid": 307,
+      "sortid": 340,
       "compiles": true,
       "locked_code": true,
       "registry_name": "copper_ores",
@@ -1818,7 +1818,7 @@
     {
       "name": "DiamondOres",
       "type": "tag",
-      "sortid": 308,
+      "sortid": 341,
       "compiles": true,
       "locked_code": true,
       "registry_name": "diamond_ores",
@@ -1832,7 +1832,7 @@
     {
       "name": "EmeraldOres",
       "type": "tag",
-      "sortid": 309,
+      "sortid": 342,
       "compiles": true,
       "locked_code": true,
       "registry_name": "emerald_ores",
@@ -1846,7 +1846,7 @@
     {
       "name": "LapisOres",
       "type": "tag",
-      "sortid": 310,
+      "sortid": 343,
       "compiles": true,
       "locked_code": true,
       "registry_name": "lapis_ores",
@@ -1860,7 +1860,7 @@
     {
       "name": "RedstoneOres",
       "type": "tag",
-      "sortid": 311,
+      "sortid": 344,
       "compiles": true,
       "locked_code": true,
       "registry_name": "redstone_ores",
@@ -1874,7 +1874,7 @@
     {
       "name": "CruxiteOres",
       "type": "tag",
-      "sortid": 312,
+      "sortid": 345,
       "compiles": true,
       "locked_code": true,
       "registry_name": "cruxite_ores",
@@ -1888,7 +1888,7 @@
     {
       "name": "UraniumOres",
       "type": "tag",
-      "sortid": 313,
+      "sortid": 346,
       "compiles": true,
       "locked_code": true,
       "registry_name": "uranium_ores",
@@ -1902,7 +1902,7 @@
     {
       "name": "FrogTemple",
       "type": "tag",
-      "sortid": 314,
+      "sortid": 347,
       "compiles": true,
       "locked_code": false,
       "registry_name": "frog_temple",
@@ -1916,7 +1916,7 @@
     {
       "name": "AlterniaRiver",
       "type": "biome",
-      "sortid": 315,
+      "sortid": 348,
       "compiles": true,
       "locked_code": false,
       "registry_name": "alternia_river",
@@ -1930,7 +1930,7 @@
     {
       "name": "OracleCanopyModified",
       "type": "biome",
-      "sortid": 316,
+      "sortid": 349,
       "compiles": true,
       "locked_code": false,
       "registry_name": "oracle_canopy_modified",
@@ -1948,7 +1948,7 @@
     {
       "name": "RockyPlateau",
       "type": "biome",
-      "sortid": 317,
+      "sortid": 350,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rocky_plateau",
@@ -1979,7 +1979,7 @@
     {
       "name": "AlterniaBeach",
       "type": "biome",
-      "sortid": 318,
+      "sortid": 351,
       "compiles": true,
       "locked_code": false,
       "registry_name": "alternia_beach",
@@ -1993,7 +1993,7 @@
     {
       "name": "AlterniaHills",
       "type": "biome",
-      "sortid": 319,
+      "sortid": 352,
       "compiles": true,
       "locked_code": false,
       "registry_name": "alternia_hills",
@@ -2007,7 +2007,7 @@
     {
       "name": "AlterniaSwamp",
       "type": "biome",
-      "sortid": 320,
+      "sortid": 353,
       "compiles": true,
       "locked_code": false,
       "registry_name": "alternia_swamp",
@@ -2203,7 +2203,7 @@
     {
       "name": "BrambleWoodRecipe",
       "type": "recipe",
-      "sortid": 321,
+      "sortid": 354,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bramble_wood_recipe",
@@ -2217,7 +2217,7 @@
     {
       "name": "BramblePlanksLogRecipe",
       "type": "recipe",
-      "sortid": 322,
+      "sortid": 355,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bramble_planks_log_recipe",
@@ -2231,7 +2231,7 @@
     {
       "name": "BramblePlanksWoodRecipe",
       "type": "recipe",
-      "sortid": 323,
+      "sortid": 356,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bramble_planks_wood_recipe",
@@ -2245,7 +2245,7 @@
     {
       "name": "BrambleStairsRecipe",
       "type": "recipe",
-      "sortid": 324,
+      "sortid": 357,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bramble_stairs_recipe",
@@ -2259,7 +2259,7 @@
     {
       "name": "BrambleSlabRecipe",
       "type": "recipe",
-      "sortid": 325,
+      "sortid": 358,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bramble_slab_recipe",
@@ -2273,7 +2273,7 @@
     {
       "name": "BrambleFenceRecipe",
       "type": "recipe",
-      "sortid": 326,
+      "sortid": 359,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bramble_fence_recipe",
@@ -2287,7 +2287,7 @@
     {
       "name": "BrambleFenceGateRecipe",
       "type": "recipe",
-      "sortid": 327,
+      "sortid": 360,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bramble_fence_gate_recipe",
@@ -2301,7 +2301,7 @@
     {
       "name": "BramblePressurePlateRecipe",
       "type": "recipe",
-      "sortid": 328,
+      "sortid": 361,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bramble_pressure_plate_recipe",
@@ -2315,7 +2315,7 @@
     {
       "name": "BrambleButtonRecipe",
       "type": "recipe",
-      "sortid": 329,
+      "sortid": 362,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bramble_button_recipe",
@@ -2329,7 +2329,7 @@
     {
       "name": "BrambleForest",
       "type": "biome",
-      "sortid": 330,
+      "sortid": 363,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bramble_forest",
@@ -2345,7 +2345,7 @@
     {
       "name": "DeepAlterniaOcean",
       "type": "biome",
-      "sortid": 331,
+      "sortid": 364,
       "compiles": true,
       "locked_code": false,
       "registry_name": "deep_alternia_ocean",
@@ -2439,7 +2439,7 @@
     {
       "name": "RustHemoFlower",
       "type": "plant",
-      "sortid": 155,
+      "sortid": 164,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rust_hemo_flower",
@@ -2459,7 +2459,7 @@
     {
       "name": "BronzeHemoFlower",
       "type": "plant",
-      "sortid": 164,
+      "sortid": 175,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bronze_hemo_flower",
@@ -2479,7 +2479,7 @@
     {
       "name": "GoldHemoFlower",
       "type": "plant",
-      "sortid": 173,
+      "sortid": 186,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gold_hemo_flower",
@@ -2499,7 +2499,7 @@
     {
       "name": "LimeHemoflower",
       "type": "plant",
-      "sortid": 182,
+      "sortid": 197,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lime_hemoflower",
@@ -2519,7 +2519,7 @@
     {
       "name": "OliveHemoFlower",
       "type": "plant",
-      "sortid": 191,
+      "sortid": 208,
       "compiles": true,
       "locked_code": false,
       "registry_name": "olive_hemo_flower",
@@ -2539,7 +2539,7 @@
     {
       "name": "JadeHemoFlower",
       "type": "plant",
-      "sortid": 200,
+      "sortid": 219,
       "compiles": true,
       "locked_code": false,
       "registry_name": "jade_hemo_flower",
@@ -2559,7 +2559,7 @@
     {
       "name": "TealHemoFlower",
       "type": "plant",
-      "sortid": 209,
+      "sortid": 230,
       "compiles": true,
       "locked_code": false,
       "registry_name": "teal_hemo_flower",
@@ -2579,7 +2579,7 @@
     {
       "name": "CobaltHemoFlower",
       "type": "plant",
-      "sortid": 218,
+      "sortid": 241,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cobalt_hemo_flower",
@@ -2599,7 +2599,7 @@
     {
       "name": "IndigoHemoFlower",
       "type": "plant",
-      "sortid": 227,
+      "sortid": 252,
       "compiles": true,
       "locked_code": false,
       "registry_name": "indigo_hemo_flower",
@@ -2619,7 +2619,7 @@
     {
       "name": "PurpleHemoFlower",
       "type": "plant",
-      "sortid": 236,
+      "sortid": 263,
       "compiles": true,
       "locked_code": false,
       "registry_name": "purple_hemo_flower",
@@ -2639,7 +2639,7 @@
     {
       "name": "VioletHemoFlower",
       "type": "plant",
-      "sortid": 245,
+      "sortid": 274,
       "compiles": true,
       "locked_code": false,
       "registry_name": "violet_hemo_flower",
@@ -2659,7 +2659,7 @@
     {
       "name": "FuchsiaHemoFlower",
       "type": "plant",
-      "sortid": 254,
+      "sortid": 285,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fuchsia_hemo_flower",
@@ -2679,7 +2679,7 @@
     {
       "name": "RustDyeFromFlower",
       "type": "recipe",
-      "sortid": 332,
+      "sortid": 365,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rust_dye_from_flower",
@@ -2693,7 +2693,7 @@
     {
       "name": "BronzeDyeFromFlower",
       "type": "recipe",
-      "sortid": 333,
+      "sortid": 366,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bronze_dye_from_flower",
@@ -2707,7 +2707,7 @@
     {
       "name": "GoldDyeFromFlower",
       "type": "recipe",
-      "sortid": 334,
+      "sortid": 367,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gold_dye_from_flower",
@@ -2721,7 +2721,7 @@
     {
       "name": "LimeDyeFromFlower",
       "type": "recipe",
-      "sortid": 335,
+      "sortid": 368,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lime_dye_from_flower",
@@ -2735,7 +2735,7 @@
     {
       "name": "OliveDyeFromFlower",
       "type": "recipe",
-      "sortid": 336,
+      "sortid": 369,
       "compiles": true,
       "locked_code": false,
       "registry_name": "olive_dye_from_flower",
@@ -2749,7 +2749,7 @@
     {
       "name": "JadeDyeFromFlower",
       "type": "recipe",
-      "sortid": 337,
+      "sortid": 370,
       "compiles": true,
       "locked_code": false,
       "registry_name": "jade_dye_from_flower",
@@ -2763,7 +2763,7 @@
     {
       "name": "TealDyeFromFlower",
       "type": "recipe",
-      "sortid": 338,
+      "sortid": 371,
       "compiles": true,
       "locked_code": false,
       "registry_name": "teal_dye_from_flower",
@@ -2777,7 +2777,7 @@
     {
       "name": "CobaltDyeFromFlower",
       "type": "recipe",
-      "sortid": 339,
+      "sortid": 372,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cobalt_dye_from_flower",
@@ -2791,7 +2791,7 @@
     {
       "name": "IndigoDyeFromFlower",
       "type": "recipe",
-      "sortid": 340,
+      "sortid": 373,
       "compiles": true,
       "locked_code": false,
       "registry_name": "indigo_dye_from_flower",
@@ -2805,7 +2805,7 @@
     {
       "name": "PurpleDyeFromFlower",
       "type": "recipe",
-      "sortid": 341,
+      "sortid": 374,
       "compiles": true,
       "locked_code": false,
       "registry_name": "purple_dye_from_flower",
@@ -2819,7 +2819,7 @@
     {
       "name": "VioletDyeFromFlower",
       "type": "recipe",
-      "sortid": 342,
+      "sortid": 375,
       "compiles": true,
       "locked_code": false,
       "registry_name": "violet_dye_from_flower",
@@ -2833,7 +2833,7 @@
     {
       "name": "FuchsiaDyeFromFlower",
       "type": "recipe",
-      "sortid": 343,
+      "sortid": 376,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fuchsia_dye_from_flower",
@@ -2847,7 +2847,7 @@
     {
       "name": "SmallFlowerBlocks",
       "type": "tag",
-      "sortid": 344,
+      "sortid": 377,
       "compiles": true,
       "locked_code": false,
       "registry_name": "small_flower_blocks",
@@ -2861,7 +2861,7 @@
     {
       "name": "StoneToolMaterials",
       "type": "tag",
-      "sortid": 345,
+      "sortid": 378,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stone_tool_materials",
@@ -2875,7 +2875,7 @@
     {
       "name": "DarkstoneSmelting",
       "type": "recipe",
-      "sortid": 346,
+      "sortid": 379,
       "compiles": true,
       "locked_code": false,
       "registry_name": "darkstone_smelting",
@@ -2889,7 +2889,7 @@
     {
       "name": "DarkstoneCopperSmelting",
       "type": "recipe",
-      "sortid": 347,
+      "sortid": 380,
       "compiles": true,
       "locked_code": false,
       "registry_name": "darkstone_copper_smelting",
@@ -2903,7 +2903,7 @@
     {
       "name": "DarkstoneEmeraldSmelting",
       "type": "recipe",
-      "sortid": 348,
+      "sortid": 381,
       "compiles": true,
       "locked_code": false,
       "registry_name": "darkstone_emerald_smelting",
@@ -2917,7 +2917,7 @@
     {
       "name": "PolishedDarkstone",
       "type": "recipe",
-      "sortid": 349,
+      "sortid": 382,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_darkstone",
@@ -2931,7 +2931,7 @@
     {
       "name": "DarkstoneBrick",
       "type": "recipe",
-      "sortid": 350,
+      "sortid": 383,
       "compiles": true,
       "locked_code": false,
       "registry_name": "darkstone_brick",
@@ -2945,7 +2945,7 @@
     {
       "name": "DarkstoneTile",
       "type": "recipe",
-      "sortid": 351,
+      "sortid": 384,
       "compiles": true,
       "locked_code": false,
       "registry_name": "darkstone_tile",
@@ -2959,7 +2959,7 @@
     {
       "name": "CrackedDarkstoneBrick",
       "type": "recipe",
-      "sortid": 352,
+      "sortid": 385,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cracked_darkstone_brick",
@@ -2973,7 +2973,7 @@
     {
       "name": "DarkstoneSlabs",
       "type": "recipe",
-      "sortid": 353,
+      "sortid": 386,
       "compiles": true,
       "locked_code": true,
       "registry_name": "darkstone_slabs",
@@ -2987,7 +2987,7 @@
     {
       "name": "DarkstoneStair",
       "type": "recipe",
-      "sortid": 354,
+      "sortid": 387,
       "compiles": true,
       "locked_code": true,
       "registry_name": "darkstone_stair",
@@ -3001,7 +3001,7 @@
     {
       "name": "DarkstoneWalls",
       "type": "recipe",
-      "sortid": 355,
+      "sortid": 388,
       "compiles": true,
       "locked_code": true,
       "registry_name": "darkstone_walls",
@@ -3015,7 +3015,7 @@
     {
       "name": "CobbledDarkstoneSlabs",
       "type": "recipe",
-      "sortid": 356,
+      "sortid": 389,
       "compiles": true,
       "locked_code": true,
       "registry_name": "cobbled_darkstone_slabs",
@@ -3029,7 +3029,7 @@
     {
       "name": "CobbledDarkstoneStair",
       "type": "recipe",
-      "sortid": 357,
+      "sortid": 390,
       "compiles": true,
       "locked_code": true,
       "registry_name": "cobbled_darkstone_stair",
@@ -3043,7 +3043,7 @@
     {
       "name": "CobbledDarkstoneWalls",
       "type": "recipe",
-      "sortid": 358,
+      "sortid": 391,
       "compiles": true,
       "locked_code": true,
       "registry_name": "cobbled_darkstone_walls",
@@ -3057,7 +3057,7 @@
     {
       "name": "DarkstoneBrickSlabs",
       "type": "recipe",
-      "sortid": 359,
+      "sortid": 392,
       "compiles": true,
       "locked_code": true,
       "registry_name": "darkstone_brick_slabs",
@@ -3071,7 +3071,7 @@
     {
       "name": "DarkstoneBrickStair",
       "type": "recipe",
-      "sortid": 360,
+      "sortid": 393,
       "compiles": true,
       "locked_code": true,
       "registry_name": "darkstone_brick_stair",
@@ -3085,7 +3085,7 @@
     {
       "name": "DarkstoneBrickWalls",
       "type": "recipe",
-      "sortid": 361,
+      "sortid": 394,
       "compiles": true,
       "locked_code": true,
       "registry_name": "darkstone_brick_walls",
@@ -3099,7 +3099,7 @@
     {
       "name": "CrackedDarkstoneBrickSlabs",
       "type": "recipe",
-      "sortid": 362,
+      "sortid": 395,
       "compiles": true,
       "locked_code": true,
       "registry_name": "cracked_darkstone_brick_slabs",
@@ -3113,7 +3113,7 @@
     {
       "name": "CrackedDarkstoneBrickStair",
       "type": "recipe",
-      "sortid": 363,
+      "sortid": 396,
       "compiles": true,
       "locked_code": true,
       "registry_name": "cracked_darkstone_brick_stair",
@@ -3127,7 +3127,7 @@
     {
       "name": "CrackedDarkstoneBrickWalls",
       "type": "recipe",
-      "sortid": 364,
+      "sortid": 397,
       "compiles": true,
       "locked_code": true,
       "registry_name": "cracked_darkstone_brick_walls",
@@ -3141,7 +3141,7 @@
     {
       "name": "DarkstonePillars",
       "type": "recipe",
-      "sortid": 365,
+      "sortid": 398,
       "compiles": true,
       "locked_code": false,
       "registry_name": "darkstone_pillars",
@@ -3155,7 +3155,7 @@
     {
       "name": "DarkstoneTileSlabs",
       "type": "recipe",
-      "sortid": 366,
+      "sortid": 399,
       "compiles": true,
       "locked_code": true,
       "registry_name": "darkstone_tile_slabs",
@@ -3169,7 +3169,7 @@
     {
       "name": "DarkstoneTileStair",
       "type": "recipe",
-      "sortid": 367,
+      "sortid": 400,
       "compiles": true,
       "locked_code": true,
       "registry_name": "darkstone_tile_stair",
@@ -3183,7 +3183,7 @@
     {
       "name": "DarkstoneTileWall",
       "type": "recipe",
-      "sortid": 368,
+      "sortid": 401,
       "compiles": true,
       "locked_code": true,
       "registry_name": "darkstone_tile_wall",
@@ -3197,7 +3197,7 @@
     {
       "name": "PolishedDarkstoneSlabs",
       "type": "recipe",
-      "sortid": 369,
+      "sortid": 402,
       "compiles": true,
       "locked_code": true,
       "registry_name": "polished_darkstone_slabs",
@@ -3211,7 +3211,7 @@
     {
       "name": "PolishedDarkstoneStair",
       "type": "recipe",
-      "sortid": 370,
+      "sortid": 403,
       "compiles": true,
       "locked_code": true,
       "registry_name": "polished_darkstone_stair",
@@ -3225,7 +3225,7 @@
     {
       "name": "PolishedDarkstoneWalls",
       "type": "recipe",
-      "sortid": 371,
+      "sortid": 404,
       "compiles": true,
       "locked_code": true,
       "registry_name": "polished_darkstone_walls",
@@ -3254,7 +3254,7 @@
     {
       "name": "DarkstonePowder",
       "type": "recipe",
-      "sortid": 372,
+      "sortid": 405,
       "compiles": true,
       "locked_code": false,
       "registry_name": "darkstone_powder",
@@ -3386,7 +3386,7 @@
     {
       "name": "HiveDrywallRecipe",
       "type": "recipe",
-      "sortid": 373,
+      "sortid": 406,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hive_drywall_recipe",
@@ -3400,7 +3400,7 @@
     {
       "name": "HiveDrywallWallRecipe",
       "type": "recipe",
-      "sortid": 374,
+      "sortid": 407,
       "compiles": true,
       "locked_code": true,
       "registry_name": "hive_drywall_wall_recipe",
@@ -3414,7 +3414,7 @@
     {
       "name": "HiveDrywallStair",
       "type": "recipe",
-      "sortid": 375,
+      "sortid": 408,
       "compiles": true,
       "locked_code": true,
       "registry_name": "hive_drywall_stair",
@@ -3428,7 +3428,7 @@
     {
       "name": "HiveDrywallSlabs",
       "type": "recipe",
-      "sortid": 376,
+      "sortid": 409,
       "compiles": true,
       "locked_code": true,
       "registry_name": "hive_drywall_slabs",
@@ -3480,7 +3480,7 @@
     {
       "name": "HiveglassRecipe",
       "type": "recipe",
-      "sortid": 377,
+      "sortid": 410,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hiveglass_recipe",
@@ -3494,7 +3494,7 @@
     {
       "name": "HiveglassPanes",
       "type": "recipe",
-      "sortid": 378,
+      "sortid": 411,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hiveglass_panes",
@@ -3508,7 +3508,7 @@
     {
       "name": "HiveDrywallDoor",
       "type": "recipe",
-      "sortid": 379,
+      "sortid": 412,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hive_drywall_door",
@@ -3522,7 +3522,7 @@
     {
       "name": "HiveDrywallTrapdoor",
       "type": "recipe",
-      "sortid": 380,
+      "sortid": 413,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hive_drywall_trapdoor",
@@ -3536,7 +3536,7 @@
     {
       "name": "RustHemoglass",
       "type": "block",
-      "sortid": 157,
+      "sortid": 166,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rust_hemoglass",
@@ -3553,7 +3553,7 @@
     {
       "name": "BronzeHemoglass",
       "type": "block",
-      "sortid": 166,
+      "sortid": 177,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bronze_hemoglass",
@@ -3570,7 +3570,7 @@
     {
       "name": "GoldHemoglass",
       "type": "block",
-      "sortid": 175,
+      "sortid": 188,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gold_hemoglass",
@@ -3587,7 +3587,7 @@
     {
       "name": "LimeHemoglass",
       "type": "block",
-      "sortid": 184,
+      "sortid": 199,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lime_hemoglass",
@@ -3604,7 +3604,7 @@
     {
       "name": "OliveHemoglass",
       "type": "block",
-      "sortid": 193,
+      "sortid": 210,
       "compiles": true,
       "locked_code": false,
       "registry_name": "olive_hemoglass",
@@ -3621,7 +3621,7 @@
     {
       "name": "JadeHemoglass",
       "type": "block",
-      "sortid": 202,
+      "sortid": 221,
       "compiles": true,
       "locked_code": false,
       "registry_name": "jade_hemoglass",
@@ -3638,7 +3638,7 @@
     {
       "name": "TealHemoglass",
       "type": "block",
-      "sortid": 211,
+      "sortid": 232,
       "compiles": true,
       "locked_code": false,
       "registry_name": "teal_hemoglass",
@@ -3655,7 +3655,7 @@
     {
       "name": "CobaltHemoglass",
       "type": "block",
-      "sortid": 220,
+      "sortid": 243,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cobalt_hemoglass",
@@ -3672,7 +3672,7 @@
     {
       "name": "IndigoHemoglass",
       "type": "block",
-      "sortid": 229,
+      "sortid": 254,
       "compiles": true,
       "locked_code": false,
       "registry_name": "indigo_hemoglass",
@@ -3689,7 +3689,7 @@
     {
       "name": "PurpleHemoglass",
       "type": "block",
-      "sortid": 238,
+      "sortid": 265,
       "compiles": true,
       "locked_code": false,
       "registry_name": "purple_hemoglass",
@@ -3706,7 +3706,7 @@
     {
       "name": "VioletHemoglass",
       "type": "block",
-      "sortid": 247,
+      "sortid": 276,
       "compiles": true,
       "locked_code": false,
       "registry_name": "violet_hemoglass",
@@ -3723,7 +3723,7 @@
     {
       "name": "FuchsiaHemoglass",
       "type": "block",
-      "sortid": 256,
+      "sortid": 287,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fuchsia_hemoglass",
@@ -3740,7 +3740,7 @@
     {
       "name": "RustHemoglassPane",
       "type": "block",
-      "sortid": 158,
+      "sortid": 167,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rust_hemoglass_pane",
@@ -3761,7 +3761,7 @@
     {
       "name": "BronzeHemoglassPane",
       "type": "block",
-      "sortid": 167,
+      "sortid": 178,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bronze_hemoglass_pane",
@@ -3782,7 +3782,7 @@
     {
       "name": "GoldHemoglassPane",
       "type": "block",
-      "sortid": 176,
+      "sortid": 189,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gold_hemoglass_pane",
@@ -3803,7 +3803,7 @@
     {
       "name": "LimeHemoglassPane",
       "type": "block",
-      "sortid": 185,
+      "sortid": 200,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lime_hemoglass_pane",
@@ -3824,7 +3824,7 @@
     {
       "name": "OliveHemoglassPane",
       "type": "block",
-      "sortid": 194,
+      "sortid": 211,
       "compiles": true,
       "locked_code": false,
       "registry_name": "olive_hemoglass_pane",
@@ -3845,7 +3845,7 @@
     {
       "name": "JadeHemoglassPane",
       "type": "block",
-      "sortid": 203,
+      "sortid": 222,
       "compiles": true,
       "locked_code": false,
       "registry_name": "jade_hemoglass_pane",
@@ -3866,7 +3866,7 @@
     {
       "name": "TealHemoglassPane",
       "type": "block",
-      "sortid": 212,
+      "sortid": 233,
       "compiles": true,
       "locked_code": false,
       "registry_name": "teal_hemoglass_pane",
@@ -3887,7 +3887,7 @@
     {
       "name": "CobaltHemoglassPane",
       "type": "block",
-      "sortid": 221,
+      "sortid": 244,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cobalt_hemoglass_pane",
@@ -3908,7 +3908,7 @@
     {
       "name": "IndigoHemoglassPane",
       "type": "block",
-      "sortid": 230,
+      "sortid": 255,
       "compiles": true,
       "locked_code": false,
       "registry_name": "indigo_hemoglass_pane",
@@ -3929,7 +3929,7 @@
     {
       "name": "PurpleHemoglassPane",
       "type": "block",
-      "sortid": 239,
+      "sortid": 266,
       "compiles": true,
       "locked_code": false,
       "registry_name": "purple_hemoglass_pane",
@@ -3950,7 +3950,7 @@
     {
       "name": "VioletHemoglassPane",
       "type": "block",
-      "sortid": 248,
+      "sortid": 277,
       "compiles": true,
       "locked_code": false,
       "registry_name": "violet_hemoglass_pane",
@@ -3971,7 +3971,7 @@
     {
       "name": "FuchsiaHemoglassPane",
       "type": "block",
-      "sortid": 257,
+      "sortid": 288,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fuchsia_hemoglass_pane",
@@ -3992,7 +3992,7 @@
     {
       "name": "RustHemoglassRecipe",
       "type": "recipe",
-      "sortid": 381,
+      "sortid": 414,
       "compiles": true,
       "locked_code": true,
       "registry_name": "rust_hemoglass_recipe",
@@ -4006,7 +4006,7 @@
     {
       "name": "RustHemoglassPanes",
       "type": "recipe",
-      "sortid": 382,
+      "sortid": 415,
       "compiles": true,
       "locked_code": true,
       "registry_name": "rust_hemoglass_panes",
@@ -4020,7 +4020,7 @@
     {
       "name": "BronzeHemoglassRecipe",
       "type": "recipe",
-      "sortid": 383,
+      "sortid": 416,
       "compiles": true,
       "locked_code": true,
       "registry_name": "bronze_hemoglass_recipe",
@@ -4034,7 +4034,7 @@
     {
       "name": "BronzeHemoglassPanes",
       "type": "recipe",
-      "sortid": 384,
+      "sortid": 417,
       "compiles": true,
       "locked_code": true,
       "registry_name": "bronze_hemoglass_panes",
@@ -4048,7 +4048,7 @@
     {
       "name": "GoldHemoglassRecipe",
       "type": "recipe",
-      "sortid": 385,
+      "sortid": 418,
       "compiles": true,
       "locked_code": true,
       "registry_name": "gold_hemoglass_recipe",
@@ -4062,7 +4062,7 @@
     {
       "name": "GoldHemoglassPanes",
       "type": "recipe",
-      "sortid": 386,
+      "sortid": 419,
       "compiles": true,
       "locked_code": true,
       "registry_name": "gold_hemoglass_panes",
@@ -4076,7 +4076,7 @@
     {
       "name": "LimeHemoglassRecipe",
       "type": "recipe",
-      "sortid": 387,
+      "sortid": 420,
       "compiles": true,
       "locked_code": true,
       "registry_name": "lime_hemoglass_recipe",
@@ -4090,7 +4090,7 @@
     {
       "name": "LimeHemoglassPanes",
       "type": "recipe",
-      "sortid": 388,
+      "sortid": 421,
       "compiles": true,
       "locked_code": true,
       "registry_name": "lime_hemoglass_panes",
@@ -4104,7 +4104,7 @@
     {
       "name": "OliveHemoglassRecipe",
       "type": "recipe",
-      "sortid": 389,
+      "sortid": 422,
       "compiles": true,
       "locked_code": true,
       "registry_name": "olive_hemoglass_recipe",
@@ -4118,7 +4118,7 @@
     {
       "name": "OliveHemoglassPanes",
       "type": "recipe",
-      "sortid": 390,
+      "sortid": 423,
       "compiles": true,
       "locked_code": true,
       "registry_name": "olive_hemoglass_panes",
@@ -4132,7 +4132,7 @@
     {
       "name": "JadeHemoglassRecipe",
       "type": "recipe",
-      "sortid": 391,
+      "sortid": 424,
       "compiles": true,
       "locked_code": true,
       "registry_name": "jade_hemoglass_recipe",
@@ -4146,7 +4146,7 @@
     {
       "name": "JadeHemoglassPanes",
       "type": "recipe",
-      "sortid": 392,
+      "sortid": 425,
       "compiles": true,
       "locked_code": true,
       "registry_name": "jade_hemoglass_panes",
@@ -4160,7 +4160,7 @@
     {
       "name": "TealHemoglassRecipe",
       "type": "recipe",
-      "sortid": 393,
+      "sortid": 426,
       "compiles": true,
       "locked_code": true,
       "registry_name": "teal_hemoglass_recipe",
@@ -4174,7 +4174,7 @@
     {
       "name": "TealHemoglassPanes",
       "type": "recipe",
-      "sortid": 394,
+      "sortid": 427,
       "compiles": true,
       "locked_code": true,
       "registry_name": "teal_hemoglass_panes",
@@ -4188,7 +4188,7 @@
     {
       "name": "CobaltHemoglassRecipe",
       "type": "recipe",
-      "sortid": 395,
+      "sortid": 428,
       "compiles": true,
       "locked_code": true,
       "registry_name": "cobalt_hemoglass_recipe",
@@ -4202,7 +4202,7 @@
     {
       "name": "CobaltHemoglassPanes",
       "type": "recipe",
-      "sortid": 396,
+      "sortid": 429,
       "compiles": true,
       "locked_code": true,
       "registry_name": "cobalt_hemoglass_panes",
@@ -4216,7 +4216,7 @@
     {
       "name": "IndigoHemoglassRecipe",
       "type": "recipe",
-      "sortid": 397,
+      "sortid": 430,
       "compiles": true,
       "locked_code": true,
       "registry_name": "indigo_hemoglass_recipe",
@@ -4230,7 +4230,7 @@
     {
       "name": "IndigoHemoglassPanes",
       "type": "recipe",
-      "sortid": 398,
+      "sortid": 431,
       "compiles": true,
       "locked_code": true,
       "registry_name": "indigo_hemoglass_panes",
@@ -4244,7 +4244,7 @@
     {
       "name": "PurpleHemoglassRecipe",
       "type": "recipe",
-      "sortid": 399,
+      "sortid": 432,
       "compiles": true,
       "locked_code": true,
       "registry_name": "purple_hemoglass_recipe",
@@ -4258,7 +4258,7 @@
     {
       "name": "PurpleHemoglassPanes",
       "type": "recipe",
-      "sortid": 400,
+      "sortid": 433,
       "compiles": true,
       "locked_code": true,
       "registry_name": "purple_hemoglass_panes",
@@ -4272,7 +4272,7 @@
     {
       "name": "VioletHemoglassRecipe",
       "type": "recipe",
-      "sortid": 401,
+      "sortid": 434,
       "compiles": true,
       "locked_code": true,
       "registry_name": "violet_hemoglass_recipe",
@@ -4286,7 +4286,7 @@
     {
       "name": "VioletHemoglassPanes",
       "type": "recipe",
-      "sortid": 402,
+      "sortid": 435,
       "compiles": true,
       "locked_code": true,
       "registry_name": "violet_hemoglass_panes",
@@ -4300,7 +4300,7 @@
     {
       "name": "FuchsiaHemoglassRecipe",
       "type": "recipe",
-      "sortid": 403,
+      "sortid": 436,
       "compiles": true,
       "locked_code": true,
       "registry_name": "fuchsia_hemoglass_recipe",
@@ -4314,7 +4314,7 @@
     {
       "name": "FuchsiaHemoglassPanes",
       "type": "recipe",
-      "sortid": 404,
+      "sortid": 437,
       "compiles": true,
       "locked_code": true,
       "registry_name": "fuchsia_hemoglass_panes",
@@ -4328,7 +4328,7 @@
     {
       "name": "QuartzOres",
       "type": "tag",
-      "sortid": 405,
+      "sortid": 438,
       "compiles": true,
       "locked_code": false,
       "registry_name": "quartz_ores",
@@ -4342,7 +4342,7 @@
     {
       "name": "ForgeQuartzOres",
       "type": "tag",
-      "sortid": 406,
+      "sortid": 439,
       "compiles": true,
       "locked_code": false,
       "registry_name": "forge_quartz_ores",
@@ -4356,7 +4356,7 @@
     {
       "name": "AlterniaSand",
       "type": "tag",
-      "sortid": 407,
+      "sortid": 440,
       "compiles": true,
       "locked_code": false,
       "registry_name": "alternia_sand",
@@ -4370,7 +4370,7 @@
     {
       "name": "DarksandstoneRecipe",
       "type": "recipe",
-      "sortid": 408,
+      "sortid": 441,
       "compiles": true,
       "locked_code": false,
       "registry_name": "darksandstone_recipe",
@@ -4384,7 +4384,7 @@
     {
       "name": "ShimmeringSandstone",
       "type": "recipe",
-      "sortid": 409,
+      "sortid": 442,
       "compiles": true,
       "locked_code": false,
       "registry_name": "shimmering_sandstone",
@@ -4398,7 +4398,7 @@
     {
       "name": "BonemealRustFlower",
       "type": "procedure",
-      "sortid": 410,
+      "sortid": 443,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bonemeal_rust_flower",
@@ -4430,7 +4430,7 @@
     {
       "name": "BonemealBronzeFlower",
       "type": "procedure",
-      "sortid": 411,
+      "sortid": 444,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bonemeal_bronze_flower",
@@ -4462,7 +4462,7 @@
     {
       "name": "BonemealGoldFlower",
       "type": "procedure",
-      "sortid": 412,
+      "sortid": 445,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bonemeal_gold_flower",
@@ -4494,7 +4494,7 @@
     {
       "name": "BonemealLimeFlower",
       "type": "procedure",
-      "sortid": 413,
+      "sortid": 446,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bonemeal_lime_flower",
@@ -4526,7 +4526,7 @@
     {
       "name": "BonemealOliveFlower",
       "type": "procedure",
-      "sortid": 414,
+      "sortid": 447,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bonemeal_olive_flower",
@@ -4558,7 +4558,7 @@
     {
       "name": "BonemealJadeFlower",
       "type": "procedure",
-      "sortid": 415,
+      "sortid": 448,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bonemeal_jade_flower",
@@ -4590,7 +4590,7 @@
     {
       "name": "BonemealTealFlower",
       "type": "procedure",
-      "sortid": 416,
+      "sortid": 449,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bonemeal_teal_flower",
@@ -4622,7 +4622,7 @@
     {
       "name": "BonemealCobaltFlower",
       "type": "procedure",
-      "sortid": 417,
+      "sortid": 450,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bonemeal_cobalt_flower",
@@ -4654,7 +4654,7 @@
     {
       "name": "BonemealIndigoFlower",
       "type": "procedure",
-      "sortid": 418,
+      "sortid": 451,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bonemeal_indigo_flower",
@@ -4686,7 +4686,7 @@
     {
       "name": "BonemealPurpleFlower",
       "type": "procedure",
-      "sortid": 419,
+      "sortid": 452,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bonemeal_purple_flower",
@@ -4718,7 +4718,7 @@
     {
       "name": "BonemealVioletFlower",
       "type": "procedure",
-      "sortid": 420,
+      "sortid": 453,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bonemeal_violet_flower",
@@ -4750,7 +4750,7 @@
     {
       "name": "BonemealFuchsiaFlower",
       "type": "procedure",
-      "sortid": 421,
+      "sortid": 454,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bonemeal_fuchsia_flower",
@@ -4782,7 +4782,7 @@
     {
       "name": "LeaveBlocks",
       "type": "tag",
-      "sortid": 422,
+      "sortid": 455,
       "compiles": true,
       "locked_code": false,
       "registry_name": "leave_blocks",
@@ -4796,7 +4796,7 @@
     {
       "name": "HiveglassBottle",
       "type": "recipe",
-      "sortid": 423,
+      "sortid": 456,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hiveglass_bottle",
@@ -4827,7 +4827,7 @@
     {
       "name": "BugNestRecipe",
       "type": "recipe",
-      "sortid": 424,
+      "sortid": 457,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bug_nest_recipe",
@@ -4841,7 +4841,7 @@
     {
       "name": "Beetle",
       "type": "item",
-      "sortid": 144,
+      "sortid": 148,
       "compiles": true,
       "locked_code": false,
       "registry_name": "beetle",
@@ -4856,7 +4856,7 @@
     {
       "name": "PaperCone",
       "type": "item",
-      "sortid": 141,
+      "sortid": 145,
       "compiles": true,
       "locked_code": false,
       "registry_name": "paper_cone",
@@ -4871,7 +4871,7 @@
     {
       "name": "Shattergrain",
       "type": "item",
-      "sortid": 135,
+      "sortid": 137,
       "compiles": true,
       "locked_code": false,
       "registry_name": "shattergrain",
@@ -4886,7 +4886,7 @@
     {
       "name": "Shatterflour",
       "type": "item",
-      "sortid": 137,
+      "sortid": 139,
       "compiles": true,
       "locked_code": false,
       "registry_name": "shatterflour",
@@ -4901,7 +4901,7 @@
     {
       "name": "GlassyShattergrain",
       "type": "item",
-      "sortid": 136,
+      "sortid": 138,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glassy_shattergrain",
@@ -4933,7 +4933,7 @@
     {
       "name": "AlternianSoilUseHoe",
       "type": "procedure",
-      "sortid": 425,
+      "sortid": 458,
       "compiles": true,
       "locked_code": false,
       "registry_name": "alternian_soil_use_hoe",
@@ -4973,7 +4973,7 @@
     {
       "name": "ShattergrainSeeds",
       "type": "plant",
-      "sortid": 134,
+      "sortid": 136,
       "compiles": true,
       "locked_code": false,
       "registry_name": "shattergrain_seeds",
@@ -4990,7 +4990,7 @@
     {
       "name": "ShattergrainStage1",
       "type": "plant",
-      "sortid": 426,
+      "sortid": 459,
       "compiles": true,
       "locked_code": false,
       "registry_name": "shattergrain_stage_1",
@@ -5007,7 +5007,7 @@
     {
       "name": "ShattergrainStage2",
       "type": "plant",
-      "sortid": 427,
+      "sortid": 460,
       "compiles": true,
       "locked_code": false,
       "registry_name": "shattergrain_stage_2",
@@ -5024,7 +5024,7 @@
     {
       "name": "ShattergrainStage3",
       "type": "plant",
-      "sortid": 428,
+      "sortid": 461,
       "compiles": true,
       "locked_code": false,
       "registry_name": "shattergrain_stage_3",
@@ -5041,7 +5041,7 @@
     {
       "name": "ShattergrainMature",
       "type": "loottable",
-      "sortid": 429,
+      "sortid": 462,
       "compiles": true,
       "locked_code": false,
       "registry_name": "shattergrain_mature",
@@ -5055,7 +5055,7 @@
     {
       "name": "ShattergrainStage4",
       "type": "plant",
-      "sortid": 430,
+      "sortid": 463,
       "compiles": true,
       "locked_code": false,
       "registry_name": "shattergrain_stage_4",
@@ -5075,7 +5075,7 @@
     {
       "name": "PaperCones",
       "type": "recipe",
-      "sortid": 431,
+      "sortid": 464,
       "compiles": true,
       "locked_code": false,
       "registry_name": "paper_cones",
@@ -5089,7 +5089,7 @@
     {
       "name": "Shatterflourrecipe",
       "type": "recipe",
-      "sortid": 432,
+      "sortid": 465,
       "compiles": true,
       "locked_code": false,
       "registry_name": "shatterflourrecipe",
@@ -5103,7 +5103,7 @@
     {
       "name": "Shatterbread",
       "type": "recipe",
-      "sortid": 433,
+      "sortid": 466,
       "compiles": true,
       "locked_code": false,
       "registry_name": "shatterbread",
@@ -5117,7 +5117,7 @@
     {
       "name": "ShattergrainSeedsUpdateTick",
       "type": "procedure",
-      "sortid": 434,
+      "sortid": 467,
       "compiles": true,
       "locked_code": false,
       "registry_name": "shattergrain_seeds_update_tick",
@@ -5149,7 +5149,7 @@
     {
       "name": "ShattergrainStage1Growing",
       "type": "procedure",
-      "sortid": 435,
+      "sortid": 468,
       "compiles": true,
       "locked_code": false,
       "registry_name": "shattergrain_stage_1_growing",
@@ -5181,7 +5181,7 @@
     {
       "name": "ShattergrainStage2Growing",
       "type": "procedure",
-      "sortid": 436,
+      "sortid": 469,
       "compiles": true,
       "locked_code": false,
       "registry_name": "shattergrain_stage_2_growing",
@@ -5213,7 +5213,7 @@
     {
       "name": "ShattergrainStage3Growing",
       "type": "procedure",
-      "sortid": 437,
+      "sortid": 470,
       "compiles": true,
       "locked_code": false,
       "registry_name": "shattergrain_stage_3_growing",
@@ -5245,7 +5245,7 @@
     {
       "name": "ForcegrowSeeds",
       "type": "procedure",
-      "sortid": 438,
+      "sortid": 471,
       "compiles": true,
       "locked_code": false,
       "registry_name": "forcegrow_seeds",
@@ -5277,7 +5277,7 @@
     {
       "name": "ForcegrowStage1",
       "type": "procedure",
-      "sortid": 439,
+      "sortid": 472,
       "compiles": true,
       "locked_code": false,
       "registry_name": "forcegrow_stage_1",
@@ -5309,7 +5309,7 @@
     {
       "name": "ForcegrowStage2",
       "type": "procedure",
-      "sortid": 440,
+      "sortid": 473,
       "compiles": true,
       "locked_code": false,
       "registry_name": "forcegrow_stage_2",
@@ -5356,7 +5356,7 @@
     {
       "name": "FlowerItems",
       "type": "tag",
-      "sortid": 441,
+      "sortid": 474,
       "compiles": true,
       "locked_code": false,
       "registry_name": "flower_items",
@@ -5370,7 +5370,7 @@
     {
       "name": "InsectFoodRecipe",
       "type": "recipe",
-      "sortid": 442,
+      "sortid": 475,
       "compiles": true,
       "locked_code": false,
       "registry_name": "insect_food_recipe",
@@ -5399,7 +5399,7 @@
     {
       "name": "Bugs",
       "type": "tag",
-      "sortid": 443,
+      "sortid": 476,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bugs",
@@ -5413,7 +5413,7 @@
     {
       "name": "Shattergrain4CompletelyFucked",
       "type": "loottable",
-      "sortid": 444,
+      "sortid": 477,
       "compiles": true,
       "locked_code": false,
       "registry_name": "shattergrain_4_completely_fucked",
@@ -5461,7 +5461,7 @@
     {
       "name": "BugNestFlesh",
       "type": "recipe",
-      "sortid": 445,
+      "sortid": 478,
       "compiles": true,
       "locked_code": true,
       "registry_name": "bug_nest_flesh",
@@ -5475,7 +5475,7 @@
     {
       "name": "BugNestFood",
       "type": "recipe",
-      "sortid": 446,
+      "sortid": 479,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bug_nest_food",
@@ -5489,7 +5489,7 @@
     {
       "name": "BugNestFlies",
       "type": "block",
-      "sortid": 447,
+      "sortid": 480,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bug_nest_flies",
@@ -5506,7 +5506,7 @@
     {
       "name": "BugNestBeetles",
       "type": "block",
-      "sortid": 448,
+      "sortid": 481,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bug_nest_beetles",
@@ -5523,7 +5523,7 @@
     {
       "name": "BugNestGrasshoppers",
       "type": "block",
-      "sortid": 449,
+      "sortid": 482,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bug_nest_grasshoppers",
@@ -5540,7 +5540,7 @@
     {
       "name": "Flies",
       "type": "blockstates",
-      "sortid": 450,
+      "sortid": 483,
       "compiles": true,
       "locked_code": false,
       "registry_name": "flies",
@@ -5556,7 +5556,7 @@
     {
       "name": "BugNestCollect",
       "type": "procedure",
-      "sortid": 451,
+      "sortid": 484,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bug_nest_collect",
@@ -5592,7 +5592,7 @@
     {
       "name": "Beetles",
       "type": "blockstates",
-      "sortid": 452,
+      "sortid": 485,
       "compiles": true,
       "locked_code": false,
       "registry_name": "beetles",
@@ -5608,7 +5608,7 @@
     {
       "name": "Grasshoppers",
       "type": "blockstates",
-      "sortid": 453,
+      "sortid": 486,
       "compiles": true,
       "locked_code": false,
       "registry_name": "grasshoppers",
@@ -5624,7 +5624,7 @@
     {
       "name": "CollectFliesFromNest",
       "type": "procedure",
-      "sortid": 454,
+      "sortid": 487,
       "compiles": true,
       "locked_code": false,
       "registry_name": "collect_flies_from_nest",
@@ -5664,7 +5664,7 @@
     {
       "name": "CollectFlies",
       "type": "procedure",
-      "sortid": 455,
+      "sortid": 488,
       "compiles": true,
       "locked_code": false,
       "registry_name": "collect_flies",
@@ -5696,7 +5696,7 @@
     {
       "name": "CollectBeetlesOrGrasshoppers",
       "type": "procedure",
-      "sortid": 456,
+      "sortid": 489,
       "compiles": true,
       "locked_code": false,
       "registry_name": "collect_beetles_or_grasshoppers",
@@ -5728,7 +5728,7 @@
     {
       "name": "CollectBeetlesFromNest",
       "type": "procedure",
-      "sortid": 457,
+      "sortid": 490,
       "compiles": true,
       "locked_code": false,
       "registry_name": "collect_beetles_from_nest",
@@ -5768,7 +5768,7 @@
     {
       "name": "CollectGrasshoppersFromNest",
       "type": "procedure",
-      "sortid": 458,
+      "sortid": 491,
       "compiles": true,
       "locked_code": false,
       "registry_name": "collect_grasshoppers_from_nest",
@@ -5808,7 +5808,7 @@
     {
       "name": "TrollHorn",
       "type": "item",
-      "sortid": 139,
+      "sortid": 142,
       "compiles": true,
       "locked_code": false,
       "registry_name": "troll_horn",
@@ -5823,7 +5823,7 @@
     {
       "name": "TrollHornBonemeal",
       "type": "recipe",
-      "sortid": 459,
+      "sortid": 492,
       "compiles": true,
       "locked_code": false,
       "registry_name": "troll_horn_bonemeal",
@@ -5837,7 +5837,7 @@
     {
       "name": "BugJar",
       "type": "item",
-      "sortid": 143,
+      "sortid": 147,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bug_jar",
@@ -5852,7 +5852,7 @@
     {
       "name": "BugJarHivepanes",
       "type": "recipe",
-      "sortid": 460,
+      "sortid": 493,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bug_jar_hivepanes",
@@ -5866,7 +5866,7 @@
     {
       "name": "JarOfBugs",
       "type": "recipe",
-      "sortid": 461,
+      "sortid": 494,
       "compiles": true,
       "locked_code": true,
       "registry_name": "jar_of_bugs",
@@ -5880,7 +5880,7 @@
     {
       "name": "Seeds",
       "type": "tag",
-      "sortid": 462,
+      "sortid": 495,
       "compiles": true,
       "locked_code": false,
       "registry_name": "seeds",
@@ -5894,7 +5894,7 @@
     {
       "name": "DarkstoneCopperBlasting",
       "type": "recipe",
-      "sortid": 463,
+      "sortid": 496,
       "compiles": true,
       "locked_code": false,
       "registry_name": "darkstone_copper_blasting",
@@ -5908,7 +5908,7 @@
     {
       "name": "DarkstoneEmeraldBlasting",
       "type": "recipe",
-      "sortid": 464,
+      "sortid": 497,
       "compiles": true,
       "locked_code": false,
       "registry_name": "darkstone_emerald_blasting",
@@ -5922,7 +5922,7 @@
     {
       "name": "CullingFork",
       "type": "tool",
-      "sortid": 132,
+      "sortid": 134,
       "compiles": true,
       "locked_code": false,
       "registry_name": "culling_fork",
@@ -5937,7 +5937,7 @@
     {
       "name": "PoseidonsEntente",
       "type": "tool",
-      "sortid": 133,
+      "sortid": 135,
       "compiles": true,
       "locked_code": true,
       "registry_name": "poseidons_entente",
@@ -5952,7 +5952,7 @@
     {
       "name": "AlterniaTeleport",
       "type": "procedure",
-      "sortid": 465,
+      "sortid": 498,
       "compiles": true,
       "locked_code": false,
       "registry_name": "alternia_teleport",
@@ -5976,7 +5976,7 @@
     {
       "name": "RenderGreenMoon",
       "type": "procedure",
-      "sortid": 466,
+      "sortid": 499,
       "compiles": true,
       "locked_code": false,
       "registry_name": "render_green_moon",
@@ -6000,7 +6000,7 @@
     {
       "name": "RenderPinkMoon",
       "type": "procedure",
-      "sortid": 467,
+      "sortid": 500,
       "compiles": true,
       "locked_code": false,
       "registry_name": "render_pink_moon",
@@ -6024,7 +6024,7 @@
     {
       "name": "RenderSun",
       "type": "procedure",
-      "sortid": 468,
+      "sortid": 501,
       "compiles": true,
       "locked_code": false,
       "registry_name": "render_sun",
@@ -6083,7 +6083,7 @@
     {
       "name": "DamagedVision",
       "type": "potioneffect",
-      "sortid": 469,
+      "sortid": 502,
       "compiles": true,
       "locked_code": false,
       "registry_name": "damaged_vision",
@@ -6097,7 +6097,7 @@
     {
       "name": "SaltTag",
       "type": "tag",
-      "sortid": 470,
+      "sortid": 503,
       "compiles": true,
       "locked_code": false,
       "registry_name": "salt_tag",
@@ -6111,7 +6111,7 @@
     {
       "name": "CobaltIngot",
       "type": "item",
-      "sortid": 120,
+      "sortid": 121,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cobalt_ingot",
@@ -6126,7 +6126,7 @@
     {
       "name": "CobaltNugget",
       "type": "item",
-      "sortid": 122,
+      "sortid": 123,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cobalt_nugget",
@@ -6141,7 +6141,7 @@
     {
       "name": "RawCobalt",
       "type": "item",
-      "sortid": 118,
+      "sortid": 119,
       "compiles": true,
       "locked_code": false,
       "registry_name": "raw_cobalt",
@@ -6156,7 +6156,7 @@
     {
       "name": "CobaltPickaxe",
       "type": "tool",
-      "sortid": 127,
+      "sortid": 128,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cobalt_pickaxe",
@@ -6171,7 +6171,7 @@
     {
       "name": "CobaltAxe",
       "type": "tool",
-      "sortid": 128,
+      "sortid": 129,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cobalt_axe",
@@ -6186,7 +6186,7 @@
     {
       "name": "CobaltSword",
       "type": "tool",
-      "sortid": 126,
+      "sortid": 127,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cobalt_sword",
@@ -6201,7 +6201,7 @@
     {
       "name": "CobaltShovel",
       "type": "tool",
-      "sortid": 129,
+      "sortid": 130,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cobalt_shovel",
@@ -6216,7 +6216,7 @@
     {
       "name": "CobaltHoe",
       "type": "tool",
-      "sortid": 130,
+      "sortid": 131,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cobalt_hoe",
@@ -6231,7 +6231,7 @@
     {
       "name": "CobaltPickaxeRecipe",
       "type": "recipe",
-      "sortid": 471,
+      "sortid": 504,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cobalt_pickaxe_recipe",
@@ -6240,12 +6240,12 @@
           "src/main/resources/data/alternia/recipes/cobalt_pickaxe_recipe.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/CobaltUpgrade"
     },
     {
       "name": "CobaltAxeRecipe",
       "type": "recipe",
-      "sortid": 472,
+      "sortid": 505,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cobalt_axe_recipe",
@@ -6254,12 +6254,12 @@
           "src/main/resources/data/alternia/recipes/cobalt_axe_recipe.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/CobaltUpgrade"
     },
     {
       "name": "CobaltSwordRecipe",
       "type": "recipe",
-      "sortid": 473,
+      "sortid": 506,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cobalt_sword_recipe",
@@ -6268,12 +6268,12 @@
           "src/main/resources/data/alternia/recipes/cobalt_sword_recipe.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/CobaltUpgrade"
     },
     {
       "name": "CobaltShovelRecipe",
       "type": "recipe",
-      "sortid": 474,
+      "sortid": 507,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cobalt_shovel_recipe",
@@ -6282,12 +6282,12 @@
           "src/main/resources/data/alternia/recipes/cobalt_shovel_recipe.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/CobaltUpgrade"
     },
     {
       "name": "CobaltHoeRecipe",
       "type": "recipe",
-      "sortid": 475,
+      "sortid": 508,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cobalt_hoe_recipe",
@@ -6296,7 +6296,7 @@
           "src/main/resources/data/alternia/recipes/cobalt_hoe_recipe.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/CobaltUpgrade"
     },
     {
       "name": "DarkstoneCobaltOre",
@@ -6321,7 +6321,7 @@
     {
       "name": "CobaltOres",
       "type": "tag",
-      "sortid": 476,
+      "sortid": 509,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cobalt_ores",
@@ -6335,7 +6335,7 @@
     {
       "name": "CobaltIngots",
       "type": "tag",
-      "sortid": 477,
+      "sortid": 510,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cobalt_ingots",
@@ -6349,7 +6349,7 @@
     {
       "name": "CobaltArmor",
       "type": "armor",
-      "sortid": 131,
+      "sortid": 132,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cobalt_armor",
@@ -6367,7 +6367,7 @@
     {
       "name": "CobaltArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 478,
+      "sortid": 511,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cobalt_armor_helmet_recipe",
@@ -6376,12 +6376,12 @@
           "src/main/resources/data/alternia/recipes/cobalt_armor_helmet_recipe.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/CobaltUpgrade"
     },
     {
       "name": "CobaltArmorChestplateRecipe",
       "type": "recipe",
-      "sortid": 479,
+      "sortid": 512,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cobalt_armor_chestplate_recipe",
@@ -6390,12 +6390,12 @@
           "src/main/resources/data/alternia/recipes/cobalt_armor_chestplate_recipe.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/CobaltUpgrade"
     },
     {
       "name": "CobaltArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 480,
+      "sortid": 513,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cobalt_armor_leggings_recipe",
@@ -6404,12 +6404,12 @@
           "src/main/resources/data/alternia/recipes/cobalt_armor_leggings_recipe.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/CobaltUpgrade"
     },
     {
       "name": "CobaltArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 481,
+      "sortid": 514,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cobalt_armor_boots_recipe",
@@ -6418,12 +6418,12 @@
           "src/main/resources/data/alternia/recipes/cobalt_armor_boots_recipe.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/CobaltUpgrade"
     },
     {
       "name": "RawCobaltBlock",
       "type": "block",
-      "sortid": 119,
+      "sortid": 120,
       "compiles": true,
       "locked_code": false,
       "registry_name": "raw_cobalt_block",
@@ -6440,7 +6440,7 @@
     {
       "name": "CobaltBlock",
       "type": "block",
-      "sortid": 121,
+      "sortid": 122,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cobalt_block",
@@ -6457,7 +6457,7 @@
     {
       "name": "DarkstoneCobaltSmelting",
       "type": "recipe",
-      "sortid": 482,
+      "sortid": 515,
       "compiles": true,
       "locked_code": false,
       "registry_name": "darkstone_cobalt_smelting",
@@ -6471,7 +6471,7 @@
     {
       "name": "DarkstoneCobaltBlasting",
       "type": "recipe",
-      "sortid": 483,
+      "sortid": 516,
       "compiles": true,
       "locked_code": false,
       "registry_name": "darkstone_cobalt_blasting",
@@ -6485,7 +6485,7 @@
     {
       "name": "CobaltSmelting",
       "type": "recipe",
-      "sortid": 484,
+      "sortid": 517,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cobalt_smelting",
@@ -6499,7 +6499,7 @@
     {
       "name": "CobaltBlasting",
       "type": "recipe",
-      "sortid": 485,
+      "sortid": 518,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cobalt_blasting",
@@ -6513,7 +6513,7 @@
     {
       "name": "CobaltGear",
       "type": "tag",
-      "sortid": 486,
+      "sortid": 519,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cobalt_gear",
@@ -6527,7 +6527,7 @@
     {
       "name": "CobaltRecyling",
       "type": "recipe",
-      "sortid": 487,
+      "sortid": 520,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cobalt_recyling",
@@ -6541,7 +6541,7 @@
     {
       "name": "CobaltNuggets",
       "type": "recipe",
-      "sortid": 488,
+      "sortid": 521,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cobalt_nuggets",
@@ -6555,7 +6555,7 @@
     {
       "name": "CobaltIngotsFromBlock",
       "type": "recipe",
-      "sortid": 489,
+      "sortid": 522,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cobalt_ingots_from_block",
@@ -6569,7 +6569,7 @@
     {
       "name": "CobaltBlockRecipe",
       "type": "recipe",
-      "sortid": 490,
+      "sortid": 523,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cobalt_block_recipe",
@@ -6583,7 +6583,7 @@
     {
       "name": "CobaltIngotFromNuggets",
       "type": "recipe",
-      "sortid": 491,
+      "sortid": 524,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cobalt_ingot_from_nuggets",
@@ -6597,7 +6597,7 @@
     {
       "name": "RawCobaltBlockRecipe",
       "type": "recipe",
-      "sortid": 492,
+      "sortid": 525,
       "compiles": true,
       "locked_code": false,
       "registry_name": "raw_cobalt_block_recipe",
@@ -6611,7 +6611,7 @@
     {
       "name": "RawCobaltFromBlock",
       "type": "recipe",
-      "sortid": 493,
+      "sortid": 526,
       "compiles": true,
       "locked_code": false,
       "registry_name": "raw_cobalt_from_block",
@@ -6625,7 +6625,7 @@
     {
       "name": "Cobalt",
       "type": "tag",
-      "sortid": 494,
+      "sortid": 527,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cobalt",
@@ -6639,7 +6639,7 @@
     {
       "name": "BeaconBaseBlockBlocks",
       "type": "tag",
-      "sortid": 495,
+      "sortid": 528,
       "compiles": true,
       "locked_code": false,
       "registry_name": "beacon_base_block_blocks",
@@ -6653,7 +6653,7 @@
     {
       "name": "Grub",
       "type": "animatedentity",
-      "sortid": 151,
+      "sortid": 159,
       "compiles": true,
       "locked_code": false,
       "registry_name": "grub",
@@ -6670,7 +6670,7 @@
     {
       "name": "RawGrubMeat",
       "type": "item",
-      "sortid": 145,
+      "sortid": 149,
       "compiles": true,
       "locked_code": false,
       "registry_name": "raw_grub_meat",
@@ -6685,7 +6685,7 @@
     {
       "name": "LiveGrub",
       "type": "item",
-      "sortid": 147,
+      "sortid": 151,
       "compiles": true,
       "locked_code": false,
       "registry_name": "live_grub",
@@ -6700,7 +6700,7 @@
     {
       "name": "DeployTheGrub",
       "type": "procedure",
-      "sortid": 496,
+      "sortid": 529,
       "compiles": true,
       "locked_code": false,
       "registry_name": "deploy_the_grub",
@@ -6736,7 +6736,7 @@
     {
       "name": "TakeTheGrub",
       "type": "procedure",
-      "sortid": 497,
+      "sortid": 530,
       "compiles": true,
       "locked_code": false,
       "registry_name": "take_the_grub",
@@ -6764,7 +6764,7 @@
     {
       "name": "CookedGrubMeat",
       "type": "item",
-      "sortid": 146,
+      "sortid": 150,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cooked_grub_meat",
@@ -6779,7 +6779,7 @@
     {
       "name": "CookedGrub",
       "type": "item",
-      "sortid": 148,
+      "sortid": 152,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cooked_grub",
@@ -6794,7 +6794,7 @@
     {
       "name": "GrubSliceSmelting",
       "type": "recipe",
-      "sortid": 498,
+      "sortid": 531,
       "compiles": true,
       "locked_code": false,
       "registry_name": "grub_slice_smelting",
@@ -6808,7 +6808,7 @@
     {
       "name": "GrubSliceSmoking",
       "type": "recipe",
-      "sortid": 499,
+      "sortid": 532,
       "compiles": true,
       "locked_code": false,
       "registry_name": "grub_slice_smoking",
@@ -6822,7 +6822,7 @@
     {
       "name": "WholeGrubSmoking",
       "type": "recipe",
-      "sortid": 500,
+      "sortid": 533,
       "compiles": true,
       "locked_code": false,
       "registry_name": "whole_grub_smoking",
@@ -6836,7 +6836,7 @@
     {
       "name": "LususMeat",
       "type": "item",
-      "sortid": 149,
+      "sortid": 157,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lusus_meat",
@@ -6851,7 +6851,7 @@
     {
       "name": "LususHide",
       "type": "item",
-      "sortid": 150,
+      "sortid": 158,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lusus_hide",
@@ -6866,7 +6866,7 @@
     {
       "name": "Leather",
       "type": "tag",
-      "sortid": 501,
+      "sortid": 534,
       "compiles": true,
       "locked_code": false,
       "registry_name": "leather",
@@ -6880,7 +6880,7 @@
     {
       "name": "TrimmableArmor",
       "type": "tag",
-      "sortid": 502,
+      "sortid": 535,
       "compiles": true,
       "locked_code": false,
       "registry_name": "trimmable_armor",
@@ -6894,7 +6894,7 @@
     {
       "name": "LususFood",
       "type": "tag",
-      "sortid": 503,
+      "sortid": 536,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lusus_food",
@@ -6908,7 +6908,7 @@
     {
       "name": "CatLusus",
       "type": "livingentity",
-      "sortid": 153,
+      "sortid": 161,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cat_lusus",
@@ -6924,7 +6924,7 @@
     {
       "name": "SpiderLusus",
       "type": "livingentity",
-      "sortid": 154,
+      "sortid": 162,
       "compiles": true,
       "locked_code": false,
       "registry_name": "spider_lusus",
@@ -6940,7 +6940,7 @@
     {
       "name": "Book",
       "type": "recipe",
-      "sortid": 504,
+      "sortid": 537,
       "compiles": true,
       "locked_code": false,
       "registry_name": "book",
@@ -6954,7 +6954,7 @@
     {
       "name": "ItemFrame",
       "type": "recipe",
-      "sortid": 505,
+      "sortid": 538,
       "compiles": true,
       "locked_code": false,
       "registry_name": "item_frame",
@@ -6968,7 +6968,7 @@
     {
       "name": "CatLususLoot",
       "type": "loottable",
-      "sortid": 506,
+      "sortid": 539,
       "compiles": true,
       "locked_code": true,
       "registry_name": "cat_lusus_loot",
@@ -6982,7 +6982,7 @@
     {
       "name": "SpiderLususLoot",
       "type": "loottable",
-      "sortid": 507,
+      "sortid": 540,
       "compiles": true,
       "locked_code": true,
       "registry_name": "spider_lusus_loot",
@@ -6996,7 +6996,7 @@
     {
       "name": "RustHemoWool",
       "type": "block",
-      "sortid": 159,
+      "sortid": 168,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rust_hemo_wool",
@@ -7013,7 +7013,7 @@
     {
       "name": "BronzeHemoWool",
       "type": "block",
-      "sortid": 168,
+      "sortid": 179,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bronze_hemo_wool",
@@ -7030,7 +7030,7 @@
     {
       "name": "GoldHemoWool",
       "type": "block",
-      "sortid": 177,
+      "sortid": 190,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gold_hemo_wool",
@@ -7047,7 +7047,7 @@
     {
       "name": "LimeHemoWool",
       "type": "block",
-      "sortid": 186,
+      "sortid": 201,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lime_hemo_wool",
@@ -7064,7 +7064,7 @@
     {
       "name": "OliveHemoWool",
       "type": "block",
-      "sortid": 195,
+      "sortid": 212,
       "compiles": true,
       "locked_code": false,
       "registry_name": "olive_hemo_wool",
@@ -7081,7 +7081,7 @@
     {
       "name": "JadeHemoWool",
       "type": "block",
-      "sortid": 204,
+      "sortid": 223,
       "compiles": true,
       "locked_code": false,
       "registry_name": "jade_hemo_wool",
@@ -7098,7 +7098,7 @@
     {
       "name": "TealHemoWool",
       "type": "block",
-      "sortid": 213,
+      "sortid": 234,
       "compiles": true,
       "locked_code": false,
       "registry_name": "teal_hemo_wool",
@@ -7115,7 +7115,7 @@
     {
       "name": "CobaltHemoWool",
       "type": "block",
-      "sortid": 222,
+      "sortid": 245,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cobalt_hemo_wool",
@@ -7132,7 +7132,7 @@
     {
       "name": "IndigoHemoWool",
       "type": "block",
-      "sortid": 231,
+      "sortid": 256,
       "compiles": true,
       "locked_code": false,
       "registry_name": "indigo_hemo_wool",
@@ -7149,7 +7149,7 @@
     {
       "name": "PurpleHemoWool",
       "type": "block",
-      "sortid": 240,
+      "sortid": 267,
       "compiles": true,
       "locked_code": false,
       "registry_name": "purple_hemo_wool",
@@ -7166,7 +7166,7 @@
     {
       "name": "VioletHemoWool",
       "type": "block",
-      "sortid": 249,
+      "sortid": 278,
       "compiles": true,
       "locked_code": false,
       "registry_name": "violet_hemo_wool",
@@ -7183,7 +7183,7 @@
     {
       "name": "FuchsiaHemoWool",
       "type": "block",
-      "sortid": 258,
+      "sortid": 289,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fuchsia_hemo_wool",
@@ -7217,7 +7217,7 @@
     {
       "name": "Wool",
       "type": "tag",
-      "sortid": 508,
+      "sortid": 541,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wool",
@@ -7231,7 +7231,7 @@
     {
       "name": "RustWool",
       "type": "recipe",
-      "sortid": 509,
+      "sortid": 542,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rust_wool",
@@ -7245,7 +7245,7 @@
     {
       "name": "BronzeWool",
       "type": "recipe",
-      "sortid": 510,
+      "sortid": 543,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bronze_wool",
@@ -7259,7 +7259,7 @@
     {
       "name": "GoldWool",
       "type": "recipe",
-      "sortid": 511,
+      "sortid": 544,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gold_wool",
@@ -7273,7 +7273,7 @@
     {
       "name": "LimeWool",
       "type": "recipe",
-      "sortid": 512,
+      "sortid": 545,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lime_wool",
@@ -7287,7 +7287,7 @@
     {
       "name": "OliveWool",
       "type": "recipe",
-      "sortid": 513,
+      "sortid": 546,
       "compiles": true,
       "locked_code": false,
       "registry_name": "olive_wool",
@@ -7301,7 +7301,7 @@
     {
       "name": "JadeWool",
       "type": "recipe",
-      "sortid": 514,
+      "sortid": 547,
       "compiles": true,
       "locked_code": false,
       "registry_name": "jade_wool",
@@ -7315,7 +7315,7 @@
     {
       "name": "TealWool",
       "type": "recipe",
-      "sortid": 515,
+      "sortid": 548,
       "compiles": true,
       "locked_code": false,
       "registry_name": "teal_wool",
@@ -7329,7 +7329,7 @@
     {
       "name": "CobaltWool",
       "type": "recipe",
-      "sortid": 516,
+      "sortid": 549,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cobalt_wool",
@@ -7343,7 +7343,7 @@
     {
       "name": "IndigoWool",
       "type": "recipe",
-      "sortid": 517,
+      "sortid": 550,
       "compiles": true,
       "locked_code": false,
       "registry_name": "indigo_wool",
@@ -7357,7 +7357,7 @@
     {
       "name": "PurpleWool",
       "type": "recipe",
-      "sortid": 518,
+      "sortid": 551,
       "compiles": true,
       "locked_code": false,
       "registry_name": "purple_wool",
@@ -7371,7 +7371,7 @@
     {
       "name": "VioletWool",
       "type": "recipe",
-      "sortid": 519,
+      "sortid": 552,
       "compiles": true,
       "locked_code": false,
       "registry_name": "violet_wool",
@@ -7385,7 +7385,7 @@
     {
       "name": "FuchsiaWool",
       "type": "recipe",
-      "sortid": 520,
+      "sortid": 553,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fuchsia_wool",
@@ -7399,7 +7399,7 @@
     {
       "name": "GrubLoot",
       "type": "loottable",
-      "sortid": 521,
+      "sortid": 554,
       "compiles": true,
       "locked_code": true,
       "registry_name": "grub_loot",
@@ -7413,9 +7413,9 @@
     {
       "name": "ZombieTrollLoot",
       "type": "loottable",
-      "sortid": 522,
+      "sortid": 555,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "zombie_troll_loot",
       "metadata": {
         "files": [
@@ -7427,7 +7427,7 @@
     {
       "name": "ZombieTroll",
       "type": "livingentity",
-      "sortid": 152,
+      "sortid": 160,
       "compiles": true,
       "locked_code": false,
       "registry_name": "zombie_troll",
@@ -7443,7 +7443,7 @@
     {
       "name": "GrubSauce",
       "type": "recipe",
-      "sortid": 523,
+      "sortid": 556,
       "compiles": true,
       "locked_code": true,
       "registry_name": "grub_sauce",
@@ -7477,7 +7477,7 @@
     {
       "name": "SoporSlimeEffect",
       "type": "procedure",
-      "sortid": 524,
+      "sortid": 557,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sopor_slime_effect",
@@ -7497,7 +7497,7 @@
     {
       "name": "SlimeballsFromSopor",
       "type": "recipe",
-      "sortid": 525,
+      "sortid": 558,
       "compiles": true,
       "locked_code": false,
       "registry_name": "slimeballs_from_sopor",
@@ -7511,7 +7511,7 @@
     {
       "name": "ZincOre",
       "type": "loottable",
-      "sortid": 526,
+      "sortid": 559,
       "compiles": true,
       "locked_code": true,
       "registry_name": "zinc_ore",
@@ -7545,7 +7545,7 @@
     {
       "name": "SoporSlimeRecipe",
       "type": "recipe",
-      "sortid": 527,
+      "sortid": 560,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sopor_slime_recipe",
@@ -7559,7 +7559,7 @@
     {
       "name": "Hemodye",
       "type": "tag",
-      "sortid": 528,
+      "sortid": 561,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hemodye",
@@ -7573,7 +7573,7 @@
     {
       "name": "Woolblocks",
       "type": "tag",
-      "sortid": 529,
+      "sortid": 562,
       "compiles": true,
       "locked_code": false,
       "registry_name": "woolblocks",
@@ -7604,7 +7604,7 @@
     {
       "name": "GrubNestLoot",
       "type": "loottable",
-      "sortid": 530,
+      "sortid": 563,
       "compiles": true,
       "locked_code": true,
       "registry_name": "grub_nest_loot",
@@ -7618,7 +7618,7 @@
     {
       "name": "GrubNestPlacement",
       "type": "feature",
-      "sortid": 531,
+      "sortid": 564,
       "compiles": true,
       "locked_code": false,
       "registry_name": "grub_nest_placement",
@@ -7634,7 +7634,7 @@
     {
       "name": "GrubNestFeed",
       "type": "procedure",
-      "sortid": 532,
+      "sortid": 565,
       "compiles": true,
       "locked_code": false,
       "registry_name": "grub_nest_feed",
@@ -7670,7 +7670,7 @@
     {
       "name": "Arrow",
       "type": "recipe",
-      "sortid": 533,
+      "sortid": 566,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arrow",
@@ -7684,7 +7684,7 @@
     {
       "name": "SoporSlimeOre",
       "type": "feature",
-      "sortid": 534,
+      "sortid": 567,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sopor_slime_ore",
@@ -7700,7 +7700,7 @@
     {
       "name": "RenderStars",
       "type": "procedure",
-      "sortid": 535,
+      "sortid": 568,
       "compiles": true,
       "locked_code": false,
       "registry_name": "render_stars",
@@ -7724,7 +7724,7 @@
     {
       "name": "RenderDaySky",
       "type": "procedure",
-      "sortid": 536,
+      "sortid": 569,
       "compiles": true,
       "locked_code": false,
       "registry_name": "render_day_sky",
@@ -7748,7 +7748,7 @@
     {
       "name": "SkyHandler",
       "type": "procedure",
-      "sortid": 537,
+      "sortid": 570,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sky_handler",
@@ -7766,29 +7766,9 @@
       "path": "~/SkyRender"
     },
     {
-      "name": "RenderNightSky",
-      "type": "procedure",
-      "sortid": 538,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "render_night_sky",
-      "metadata": {
-        "files": [
-          "src/main/java/net/sabitron/alternia/procedures/RenderNightSkyProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/SkyRender"
-    },
-    {
       "name": "Matriorb",
       "type": "item",
-      "sortid": 140,
+      "sortid": 143,
       "compiles": true,
       "locked_code": false,
       "registry_name": "matriorb",
@@ -7803,7 +7783,7 @@
     {
       "name": "PiePlate",
       "type": "item",
-      "sortid": 142,
+      "sortid": 146,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pie_plate",
@@ -7818,7 +7798,7 @@
     {
       "name": "PiePlateRecipe",
       "type": "recipe",
-      "sortid": 539,
+      "sortid": 571,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pie_plate_recipe",
@@ -7832,7 +7812,7 @@
     {
       "name": "SoporPie",
       "type": "recipe",
-      "sortid": 540,
+      "sortid": 572,
       "compiles": true,
       "locked_code": true,
       "registry_name": "sopor_pie",
@@ -7846,7 +7826,7 @@
     {
       "name": "RustMeatBlock",
       "type": "block",
-      "sortid": 162,
+      "sortid": 171,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rust_meat_block",
@@ -7863,7 +7843,7 @@
     {
       "name": "BronzeMeatBlock",
       "type": "block",
-      "sortid": 171,
+      "sortid": 182,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bronze_meat_block",
@@ -7880,7 +7860,7 @@
     {
       "name": "GoldMeatBlock",
       "type": "block",
-      "sortid": 180,
+      "sortid": 193,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gold_meat_block",
@@ -7897,7 +7877,7 @@
     {
       "name": "LimeMeatBlock",
       "type": "block",
-      "sortid": 189,
+      "sortid": 204,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lime_meat_block",
@@ -7914,7 +7894,7 @@
     {
       "name": "OliveMeatBlock",
       "type": "block",
-      "sortid": 198,
+      "sortid": 215,
       "compiles": true,
       "locked_code": false,
       "registry_name": "olive_meat_block",
@@ -7931,7 +7911,7 @@
     {
       "name": "JadeMeatBlock",
       "type": "block",
-      "sortid": 207,
+      "sortid": 226,
       "compiles": true,
       "locked_code": false,
       "registry_name": "jade_meat_block",
@@ -7948,7 +7928,7 @@
     {
       "name": "TealMeatBlock",
       "type": "block",
-      "sortid": 216,
+      "sortid": 237,
       "compiles": true,
       "locked_code": false,
       "registry_name": "teal_meat_block",
@@ -7965,7 +7945,7 @@
     {
       "name": "CobaltMeatBlock",
       "type": "block",
-      "sortid": 225,
+      "sortid": 248,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cobalt_meat_block",
@@ -7982,7 +7962,7 @@
     {
       "name": "IndigoMeatBlock",
       "type": "block",
-      "sortid": 234,
+      "sortid": 259,
       "compiles": true,
       "locked_code": false,
       "registry_name": "indigo_meat_block",
@@ -7999,7 +7979,7 @@
     {
       "name": "PurpleMeatBlock",
       "type": "block",
-      "sortid": 243,
+      "sortid": 270,
       "compiles": true,
       "locked_code": false,
       "registry_name": "purple_meat_block",
@@ -8016,7 +7996,7 @@
     {
       "name": "VioletMeatBlock",
       "type": "block",
-      "sortid": 252,
+      "sortid": 281,
       "compiles": true,
       "locked_code": false,
       "registry_name": "violet_meat_block",
@@ -8033,7 +8013,7 @@
     {
       "name": "FuchsiaMeatBlock",
       "type": "block",
-      "sortid": 261,
+      "sortid": 292,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fuchsia_meat_block",
@@ -8050,7 +8030,7 @@
     {
       "name": "RustRecuperacoonCore",
       "type": "block",
-      "sortid": 163,
+      "sortid": 172,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rust_recuperacoon_core",
@@ -8067,7 +8047,7 @@
     {
       "name": "BronzeRecuperacoonCore",
       "type": "block",
-      "sortid": 172,
+      "sortid": 183,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bronze_recuperacoon_core",
@@ -8084,7 +8064,7 @@
     {
       "name": "GoldRecuperacoonCore",
       "type": "block",
-      "sortid": 181,
+      "sortid": 194,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gold_recuperacoon_core",
@@ -8101,7 +8081,7 @@
     {
       "name": "LimeRecuperacoonCore",
       "type": "block",
-      "sortid": 190,
+      "sortid": 205,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lime_recuperacoon_core",
@@ -8118,7 +8098,7 @@
     {
       "name": "OliveRecuperacoonCore",
       "type": "block",
-      "sortid": 199,
+      "sortid": 216,
       "compiles": true,
       "locked_code": false,
       "registry_name": "olive_recuperacoon_core",
@@ -8135,7 +8115,7 @@
     {
       "name": "JadeRecuperacoonCore",
       "type": "block",
-      "sortid": 208,
+      "sortid": 227,
       "compiles": true,
       "locked_code": false,
       "registry_name": "jade_recuperacoon_core",
@@ -8152,7 +8132,7 @@
     {
       "name": "TealRecuperacoonCore",
       "type": "block",
-      "sortid": 217,
+      "sortid": 238,
       "compiles": true,
       "locked_code": false,
       "registry_name": "teal_recuperacoon_core",
@@ -8169,7 +8149,7 @@
     {
       "name": "CobaltRecuperacoonCore",
       "type": "block",
-      "sortid": 226,
+      "sortid": 249,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cobalt_recuperacoon_core",
@@ -8186,7 +8166,7 @@
     {
       "name": "IndigoRecuperacoonCore",
       "type": "block",
-      "sortid": 235,
+      "sortid": 260,
       "compiles": true,
       "locked_code": false,
       "registry_name": "indigo_recuperacoon_core",
@@ -8203,7 +8183,7 @@
     {
       "name": "PurpleRecuperacoonCore",
       "type": "block",
-      "sortid": 244,
+      "sortid": 271,
       "compiles": true,
       "locked_code": false,
       "registry_name": "purple_recuperacoon_core",
@@ -8220,7 +8200,7 @@
     {
       "name": "VioletRecuperacoonCore",
       "type": "block",
-      "sortid": 253,
+      "sortid": 282,
       "compiles": true,
       "locked_code": false,
       "registry_name": "violet_recuperacoon_core",
@@ -8237,7 +8217,7 @@
     {
       "name": "FuchsiaRecuperacoonCore",
       "type": "block",
-      "sortid": 262,
+      "sortid": 293,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fuchsia_recuperacoon_core",
@@ -8254,7 +8234,7 @@
     {
       "name": "RustGrubBlock",
       "type": "recipe",
-      "sortid": 541,
+      "sortid": 573,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rust_grub_block",
@@ -8268,7 +8248,7 @@
     {
       "name": "BronzeGrubBlock",
       "type": "recipe",
-      "sortid": 542,
+      "sortid": 574,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bronze_grub_block",
@@ -8282,7 +8262,7 @@
     {
       "name": "GoldGrubBlock",
       "type": "recipe",
-      "sortid": 543,
+      "sortid": 575,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gold_grub_block",
@@ -8296,7 +8276,7 @@
     {
       "name": "LimeGrubBlock",
       "type": "recipe",
-      "sortid": 544,
+      "sortid": 576,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lime_grub_block",
@@ -8310,7 +8290,7 @@
     {
       "name": "OliveGrubBlock",
       "type": "recipe",
-      "sortid": 545,
+      "sortid": 577,
       "compiles": true,
       "locked_code": false,
       "registry_name": "olive_grub_block",
@@ -8324,7 +8304,7 @@
     {
       "name": "JadeGrubBlock",
       "type": "recipe",
-      "sortid": 546,
+      "sortid": 578,
       "compiles": true,
       "locked_code": false,
       "registry_name": "jade_grub_block",
@@ -8338,7 +8318,7 @@
     {
       "name": "TealGrubBlock",
       "type": "recipe",
-      "sortid": 547,
+      "sortid": 579,
       "compiles": true,
       "locked_code": false,
       "registry_name": "teal_grub_block",
@@ -8352,7 +8332,7 @@
     {
       "name": "CobaltGrubBlock",
       "type": "recipe",
-      "sortid": 548,
+      "sortid": 580,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cobalt_grub_block",
@@ -8366,7 +8346,7 @@
     {
       "name": "IndigoGrubBlock",
       "type": "recipe",
-      "sortid": 549,
+      "sortid": 581,
       "compiles": true,
       "locked_code": false,
       "registry_name": "indigo_grub_block",
@@ -8380,7 +8360,7 @@
     {
       "name": "PurpleGrubBlock",
       "type": "recipe",
-      "sortid": 550,
+      "sortid": 582,
       "compiles": true,
       "locked_code": false,
       "registry_name": "purple_grub_block",
@@ -8394,7 +8374,7 @@
     {
       "name": "VioletGrubBlock",
       "type": "recipe",
-      "sortid": 551,
+      "sortid": 583,
       "compiles": true,
       "locked_code": false,
       "registry_name": "violet_grub_block",
@@ -8408,7 +8388,7 @@
     {
       "name": "FuchsiaGrubBlock",
       "type": "recipe",
-      "sortid": 552,
+      "sortid": 584,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fuchsia_grub_block",
@@ -8422,7 +8402,7 @@
     {
       "name": "RustCore",
       "type": "recipe",
-      "sortid": 553,
+      "sortid": 585,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rust_core",
@@ -8436,7 +8416,7 @@
     {
       "name": "BronzeCore",
       "type": "recipe",
-      "sortid": 554,
+      "sortid": 586,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bronze_core",
@@ -8450,7 +8430,7 @@
     {
       "name": "GoldCore",
       "type": "recipe",
-      "sortid": 555,
+      "sortid": 587,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gold_core",
@@ -8464,7 +8444,7 @@
     {
       "name": "LimeCore",
       "type": "recipe",
-      "sortid": 556,
+      "sortid": 588,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lime_core",
@@ -8478,7 +8458,7 @@
     {
       "name": "OliveCore",
       "type": "recipe",
-      "sortid": 557,
+      "sortid": 589,
       "compiles": true,
       "locked_code": false,
       "registry_name": "olive_core",
@@ -8492,7 +8472,7 @@
     {
       "name": "JadeCore",
       "type": "recipe",
-      "sortid": 558,
+      "sortid": 590,
       "compiles": true,
       "locked_code": false,
       "registry_name": "jade_core",
@@ -8506,7 +8486,7 @@
     {
       "name": "TealCore",
       "type": "recipe",
-      "sortid": 559,
+      "sortid": 591,
       "compiles": true,
       "locked_code": false,
       "registry_name": "teal_core",
@@ -8520,7 +8500,7 @@
     {
       "name": "CobaltCore",
       "type": "recipe",
-      "sortid": 560,
+      "sortid": 592,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cobalt_core",
@@ -8534,7 +8514,7 @@
     {
       "name": "IndigoCore",
       "type": "recipe",
-      "sortid": 561,
+      "sortid": 593,
       "compiles": true,
       "locked_code": false,
       "registry_name": "indigo_core",
@@ -8548,7 +8528,7 @@
     {
       "name": "PurpleCore",
       "type": "recipe",
-      "sortid": 562,
+      "sortid": 594,
       "compiles": true,
       "locked_code": false,
       "registry_name": "purple_core",
@@ -8562,7 +8542,7 @@
     {
       "name": "VioletCore",
       "type": "recipe",
-      "sortid": 563,
+      "sortid": 595,
       "compiles": true,
       "locked_code": false,
       "registry_name": "violet_core",
@@ -8576,7 +8556,7 @@
     {
       "name": "FuchsiaCore",
       "type": "recipe",
-      "sortid": 564,
+      "sortid": 596,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fuchsia_core",
@@ -8590,7 +8570,7 @@
     {
       "name": "Cores",
       "type": "tag",
-      "sortid": 565,
+      "sortid": 597,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cores",
@@ -8604,7 +8584,7 @@
     {
       "name": "HemoFlowers",
       "type": "tag",
-      "sortid": 566,
+      "sortid": 598,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hemo_flowers",
@@ -8618,7 +8598,7 @@
     {
       "name": "LususWools",
       "type": "tag",
-      "sortid": 567,
+      "sortid": 599,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lusus_wools",
@@ -8632,7 +8612,7 @@
     {
       "name": "RecuperacoonValidBlocks",
       "type": "tag",
-      "sortid": 568,
+      "sortid": 600,
       "compiles": true,
       "locked_code": false,
       "registry_name": "recuperacoon_valid_blocks",
@@ -8646,7 +8626,7 @@
     {
       "name": "SmoothMonazite",
       "type": "recipe",
-      "sortid": 569,
+      "sortid": 601,
       "compiles": true,
       "locked_code": false,
       "registry_name": "smooth_monazite",
@@ -8660,7 +8640,7 @@
     {
       "name": "RecuperacoonSetSpawn",
       "type": "procedure",
-      "sortid": 570,
+      "sortid": 602,
       "compiles": true,
       "locked_code": false,
       "registry_name": "recuperacoon_set_spawn",
@@ -8696,7 +8676,7 @@
     {
       "name": "SculkReplaceable",
       "type": "tag",
-      "sortid": 571,
+      "sortid": 603,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sculk_replaceable",
@@ -8710,7 +8690,7 @@
     {
       "name": "DarkstoneTag",
       "type": "tag",
-      "sortid": 572,
+      "sortid": 604,
       "compiles": true,
       "locked_code": false,
       "registry_name": "darkstone_tag",
@@ -8724,7 +8704,7 @@
     {
       "name": "SmoothDarkstoneTag",
       "type": "tag",
-      "sortid": 573,
+      "sortid": 605,
       "compiles": true,
       "locked_code": false,
       "registry_name": "smooth_darkstone_tag",
@@ -8738,7 +8718,7 @@
     {
       "name": "StonecuttingCobbledDarkstoneSlab",
       "type": "recipe",
-      "sortid": 574,
+      "sortid": 606,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stonecutting_cobbled_darkstone_slab",
@@ -8752,7 +8732,7 @@
     {
       "name": "StonecuttingCobbledDarkstoneStairs",
       "type": "recipe",
-      "sortid": 575,
+      "sortid": 607,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stonecutting_cobbled_darkstone_stairs",
@@ -8766,7 +8746,7 @@
     {
       "name": "StonecuttingCobbledDarkstoneWall",
       "type": "recipe",
-      "sortid": 576,
+      "sortid": 608,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stonecutting_cobbled_darkstone_wall",
@@ -8780,7 +8760,7 @@
     {
       "name": "CobbledDarkstoneTag",
       "type": "tag",
-      "sortid": 577,
+      "sortid": 609,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cobbled_darkstone_tag",
@@ -8794,7 +8774,7 @@
     {
       "name": "DarkstoneBricksTag",
       "type": "tag",
-      "sortid": 578,
+      "sortid": 610,
       "compiles": true,
       "locked_code": false,
       "registry_name": "darkstone_bricks_tag",
@@ -8808,7 +8788,7 @@
     {
       "name": "CrackedDarkstoneBricksTag",
       "type": "tag",
-      "sortid": 579,
+      "sortid": 611,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cracked_darkstone_bricks_tag",
@@ -8822,7 +8802,7 @@
     {
       "name": "StonecuttingDarkstoneSlab",
       "type": "recipe",
-      "sortid": 580,
+      "sortid": 612,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stonecutting_darkstone_slab",
@@ -8836,7 +8816,7 @@
     {
       "name": "StonecuttingDarkstoneStairs",
       "type": "recipe",
-      "sortid": 581,
+      "sortid": 613,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stonecutting_darkstone_stairs",
@@ -8850,7 +8830,7 @@
     {
       "name": "StonecuttingDarkstoneWall",
       "type": "recipe",
-      "sortid": 582,
+      "sortid": 614,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stonecutting_darkstone_wall",
@@ -8864,7 +8844,7 @@
     {
       "name": "StonecuttingSmoothDarkstoneSlab",
       "type": "recipe",
-      "sortid": 583,
+      "sortid": 615,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stonecutting_smooth_darkstone_slab",
@@ -8878,7 +8858,7 @@
     {
       "name": "StonecuttingSmoothDarkstoneStairs",
       "type": "recipe",
-      "sortid": 584,
+      "sortid": 616,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stonecutting_smooth_darkstone_stairs",
@@ -8892,7 +8872,7 @@
     {
       "name": "StonecuttingSmoothDarkstoneWall",
       "type": "recipe",
-      "sortid": 585,
+      "sortid": 617,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stonecutting_smooth_darkstone_wall",
@@ -8906,7 +8886,7 @@
     {
       "name": "StonecuttingSmoothDarkstone",
       "type": "recipe",
-      "sortid": 586,
+      "sortid": 618,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stonecutting_smooth_darkstone",
@@ -8920,7 +8900,7 @@
     {
       "name": "StonecuttingDarkstoneBrickSlab",
       "type": "recipe",
-      "sortid": 587,
+      "sortid": 619,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stonecutting_darkstone_brick_slab",
@@ -8934,7 +8914,7 @@
     {
       "name": "StonecuttingDarkstoneBrickStairs",
       "type": "recipe",
-      "sortid": 588,
+      "sortid": 620,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stonecutting_darkstone_brick_stairs",
@@ -8948,7 +8928,7 @@
     {
       "name": "StonecuttingDarkstoneBrickWall",
       "type": "recipe",
-      "sortid": 589,
+      "sortid": 621,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stonecutting_darkstone_brick_wall",
@@ -8962,7 +8942,7 @@
     {
       "name": "StonecuttingDarkstoneBricks",
       "type": "recipe",
-      "sortid": 590,
+      "sortid": 622,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stonecutting_darkstone_bricks",
@@ -8976,7 +8956,7 @@
     {
       "name": "StonecuttingCrackedDarkstoneBricks",
       "type": "recipe",
-      "sortid": 591,
+      "sortid": 623,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stonecutting_cracked_darkstone_bricks",
@@ -8990,7 +8970,7 @@
     {
       "name": "StonecuttingCrackedDarkstoneBrickSlab",
       "type": "recipe",
-      "sortid": 592,
+      "sortid": 624,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stonecutting_cracked_darkstone_brick_slab",
@@ -9004,7 +8984,7 @@
     {
       "name": "StonecuttingCrackedDarkstoneBrickStairs",
       "type": "recipe",
-      "sortid": 593,
+      "sortid": 625,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stonecutting_cracked_darkstone_brick_stairs",
@@ -9018,7 +8998,7 @@
     {
       "name": "StonecuttingCrackedDarkstoneBrickWall",
       "type": "recipe",
-      "sortid": 594,
+      "sortid": 626,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stonecutting_cracked_darkstone_brick_wall",
@@ -9032,7 +9012,7 @@
     {
       "name": "StonecuttingDarkstoneTiles",
       "type": "recipe",
-      "sortid": 595,
+      "sortid": 627,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stonecutting_darkstone_tiles",
@@ -9046,7 +9026,7 @@
     {
       "name": "DarkstoneTilesTag",
       "type": "tag",
-      "sortid": 596,
+      "sortid": 628,
       "compiles": true,
       "locked_code": false,
       "registry_name": "darkstone_tiles_tag",
@@ -9060,7 +9040,7 @@
     {
       "name": "StonecuttingDarkstoneTileSlab",
       "type": "recipe",
-      "sortid": 597,
+      "sortid": 629,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stonecutting_darkstone_tile_slab",
@@ -9074,7 +9054,7 @@
     {
       "name": "StonecuttingDarkstoneTileStairs",
       "type": "recipe",
-      "sortid": 598,
+      "sortid": 630,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stonecutting_darkstone_tile_stairs",
@@ -9088,7 +9068,7 @@
     {
       "name": "StonecuttingDarkstoneTileWall",
       "type": "recipe",
-      "sortid": 599,
+      "sortid": 631,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stonecutting_darkstone_tile_wall",
@@ -9102,7 +9082,7 @@
     {
       "name": "StonecuttingHiveDrywallSlab",
       "type": "recipe",
-      "sortid": 600,
+      "sortid": 632,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stonecutting_hive_drywall_slab",
@@ -9116,7 +9096,7 @@
     {
       "name": "StonecuttingHiveDrywallWall",
       "type": "recipe",
-      "sortid": 601,
+      "sortid": 633,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stonecutting_hive_drywall_wall",
@@ -9130,7 +9110,7 @@
     {
       "name": "StonecuttingHiveDrywallStairs",
       "type": "recipe",
-      "sortid": 602,
+      "sortid": 634,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stonecutting_hive_drywall_stairs",
@@ -9144,7 +9124,7 @@
     {
       "name": "StonecuttingHiveDoor",
       "type": "recipe",
-      "sortid": 603,
+      "sortid": 635,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stonecutting_hive_door",
@@ -9158,7 +9138,7 @@
     {
       "name": "StonecuttingHiveTrapdoor",
       "type": "recipe",
-      "sortid": 604,
+      "sortid": 636,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stonecutting_hive_trapdoor",
@@ -9172,7 +9152,7 @@
     {
       "name": "StonecuttingDarkstonePillar",
       "type": "recipe",
-      "sortid": 605,
+      "sortid": 637,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stonecutting_darkstone_pillar",
@@ -9186,7 +9166,7 @@
     {
       "name": "StonecuttingPolishedMonazite",
       "type": "recipe",
-      "sortid": 606,
+      "sortid": 638,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stonecutting_polished_monazite",
@@ -9238,7 +9218,7 @@
     {
       "name": "RustHemoWoolSlab",
       "type": "block",
-      "sortid": 161,
+      "sortid": 170,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rust_hemo_wool_slab",
@@ -9257,7 +9237,7 @@
     {
       "name": "RustHemoWoolStairs",
       "type": "block",
-      "sortid": 160,
+      "sortid": 169,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rust_hemo_wool_stairs",
@@ -9276,7 +9256,7 @@
     {
       "name": "BronzeHemoWoolSlab",
       "type": "block",
-      "sortid": 170,
+      "sortid": 181,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bronze_hemo_wool_slab",
@@ -9295,7 +9275,7 @@
     {
       "name": "BronzeHemoWoolStairs",
       "type": "block",
-      "sortid": 169,
+      "sortid": 180,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bronze_hemo_wool_stairs",
@@ -9314,7 +9294,7 @@
     {
       "name": "GoldHemoWoolSlab",
       "type": "block",
-      "sortid": 179,
+      "sortid": 192,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gold_hemo_wool_slab",
@@ -9333,7 +9313,7 @@
     {
       "name": "GoldHemoWoolStairs",
       "type": "block",
-      "sortid": 178,
+      "sortid": 191,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gold_hemo_wool_stairs",
@@ -9352,7 +9332,7 @@
     {
       "name": "LimeHemoWoolSlab",
       "type": "block",
-      "sortid": 188,
+      "sortid": 203,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lime_hemo_wool_slab",
@@ -9371,7 +9351,7 @@
     {
       "name": "LimeHemoWoolStairs",
       "type": "block",
-      "sortid": 187,
+      "sortid": 202,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lime_hemo_wool_stairs",
@@ -9390,7 +9370,7 @@
     {
       "name": "OliveHemoWoolSlab",
       "type": "block",
-      "sortid": 197,
+      "sortid": 214,
       "compiles": true,
       "locked_code": false,
       "registry_name": "olive_hemo_wool_slab",
@@ -9409,7 +9389,7 @@
     {
       "name": "OliveHemoWoolStairs",
       "type": "block",
-      "sortid": 196,
+      "sortid": 213,
       "compiles": true,
       "locked_code": false,
       "registry_name": "olive_hemo_wool_stairs",
@@ -9428,7 +9408,7 @@
     {
       "name": "JadeHemoWoolSlab",
       "type": "block",
-      "sortid": 206,
+      "sortid": 225,
       "compiles": true,
       "locked_code": false,
       "registry_name": "jade_hemo_wool_slab",
@@ -9447,7 +9427,7 @@
     {
       "name": "JadeHemoWoolStairs",
       "type": "block",
-      "sortid": 205,
+      "sortid": 224,
       "compiles": true,
       "locked_code": false,
       "registry_name": "jade_hemo_wool_stairs",
@@ -9466,7 +9446,7 @@
     {
       "name": "TealHemoWoolSlab",
       "type": "block",
-      "sortid": 215,
+      "sortid": 236,
       "compiles": true,
       "locked_code": false,
       "registry_name": "teal_hemo_wool_slab",
@@ -9485,7 +9465,7 @@
     {
       "name": "TealHemoWoolStairs",
       "type": "block",
-      "sortid": 214,
+      "sortid": 235,
       "compiles": true,
       "locked_code": false,
       "registry_name": "teal_hemo_wool_stairs",
@@ -9504,7 +9484,7 @@
     {
       "name": "CobaltHemoWoolSlab",
       "type": "block",
-      "sortid": 224,
+      "sortid": 247,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cobalt_hemo_wool_slab",
@@ -9523,7 +9503,7 @@
     {
       "name": "CobaltHemoWoolStairs",
       "type": "block",
-      "sortid": 223,
+      "sortid": 246,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cobalt_hemo_wool_stairs",
@@ -9542,7 +9522,7 @@
     {
       "name": "IndigoHemoWoolSlab",
       "type": "block",
-      "sortid": 233,
+      "sortid": 258,
       "compiles": true,
       "locked_code": false,
       "registry_name": "indigo_hemo_wool_slab",
@@ -9561,7 +9541,7 @@
     {
       "name": "IndigoHemoWoolStairs",
       "type": "block",
-      "sortid": 232,
+      "sortid": 257,
       "compiles": true,
       "locked_code": false,
       "registry_name": "indigo_hemo_wool_stairs",
@@ -9580,7 +9560,7 @@
     {
       "name": "PurpleHemoWoolSlab",
       "type": "block",
-      "sortid": 242,
+      "sortid": 269,
       "compiles": true,
       "locked_code": false,
       "registry_name": "purple_hemo_wool_slab",
@@ -9599,7 +9579,7 @@
     {
       "name": "PurpleHemoWoolStairs",
       "type": "block",
-      "sortid": 241,
+      "sortid": 268,
       "compiles": true,
       "locked_code": false,
       "registry_name": "purple_hemo_wool_stairs",
@@ -9618,7 +9598,7 @@
     {
       "name": "VioletHemoWoolSlab",
       "type": "block",
-      "sortid": 251,
+      "sortid": 280,
       "compiles": true,
       "locked_code": false,
       "registry_name": "violet_hemo_wool_slab",
@@ -9637,7 +9617,7 @@
     {
       "name": "VioletHemoWoolStairs",
       "type": "block",
-      "sortid": 250,
+      "sortid": 279,
       "compiles": true,
       "locked_code": false,
       "registry_name": "violet_hemo_wool_stairs",
@@ -9656,7 +9636,7 @@
     {
       "name": "FuchsiaHemoWoolSlab",
       "type": "block",
-      "sortid": 260,
+      "sortid": 291,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fuchsia_hemo_wool_slab",
@@ -9675,7 +9655,7 @@
     {
       "name": "FuchsiaHemoWoolStairs",
       "type": "block",
-      "sortid": 259,
+      "sortid": 290,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fuchsia_hemo_wool_stairs",
@@ -9694,7 +9674,7 @@
     {
       "name": "LitDarkstoneRedstoneOre",
       "type": "block",
-      "sortid": 607,
+      "sortid": 639,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lit_darkstone_redstone_ore",
@@ -9714,7 +9694,7 @@
     {
       "name": "LitDarkstoneRedstoneOreReset",
       "type": "procedure",
-      "sortid": 608,
+      "sortid": 640,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lit_darkstone_redstone_ore_reset",
@@ -9746,7 +9726,7 @@
     {
       "name": "DarkstoneRedstoneOreActivate",
       "type": "procedure",
-      "sortid": 609,
+      "sortid": 641,
       "compiles": true,
       "locked_code": false,
       "registry_name": "darkstone_redstone_ore_activate",
@@ -9778,7 +9758,7 @@
     {
       "name": "DarkstoneBoulderLoot",
       "type": "loottable",
-      "sortid": 610,
+      "sortid": 642,
       "compiles": true,
       "locked_code": false,
       "registry_name": "darkstone_boulder_loot",
@@ -9792,7 +9772,7 @@
     {
       "name": "SmallDarkstoneBoulderLoot",
       "type": "loottable",
-      "sortid": 611,
+      "sortid": 643,
       "compiles": true,
       "locked_code": false,
       "registry_name": "small_darkstone_boulder_loot",
@@ -9806,7 +9786,7 @@
     {
       "name": "CobaltLodestone",
       "type": "recipe",
-      "sortid": 612,
+      "sortid": 644,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cobalt_lodestone",
@@ -9820,7 +9800,7 @@
     {
       "name": "WoolSlab",
       "type": "recipe",
-      "sortid": 613,
+      "sortid": 645,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wool_slab",
@@ -9834,7 +9814,7 @@
     {
       "name": "RustWoolSlab",
       "type": "recipe",
-      "sortid": 614,
+      "sortid": 646,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rust_wool_slab",
@@ -9848,7 +9828,7 @@
     {
       "name": "BronzeWoolSlab",
       "type": "recipe",
-      "sortid": 615,
+      "sortid": 647,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bronze_wool_slab",
@@ -9862,7 +9842,7 @@
     {
       "name": "GoldWoolSlab",
       "type": "recipe",
-      "sortid": 616,
+      "sortid": 648,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gold_wool_slab",
@@ -9876,7 +9856,7 @@
     {
       "name": "LimeWoolSlab",
       "type": "recipe",
-      "sortid": 617,
+      "sortid": 649,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lime_wool_slab",
@@ -9890,7 +9870,7 @@
     {
       "name": "OliveWoolSlab",
       "type": "recipe",
-      "sortid": 618,
+      "sortid": 650,
       "compiles": true,
       "locked_code": false,
       "registry_name": "olive_wool_slab",
@@ -9904,7 +9884,7 @@
     {
       "name": "JadeWoolSlab",
       "type": "recipe",
-      "sortid": 619,
+      "sortid": 651,
       "compiles": true,
       "locked_code": false,
       "registry_name": "jade_wool_slab",
@@ -9918,7 +9898,7 @@
     {
       "name": "TealWoolSlab",
       "type": "recipe",
-      "sortid": 620,
+      "sortid": 652,
       "compiles": true,
       "locked_code": false,
       "registry_name": "teal_wool_slab",
@@ -9932,7 +9912,7 @@
     {
       "name": "CobaltWoolSlab",
       "type": "recipe",
-      "sortid": 621,
+      "sortid": 653,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cobalt_wool_slab",
@@ -9946,7 +9926,7 @@
     {
       "name": "IndigoWoolSlab",
       "type": "recipe",
-      "sortid": 622,
+      "sortid": 654,
       "compiles": true,
       "locked_code": false,
       "registry_name": "indigo_wool_slab",
@@ -9960,7 +9940,7 @@
     {
       "name": "PurpleWoolSlab",
       "type": "recipe",
-      "sortid": 623,
+      "sortid": 655,
       "compiles": true,
       "locked_code": false,
       "registry_name": "purple_wool_slab",
@@ -9974,7 +9954,7 @@
     {
       "name": "VioletWoolSlab",
       "type": "recipe",
-      "sortid": 624,
+      "sortid": 656,
       "compiles": true,
       "locked_code": false,
       "registry_name": "violet_wool_slab",
@@ -9988,7 +9968,7 @@
     {
       "name": "FuchsiaWoolSlab",
       "type": "recipe",
-      "sortid": 625,
+      "sortid": 657,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fuchsia_wool_slab",
@@ -10002,7 +9982,7 @@
     {
       "name": "WoolStairs",
       "type": "recipe",
-      "sortid": 626,
+      "sortid": 658,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wool_stairs",
@@ -10016,7 +9996,7 @@
     {
       "name": "RustWoolStairs",
       "type": "recipe",
-      "sortid": 627,
+      "sortid": 659,
       "compiles": true,
       "locked_code": true,
       "registry_name": "rust_wool_stairs",
@@ -10030,7 +10010,7 @@
     {
       "name": "BronzeWoolStairs",
       "type": "recipe",
-      "sortid": 628,
+      "sortid": 660,
       "compiles": true,
       "locked_code": true,
       "registry_name": "bronze_wool_stairs",
@@ -10044,7 +10024,7 @@
     {
       "name": "GoldWoolStairs",
       "type": "recipe",
-      "sortid": 629,
+      "sortid": 661,
       "compiles": true,
       "locked_code": true,
       "registry_name": "gold_wool_stairs",
@@ -10058,7 +10038,7 @@
     {
       "name": "LimeWoolStairs",
       "type": "recipe",
-      "sortid": 630,
+      "sortid": 662,
       "compiles": true,
       "locked_code": true,
       "registry_name": "lime_wool_stairs",
@@ -10072,7 +10052,7 @@
     {
       "name": "OliveWoolStairs",
       "type": "recipe",
-      "sortid": 631,
+      "sortid": 663,
       "compiles": true,
       "locked_code": true,
       "registry_name": "olive_wool_stairs",
@@ -10086,7 +10066,7 @@
     {
       "name": "JadeWoolStairs",
       "type": "recipe",
-      "sortid": 632,
+      "sortid": 664,
       "compiles": true,
       "locked_code": true,
       "registry_name": "jade_wool_stairs",
@@ -10100,7 +10080,7 @@
     {
       "name": "TealWoolStairs",
       "type": "recipe",
-      "sortid": 633,
+      "sortid": 665,
       "compiles": true,
       "locked_code": true,
       "registry_name": "teal_wool_stairs",
@@ -10114,7 +10094,7 @@
     {
       "name": "CobaltWoolStairs",
       "type": "recipe",
-      "sortid": 634,
+      "sortid": 666,
       "compiles": true,
       "locked_code": true,
       "registry_name": "cobalt_wool_stairs",
@@ -10128,7 +10108,7 @@
     {
       "name": "IndigoWoolStairs",
       "type": "recipe",
-      "sortid": 635,
+      "sortid": 667,
       "compiles": true,
       "locked_code": true,
       "registry_name": "indigo_wool_stairs",
@@ -10142,7 +10122,7 @@
     {
       "name": "PurpleWoolStairs",
       "type": "recipe",
-      "sortid": 636,
+      "sortid": 668,
       "compiles": true,
       "locked_code": true,
       "registry_name": "purple_wool_stairs",
@@ -10156,7 +10136,7 @@
     {
       "name": "VioletWoolStairs",
       "type": "recipe",
-      "sortid": 637,
+      "sortid": 669,
       "compiles": true,
       "locked_code": true,
       "registry_name": "violet_wool_stairs",
@@ -10170,7 +10150,7 @@
     {
       "name": "FuchsiaWoolStairs",
       "type": "recipe",
-      "sortid": 638,
+      "sortid": 670,
       "compiles": true,
       "locked_code": true,
       "registry_name": "fuchsia_wool_stairs",
@@ -10184,7 +10164,7 @@
     {
       "name": "LususWoolDuplication",
       "type": "recipe",
-      "sortid": 639,
+      "sortid": 671,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lusus_wool_duplication",
@@ -10198,7 +10178,7 @@
     {
       "name": "LususWoolDuplication2",
       "type": "recipe",
-      "sortid": 640,
+      "sortid": 672,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lusus_wool_duplication_2",
@@ -10212,7 +10192,7 @@
     {
       "name": "HemospectrumTabIcon",
       "type": "item",
-      "sortid": 641,
+      "sortid": 673,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hemospectrum_tab_icon",
@@ -10227,7 +10207,7 @@
     {
       "name": "Hemospectrum",
       "type": "tab",
-      "sortid": 642,
+      "sortid": 674,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hemospectrum",
@@ -10307,7 +10287,7 @@
     {
       "name": "StripLogs",
       "type": "procedure",
-      "sortid": 643,
+      "sortid": 675,
       "compiles": true,
       "locked_code": false,
       "registry_name": "strip_logs",
@@ -10343,7 +10323,7 @@
     {
       "name": "TallBrambleTreePlacement",
       "type": "feature",
-      "sortid": 644,
+      "sortid": 676,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tall_bramble_tree_placement",
@@ -10359,7 +10339,7 @@
     {
       "name": "ShortOracleTreePlacement",
       "type": "feature",
-      "sortid": 645,
+      "sortid": 677,
       "compiles": true,
       "locked_code": false,
       "registry_name": "short_oracle_tree_placement",
@@ -10392,7 +10372,7 @@
     {
       "name": "PackedDarkstoneRecipe",
       "type": "recipe",
-      "sortid": 646,
+      "sortid": 678,
       "compiles": true,
       "locked_code": false,
       "registry_name": "packed_darkstone_recipe",
@@ -10406,7 +10386,7 @@
     {
       "name": "PackedDarkstoneIntoCobble",
       "type": "recipe",
-      "sortid": 647,
+      "sortid": 679,
       "compiles": true,
       "locked_code": false,
       "registry_name": "packed_darkstone_into_cobble",
@@ -10478,7 +10458,7 @@
     {
       "name": "PackedDarkstoneSlabRecipe",
       "type": "recipe",
-      "sortid": 648,
+      "sortid": 680,
       "compiles": true,
       "locked_code": false,
       "registry_name": "packed_darkstone_slab_recipe",
@@ -10492,7 +10472,7 @@
     {
       "name": "PackedDarkstoneStairsRecipe",
       "type": "recipe",
-      "sortid": 649,
+      "sortid": 681,
       "compiles": true,
       "locked_code": false,
       "registry_name": "packed_darkstone_stairs_recipe",
@@ -10506,7 +10486,7 @@
     {
       "name": "PackedDarkstoneWallRecipe",
       "type": "recipe",
-      "sortid": 650,
+      "sortid": 682,
       "compiles": true,
       "locked_code": false,
       "registry_name": "packed_darkstone_wall_recipe",
@@ -10520,7 +10500,7 @@
     {
       "name": "StonecutterPackedDarkstoneSlab",
       "type": "recipe",
-      "sortid": 651,
+      "sortid": 683,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stonecutter_packed_darkstone_slab",
@@ -10534,7 +10514,7 @@
     {
       "name": "StonecuttingPackedDarkstoneStairs",
       "type": "recipe",
-      "sortid": 652,
+      "sortid": 684,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stonecutting_packed_darkstone_stairs",
@@ -10548,7 +10528,7 @@
     {
       "name": "StonecuttingPackedDarkstoneWall",
       "type": "recipe",
-      "sortid": 653,
+      "sortid": 685,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stonecutting_packed_darkstone_wall",
@@ -10637,7 +10617,7 @@
     {
       "name": "DarkstoneShingle",
       "type": "recipe",
-      "sortid": 654,
+      "sortid": 686,
       "compiles": true,
       "locked_code": false,
       "registry_name": "darkstone_shingle",
@@ -10651,7 +10631,7 @@
     {
       "name": "DarkstoneShinglesSlabRecipe",
       "type": "recipe",
-      "sortid": 655,
+      "sortid": 687,
       "compiles": true,
       "locked_code": false,
       "registry_name": "darkstone_shingles_slab_recipe",
@@ -10665,7 +10645,7 @@
     {
       "name": "DarkstoneShinglesStairsRecipe",
       "type": "recipe",
-      "sortid": 656,
+      "sortid": 688,
       "compiles": true,
       "locked_code": false,
       "registry_name": "darkstone_shingles_stairs_recipe",
@@ -10679,7 +10659,7 @@
     {
       "name": "DarkstoneShinglesWallRecipe",
       "type": "recipe",
-      "sortid": 657,
+      "sortid": 689,
       "compiles": true,
       "locked_code": false,
       "registry_name": "darkstone_shingles_wall_recipe",
@@ -10693,7 +10673,7 @@
     {
       "name": "DarkstoneShinglesTile",
       "type": "tag",
-      "sortid": 658,
+      "sortid": 690,
       "compiles": true,
       "locked_code": false,
       "registry_name": "darkstone_shingles_tile",
@@ -10707,7 +10687,7 @@
     {
       "name": "StonecuttingDarkstoneShingles",
       "type": "recipe",
-      "sortid": 659,
+      "sortid": 691,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stonecutting_darkstone_shingles",
@@ -10721,7 +10701,7 @@
     {
       "name": "StonecuttingDarkstoneShinglesStairs",
       "type": "recipe",
-      "sortid": 660,
+      "sortid": 692,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stonecutting_darkstone_shingles_stairs",
@@ -10735,7 +10715,7 @@
     {
       "name": "StonecuttingDarkstoneShinglesWall",
       "type": "recipe",
-      "sortid": 661,
+      "sortid": 693,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stonecutting_darkstone_shingles_wall",
@@ -10749,7 +10729,7 @@
     {
       "name": "StonecuttingDarkstoneShinglesSlab",
       "type": "recipe",
-      "sortid": 662,
+      "sortid": 694,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stonecutting_darkstone_shingles_slab",
@@ -10763,7 +10743,7 @@
     {
       "name": "CrushedRawCobalt",
       "type": "item",
-      "sortid": 124,
+      "sortid": 125,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crushed_raw_cobalt",
@@ -10778,7 +10758,7 @@
     {
       "name": "CobaltDust",
       "type": "item",
-      "sortid": 125,
+      "sortid": 126,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cobalt_dust",
@@ -10793,7 +10773,7 @@
     {
       "name": "CobaltSheet",
       "type": "item",
-      "sortid": 123,
+      "sortid": 124,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cobalt_sheet",
@@ -10808,7 +10788,7 @@
     {
       "name": "CrushedCobaltSmelting",
       "type": "recipe",
-      "sortid": 663,
+      "sortid": 695,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crushed_cobalt_smelting",
@@ -10822,7 +10802,7 @@
     {
       "name": "CrushedCobaltBlasting",
       "type": "recipe",
-      "sortid": 664,
+      "sortid": 696,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crushed_cobalt_blasting",
@@ -10836,7 +10816,7 @@
     {
       "name": "CobaltDustSmelting",
       "type": "recipe",
-      "sortid": 665,
+      "sortid": 697,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cobalt_dust_smelting",
@@ -10850,7 +10830,7 @@
     {
       "name": "CobaltDustBlasting",
       "type": "recipe",
-      "sortid": 666,
+      "sortid": 698,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cobalt_dust_blasting",
@@ -10864,7 +10844,7 @@
     {
       "name": "RawCobaltBlocks",
       "type": "tag",
-      "sortid": 667,
+      "sortid": 699,
       "compiles": true,
       "locked_code": false,
       "registry_name": "raw_cobalt_blocks",
@@ -10878,7 +10858,7 @@
     {
       "name": "CullingForkRecipe",
       "type": "recipe",
-      "sortid": 668,
+      "sortid": 700,
       "compiles": true,
       "locked_code": false,
       "registry_name": "culling_fork_recipe",
@@ -10892,7 +10872,7 @@
     {
       "name": "DoubleFork",
       "type": "recipe",
-      "sortid": 669,
+      "sortid": 701,
       "compiles": true,
       "locked_code": false,
       "registry_name": "double_fork",
@@ -10941,7 +10921,7 @@
     {
       "name": "SulfurSmelting",
       "type": "recipe",
-      "sortid": 670,
+      "sortid": 702,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sulfur_smelting",
@@ -10955,7 +10935,7 @@
     {
       "name": "SulfurBlasting",
       "type": "recipe",
-      "sortid": 671,
+      "sortid": 703,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sulfur_blasting",
@@ -10969,7 +10949,7 @@
     {
       "name": "AlternianGunpowder",
       "type": "recipe",
-      "sortid": 672,
+      "sortid": 704,
       "compiles": true,
       "locked_code": false,
       "registry_name": "alternian_gunpowder",
@@ -10983,7 +10963,7 @@
     {
       "name": "SulfurOre",
       "type": "loottable",
-      "sortid": 673,
+      "sortid": 705,
       "compiles": true,
       "locked_code": true,
       "registry_name": "sulfur_ore",
@@ -10997,7 +10977,7 @@
     {
       "name": "AlternianBlazePowder",
       "type": "recipe",
-      "sortid": 674,
+      "sortid": 706,
       "compiles": true,
       "locked_code": false,
       "registry_name": "alternian_blaze_powder",
@@ -11011,7 +10991,7 @@
     {
       "name": "SulfurOres",
       "type": "tag",
-      "sortid": 675,
+      "sortid": 707,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sulfur_ores",
@@ -11025,7 +11005,7 @@
     {
       "name": "SulfurTag",
       "type": "tag",
-      "sortid": 676,
+      "sortid": 708,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sulfur_tag",
@@ -11039,7 +11019,7 @@
     {
       "name": "MineablePickaxe",
       "type": "tag",
-      "sortid": 677,
+      "sortid": 709,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mineable_pickaxe",
@@ -11053,7 +11033,7 @@
     {
       "name": "NeedsStoneTool",
       "type": "tag",
-      "sortid": 678,
+      "sortid": 710,
       "compiles": true,
       "locked_code": false,
       "registry_name": "needs_stone_tool",
@@ -11067,7 +11047,7 @@
     {
       "name": "NeedsIronTool",
       "type": "tag",
-      "sortid": 679,
+      "sortid": 711,
       "compiles": true,
       "locked_code": false,
       "registry_name": "needs_iron_tool",
@@ -11081,7 +11061,7 @@
     {
       "name": "NeedsDiamondTool",
       "type": "tag",
-      "sortid": 680,
+      "sortid": 712,
       "compiles": true,
       "locked_code": false,
       "registry_name": "needs_diamond_tool",
@@ -11131,7 +11111,7 @@
     {
       "name": "StonecuttingPanel",
       "type": "recipe",
-      "sortid": 681,
+      "sortid": 713,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stonecutting_panel",
@@ -11145,7 +11125,7 @@
     {
       "name": "StonecuttingPanelSlab",
       "type": "recipe",
-      "sortid": 682,
+      "sortid": 714,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stonecutting_panel_slab",
@@ -11159,7 +11139,7 @@
     {
       "name": "StonecuttingPanel2",
       "type": "recipe",
-      "sortid": 683,
+      "sortid": 715,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stonecutting_panel_2",
@@ -11173,7 +11153,7 @@
     {
       "name": "Mud",
       "type": "recipe",
-      "sortid": 684,
+      "sortid": 716,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mud",
@@ -11187,7 +11167,7 @@
     {
       "name": "Tnt",
       "type": "recipe",
-      "sortid": 685,
+      "sortid": 717,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tnt",
@@ -11201,7 +11181,7 @@
     {
       "name": "LususRegen",
       "type": "procedure",
-      "sortid": 686,
+      "sortid": 718,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lusus_regen",
@@ -11221,7 +11201,7 @@
     {
       "name": "LogsThatBurn",
       "type": "tag",
-      "sortid": 687,
+      "sortid": 719,
       "compiles": true,
       "locked_code": false,
       "registry_name": "logs_that_burn",
@@ -11235,7 +11215,7 @@
     {
       "name": "AlterniaDaytimeValueReturn",
       "type": "procedure",
-      "sortid": 688,
+      "sortid": 720,
       "compiles": true,
       "locked_code": false,
       "registry_name": "alternia_daytime_value_return",
@@ -11255,7 +11235,7 @@
     {
       "name": "ReturnAlterniaDaytime",
       "type": "command",
-      "sortid": 689,
+      "sortid": 721,
       "compiles": true,
       "locked_code": false,
       "registry_name": "return_alternia_daytime",
@@ -11269,7 +11249,7 @@
     {
       "name": "MineableAxe",
       "type": "tag",
-      "sortid": 690,
+      "sortid": 722,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mineable_axe",
@@ -11283,7 +11263,7 @@
     {
       "name": "GetTerezid",
       "type": "procedure",
-      "sortid": 691,
+      "sortid": 723,
       "compiles": true,
       "locked_code": false,
       "registry_name": "get_terezid",
@@ -11297,6 +11277,18 @@
             "type": "entity"
           },
           {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
             "name": "world",
             "type": "world"
           }
@@ -11307,7 +11299,7 @@
     {
       "name": "DamagedVisionApplyBlindness",
       "type": "procedure",
-      "sortid": 692,
+      "sortid": 724,
       "compiles": true,
       "locked_code": false,
       "registry_name": "damaged_vision_apply_blindness",
@@ -11327,7 +11319,7 @@
     {
       "name": "EyeDropsUsed",
       "type": "procedure",
-      "sortid": 693,
+      "sortid": 725,
       "compiles": true,
       "locked_code": false,
       "registry_name": "eye_drops_used",
@@ -11367,7 +11359,7 @@
     {
       "name": "EyeDrops",
       "type": "item",
-      "sortid": 138,
+      "sortid": 141,
       "compiles": true,
       "locked_code": false,
       "registry_name": "eye_drops",
@@ -11382,7 +11374,7 @@
     {
       "name": "EyeDrop",
       "type": "recipe",
-      "sortid": 694,
+      "sortid": 726,
       "compiles": true,
       "locked_code": false,
       "registry_name": "eye_drop",
@@ -11396,7 +11388,7 @@
     {
       "name": "ChoppedGrub",
       "type": "recipe",
-      "sortid": 695,
+      "sortid": 727,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chopped_grub",
@@ -11410,7 +11402,7 @@
     {
       "name": "ChoppedCookedGrub",
       "type": "recipe",
-      "sortid": 696,
+      "sortid": 728,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chopped_cooked_grub",
@@ -11424,7 +11416,7 @@
     {
       "name": "ZincOres",
       "type": "tag",
-      "sortid": 697,
+      "sortid": 729,
       "compiles": true,
       "locked_code": false,
       "registry_name": "zinc_ores",
@@ -11586,7 +11578,7 @@
     {
       "name": "PolishedAshen",
       "type": "recipe",
-      "sortid": 698,
+      "sortid": 730,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_ashen",
@@ -11600,7 +11592,7 @@
     {
       "name": "PolishedFlushed",
       "type": "recipe",
-      "sortid": 699,
+      "sortid": 731,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_flushed",
@@ -11614,7 +11606,7 @@
     {
       "name": "PolishedPitch",
       "type": "recipe",
-      "sortid": 700,
+      "sortid": 732,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_pitch",
@@ -11628,13 +11620,1330 @@
     {
       "name": "PolishedPale",
       "type": "recipe",
-      "sortid": 701,
+      "sortid": 733,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_pale",
       "metadata": {
         "files": [
           "src/main/resources/data/alternia/recipes/polished_pale.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "HeartCandy",
+      "type": "item",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heart_candy",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sabitron/alternia/item/HeartCandyItem.java",
+          "src/main/resources/assets/alternia/models/item/heart_candy.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "DiamondCandy",
+      "type": "item",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_candy",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alternia/models/item/diamond_candy.json",
+          "src/main/java/net/sabitron/alternia/item/DiamondCandyItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "SpadeCandy",
+      "type": "item",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spade_candy",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sabitron/alternia/item/SpadeCandyItem.java",
+          "src/main/resources/assets/alternia/models/item/spade_candy.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "ClubCandy",
+      "type": "item",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "club_candy",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sabitron/alternia/item/ClubCandyItem.java",
+          "src/main/resources/assets/alternia/models/item/club_candy.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "HeartCandyRecipe",
+      "type": "recipe",
+      "sortid": 734,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heart_candy_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alternia/recipes/heart_candy_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "DiamondCandyRecipe",
+      "type": "recipe",
+      "sortid": 735,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_candy_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alternia/recipes/diamond_candy_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "SpadeCandyRecipe",
+      "type": "recipe",
+      "sortid": 736,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spade_candy_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alternia/recipes/spade_candy_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ClubCandyRecipe",
+      "type": "recipe",
+      "sortid": 737,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "club_candy_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alternia/recipes/club_candy_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Shades",
+      "type": "armor",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shades",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sabitron/alternia/item/ShadesItem.java",
+          "src/main/resources/assets/alternia/models/item/shades_helmet.json"
+        ]
+      },
+      "path": "~/Items/Shades"
+    },
+    {
+      "name": "Sunglasses",
+      "type": "tag",
+      "sortid": 738,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sunglasses",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alternia/tags/items/sunglasses.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "RustShades",
+      "type": "armor",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rust_shades",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alternia/models/item/rust_shades_helmet.json",
+          "src/main/java/net/sabitron/alternia/item/RustShadesItem.java"
+        ]
+      },
+      "path": "~/Items/Shades"
+    },
+    {
+      "name": "BronzeShades",
+      "type": "armor",
+      "sortid": 184,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_shades",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alternia/models/item/bronze_shades_helmet.json",
+          "src/main/java/net/sabitron/alternia/item/BronzeShadesItem.java"
+        ]
+      },
+      "path": "~/Items/Shades"
+    },
+    {
+      "name": "GoldShades",
+      "type": "armor",
+      "sortid": 195,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_shades",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sabitron/alternia/item/GoldShadesItem.java",
+          "src/main/resources/assets/alternia/models/item/gold_shades_helmet.json"
+        ]
+      },
+      "path": "~/Items/Shades"
+    },
+    {
+      "name": "LimeShades",
+      "type": "armor",
+      "sortid": 206,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime_shades",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alternia/models/item/lime_shades_helmet.json",
+          "src/main/java/net/sabitron/alternia/item/LimeShadesItem.java"
+        ]
+      },
+      "path": "~/Items/Shades"
+    },
+    {
+      "name": "OliveShades",
+      "type": "armor",
+      "sortid": 217,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "olive_shades",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sabitron/alternia/item/OliveShadesItem.java",
+          "src/main/resources/assets/alternia/models/item/olive_shades_helmet.json"
+        ]
+      },
+      "path": "~/Items/Shades"
+    },
+    {
+      "name": "JadeShades",
+      "type": "armor",
+      "sortid": 228,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jade_shades",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sabitron/alternia/item/JadeShadesItem.java",
+          "src/main/resources/assets/alternia/models/item/jade_shades_helmet.json"
+        ]
+      },
+      "path": "~/Items/Shades"
+    },
+    {
+      "name": "TealShades",
+      "type": "armor",
+      "sortid": 239,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teal_shades",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sabitron/alternia/item/TealShadesItem.java",
+          "src/main/resources/assets/alternia/models/item/teal_shades_helmet.json"
+        ]
+      },
+      "path": "~/Items/Shades"
+    },
+    {
+      "name": "CobaltShades",
+      "type": "armor",
+      "sortid": 250,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_shades",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alternia/models/item/cobalt_shades_helmet.json",
+          "src/main/java/net/sabitron/alternia/item/CobaltShadesItem.java"
+        ]
+      },
+      "path": "~/Items/Shades"
+    },
+    {
+      "name": "IndigoShades",
+      "type": "armor",
+      "sortid": 261,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "indigo_shades",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alternia/models/item/indigo_shades_helmet.json",
+          "src/main/java/net/sabitron/alternia/item/IndigoShadesItem.java"
+        ]
+      },
+      "path": "~/Items/Shades"
+    },
+    {
+      "name": "PurpleShades",
+      "type": "armor",
+      "sortid": 272,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_shades",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alternia/models/item/purple_shades_helmet.json",
+          "src/main/java/net/sabitron/alternia/item/PurpleShadesItem.java"
+        ]
+      },
+      "path": "~/Items/Shades"
+    },
+    {
+      "name": "VioletShades",
+      "type": "armor",
+      "sortid": 283,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "violet_shades",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alternia/models/item/violet_shades_helmet.json",
+          "src/main/java/net/sabitron/alternia/item/VioletShadesItem.java"
+        ]
+      },
+      "path": "~/Items/Shades"
+    },
+    {
+      "name": "FuchsiaShades",
+      "type": "armor",
+      "sortid": 294,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fuchsia_shades",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sabitron/alternia/item/FuchsiaShadesItem.java",
+          "src/main/resources/assets/alternia/models/item/fuchsia_shades_helmet.json"
+        ]
+      },
+      "path": "~/Items/Shades"
+    },
+    {
+      "name": "Sunglasses1",
+      "type": "recipe",
+      "sortid": 739,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sunglasses_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alternia/recipes/sunglasses_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RustGlasses",
+      "type": "recipe",
+      "sortid": 740,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rust_glasses",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alternia/recipes/rust_glasses.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "BronzeGlasses",
+      "type": "recipe",
+      "sortid": 741,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_glasses",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alternia/recipes/bronze_glasses.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "GoldGlasses",
+      "type": "recipe",
+      "sortid": 742,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_glasses",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alternia/recipes/gold_glasses.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "LimeGlasses",
+      "type": "recipe",
+      "sortid": 743,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime_glasses",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alternia/recipes/lime_glasses.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "OliveGlasses",
+      "type": "recipe",
+      "sortid": 744,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "olive_glasses",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alternia/recipes/olive_glasses.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "JadeGlasses",
+      "type": "recipe",
+      "sortid": 745,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jade_glasses",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alternia/recipes/jade_glasses.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "TealGlasses",
+      "type": "recipe",
+      "sortid": 746,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teal_glasses",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alternia/recipes/teal_glasses.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "CobaltGlasses",
+      "type": "recipe",
+      "sortid": 747,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_glasses",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alternia/recipes/cobalt_glasses.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "IndigoGlasses",
+      "type": "recipe",
+      "sortid": 748,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "indigo_glasses",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alternia/recipes/indigo_glasses.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "PurpleGlasses",
+      "type": "recipe",
+      "sortid": 749,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_glasses",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alternia/recipes/purple_glasses.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "VioletGlasses",
+      "type": "recipe",
+      "sortid": 750,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "violet_glasses",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alternia/recipes/violet_glasses.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "FuchsiaGlasses",
+      "type": "recipe",
+      "sortid": 751,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fuchsia_glasses",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alternia/recipes/fuchsia_glasses.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "AlterniaRoot",
+      "type": "achievement",
+      "sortid": 752,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alternia_root",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alternia/advancements/alternia_root.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "BugNest",
+      "type": "achievement",
+      "sortid": 753,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bug_nest",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alternia/advancements/bug_nest.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "GetCobalt",
+      "type": "achievement",
+      "sortid": 754,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_cobalt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alternia/advancements/get_cobalt.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "CobaltKnife",
+      "type": "tool",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_knife",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alternia/models/item/cobalt_knife.json",
+          "src/main/java/net/sabitron/alternia/item/CobaltKnifeItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "NetheritePickaxeFromCobalt",
+      "type": "recipe",
+      "sortid": 755,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_pickaxe_from_cobalt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alternia/recipes/netherite_pickaxe_from_cobalt.json"
+        ]
+      },
+      "path": "~/Recipes/CobaltUpgrade"
+    },
+    {
+      "name": "NetheriteAxeFromCobalt",
+      "type": "recipe",
+      "sortid": 756,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_axe_from_cobalt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alternia/recipes/netherite_axe_from_cobalt.json"
+        ]
+      },
+      "path": "~/Recipes/CobaltUpgrade"
+    },
+    {
+      "name": "NetheriteSwordFromCobalt",
+      "type": "recipe",
+      "sortid": 757,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_sword_from_cobalt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alternia/recipes/netherite_sword_from_cobalt.json"
+        ]
+      },
+      "path": "~/Recipes/CobaltUpgrade"
+    },
+    {
+      "name": "NetheriteShovelFromCobalt",
+      "type": "recipe",
+      "sortid": 758,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_shovel_from_cobalt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alternia/recipes/netherite_shovel_from_cobalt.json"
+        ]
+      },
+      "path": "~/Recipes/CobaltUpgrade"
+    },
+    {
+      "name": "NetheriteHoeFromCobalt",
+      "type": "recipe",
+      "sortid": 759,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_hoe_from_cobalt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alternia/recipes/netherite_hoe_from_cobalt.json"
+        ]
+      },
+      "path": "~/Recipes/CobaltUpgrade"
+    },
+    {
+      "name": "CobaltKnifeRecipe",
+      "type": "recipe",
+      "sortid": 760,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_knife_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alternia/recipes/cobalt_knife_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "NetheriteHelmetFromCobalt",
+      "type": "recipe",
+      "sortid": 761,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_helmet_from_cobalt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alternia/recipes/netherite_helmet_from_cobalt.json"
+        ]
+      },
+      "path": "~/Recipes/CobaltUpgrade"
+    },
+    {
+      "name": "NetheriteChestplateFromCobalt",
+      "type": "recipe",
+      "sortid": 762,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_chestplate_from_cobalt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alternia/recipes/netherite_chestplate_from_cobalt.json"
+        ]
+      },
+      "path": "~/Recipes/CobaltUpgrade"
+    },
+    {
+      "name": "NetheriteLeggingsFromCobalt",
+      "type": "recipe",
+      "sortid": 763,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_leggings_from_cobalt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alternia/recipes/netherite_leggings_from_cobalt.json"
+        ]
+      },
+      "path": "~/Recipes/CobaltUpgrade"
+    },
+    {
+      "name": "NetheriteBootsFromCobalt",
+      "type": "recipe",
+      "sortid": 764,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_boots_from_cobalt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alternia/recipes/netherite_boots_from_cobalt.json"
+        ]
+      },
+      "path": "~/Recipes/CobaltUpgrade"
+    },
+    {
+      "name": "FairyBull",
+      "type": "animatedentity",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fairy_bull",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sabitron/alternia/entity/model/FairyBullModel.java",
+          "src/main/java/net/sabitron/alternia/entity/FairyBullEntity.java",
+          "src/main/java/net/sabitron/alternia/client/renderer/FairyBullRenderer.java",
+          "src/main/resources/assets/alternia/models/item/fairy_bull_spawn_egg.json"
+        ]
+      },
+      "path": "~/Mobs"
+    },
+    {
+      "name": "FairyBullHurtAnimation",
+      "type": "procedure",
+      "sortid": 765,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fairy_bull_hurt_animation",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sabitron/alternia/procedures/FairyBullHurtAnimationProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Mobs"
+    },
+    {
+      "name": "FairyBullLoot",
+      "type": "loottable",
+      "sortid": 766,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "fairy_bull_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alternia/loot_tables/entities/fairy_bull.json"
+        ]
+      },
+      "path": "~/LootTables"
+    },
+    {
+      "name": "AlternianSoilGrow",
+      "type": "procedure",
+      "sortid": 767,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alternian_soil_grow",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sabitron/alternia/procedures/AlternianSoilGrowProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/World"
+    },
+    {
+      "name": "Glowstone",
+      "type": "recipe",
+      "sortid": 768,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glowstone",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alternia/recipes/glowstone.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RustLamp",
+      "type": "block",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rust_lamp",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sabitron/alternia/block/RustLampBlock.java",
+          "src/main/resources/assets/alternia/models/block/rust_lamp.json",
+          "src/main/resources/assets/alternia/blockstates/rust_lamp.json",
+          "src/main/resources/assets/alternia/models/item/rust_lamp.json"
+        ]
+      },
+      "path": "~/Hemospectrum/Rust"
+    },
+    {
+      "name": "BronzeLamp",
+      "type": "block",
+      "sortid": 185,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_lamp",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alternia/models/block/bronze_lamp.json",
+          "src/main/java/net/sabitron/alternia/block/BronzeLampBlock.java",
+          "src/main/resources/assets/alternia/models/item/bronze_lamp.json",
+          "src/main/resources/assets/alternia/blockstates/bronze_lamp.json"
+        ]
+      },
+      "path": "~/Hemospectrum/Bronze"
+    },
+    {
+      "name": "GoldLamp",
+      "type": "block",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_lamp",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sabitron/alternia/block/GoldLampBlock.java",
+          "src/main/resources/assets/alternia/models/item/gold_lamp.json",
+          "src/main/resources/assets/alternia/blockstates/gold_lamp.json",
+          "src/main/resources/assets/alternia/models/block/gold_lamp.json"
+        ]
+      },
+      "path": "~/Hemospectrum/Gold"
+    },
+    {
+      "name": "LimeLamp",
+      "type": "block",
+      "sortid": 207,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime_lamp",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alternia/models/item/lime_lamp.json",
+          "src/main/java/net/sabitron/alternia/block/LimeLampBlock.java",
+          "src/main/resources/assets/alternia/models/block/lime_lamp.json",
+          "src/main/resources/assets/alternia/blockstates/lime_lamp.json"
+        ]
+      },
+      "path": "~/Hemospectrum/Lime"
+    },
+    {
+      "name": "OliveLamp",
+      "type": "block",
+      "sortid": 218,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "olive_lamp",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sabitron/alternia/block/OliveLampBlock.java",
+          "src/main/resources/assets/alternia/models/block/olive_lamp.json",
+          "src/main/resources/assets/alternia/models/item/olive_lamp.json",
+          "src/main/resources/assets/alternia/blockstates/olive_lamp.json"
+        ]
+      },
+      "path": "~/Hemospectrum/Olive"
+    },
+    {
+      "name": "JadeLamp",
+      "type": "block",
+      "sortid": 229,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jade_lamp",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sabitron/alternia/block/JadeLampBlock.java",
+          "src/main/resources/assets/alternia/blockstates/jade_lamp.json",
+          "src/main/resources/assets/alternia/models/item/jade_lamp.json",
+          "src/main/resources/assets/alternia/models/block/jade_lamp.json"
+        ]
+      },
+      "path": "~/Hemospectrum/Jade"
+    },
+    {
+      "name": "TealLamp",
+      "type": "block",
+      "sortid": 240,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teal_lamp",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sabitron/alternia/block/TealLampBlock.java",
+          "src/main/resources/assets/alternia/models/block/teal_lamp.json",
+          "src/main/resources/assets/alternia/blockstates/teal_lamp.json",
+          "src/main/resources/assets/alternia/models/item/teal_lamp.json"
+        ]
+      },
+      "path": "~/Hemospectrum/Teal"
+    },
+    {
+      "name": "CobaltLamp",
+      "type": "block",
+      "sortid": 251,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_lamp",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alternia/blockstates/cobalt_lamp.json",
+          "src/main/resources/assets/alternia/models/block/cobalt_lamp.json",
+          "src/main/resources/assets/alternia/models/item/cobalt_lamp.json",
+          "src/main/java/net/sabitron/alternia/block/CobaltLampBlock.java"
+        ]
+      },
+      "path": "~/Hemospectrum/Cobalt"
+    },
+    {
+      "name": "IndigoLamp",
+      "type": "block",
+      "sortid": 262,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "indigo_lamp",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alternia/models/block/indigo_lamp.json",
+          "src/main/resources/assets/alternia/models/item/indigo_lamp.json",
+          "src/main/resources/assets/alternia/blockstates/indigo_lamp.json",
+          "src/main/java/net/sabitron/alternia/block/IndigoLampBlock.java"
+        ]
+      },
+      "path": "~/Hemospectrum/Indigo"
+    },
+    {
+      "name": "PurpleLamp",
+      "type": "block",
+      "sortid": 273,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_lamp",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sabitron/alternia/block/PurpleLampBlock.java",
+          "src/main/resources/assets/alternia/blockstates/purple_lamp.json",
+          "src/main/resources/assets/alternia/models/block/purple_lamp.json",
+          "src/main/resources/assets/alternia/models/item/purple_lamp.json"
+        ]
+      },
+      "path": "~/Hemospectrum/Purple"
+    },
+    {
+      "name": "VioletLamp",
+      "type": "block",
+      "sortid": 284,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "violet_lamp",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alternia/models/item/violet_lamp.json",
+          "src/main/java/net/sabitron/alternia/block/VioletLampBlock.java",
+          "src/main/resources/assets/alternia/blockstates/violet_lamp.json",
+          "src/main/resources/assets/alternia/models/block/violet_lamp.json"
+        ]
+      },
+      "path": "~/Hemospectrum/Violet"
+    },
+    {
+      "name": "FuchsiaLamp",
+      "type": "block",
+      "sortid": 295,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fuchsia_lamp",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alternia/blockstates/fuchsia_lamp.json",
+          "src/main/resources/assets/alternia/models/item/fuchsia_lamp.json",
+          "src/main/resources/assets/alternia/models/block/fuchsia_lamp.json",
+          "src/main/java/net/sabitron/alternia/block/FuchsiaLampBlock.java"
+        ]
+      },
+      "path": "~/Hemospectrum/Fuchsia"
+    },
+    {
+      "name": "RecipeRustLamp",
+      "type": "recipe",
+      "sortid": 769,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_rust_lamp",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alternia/recipes/recipe_rust_lamp.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RecipeBronzeLamp",
+      "type": "recipe",
+      "sortid": 770,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_bronze_lamp",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alternia/recipes/recipe_bronze_lamp.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RecipeGoldLamp",
+      "type": "recipe",
+      "sortid": 771,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_gold_lamp",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alternia/recipes/recipe_gold_lamp.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RecipeLimeLamp",
+      "type": "recipe",
+      "sortid": 772,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_lime_lamp",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alternia/recipes/recipe_lime_lamp.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RecipeOliveLamp",
+      "type": "recipe",
+      "sortid": 773,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_olive_lamp",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alternia/recipes/recipe_olive_lamp.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RecipeJadeLamp",
+      "type": "recipe",
+      "sortid": 774,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_jade_lamp",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alternia/recipes/recipe_jade_lamp.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RecipeTealLamp",
+      "type": "recipe",
+      "sortid": 775,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_teal_lamp",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alternia/recipes/recipe_teal_lamp.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RecipeCobaltLamp",
+      "type": "recipe",
+      "sortid": 776,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_cobalt_lamp",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alternia/recipes/recipe_cobalt_lamp.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RecipeIndigoLamp",
+      "type": "recipe",
+      "sortid": 777,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_indigo_lamp",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alternia/recipes/recipe_indigo_lamp.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RecipePurpleLamp",
+      "type": "recipe",
+      "sortid": 778,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_purple_lamp",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alternia/recipes/recipe_purple_lamp.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RecipeVioletLamp",
+      "type": "recipe",
+      "sortid": 779,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_violet_lamp",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alternia/recipes/recipe_violet_lamp.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RecipeFuchsiaLamp",
+      "type": "recipe",
+      "sortid": 780,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_fuchsia_lamp",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alternia/recipes/recipe_fuchsia_lamp.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "CobaltBeaconCore",
+      "type": "item",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_beacon_core",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alternia/models/item/cobalt_beacon_core.json",
+          "src/main/java/net/sabitron/alternia/item/CobaltBeaconCoreItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "CobaltBeacon",
+      "type": "recipe",
+      "sortid": 781,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_beacon",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alternia/recipes/cobalt_beacon.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "BeaconCore",
+      "type": "recipe",
+      "sortid": 782,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "beacon_core",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alternia/recipes/beacon_core.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "CobaltCrucible",
+      "type": "recipe",
+      "sortid": 783,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "cobalt_crucible",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alternia/recipes/cobalt_crucible.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "SulfurBlock",
+      "type": "block",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sulfur_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sabitron/alternia/block/SulfurBlockBlock.java",
+          "src/main/resources/assets/alternia/models/block/sulfur_block.json",
+          "src/main/resources/assets/alternia/models/item/sulfur_block.json",
+          "src/main/resources/assets/alternia/blockstates/sulfur_block.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "BlockOfSulfur",
+      "type": "recipe",
+      "sortid": 784,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_of_sulfur",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alternia/recipes/block_of_sulfur.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "SulfurFromBlock",
+      "type": "recipe",
+      "sortid": 785,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sulfur_from_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alternia/recipes/sulfur_from_block.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Glass",
+      "type": "tag",
+      "sortid": 786,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glass",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/glass.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "LususWoolFromString",
+      "type": "recipe",
+      "sortid": 787,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lusus_wool_from_string",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alternia/recipes/lusus_wool_from_string.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "CleanThatWool",
+      "type": "recipe",
+      "sortid": 788,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clean_that_wool",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alternia/recipes/clean_that_fucking_wool.json"
         ]
       },
       "path": "~/Recipes"
@@ -11662,19 +12971,22 @@
       "biome.alternia.oracle_canopy_modified": "Oracle Canopy Modified",
       "block.alternia.hiveglass": "Hiveglass",
       "block.alternia.lime_hemo_wool_slab": "Lime Wool Slab",
-      "block.alternia.food_bug_nest": "Bug Nest w/ Insect Food",
       "block.alternia.gold_hemo_flower": "Gold Orchid",
+      "block.alternia.food_bug_nest": "Bug Nest w/ Insect Food",
       "block.alternia.stripped_oracle_log": "Stripped Oracle Log",
       "block.alternia.smooth_darkstone": "Smooth Darkstone",
       "block.alternia.rust_hemo_wool_stairs": "Rust Wool Stairs",
       "block.alternia.lime_meat_block": "Lime Grub Block",
-      "block.alternia.darkstone_copper_ore": "Darkstone Copper Ore",
       "item.alternia.cooked_grub_meat": "Cooked Sliced Grub",
-      "block.alternia.alternian_farmland": "Alternian Farmland",
-      "block.alternia.jade_hemoglass": "Jade Hemoglass",
+      "block.alternia.darkstone_copper_ore": "Darkstone Copper Ore",
+      "block.alternia.cobalt_lamp": "Cobalt Crystal Lamp",
       "biome.alternia.rocky_plateau": "Rocky Plateau",
+      "block.alternia.jade_hemoglass": "Jade Hemoglass",
+      "block.alternia.alternian_farmland": "Alternian Farmland",
+      "block.alternia.purple_lamp": "Purple Crystal Lamp",
       "block.alternia.indigo_hemoglass": "Indigo Hemoglass",
       "item.alternia.eye_drops": "Eye Drops",
+      "item.alternia.fuchsia_shades_helmet": "Fuchsia Glasses",
       "item.alternia.cobalt_sword": "Cobalt Sword",
       "entity.alternia.zombie_troll": "Shadow Dropper",
       "block.alternia.purple_recuperacoon_core": "Purple Recuperacoon Core",
@@ -11692,8 +13004,10 @@
       "biome.alternia.oracle_canopy": "Oracle Canopy",
       "block.alternia.cobalt_meat_block": "Cobalt Grub Block",
       "block.alternia.packed_darkstone_slab": "Cut Darkstone Slab",
-      "block.alternia.bramble_wood": "Bramble Wood",
+      "advancements.alternia_root.title": "A planet forgotten by time",
       "block.alternia.olive_hemoglass_pane": "Olive Hemoglass Pane",
+      "block.alternia.bramble_wood": "Bramble Wood",
+      "advancements.get_cobalt.title": "The 8lue stuff",
       "block.alternia.sopor_slime": "Sopor Slime",
       "block.alternia.darkstone_shingles_slab": "Darkstone Shingles Slab",
       "block.alternia.violet_hemo_wool_stairs": "Violet Wool Stairs",
@@ -11702,6 +13016,7 @@
       "item.alternia.lusus_hide": "Lusus Hide",
       "item.alternia.darkstone_dust": "Darkstone Dust",
       "block.alternia.flesh_bug_nest": "Bug Nest w/ Rotten Flesh",
+      "item.alternia.diamond_candy": "Diamond Candy",
       "block.alternia.bronze_hemoglass_pane": "Bronze Hemoglass Pane",
       "block.alternia.purple_hemo_flower": "Purple Carnation",
       "block.alternia.bramble_fence_gate": "Bramble Fence Gate",
@@ -11722,11 +13037,15 @@
       "block.alternia.bramble_planks": "Bramble Planks",
       "block.alternia.indigo_meat_block": "Indigo Grub Block",
       "block.alternia.rust_hemo_flower": "Rust Tulip",
+      "item.alternia.lime_shades_helmet": "Lime Glasses",
       "block.alternia.bronze_hemo_wool_stairs": "Bronze Wool Stairs",
       "block.alternia.cracked_darkstone_brick_slab": "Cracked Darkstone Brick Slab",
+      "block.alternia.rust_lamp": "Rust Crystal Lamp",
       "block.alternia.bramble_leaves": "Bramble Branches",
+      "block.alternia.fuchsia_lamp": "Fuchsia Crystal Lamp",
       "block.alternia.oracle_button": "Oracle Button",
       "item.alternia.matriorb": "Matriorb",
+      "block.alternia.bronze_lamp": "Bronze Crystal Lamp",
       "block.alternia.purple_hemo_wool_slab": "Purple Wool Slab",
       "block.alternia.bramble_log": "Bramble Log",
       "block.alternia.darkstone_uranium_ore": "Darkstone Uranium Ore",
@@ -11766,6 +13085,7 @@
       "block.alternia.polished_ashen_darkstone": "Polished Ashen Darkstone",
       "block.alternia.lusus_wool_stairs": "Lusus Wool Stairs",
       "item.alternia.grub_spawn_egg": "Grub Spawn Egg",
+      "item.alternia.heart_candy": "Heart Candy",
       "block.alternia.cracked_darkstone_bricks": "Cracked Darkstone Bricks",
       "block.alternia.jade_hemo_flower": "Jade Celosia",
       "block.alternia.lime_hemoglass": "Lime Hemoglass",
@@ -11781,13 +13101,18 @@
       "block.alternia.fuchsia_hemo_flower": "Fuchsia Hydrangea",
       "item.alternia.glassy_shattergrain": "Vitrified Shattergrain",
       "block.alternia.olive_hemo_flower": "Olive Snapdragons",
+      "advancements.bug_nest.descr": "Make a bug nest to catch insects",
       "block.alternia.teal_recuperacoon_core": "Teal Recuperacoon Core",
+      "item.alternia.indigo_shades_helmet": "Indigo Glasses",
       "item.alternia.cobalt_nugget": "Cobalt Nugget",
       "block.alternia.grub_nest": "Grub Nest",
       "block.alternia.darkstone_cruxite_ore": "Darkstone Cruxite Ore",
       "block.alternia.packed_darkstone_wall": "Cut Darkstone Wall",
       "block.alternia.indigo_hemo_wool_slab": "Indigo Wool Slab",
+      "block.alternia.violet_lamp": "Violet Crystal Lamp",
       "block.alternia.bramble_fence": "Bramble Fence",
+      "item.alternia.cobalt_shades_helmet": "Cobalt Glasses",
+      "item.alternia.rust_shades_helmet": "Rust Glasses",
       "block.alternia.lime_hemoflower": "Lime Bud",
       "block.alternia.rust_hemo_wool_slab": "Rust Wool Slab",
       "block.alternia.violet_meat_block": "Violet Grub Block",
@@ -11805,9 +13130,12 @@
       "item.alternia.violet_hemodye": "Violet Hemodye",
       "block.alternia.cobalt_hemo_flower": "Cobalt Rose",
       "item.alternia.culling_fork": "Culling Fork",
+      "item.alternia.violet_shades_helmet": "Violet Glasses",
+      "item.alternia.jade_shades_helmet": "Jade Glasses",
       "block.alternia.darkstone_slab": "Darkstone Slab",
       "item.alternia.cobalt_armor_leggings": "Cobalt Leggings",
       "item.alternia.pie_plate": "Pie Plate",
+      "item.alternia.teal_shades_helmet": "Teal Glasses",
       "block.alternia.hive_drywall_panel_slab": "Hive Drywall Panel Slab",
       "block.alternia.teal_hemo_wool": "Teal Wool",
       "block.alternia.cobbled_darkstone_stairs": "Cobbled Darkstone Stairs",
@@ -11817,6 +13145,7 @@
       "block.alternia.darkstone_stairs": "Darkstone Stairs",
       "item.alternia.jade_hemodye": "Jade Hemodye",
       "item.alternia.cobalt_armor_helmet": "Cobalt Helmet",
+      "block.alternia.indigo_lamp": "Indigo Crystal Lamp",
       "block.alternia.smooth_darkstone_stairs": "Smooth Darkstone Stairs",
       "block.alternia.rust_hemoglass": "Rust Hemoglass",
       "item.alternia.lime_hemodye": "Lime Hemodye",
@@ -11833,11 +13162,14 @@
       "entity.alternia.cat_lusus": "Cat Lusus",
       "block.alternia.jade_hemoglass_pane": "Jade Hemoglass Pane",
       "biome.alternia.bramble_forest": "Bramble Forest",
+      "item.alternia.purple_shades_helmet": "Purple Glasses",
       "block.alternia.packed_darkstone_stairs": "Cut Darkstone Stairs",
       "item.alternia.troll_horn": "Troll Horn",
+      "item.alternia.cobalt_knife": "Cobalt Combat Knife",
       "item.alternia.bronze_hemodye": "Bronze Hemodye",
       "effect.alternia.damaged_vision": "Damaged Vision",
       "item.alternia.poseidons_entente": "Ψdon\u0027s Entente",
+      "block.alternia.jade_lamp": "Jade Crystal Lamp",
       "item.alternia.paper_cone": "Paper Cone",
       "block.alternia.polished_pitch_darkstone": "Polished Pitch Darkstone",
       "item_group.alternia.alternia_tab": "Hivecraft",
@@ -11851,6 +13183,7 @@
       "block.alternia.packed_darkstone": "Cut Darkstone",
       "block.alternia.oracle_fence": "Oracle Fence",
       "item.alternia.sulfur": "Sulfur",
+      "item.alternia.gold_shades_helmet": "Gold Glasses",
       "item.alternia.cobalt_armor_boots": "Cobalt Boots",
       "biome.alternia.alternia_swamp": "Alternia Swamp",
       "block.alternia.gold_hemo_wool": "Gold Wool",
@@ -11859,11 +13192,13 @@
       "item.alternia.rust_hemodye": "Rust Hemodye",
       "block.alternia.cobalt_hemoglass": "Cobalt Hemoglass",
       "block.alternia.cobbled_darkstone_slab": "Cobbled Darkstone Slab",
+      "item.alternia.bronze_shades_helmet": "Bronze Glasses",
       "block.alternia.monazite_boulder": "Monazite Boulder",
       "item.alternia.raw_grub_meat": "Raw Sliced Grub",
       "block.alternia.darkstone_brick_wall": "Darkstone Brick Wall",
       "block.alternia.jade_meat_block": "Jade Grub Block",
       "block.alternia.gold_hemo_wool_slab": "Gold Wool Slab",
+      "item.alternia.club_candy": "Club Candy",
       "block.alternia.stripped_bramble_wood": "Stripped Bramble Wood",
       "block.alternia.cobbled_darkstone": "Cobbled Darkstone",
       "block.alternia.jade_hemo_wool_stairs": " Jade Wool Stairs",
@@ -11875,11 +13210,16 @@
       "block.alternia.purple_meat_block": "Purple Grub Block",
       "block.alternia.oracle_wood": "Oracle Wood",
       "fluid_type.alternia.sopor_slime": "Sopor Slime",
+      "advancements.get_cobalt.descr": "Find rare Cobalt Ore in Alternia\u0027s caves",
       "block.alternia.lime_hemo_wool": "Lime Wool",
+      "advancements.alternia_root.descr": "Arrive on Alternia",
       "item.alternia.sopor_slime_bucket": "Bucket of Sopor Slime",
+      "advancements.bug_nest.title": "Still in a dream",
       "block.alternia.gold_hemoglass_pane": "Gold Hemoglass Pane",
+      "item.alternia.cobalt_beacon_core": "Cobalt Demon Core",
       "block.alternia.violet_recuperacoon_core": "Violet Recuperacoon Core",
       "item.alternia.cobalt_sheet": "Cobalt Sheet",
+      "entity.alternia.fairy_bull": "Fairy Bull",
       "block.alternia.darkstone": "Darkstone",
       "item.alternia.rotten_troll_flesh": "Shadow Dropper Flesh",
       "block.alternia.lusus_wool": "Lusus Wool",
@@ -11887,12 +13227,15 @@
       "block.alternia.oracle_pressure_plate": "Oracle Pressure Plate",
       "block.alternia.darkstone_redstone_ore": "Darkstone Redstone Ore",
       "item.alternia.salt": "Salt",
+      "block.alternia.olive_lamp": "Olive Crystal Lamp",
       "block.alternia.oracle_log": "Oracle Log",
       "entity.alternia.grub": "Grub",
       "entity.alternia.spider_lusus": "Spider Lusus",
       "block.alternia.olive_meat_block": "Olive Grub Block",
       "block.alternia.pale_darkstone": "Pale Darkstone",
+      "block.alternia.sulfur_block": "Block of Sulfur",
       "block.alternia.darkstone_boulder": "Darkstone Boulder",
+      "block.alternia.teal_lamp": "Teal Crystal Lamp",
       "block.alternia.indigo_hemo_wool": "Indigo Wool",
       "item.alternia.spider_lusus_spawn_egg": "Spider Lusus Spawn Egg",
       "block.alternia.cracked_darkstone_brick_stairs": "Cracked Darkstone Brick Stairs",
@@ -11902,6 +13245,8 @@
       "block.alternia.darkstone_boulder_small": "Small Darkstone Boulder",
       "block.alternia.alternia_tpz": "Alternia Transportalizer",
       "block.alternia.violet_hemo_flower": "Violet Hyacinth",
+      "block.alternia.lime_lamp": "Lime Crystal Lamp",
+      "item.alternia.fairy_bull_spawn_egg": "Fairy Bull Spawn Egg",
       "block.alternia.bronze_hemo_wool": "Bronze Wool",
       "biome.alternia.alternia_river": "Alternia River",
       "block.alternia.oracle_leaves": "Oracle Leaves",
@@ -11917,6 +13262,7 @@
       "block.alternia.jade_hemo_wool": "Jade Wool",
       "block.alternia.fuchsia_hemo_wool": "Fuchsia Wool",
       "block.alternia.monazite_boulder_small": "Small Monazite Boulder",
+      "block.alternia.gold_lamp": "Gold Crystal Lamp",
       "block.alternia.hive_door": "Hive Door",
       "block.alternia.jade_hemo_wool_slab": " Jade Wool Slab",
       "block.alternia.darkstone_tiles": "Darkstone Tiles",
@@ -11940,15 +13286,18 @@
       "item.alternia.fuchsia_hemodye": "Fuchsia Hemodye",
       "block.alternia.violet_hemoglass": "Violet Hemoglass",
       "item.alternia.live_grub": "Grub",
+      "item.alternia.spade_candy": "Spade Candy",
       "block.alternia.bronze_recuperacoon_core": "Bronze Recuperacoon Core",
       "block.alternia.bronze_hemo_flower": "Bronze Iris",
       "block.alternia.rust_hemoglass_pane": "Rust Hemoglass Pane",
       "block.alternia.indigo_hemo_wool_stairs": "Indigo Wool Stairs",
       "block.alternia.oracle_slab": "Oracle Slab",
+      "item.alternia.shades_helmet": "Sunglasses",
       "block.alternia.iridescent_sandstone": "Iridescent Sandstone",
       "block.alternia.bronze_hemoglass": "Bronze Hemoglass",
       "block.alternia.darkstone_iron_ore": "Darkstone Iron Ore",
       "block.alternia.darkstone_cobalt_ore": "Darkstone Cobalt Ore",
+      "item.alternia.olive_shades_helmet": "Olive Glasses",
       "block.alternia.violet_hemo_wool_slab": "Violet Wool Slab",
       "block.alternia.indigo_hemoglass_pane": "Indigo Hemoglass Pane",
       "block.alternia.rust_recuperacoon_core": "Rust Recuperacoon Core",
@@ -11992,7 +13341,12 @@
       },
       {
         "name": "Items",
-        "children": []
+        "children": [
+          {
+            "name": "Shades",
+            "children": []
+          }
+        ]
       },
       {
         "name": "Biomes",
@@ -12017,6 +13371,10 @@
                 "children": []
               }
             ]
+          },
+          {
+            "name": "CobaltUpgrade",
+            "children": []
           }
         ]
       },
@@ -12100,13 +13458,17 @@
       {
         "name": "Commands",
         "children": []
+      },
+      {
+        "name": "Advancements",
+        "children": []
       }
     ]
   },
   "workspaceSettings": {
     "modid": "alternia",
     "modName": "Hivecraft: An Alternia addon for Minestuck",
-    "version": "1.0.13",
+    "version": "1.1.5",
     "author": "V_SABITRON",
     "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/hivecraft-an-alternia-addon-for-minestuck",
     "license": "Academic Free License v3.0",
@@ -12126,7 +13488,7 @@
       "geckolib"
     ],
     "currentGenerator": "forge-1.20.1",
-    "credits": "Uses some textures from Minecraft, Minestuck, Zinc ore texture from Create",
+    "credits": "Uses some textures from Minecraft, Minestuck, Zinc ore texture from Create, Fairy Bull model by yanasakanadev",
     "modElementsPackage": "net.sabitron.alternia",
     "lockBaseModFiles": false
   },

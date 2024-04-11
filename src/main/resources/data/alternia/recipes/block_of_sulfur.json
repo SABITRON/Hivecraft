@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "alternia:sulfur"
+    },
+    {
+      "item": "alternia:sulfur"
+    },
+    {
+      "item": "alternia:sulfur"
+    },
+    {
+      "item": "alternia:sulfur"
+    },
+    {
+      "item": "alternia:sulfur"
+    },
+    {
+      "item": "alternia:sulfur"
+    },
+    {
+      "item": "alternia:sulfur"
+    },
+    {
+      "item": "alternia:sulfur"
+    },
+    {
+      "item": "alternia:sulfur"
+    }
+  ],
+  "result": {
+    "item": "alternia:sulfur_block",
+    "count": 1
+  }
+}

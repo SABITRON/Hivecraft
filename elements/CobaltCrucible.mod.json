@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:CobaltSheet"
+      },
+      {
+        "value": "CUSTOM:CobaltBeaconCore"
+      },
+      {
+        "value": "CUSTOM:CobaltSheet"
+      },
+      {
+        "value": "CUSTOM:CobaltSheet"
+      },
+      {
+        "value": "Blocks.BLAST_FURNACE"
+      },
+      {
+        "value": "CUSTOM:CobaltSheet"
+      },
+      {
+        "value": "CUSTOM:SulfurBlock"
+      },
+      {
+        "value": "CUSTOM:SulfurBlock"
+      },
+      {
+        "value": "CUSTOM:SulfurBlock"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Matriorb"
+    },
+    "name": "cobalt_crucible",
+    "namespace": "mod"
+  }
+}

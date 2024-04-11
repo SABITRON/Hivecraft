@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "alternia:darkstone_cobalt_ore"
+    },
+    "title": {
+      "translate": "advancements.get_cobalt.title"
+    },
+    "description": {
+      "translate": "advancements.get_cobalt.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "get_cobalt": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "alternia:raw_cobalt"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "alternia:alternia_root"
+}

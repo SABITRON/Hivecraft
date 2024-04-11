@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "alternia:block/violet_lamp",
+    "particle": "alternia:block/violet_lamp"
+  },
+  "render_type": "solid"
+}

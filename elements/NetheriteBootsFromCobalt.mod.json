@@ -1,0 +1,28 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "CUSTOM:CobaltArmor.boots"
+    },
+    "smithingInputAdditionStack": {
+      "value": "Items.NETHERITE_INGOT"
+    },
+    "smithingInputTemplateStack": {
+      "value": "Items.NETHERITE_UPGRADE"
+    },
+    "smithingReturnStack": {
+      "value": "Items.NETHERITE_BOOTS"
+    },
+    "name": "netherite_boots_from_cobalt",
+    "namespace": "mod"
+  }
+}

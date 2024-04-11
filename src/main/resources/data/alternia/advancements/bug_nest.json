@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "alternia:empty_bug_nest"
+    },
+    "title": {
+      "translate": "advancements.bug_nest.title"
+    },
+    "description": {
+      "translate": "advancements.bug_nest.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "bug_nest": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "alternia:empty_bug_nest"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "alternia:alternia_root"
+}

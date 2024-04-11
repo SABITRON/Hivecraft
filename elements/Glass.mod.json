@@ -1,0 +1,55 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:Hiveglass"
+      },
+      {
+        "value": "CUSTOM:RustHemoglass"
+      },
+      {
+        "value": "CUSTOM:BronzeHemoglass"
+      },
+      {
+        "value": "CUSTOM:GoldHemoglass"
+      },
+      {
+        "value": "CUSTOM:LimeHemoglass"
+      },
+      {
+        "value": "CUSTOM:OliveHemoglass"
+      },
+      {
+        "value": "CUSTOM:JadeHemoglass"
+      },
+      {
+        "value": "CUSTOM:TealHemoglass"
+      },
+      {
+        "value": "CUSTOM:CobaltHemoglass"
+      },
+      {
+        "value": "CUSTOM:IndigoHemoglass"
+      },
+      {
+        "value": "CUSTOM:PurpleHemoglass"
+      },
+      {
+        "value": "CUSTOM:VioletHemoglass"
+      },
+      {
+        "value": "CUSTOM:FuchsiaHemoglass"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "glass",
+    "namespace": "forge"
+  }
+}

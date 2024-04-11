@@ -1,0 +1,55 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:Shades.helmet"
+      },
+      {
+        "value": "CUSTOM:RustShades.helmet"
+      },
+      {
+        "value": "CUSTOM:BronzeShades.helmet"
+      },
+      {
+        "value": "CUSTOM:GoldShades.helmet"
+      },
+      {
+        "value": "CUSTOM:LimeShades.helmet"
+      },
+      {
+        "value": "CUSTOM:OliveShades.helmet"
+      },
+      {
+        "value": "CUSTOM:JadeShades.helmet"
+      },
+      {
+        "value": "CUSTOM:TealShades.helmet"
+      },
+      {
+        "value": "CUSTOM:CobaltShades.helmet"
+      },
+      {
+        "value": "CUSTOM:IndigoShades.helmet"
+      },
+      {
+        "value": "CUSTOM:PurpleShades.helmet"
+      },
+      {
+        "value": "CUSTOM:VioletShades.helmet"
+      },
+      {
+        "value": "CUSTOM:FuchsiaShades.helmet"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "sunglasses",
+    "namespace": "mod"
+  }
+}

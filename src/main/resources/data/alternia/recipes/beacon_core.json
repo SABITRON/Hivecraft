@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:diamond"
+    },
+    "b": {
+      "item": "minestuck:computer_parts"
+    },
+    "c": {
+      "item": "minestuck:energy_core"
+    },
+    "d": {
+      "item": "alternia:cobalt_block"
+    }
+  },
+  "result": {
+    "item": "alternia:cobalt_beacon_core",
+    "count": 1
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "tag": "alternia:sunglasses"
+    },
+    {
+      "item": "alternia:purple_hemodye"
+    }
+  ],
+  "result": {
+    "item": "alternia:purple_shades_helmet",
+    "count": 1
+  }
+}

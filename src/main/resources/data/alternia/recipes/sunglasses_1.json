@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "alternia:hiveglass_pane"
+    },
+    "b": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "result": {
+    "item": "alternia:shades_helmet",
+    "count": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:string"
+    },
+    "b": {
+      "item": "alternia:lusus_hide"
+    }
+  },
+  "result": {
+    "item": "alternia:lusus_wool",
+    "count": 1
+  }
+}

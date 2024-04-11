@@ -135,6 +135,7 @@ public class AlterniaModTabs {
 				tabData.accept(AlterniaModBlocks.FOOD_BUG_NEST.get().asItem());
 				tabData.accept(AlterniaModItems.SALT.get());
 				tabData.accept(AlterniaModItems.SULFUR.get());
+				tabData.accept(AlterniaModBlocks.SULFUR_BLOCK.get().asItem());
 				tabData.accept(AlterniaModItems.RAW_COBALT.get());
 				tabData.accept(AlterniaModBlocks.RAW_COBALT_BLOCK.get().asItem());
 				tabData.accept(AlterniaModItems.COBALT_INGOT.get());
@@ -152,15 +153,18 @@ public class AlterniaModTabs {
 				tabData.accept(AlterniaModItems.COBALT_ARMOR_CHESTPLATE.get());
 				tabData.accept(AlterniaModItems.COBALT_ARMOR_LEGGINGS.get());
 				tabData.accept(AlterniaModItems.COBALT_ARMOR_BOOTS.get());
+				tabData.accept(AlterniaModItems.COBALT_KNIFE.get());
 				tabData.accept(AlterniaModItems.CULLING_FORK.get());
 				tabData.accept(AlterniaModItems.POSEIDONS_ENTENTE.get());
 				tabData.accept(AlterniaModBlocks.SHATTERGRAIN_SEEDS.get().asItem());
 				tabData.accept(AlterniaModItems.SHATTERGRAIN.get());
 				tabData.accept(AlterniaModItems.GLASSY_SHATTERGRAIN.get());
 				tabData.accept(AlterniaModItems.SHATTERFLOUR.get());
+				tabData.accept(AlterniaModItems.SHADES_HELMET.get());
 				tabData.accept(AlterniaModItems.EYE_DROPS.get());
 				tabData.accept(AlterniaModItems.TROLL_HORN.get());
 				tabData.accept(AlterniaModItems.MATRIORB.get());
+				tabData.accept(AlterniaModItems.COBALT_BEACON_CORE.get());
 				tabData.accept(AlterniaModItems.PAPER_CONE.get());
 				tabData.accept(AlterniaModItems.PIE_PLATE.get());
 				tabData.accept(AlterniaModItems.BUG_JAR.get());
@@ -169,12 +173,17 @@ public class AlterniaModTabs {
 				tabData.accept(AlterniaModItems.COOKED_GRUB_MEAT.get());
 				tabData.accept(AlterniaModItems.LIVE_GRUB.get());
 				tabData.accept(AlterniaModItems.COOKED_GRUB.get());
+				tabData.accept(AlterniaModItems.HEART_CANDY.get());
+				tabData.accept(AlterniaModItems.SPADE_CANDY.get());
+				tabData.accept(AlterniaModItems.DIAMOND_CANDY.get());
+				tabData.accept(AlterniaModItems.CLUB_CANDY.get());
 				tabData.accept(AlterniaModItems.LUSUS_MEAT.get());
 				tabData.accept(AlterniaModItems.LUSUS_HIDE.get());
 				tabData.accept(AlterniaModItems.GRUB_SPAWN_EGG.get());
 				tabData.accept(AlterniaModItems.ZOMBIE_TROLL_SPAWN_EGG.get());
 				tabData.accept(AlterniaModItems.CAT_LUSUS_SPAWN_EGG.get());
 				tabData.accept(AlterniaModItems.SPIDER_LUSUS_SPAWN_EGG.get());
+				tabData.accept(AlterniaModItems.FAIRY_BULL_SPAWN_EGG.get());
 			})
 
 					.build());
@@ -189,6 +198,8 @@ public class AlterniaModTabs {
 				tabData.accept(AlterniaModBlocks.RUST_HEMO_WOOL_SLAB.get().asItem());
 				tabData.accept(AlterniaModBlocks.RUST_MEAT_BLOCK.get().asItem());
 				tabData.accept(AlterniaModBlocks.RUST_RECUPERACOON_CORE.get().asItem());
+				tabData.accept(AlterniaModItems.RUST_SHADES_HELMET.get());
+				tabData.accept(AlterniaModBlocks.RUST_LAMP.get().asItem());
 				tabData.accept(AlterniaModBlocks.BRONZE_HEMO_FLOWER.get().asItem());
 				tabData.accept(AlterniaModItems.BRONZE_HEMODYE.get());
 				tabData.accept(AlterniaModBlocks.BRONZE_HEMOGLASS.get().asItem());
@@ -198,6 +209,8 @@ public class AlterniaModTabs {
 				tabData.accept(AlterniaModBlocks.BRONZE_HEMO_WOOL_SLAB.get().asItem());
 				tabData.accept(AlterniaModBlocks.BRONZE_MEAT_BLOCK.get().asItem());
 				tabData.accept(AlterniaModBlocks.BRONZE_RECUPERACOON_CORE.get().asItem());
+				tabData.accept(AlterniaModItems.BRONZE_SHADES_HELMET.get());
+				tabData.accept(AlterniaModBlocks.BRONZE_LAMP.get().asItem());
 				tabData.accept(AlterniaModBlocks.GOLD_HEMO_FLOWER.get().asItem());
 				tabData.accept(AlterniaModItems.GOLD_HEMODYE.get());
 				tabData.accept(AlterniaModBlocks.GOLD_HEMOGLASS.get().asItem());
@@ -207,6 +220,8 @@ public class AlterniaModTabs {
 				tabData.accept(AlterniaModBlocks.GOLD_HEMO_WOOL_SLAB.get().asItem());
 				tabData.accept(AlterniaModBlocks.GOLD_MEAT_BLOCK.get().asItem());
 				tabData.accept(AlterniaModBlocks.GOLD_RECUPERACOON_CORE.get().asItem());
+				tabData.accept(AlterniaModItems.GOLD_SHADES_HELMET.get());
+				tabData.accept(AlterniaModBlocks.GOLD_LAMP.get().asItem());
 				tabData.accept(AlterniaModBlocks.LIME_HEMOFLOWER.get().asItem());
 				tabData.accept(AlterniaModItems.LIME_HEMODYE.get());
 				tabData.accept(AlterniaModBlocks.LIME_HEMOGLASS.get().asItem());
@@ -216,6 +231,8 @@ public class AlterniaModTabs {
 				tabData.accept(AlterniaModBlocks.LIME_HEMO_WOOL_SLAB.get().asItem());
 				tabData.accept(AlterniaModBlocks.LIME_MEAT_BLOCK.get().asItem());
 				tabData.accept(AlterniaModBlocks.LIME_RECUPERACOON_CORE.get().asItem());
+				tabData.accept(AlterniaModItems.LIME_SHADES_HELMET.get());
+				tabData.accept(AlterniaModBlocks.LIME_LAMP.get().asItem());
 				tabData.accept(AlterniaModBlocks.OLIVE_HEMO_FLOWER.get().asItem());
 				tabData.accept(AlterniaModItems.OLIVE_HEMODYE.get());
 				tabData.accept(AlterniaModBlocks.OLIVE_HEMOGLASS.get().asItem());
@@ -225,6 +242,8 @@ public class AlterniaModTabs {
 				tabData.accept(AlterniaModBlocks.OLIVE_HEMO_WOOL_SLAB.get().asItem());
 				tabData.accept(AlterniaModBlocks.OLIVE_MEAT_BLOCK.get().asItem());
 				tabData.accept(AlterniaModBlocks.OLIVE_RECUPERACOON_CORE.get().asItem());
+				tabData.accept(AlterniaModItems.OLIVE_SHADES_HELMET.get());
+				tabData.accept(AlterniaModBlocks.OLIVE_LAMP.get().asItem());
 				tabData.accept(AlterniaModBlocks.JADE_HEMO_FLOWER.get().asItem());
 				tabData.accept(AlterniaModItems.JADE_HEMODYE.get());
 				tabData.accept(AlterniaModBlocks.JADE_HEMOGLASS.get().asItem());
@@ -234,6 +253,8 @@ public class AlterniaModTabs {
 				tabData.accept(AlterniaModBlocks.JADE_HEMO_WOOL_SLAB.get().asItem());
 				tabData.accept(AlterniaModBlocks.JADE_MEAT_BLOCK.get().asItem());
 				tabData.accept(AlterniaModBlocks.JADE_RECUPERACOON_CORE.get().asItem());
+				tabData.accept(AlterniaModItems.JADE_SHADES_HELMET.get());
+				tabData.accept(AlterniaModBlocks.JADE_LAMP.get().asItem());
 				tabData.accept(AlterniaModBlocks.TEAL_HEMO_FLOWER.get().asItem());
 				tabData.accept(AlterniaModItems.TEAL_HEMODYE.get());
 				tabData.accept(AlterniaModBlocks.TEAL_HEMOGLASS.get().asItem());
@@ -243,6 +264,8 @@ public class AlterniaModTabs {
 				tabData.accept(AlterniaModBlocks.TEAL_HEMO_WOOL_SLAB.get().asItem());
 				tabData.accept(AlterniaModBlocks.TEAL_MEAT_BLOCK.get().asItem());
 				tabData.accept(AlterniaModBlocks.TEAL_RECUPERACOON_CORE.get().asItem());
+				tabData.accept(AlterniaModItems.TEAL_SHADES_HELMET.get());
+				tabData.accept(AlterniaModBlocks.TEAL_LAMP.get().asItem());
 				tabData.accept(AlterniaModBlocks.COBALT_HEMO_FLOWER.get().asItem());
 				tabData.accept(AlterniaModItems.COBALT_HEMODYE.get());
 				tabData.accept(AlterniaModBlocks.COBALT_HEMOGLASS.get().asItem());
@@ -252,6 +275,8 @@ public class AlterniaModTabs {
 				tabData.accept(AlterniaModBlocks.COBALT_HEMO_WOOL_SLAB.get().asItem());
 				tabData.accept(AlterniaModBlocks.COBALT_MEAT_BLOCK.get().asItem());
 				tabData.accept(AlterniaModBlocks.COBALT_RECUPERACOON_CORE.get().asItem());
+				tabData.accept(AlterniaModItems.COBALT_SHADES_HELMET.get());
+				tabData.accept(AlterniaModBlocks.COBALT_LAMP.get().asItem());
 				tabData.accept(AlterniaModBlocks.INDIGO_HEMO_FLOWER.get().asItem());
 				tabData.accept(AlterniaModItems.INDIGO_HEMODYE.get());
 				tabData.accept(AlterniaModBlocks.INDIGO_HEMOGLASS.get().asItem());
@@ -261,6 +286,8 @@ public class AlterniaModTabs {
 				tabData.accept(AlterniaModBlocks.INDIGO_HEMO_WOOL_SLAB.get().asItem());
 				tabData.accept(AlterniaModBlocks.INDIGO_MEAT_BLOCK.get().asItem());
 				tabData.accept(AlterniaModBlocks.INDIGO_RECUPERACOON_CORE.get().asItem());
+				tabData.accept(AlterniaModItems.INDIGO_SHADES_HELMET.get());
+				tabData.accept(AlterniaModBlocks.INDIGO_LAMP.get().asItem());
 				tabData.accept(AlterniaModBlocks.PURPLE_HEMO_FLOWER.get().asItem());
 				tabData.accept(AlterniaModItems.PURPLE_HEMODYE.get());
 				tabData.accept(AlterniaModBlocks.PURPLE_HEMOGLASS.get().asItem());
@@ -270,6 +297,8 @@ public class AlterniaModTabs {
 				tabData.accept(AlterniaModBlocks.PURPLE_HEMO_WOOL_SLAB.get().asItem());
 				tabData.accept(AlterniaModBlocks.PURPLE_MEAT_BLOCK.get().asItem());
 				tabData.accept(AlterniaModBlocks.PURPLE_RECUPERACOON_CORE.get().asItem());
+				tabData.accept(AlterniaModItems.PURPLE_SHADES_HELMET.get());
+				tabData.accept(AlterniaModBlocks.PURPLE_LAMP.get().asItem());
 				tabData.accept(AlterniaModBlocks.VIOLET_HEMO_FLOWER.get().asItem());
 				tabData.accept(AlterniaModItems.VIOLET_HEMODYE.get());
 				tabData.accept(AlterniaModBlocks.VIOLET_HEMOGLASS.get().asItem());
@@ -279,6 +308,8 @@ public class AlterniaModTabs {
 				tabData.accept(AlterniaModBlocks.VIOLET_HEMO_WOOL_SLAB.get().asItem());
 				tabData.accept(AlterniaModBlocks.VIOLET_MEAT_BLOCK.get().asItem());
 				tabData.accept(AlterniaModBlocks.VIOLET_RECUPERACOON_CORE.get().asItem());
+				tabData.accept(AlterniaModItems.VIOLET_SHADES_HELMET.get());
+				tabData.accept(AlterniaModBlocks.VIOLET_LAMP.get().asItem());
 				tabData.accept(AlterniaModBlocks.FUCHSIA_HEMO_FLOWER.get().asItem());
 				tabData.accept(AlterniaModItems.FUCHSIA_HEMODYE.get());
 				tabData.accept(AlterniaModBlocks.FUCHSIA_HEMOGLASS.get().asItem());
@@ -288,6 +319,8 @@ public class AlterniaModTabs {
 				tabData.accept(AlterniaModBlocks.FUCHSIA_HEMO_WOOL_SLAB.get().asItem());
 				tabData.accept(AlterniaModBlocks.FUCHSIA_MEAT_BLOCK.get().asItem());
 				tabData.accept(AlterniaModBlocks.FUCHSIA_RECUPERACOON_CORE.get().asItem());
+				tabData.accept(AlterniaModItems.FUCHSIA_SHADES_HELMET.get());
+				tabData.accept(AlterniaModBlocks.FUCHSIA_LAMP.get().asItem());
 			})
 
 					.build());

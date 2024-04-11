@@ -1,0 +1,21 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "alternia:cooked_grub"
+    }
+  ],
+  "result": [
+    {
+      "count": 4,
+      "item": "alternia:cooked_grub_meat"
+    },
+    {
+      "count": 1,
+      "item": "minestuck:grub_sauce"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

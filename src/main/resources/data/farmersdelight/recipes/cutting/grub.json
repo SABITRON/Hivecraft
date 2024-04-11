@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "alternia:live_grub"
+    }
+  ],
+  "result": [
+    {
+      "count": 4,
+      "item": "alternia:raw_grub_meat"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

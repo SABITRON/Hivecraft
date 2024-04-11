@@ -7,6 +7,7 @@ package net.sabitron.alternia.init;
 import net.sabitron.alternia.client.renderer.ZombieTrollRenderer;
 import net.sabitron.alternia.client.renderer.SpiderLususRenderer;
 import net.sabitron.alternia.client.renderer.GrubRenderer;
+import net.sabitron.alternia.client.renderer.FairyBullRenderer;
 import net.sabitron.alternia.client.renderer.CatLususRenderer;
 
 import net.minecraftforge.fml.common.Mod;
@@ -22,5 +23,6 @@ public class AlterniaModEntityRenderers {
 		event.registerEntityRenderer(AlterniaModEntities.ZOMBIE_TROLL.get(), ZombieTrollRenderer::new);
 		event.registerEntityRenderer(AlterniaModEntities.CAT_LUSUS.get(), CatLususRenderer::new);
 		event.registerEntityRenderer(AlterniaModEntities.SPIDER_LUSUS.get(), SpiderLususRenderer::new);
+		event.registerEntityRenderer(AlterniaModEntities.FAIRY_BULL.get(), FairyBullRenderer::new);
 	}
 }

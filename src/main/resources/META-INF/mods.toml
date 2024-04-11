@@ -4,11 +4,11 @@ license="Academic Free License v3.0"
 
 [[mods]]
 modId="alternia"
-version="1.0.13"
+version="1.1.5"
 displayName="Hivecraft: An Alternia addon for Minestuck"
 displayURL="https://www.curseforge.com/minecraft/mc-mods/hivecraft-an-alternia-addon-for-minestuck"
 logoFile="logo.png"
-credits="Uses some textures from Minecraft, Minestuck, Zinc ore texture from Create"
+credits="Uses some textures from Minecraft, Minestuck, Zinc ore texture from Create, Fairy Bull model by yanasakanadev"
 authors="V_SABITRON"
 
 [[dependencies.alternia]]
