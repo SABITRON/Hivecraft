@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "alternia:pie_plate"
+    },
+    {
+      "amount": 125,
+      "fluid": "alternia:sopor_slime",
+      "nbt": {}
+    }
+  ],
+  "results": [
+    {
+      "item": "minestuck:sopor_slime_pie"
+    }
+  ]
+}

@@ -1,13 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "alternia:block/orange_iridescent_sandstone_bottom",
-    "up": "alternia:block/orange_iridescent_sandstone_top",
-    "north": "alternia:block/orange_iridescent_sandstone_side",
-    "east": "alternia:block/orange_iridescent_sandstone_side",
-    "south": "alternia:block/orange_iridescent_sandstone_side",
-    "west": "alternia:block/orange_iridescent_sandstone_side",
-    "particle": "alternia:block/orange_iridescent_sandstone_bottom"
+    "down": "alternia:block/iridescent_sandstone_bottom_animated",
+    "up": "alternia:block/iridescent_sandstone_top_animated",
+    "north": "alternia:block/iridescent_sandstone_side_animated",
+    "east": "alternia:block/iridescent_sandstone_side_animated",
+    "south": "alternia:block/iridescent_sandstone_side_animated",
+    "west": "alternia:block/iridescent_sandstone_side_animated",
+    "particle": "alternia:block/iridescent_sandstone_bottom_animated"
   },
   "render_type": "solid"
 }

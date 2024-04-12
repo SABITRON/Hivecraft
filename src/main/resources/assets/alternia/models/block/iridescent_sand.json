@@ -1,8 +1,8 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "alternia:block/orange_iridescent_sand",
-    "particle": "alternia:block/orange_iridescent_sand"
+    "all": "alternia:block/iridescent_sand_animated",
+    "particle": "alternia:block/iridescent_sand_animated"
   },
   "render_type": "solid"
 }

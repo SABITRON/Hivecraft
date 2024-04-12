@@ -122,7 +122,7 @@
     "onTickUpdate": {
       "name": "LitDarkstoneRedstoneOreReset"
     },
-    "generateFeature": true,
+    "generateFeature": false,
     "restrictionBiomes": [
       {
         "value": "#alternia:alternia_biomes"
