@@ -4428,358 +4428,6 @@
       "path": "~/Procedures"
     },
     {
-      "name": "BonemealBronzeFlower",
-      "type": "procedure",
-      "sortid": 444,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bonemeal_bronze_flower",
-      "metadata": {
-        "files": [
-          "src/main/java/net/sabitron/alternia/procedures/BonemealBronzeFlowerProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Procedures"
-    },
-    {
-      "name": "BonemealGoldFlower",
-      "type": "procedure",
-      "sortid": 445,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bonemeal_gold_flower",
-      "metadata": {
-        "files": [
-          "src/main/java/net/sabitron/alternia/procedures/BonemealGoldFlowerProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Procedures"
-    },
-    {
-      "name": "BonemealLimeFlower",
-      "type": "procedure",
-      "sortid": 446,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bonemeal_lime_flower",
-      "metadata": {
-        "files": [
-          "src/main/java/net/sabitron/alternia/procedures/BonemealLimeFlowerProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Procedures"
-    },
-    {
-      "name": "BonemealOliveFlower",
-      "type": "procedure",
-      "sortid": 447,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bonemeal_olive_flower",
-      "metadata": {
-        "files": [
-          "src/main/java/net/sabitron/alternia/procedures/BonemealOliveFlowerProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Procedures"
-    },
-    {
-      "name": "BonemealJadeFlower",
-      "type": "procedure",
-      "sortid": 448,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bonemeal_jade_flower",
-      "metadata": {
-        "files": [
-          "src/main/java/net/sabitron/alternia/procedures/BonemealJadeFlowerProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Procedures"
-    },
-    {
-      "name": "BonemealTealFlower",
-      "type": "procedure",
-      "sortid": 449,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bonemeal_teal_flower",
-      "metadata": {
-        "files": [
-          "src/main/java/net/sabitron/alternia/procedures/BonemealTealFlowerProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Procedures"
-    },
-    {
-      "name": "BonemealCobaltFlower",
-      "type": "procedure",
-      "sortid": 450,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bonemeal_cobalt_flower",
-      "metadata": {
-        "files": [
-          "src/main/java/net/sabitron/alternia/procedures/BonemealCobaltFlowerProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Procedures"
-    },
-    {
-      "name": "BonemealIndigoFlower",
-      "type": "procedure",
-      "sortid": 451,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bonemeal_indigo_flower",
-      "metadata": {
-        "files": [
-          "src/main/java/net/sabitron/alternia/procedures/BonemealIndigoFlowerProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Procedures"
-    },
-    {
-      "name": "BonemealPurpleFlower",
-      "type": "procedure",
-      "sortid": 452,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bonemeal_purple_flower",
-      "metadata": {
-        "files": [
-          "src/main/java/net/sabitron/alternia/procedures/BonemealPurpleFlowerProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Procedures"
-    },
-    {
-      "name": "BonemealVioletFlower",
-      "type": "procedure",
-      "sortid": 453,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bonemeal_violet_flower",
-      "metadata": {
-        "files": [
-          "src/main/java/net/sabitron/alternia/procedures/BonemealVioletFlowerProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Procedures"
-    },
-    {
-      "name": "BonemealFuchsiaFlower",
-      "type": "procedure",
-      "sortid": 454,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bonemeal_fuchsia_flower",
-      "metadata": {
-        "files": [
-          "src/main/java/net/sabitron/alternia/procedures/BonemealFuchsiaFlowerProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Procedures"
-    },
-    {
       "name": "LeaveBlocks",
       "type": "tag",
       "sortid": 455,
@@ -11274,18 +10922,6 @@
             "type": "entity"
           },
           {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
             "name": "world",
             "type": "world"
           }
@@ -12944,6 +12580,488 @@
         ]
       },
       "path": "~/Recipes"
+    },
+    {
+      "name": "GrubNestBlockDestroyed",
+      "type": "procedure",
+      "sortid": 789,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grub_nest_block_destroyed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sabitron/alternia/procedures/GrubNestBlockDestroyedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/BugNests"
+    },
+    {
+      "name": "BonemealBronzeFlower",
+      "type": "procedure",
+      "sortid": 790,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bonemeal_bronze_flower",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sabitron/alternia/procedures/BonemealBronzeFlowerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "BonemealGoldFlower",
+      "type": "procedure",
+      "sortid": 791,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bonemeal_gold_flower",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sabitron/alternia/procedures/BonemealGoldFlowerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "BonemealLimeFlower",
+      "type": "procedure",
+      "sortid": 792,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bonemeal_lime_flower",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sabitron/alternia/procedures/BonemealLimeFlowerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "BonemealOliveFlower",
+      "type": "procedure",
+      "sortid": 793,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bonemeal_olive_flower",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sabitron/alternia/procedures/BonemealOliveFlowerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "BonemealJadeFlower",
+      "type": "procedure",
+      "sortid": 794,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bonemeal_jade_flower",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sabitron/alternia/procedures/BonemealJadeFlowerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "BonemealTealFlower",
+      "type": "procedure",
+      "sortid": 795,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bonemeal_teal_flower",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sabitron/alternia/procedures/BonemealTealFlowerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "BonemealCobaltFlower",
+      "type": "procedure",
+      "sortid": 796,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bonemeal_cobalt_flower",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sabitron/alternia/procedures/BonemealCobaltFlowerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "BonemealIndigoFlower",
+      "type": "procedure",
+      "sortid": 797,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bonemeal_indigo_flower",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sabitron/alternia/procedures/BonemealIndigoFlowerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "BonemealPurpleFlower",
+      "type": "procedure",
+      "sortid": 798,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bonemeal_purple_flower",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sabitron/alternia/procedures/BonemealPurpleFlowerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "BonemealVioletFlower",
+      "type": "procedure",
+      "sortid": 799,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bonemeal_violet_flower",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sabitron/alternia/procedures/BonemealVioletFlowerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "BonemealFuchsiaFlower",
+      "type": "procedure",
+      "sortid": 800,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bonemeal_fuchsia_flower",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sabitron/alternia/procedures/BonemealFuchsiaFlowerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "ExplodedGrubs",
+      "type": "procedure",
+      "sortid": 801,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exploded_grubs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sabitron/alternia/procedures/ExplodedGrubsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "CrabLusus",
+      "type": "animatedentity",
+      "sortid": 802,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crab_lusus",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sabitron/alternia/entity/CrabLususEntity.java",
+          "src/main/java/net/sabitron/alternia/client/renderer/CrabLususRenderer.java",
+          "src/main/java/net/sabitron/alternia/entity/model/CrabLususModel.java",
+          "src/main/resources/assets/alternia/models/item/crab_lusus_spawn_egg.json"
+        ]
+      },
+      "path": "~/Mobs"
+    },
+    {
+      "name": "RamLusus",
+      "type": "animatedentity",
+      "sortid": 803,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ram_lusus",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sabitron/alternia/client/renderer/RamLususRenderer.java",
+          "src/main/resources/assets/alternia/models/item/ram_lusus_spawn_egg.json",
+          "src/main/java/net/sabitron/alternia/entity/RamLususEntity.java",
+          "src/main/java/net/sabitron/alternia/entity/model/RamLususModel.java"
+        ]
+      },
+      "path": "~/Mobs"
+    },
+    {
+      "name": "CrabLususLoot",
+      "type": "loottable",
+      "sortid": 804,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "crab_lusus_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alternia/loot_tables/entities/crab_lusus.json"
+        ]
+      },
+      "path": "~/LootTables"
+    },
+    {
+      "name": "RamLususLoot",
+      "type": "loottable",
+      "sortid": 805,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ram_lusus_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alternia/loot_tables/entities/ram_lusus.json"
+        ]
+      },
+      "path": "~/LootTables"
     }
   ],
   "variable_elements": [
@@ -13008,6 +13126,7 @@
       "block.alternia.sopor_slime": "Sopor Slime",
       "block.alternia.darkstone_shingles_slab": "Darkstone Shingles Slab",
       "block.alternia.violet_hemo_wool_stairs": "Violet Wool Stairs",
+      "item.alternia.ram_lusus_spawn_egg": "Ram Lusus Spawn Egg",
       "item.alternia.crushed_raw_cobalt": "Crushed Raw Cobalt",
       "block.alternia.gold_hemoglass": "Gold Hemoglass",
       "item.alternia.lusus_hide": "Lusus Hide",
@@ -13061,6 +13180,7 @@
       "block.alternia.teal_hemo_wool_slab": "Teal Wool Slab",
       "block.alternia.darkstone_shingles_wall": "Darkstone Shingles Wall",
       "block.alternia.hive_drywall_panel": "Hive Drywall Panel",
+      "entity.alternia.ram_lusus": "Ram Lusus",
       "block.alternia.rust_meat_block": "Rust Grub Block",
       "item.alternia.teal_hemodye": "Teal Hemodye",
       "item.alternia.lusus_meat": "Lusus Meat",
@@ -13130,6 +13250,7 @@
       "item.alternia.violet_shades_helmet": "Violet Glasses",
       "item.alternia.jade_shades_helmet": "Jade Glasses",
       "block.alternia.darkstone_slab": "Darkstone Slab",
+      "item.alternia.crab_lusus_spawn_egg": "Crab Lusus Spawn Egg",
       "item.alternia.cobalt_armor_leggings": "Cobalt Leggings",
       "item.alternia.pie_plate": "Pie Plate",
       "item.alternia.teal_shades_helmet": "Teal Glasses",
@@ -13153,6 +13274,7 @@
       "block.alternia.shattergrain_stage_3": "Shattergrain (Mature)",
       "block.alternia.shattergrain_stage_4": "Shattergrain (Vitrified)",
       "block.alternia.empty_bug_nest": "Empty Bug Nest",
+      "entity.alternia.crab_lusus": "Crab Lusus",
       "block.alternia.hive_trapdoor": "Hive Trapdoor",
       "block.alternia.darkstone_zinc_ore": "Darkstone Zinc Ore",
       "block.alternia.darkstone_pillar": "Darkstone Pillar",
@@ -13465,7 +13587,7 @@
   "workspaceSettings": {
     "modid": "alternia",
     "modName": "Hivecraft: An Alternia addon for Minestuck",
-    "version": "1.1.6",
+    "version": "1.1.8",
     "author": "V_SABITRON",
     "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/hivecraft-an-alternia-addon-for-minestuck",
     "license": "Academic Free License v3.0",

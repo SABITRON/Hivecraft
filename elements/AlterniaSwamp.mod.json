@@ -122,8 +122,8 @@
         "entity": {
           "value": "CUSTOM:ZombieTroll"
         },
-        "minGroup": 1,
-        "maxGroup": 2,
+        "minGroup": 3,
+        "maxGroup": 4,
         "weight": 20,
         "spawnType": "monster"
       }

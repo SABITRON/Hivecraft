@@ -395,6 +395,8 @@ public class AlterniaModItems {
 	public static final RegistryObject<Item> BUG_NEST_GRASSHOPPERS = block(AlterniaModBlocks.BUG_NEST_GRASSHOPPERS);
 	public static final RegistryObject<Item> LIT_DARKSTONE_REDSTONE_ORE = block(AlterniaModBlocks.LIT_DARKSTONE_REDSTONE_ORE);
 	public static final RegistryObject<Item> HEMOSPECTRUM_TAB_ICON = REGISTRY.register("hemospectrum_tab_icon", () -> new HemospectrumTabIconItem());
+	public static final RegistryObject<Item> CRAB_LUSUS_SPAWN_EGG = REGISTRY.register("crab_lusus_spawn_egg", () -> new ForgeSpawnEggItem(AlterniaModEntities.CRAB_LUSUS, -1, -65536, new Item.Properties()));
+	public static final RegistryObject<Item> RAM_LUSUS_SPAWN_EGG = REGISTRY.register("ram_lusus_spawn_egg", () -> new ForgeSpawnEggItem(AlterniaModEntities.RAM_LUSUS, -1, -10092544, new Item.Properties()));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

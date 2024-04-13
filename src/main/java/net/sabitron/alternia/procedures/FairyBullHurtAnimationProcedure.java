@@ -17,7 +17,7 @@ public class FairyBullHurtAnimationProcedure {
 		}
 		if (entity instanceof TamableAnimal _tamEnt ? _tamEnt.isTame() : false) {
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-				_entity.addEffect(new MobEffectInstance(MobEffects.REGENERATION, 1000, 0, false, false));
+				_entity.addEffect(new MobEffectInstance(MobEffects.REGENERATION, 200, 0, false, false));
 		}
 	}
 }

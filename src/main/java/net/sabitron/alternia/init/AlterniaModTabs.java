@@ -184,6 +184,8 @@ public class AlterniaModTabs {
 				tabData.accept(AlterniaModItems.CAT_LUSUS_SPAWN_EGG.get());
 				tabData.accept(AlterniaModItems.SPIDER_LUSUS_SPAWN_EGG.get());
 				tabData.accept(AlterniaModItems.FAIRY_BULL_SPAWN_EGG.get());
+				tabData.accept(AlterniaModItems.CRAB_LUSUS_SPAWN_EGG.get());
+				tabData.accept(AlterniaModItems.RAM_LUSUS_SPAWN_EGG.get());
 			})
 
 					.build());

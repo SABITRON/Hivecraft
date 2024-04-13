@@ -25,6 +25,7 @@ import net.minecraft.world.entity.ai.goal.WaterAvoidingRandomStrollGoal;
 import net.minecraft.world.entity.ai.goal.TemptGoal;
 import net.minecraft.world.entity.ai.goal.RandomStrollGoal;
 import net.minecraft.world.entity.ai.goal.RandomLookAroundGoal;
+import net.minecraft.world.entity.ai.goal.MoveBackToVillageGoal;
 import net.minecraft.world.entity.ai.goal.MeleeAttackGoal;
 import net.minecraft.world.entity.ai.goal.LeapAtTargetGoal;
 import net.minecraft.world.entity.ai.goal.FollowOwnerGoal;
@@ -45,7 +46,6 @@ import net.minecraft.world.damagesource.DamageTypes;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.InteractionHand;
-import net.minecraft.tags.ItemTags;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.resources.ResourceLocation;
@@ -82,19 +82,22 @@ public class CatLususEntity extends TamableAnimal {
 			}
 		});
 		this.goalSelector.addGoal(3, new LeapAtTargetGoal(this, (float) 0.5));
-		this.targetSelector.addGoal(4, new NearestAttackableTargetGoal(this, GrubEntity.class, true, true));
-		this.targetSelector.addGoal(5, new NearestAttackableTargetGoal(this, CatLususEntity.class, true, true));
-		this.targetSelector.addGoal(6, new NearestAttackableTargetGoal(this, SpiderLususEntity.class, true, true));
-		this.targetSelector.addGoal(7, new NearestAttackableTargetGoal(this, ZombieTrollEntity.class, true, true));
-		this.goalSelector.addGoal(8, new FollowOwnerGoal(this, 1, (float) 10, (float) 2, false));
-		this.goalSelector.addGoal(9, new RandomStrollGoal(this, 1));
-		this.goalSelector.addGoal(10, new TemptGoal(this, 1, Ingredient.of(AlterniaModItems.LIVE_GRUB.get()), false));
-		this.goalSelector.addGoal(11, new TemptGoal(this, 1, Ingredient.of(AlterniaModItems.COOKED_GRUB.get()), false));
-		this.goalSelector.addGoal(12, new OwnerHurtByTargetGoal(this));
-		this.targetSelector.addGoal(13, new OwnerHurtTargetGoal(this));
-		this.targetSelector.addGoal(14, new HurtByTargetGoal(this));
-		this.goalSelector.addGoal(15, new RandomLookAroundGoal(this));
-		this.goalSelector.addGoal(16, new FloatGoal(this));
+		this.targetSelector.addGoal(4, new NearestAttackableTargetGoal(this, CatLususEntity.class, true, true));
+		this.targetSelector.addGoal(5, new NearestAttackableTargetGoal(this, SpiderLususEntity.class, true, true));
+		this.targetSelector.addGoal(6, new NearestAttackableTargetGoal(this, CrabLususEntity.class, true, true));
+		this.targetSelector.addGoal(7, new NearestAttackableTargetGoal(this, RamLususEntity.class, true, true));
+		this.targetSelector.addGoal(8, new NearestAttackableTargetGoal(this, FairyBullEntity.class, true, true));
+		this.targetSelector.addGoal(9, new NearestAttackableTargetGoal(this, ZombieTrollEntity.class, true, true));
+		this.goalSelector.addGoal(10, new FollowOwnerGoal(this, 1, (float) 10, (float) 2, false));
+		this.goalSelector.addGoal(11, new RandomStrollGoal(this, 1));
+		this.goalSelector.addGoal(12, new TemptGoal(this, 1, Ingredient.of(AlterniaModItems.LIVE_GRUB.get()), false));
+		this.goalSelector.addGoal(13, new TemptGoal(this, 1, Ingredient.of(AlterniaModItems.RAW_GRUB_MEAT.get()), false));
+		this.goalSelector.addGoal(14, new MoveBackToVillageGoal(this, 0.6, false));
+		this.goalSelector.addGoal(15, new OwnerHurtByTargetGoal(this));
+		this.targetSelector.addGoal(16, new OwnerHurtTargetGoal(this));
+		this.targetSelector.addGoal(17, new HurtByTargetGoal(this).setAlertOthers());
+		this.goalSelector.addGoal(18, new RandomLookAroundGoal(this));
+		this.goalSelector.addGoal(19, new FloatGoal(this));
 	}
 
 	@Override
@@ -129,6 +132,15 @@ public class CatLususEntity extends TamableAnimal {
 
 	@Override
 	public boolean hurt(DamageSource damagesource, float amount) {
+		double x = this.getX();
+		double y = this.getY();
+		double z = this.getZ();
+		Level world = this.level();
+		Entity entity = this;
+		Entity sourceentity = damagesource.getEntity();
+		Entity immediatesourceentity = damagesource.getDirectEntity();
+
+		LususRegenProcedure.execute(entity);
 		if (damagesource.is(DamageTypes.FALL))
 			return false;
 		return super.hurt(damagesource, amount);
@@ -179,12 +191,6 @@ public class CatLususEntity extends TamableAnimal {
 	}
 
 	@Override
-	public void baseTick() {
-		super.baseTick();
-		LususRegenProcedure.execute(this);
-	}
-
-	@Override
 	public AgeableMob getBreedOffspring(ServerLevel serverWorld, AgeableMob ageable) {
 		CatLususEntity retval = AlterniaModEntities.CAT_LUSUS.get().create(serverWorld);
 		retval.finalizeSpawn(serverWorld, serverWorld.getCurrentDifficultyAt(retval.blockPosition()), MobSpawnType.BREEDING, null, null);
@@ -193,7 +199,7 @@ public class CatLususEntity extends TamableAnimal {
 
 	@Override
 	public boolean isFood(ItemStack stack) {
-		return Ingredient.of(ItemTags.create(new ResourceLocation("alternia:lusus_food"))).test(stack);
+		return Ingredient.of(new ItemStack(AlterniaModItems.RAW_GRUB_MEAT.get()), new ItemStack(AlterniaModItems.LIVE_GRUB.get())).test(stack);
 	}
 
 	@Override

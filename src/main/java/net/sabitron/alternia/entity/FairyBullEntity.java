@@ -37,10 +37,11 @@ import net.minecraft.world.entity.ai.goal.TemptGoal;
 import net.minecraft.world.entity.ai.goal.RandomStrollGoal;
 import net.minecraft.world.entity.ai.goal.RandomLookAroundGoal;
 import net.minecraft.world.entity.ai.goal.PanicGoal;
-import net.minecraft.world.entity.ai.goal.MeleeAttackGoal;
 import net.minecraft.world.entity.ai.goal.LeapAtTargetGoal;
+import net.minecraft.world.entity.ai.goal.Goal;
 import net.minecraft.world.entity.ai.goal.FollowOwnerGoal;
 import net.minecraft.world.entity.ai.goal.FloatGoal;
+import net.minecraft.world.entity.ai.goal.AvoidEntityGoal;
 import net.minecraft.world.entity.ai.control.FlyingMoveControl;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
@@ -69,6 +70,7 @@ import net.minecraft.nbt.CompoundTag;
 import net.minecraft.core.BlockPos;
 
 import java.util.List;
+import java.util.EnumSet;
 
 public class FairyBullEntity extends TamableAnimal implements GeoEntity {
 	public static final EntityDataAccessor<Boolean> SHOOT = SynchedEntityData.defineId(FairyBullEntity.class, EntityDataSerializers.BOOLEAN);
@@ -136,23 +138,58 @@ public class FairyBullEntity extends TamableAnimal implements GeoEntity {
 			}
 		});
 		this.goalSelector.addGoal(2, new WaterAvoidingRandomStrollGoal(this, 1));
-		this.goalSelector.addGoal(3, new FollowOwnerGoal(this, 1, (float) 10, (float) 2, false));
-		this.goalSelector.addGoal(4, new RandomLookAroundGoal(this));
-		this.goalSelector.addGoal(5, new FloatGoal(this));
-		this.goalSelector.addGoal(6, new LeapAtTargetGoal(this, (float) 0.5));
-		this.goalSelector.addGoal(7, new TemptGoal(this, 1, Ingredient.of(AlterniaModItems.SHATTERGRAIN.get()), true));
-		this.targetSelector.addGoal(8, new HurtByTargetGoal(this));
-		this.goalSelector.addGoal(9, new PanicGoal(this, 1.2));
-		this.goalSelector.addGoal(10, new MeleeAttackGoal(this, 1.2, false) {
+		this.goalSelector.addGoal(3, new AvoidEntityGoal<>(this, CrabLususEntity.class, (float) 6, 1, 1.2));
+		this.goalSelector.addGoal(4, new AvoidEntityGoal<>(this, SpiderLususEntity.class, (float) 6, 1, 1.2));
+		this.goalSelector.addGoal(5, new FollowOwnerGoal(this, 1, (float) 10, (float) 2, false));
+		this.goalSelector.addGoal(6, new RandomLookAroundGoal(this));
+		this.goalSelector.addGoal(7, new FloatGoal(this));
+		this.goalSelector.addGoal(8, new LeapAtTargetGoal(this, (float) 0.5));
+		this.goalSelector.addGoal(9, new TemptGoal(this, 1, Ingredient.of(AlterniaModItems.SHATTERFLOUR.get()), true));
+		this.goalSelector.addGoal(10, new Goal() {
+			{
+				this.setFlags(EnumSet.of(Goal.Flag.MOVE));
+			}
+
+			public boolean canUse() {
+				if (FairyBullEntity.this.getTarget() != null && !FairyBullEntity.this.getMoveControl().hasWanted()) {
+					return true;
+				} else {
+					return false;
+				}
+			}
+
 			@Override
-			protected double getAttackReachSqr(LivingEntity entity) {
-				return this.mob.getBbWidth() * this.mob.getBbWidth() + entity.getBbWidth();
+			public boolean canContinueToUse() {
+				return FairyBullEntity.this.getMoveControl().hasWanted() && FairyBullEntity.this.getTarget() != null && FairyBullEntity.this.getTarget().isAlive();
+			}
+
+			@Override
+			public void start() {
+				LivingEntity livingentity = FairyBullEntity.this.getTarget();
+				Vec3 vec3d = livingentity.getEyePosition(1);
+				FairyBullEntity.this.moveControl.setWantedPosition(vec3d.x, vec3d.y, vec3d.z, 1);
+			}
+
+			@Override
+			public void tick() {
+				LivingEntity livingentity = FairyBullEntity.this.getTarget();
+				if (FairyBullEntity.this.getBoundingBox().intersects(livingentity.getBoundingBox())) {
+					FairyBullEntity.this.doHurtTarget(livingentity);
+				} else {
+					double d0 = FairyBullEntity.this.distanceToSqr(livingentity);
+					if (d0 < 16) {
+						Vec3 vec3d = livingentity.getEyePosition(1);
+						FairyBullEntity.this.moveControl.setWantedPosition(vec3d.x, vec3d.y, vec3d.z, 1);
+					}
+				}
 			}
 		});
-		this.targetSelector.addGoal(11, new NearestAttackableTargetGoal(this, ZombieTrollEntity.class, true, true));
-		this.targetSelector.addGoal(12, new NearestAttackableTargetGoal(this, FairyBullEntity.class, true, true));
-		this.targetSelector.addGoal(13, new OwnerHurtTargetGoal(this));
-		this.goalSelector.addGoal(14, new OwnerHurtByTargetGoal(this));
+		this.targetSelector.addGoal(11, new HurtByTargetGoal(this));
+		this.goalSelector.addGoal(12, new PanicGoal(this, 1.2));
+		this.targetSelector.addGoal(13, new NearestAttackableTargetGoal(this, ZombieTrollEntity.class, true, true));
+		this.targetSelector.addGoal(14, new NearestAttackableTargetGoal(this, FairyBullEntity.class, true, true));
+		this.targetSelector.addGoal(15, new OwnerHurtTargetGoal(this));
+		this.goalSelector.addGoal(16, new OwnerHurtByTargetGoal(this));
 	}
 
 	@Override
@@ -267,7 +304,7 @@ public class FairyBullEntity extends TamableAnimal implements GeoEntity {
 
 	@Override
 	public boolean isFood(ItemStack stack) {
-		return List.of(AlterniaModItems.SHATTERGRAIN.get(), AlterniaModItems.SHATTERFLOUR.get()).contains(stack.getItem());
+		return List.of(AlterniaModItems.SHATTERFLOUR.get()).contains(stack.getItem());
 	}
 
 	@Override

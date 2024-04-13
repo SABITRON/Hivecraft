@@ -11,7 +11,14 @@
     "water_fog_color": -12177084
   },
   "spawners": {
-    "monster": [],
+    "monster": [
+      {
+        "type": "alternia:fairy_bull",
+        "weight": 20,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ],
     "creature": [],
     "ambient": [],
     "axolotls": [],

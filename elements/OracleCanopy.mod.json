@@ -117,16 +117,6 @@
     "spawnBastionRemnant": false,
     "spawnEndCity": false,
     "spawnRuinedPortal": "NONE",
-    "spawnEntries": [
-      {
-        "entity": {
-          "value": "CUSTOM:ZombieTroll"
-        },
-        "minGroup": 1,
-        "maxGroup": 1,
-        "weight": 10,
-        "spawnType": "monster"
-      }
-    ]
+    "spawnEntries": []
   }
 }

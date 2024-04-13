@@ -122,6 +122,12 @@
     "onRightClicked": {
       "name": "GrubNestFeed"
     },
+    "onDestroyedByPlayer": {
+      "name": "GrubNestBlockDestroyed"
+    },
+    "onDestroyedByExplosion": {
+      "name": "ExplodedGrubs"
+    },
     "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [

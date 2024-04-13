@@ -39,13 +39,13 @@ import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.EntityDimensions;
+import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.AreaEffectCloud;
 import net.minecraft.world.entity.AgeableMob;
 import net.minecraft.world.damagesource.DamageTypes;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.InteractionHand;
-import net.minecraft.tags.ItemTags;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.resources.ResourceLocation;
@@ -84,17 +84,19 @@ public class SpiderLususEntity extends TamableAnimal {
 		});
 		this.targetSelector.addGoal(4, new HurtByTargetGoal(this));
 		this.goalSelector.addGoal(5, new RandomStrollGoal(this, 1));
-		this.goalSelector.addGoal(6, new TemptGoal(this, 1, Ingredient.of(AlterniaModItems.COOKED_GRUB.get()), false));
-		this.goalSelector.addGoal(7, new TemptGoal(this, 1, Ingredient.of(AlterniaModItems.LIVE_GRUB.get()), false));
+		this.goalSelector.addGoal(6, new TemptGoal(this, 1, Ingredient.of(AlterniaModItems.LUSUS_MEAT.get()), false));
+		this.goalSelector.addGoal(7, new TemptGoal(this, 1, Ingredient.of(AlterniaModItems.ROTTEN_TROLL_FLESH.get()), false));
 		this.goalSelector.addGoal(8, new FollowOwnerGoal(this, 1, (float) 10, (float) 2, false));
 		this.goalSelector.addGoal(9, new OwnerHurtByTargetGoal(this));
 		this.targetSelector.addGoal(10, new OwnerHurtTargetGoal(this));
 		this.goalSelector.addGoal(11, new RandomLookAroundGoal(this));
-		this.targetSelector.addGoal(12, new NearestAttackableTargetGoal(this, GrubEntity.class, false, false));
+		this.targetSelector.addGoal(12, new NearestAttackableTargetGoal(this, CrabLususEntity.class, false, false));
 		this.targetSelector.addGoal(13, new NearestAttackableTargetGoal(this, CatLususEntity.class, false, false));
 		this.targetSelector.addGoal(14, new NearestAttackableTargetGoal(this, SpiderLususEntity.class, false, false));
-		this.targetSelector.addGoal(15, new NearestAttackableTargetGoal(this, ZombieTrollEntity.class, false, false));
-		this.goalSelector.addGoal(16, new FloatGoal(this));
+		this.targetSelector.addGoal(15, new NearestAttackableTargetGoal(this, RamLususEntity.class, false, false));
+		this.targetSelector.addGoal(16, new NearestAttackableTargetGoal(this, FairyBullEntity.class, false, false));
+		this.targetSelector.addGoal(17, new NearestAttackableTargetGoal(this, ZombieTrollEntity.class, false, false));
+		this.goalSelector.addGoal(18, new FloatGoal(this));
 	}
 
 	@Override
@@ -124,6 +126,15 @@ public class SpiderLususEntity extends TamableAnimal {
 
 	@Override
 	public boolean hurt(DamageSource damagesource, float amount) {
+		double x = this.getX();
+		double y = this.getY();
+		double z = this.getZ();
+		Level world = this.level();
+		Entity entity = this;
+		Entity sourceentity = damagesource.getEntity();
+		Entity immediatesourceentity = damagesource.getDirectEntity();
+
+		LususRegenProcedure.execute(entity);
 		if (damagesource.getDirectEntity() instanceof ThrownPotion || damagesource.getDirectEntity() instanceof AreaEffectCloud)
 			return false;
 		if (damagesource.is(DamageTypes.FALL))
@@ -175,12 +186,6 @@ public class SpiderLususEntity extends TamableAnimal {
 	}
 
 	@Override
-	public void baseTick() {
-		super.baseTick();
-		LususRegenProcedure.execute(this);
-	}
-
-	@Override
 	public AgeableMob getBreedOffspring(ServerLevel serverWorld, AgeableMob ageable) {
 		SpiderLususEntity retval = AlterniaModEntities.SPIDER_LUSUS.get().create(serverWorld);
 		retval.finalizeSpawn(serverWorld, serverWorld.getCurrentDifficultyAt(retval.blockPosition()), MobSpawnType.BREEDING, null, null);
@@ -189,7 +194,7 @@ public class SpiderLususEntity extends TamableAnimal {
 
 	@Override
 	public boolean isFood(ItemStack stack) {
-		return Ingredient.of(ItemTags.create(new ResourceLocation("alternia:lusus_food"))).test(stack);
+		return Ingredient.of(new ItemStack(AlterniaModItems.LUSUS_MEAT.get()), new ItemStack(AlterniaModItems.ROTTEN_TROLL_FLESH.get())).test(stack);
 	}
 
 	@Override

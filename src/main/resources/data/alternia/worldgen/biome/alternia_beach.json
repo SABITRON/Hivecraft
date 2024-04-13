@@ -11,7 +11,14 @@
     "water_fog_color": -13556176
   },
   "spawners": {
-    "monster": [],
+    "monster": [
+      {
+        "type": "alternia:crab_lusus",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ],
     "creature": [],
     "ambient": [],
     "axolotls": [],

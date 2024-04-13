@@ -120,11 +120,11 @@
     "spawnEntries": [
       {
         "entity": {
-          "value": "CUSTOM:ZombieTroll"
+          "value": "CUSTOM:RamLusus"
         },
         "minGroup": 1,
         "maxGroup": 1,
-        "weight": 10,
+        "weight": 2,
         "spawnType": "monster"
       }
     ]

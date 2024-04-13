@@ -11,14 +11,7 @@
     "water_fog_color": -12177084
   },
   "spawners": {
-    "monster": [
-      {
-        "type": "alternia:zombie_troll",
-        "weight": 10,
-        "minCount": 1,
-        "maxCount": 1
-      }
-    ],
+    "monster": [],
     "creature": [],
     "ambient": [],
     "axolotls": [],
