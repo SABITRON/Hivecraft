@@ -54,36 +54,36 @@
       "value": "Blocks.FLOWING_WATER"
     },
     "airColor": {
-      "value": -13097408,
+      "value": -14609370,
       "falpha": 0.0
     },
     "canRespawnHere": true,
-    "hasFog": false,
+    "hasFog": true,
     "isDark": true,
     "doesWaterVaporize": false,
     "sleepResult": "ALLOW",
-    "hasSkyLight": true,
+    "hasSkyLight": false,
     "imitateOverworldBehaviour": false,
     "portalFrame": {
-      "value": ""
+      "value": "CUSTOM:StargateFrame"
     },
     "portalParticles": {
-      "value": "PORTAL"
+      "value": "ELECTRIC_SPARK"
     },
-    "portalLuminance": 0,
+    "portalLuminance": 15,
     "portalSound": {
-      "value": "block.portal.ambient"
+      "value": "block.beacon.ambient"
     },
     "enableIgniter": true,
-    "igniterName": "Alternia Portal Igniter",
+    "igniterName": "Alternia Stargate Remote",
     "specialInformation": {
       "fixedValue": []
     },
     "igniterTab": {
-      "value": "No creative tab entry"
+      "value": "CUSTOM:AlterniaTab"
     },
-    "texture": "",
-    "portalTexture": "alternia_tpz_block",
-    "enablePortal": false
+    "texture": "stargate_remote",
+    "portalTexture": "alterniaportal",
+    "enablePortal": true
   }
 }

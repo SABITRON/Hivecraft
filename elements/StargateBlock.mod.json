@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:StargatePanel"
+      },
+      {
+        "value": "CUSTOM:StargateShielding"
+      },
+      {
+        "value": "CUSTOM:StargatePanel"
+      },
+      {
+        "value": "CUSTOM:StargatePlate"
+      },
+      {
+        "value": "CUSTOM:CobaltBeaconCore"
+      },
+      {
+        "value": "CUSTOM:StargatePlate"
+      },
+      {
+        "value": "CUSTOM:StargatePanel"
+      },
+      {
+        "value": "CUSTOM:StargateShielding"
+      },
+      {
+        "value": "CUSTOM:StargatePanel"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:StargateFrame"
+    },
+    "name": "stargate_block",
+    "namespace": "mod"
+  }
+}

@@ -9,6 +9,9 @@
     {
       "amount": 1000,
       "fluid": "alternia:sopor_slime"
+    },
+    {
+      "item": "minecraft:bucket"
     }
   ]
 }

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "alternia:cobalt_ingot"
+    },
+    "b": {
+      "item": "alternia:stargate_frame"
+    }
+  },
+  "result": {
+    "item": "alternia:stargate_corner",
+    "count": 4
+  }
+}

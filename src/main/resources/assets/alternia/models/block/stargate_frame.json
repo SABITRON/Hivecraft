@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "alternia:block/stargate_top",
+    "up": "alternia:block/stargate_top",
+    "north": "alternia:block/stargate_side",
+    "east": "alternia:block/stargate_side",
+    "south": "alternia:block/stargate_side",
+    "west": "alternia:block/stargate_side",
+    "particle": "alternia:block/stargate_top"
+  },
+  "render_type": "solid"
+}

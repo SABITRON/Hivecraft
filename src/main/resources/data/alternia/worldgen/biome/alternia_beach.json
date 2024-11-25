@@ -5,13 +5,18 @@
   "effects": {
     "foliage_color": -10265495,
     "grass_color": -10264524,
-    "sky_color": -14605784,
-    "fog_color": -14605784,
+    "sky_color": -15461094,
+    "fog_color": -15461094,
     "water_color": -11782062,
     "water_fog_color": -13556176
   },
   "spawners": {
-    "monster": [
+    "monster": [],
+    "creature": [],
+    "ambient": [],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [
       {
         "type": "alternia:crab_lusus",
         "weight": 5,
@@ -19,11 +24,6 @@
         "maxCount": 1
       }
     ],
-    "creature": [],
-    "ambient": [],
-    "axolotls": [],
-    "underground_water_creature": [],
-    "water_creature": [],
     "water_ambient": [],
     "misc": []
   },

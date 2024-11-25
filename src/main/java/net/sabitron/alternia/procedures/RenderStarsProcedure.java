@@ -867,8 +867,7 @@ public class RenderStarsProcedure {
 		if ((ResourceKey.create(Registries.DIMENSION, new ResourceLocation("alternia:alternia"))) == (entity.level().dimension())) {
 			RenderSystem.enableBlend();
 			RenderSystem.blendFuncSeparate(GlStateManager.SourceFactor.SRC_ALPHA, GlStateManager.DestFactor.ONE, GlStateManager.SourceFactor.ONE, GlStateManager.DestFactor.ZERO);
-			renderStars(500, 413, 0, (float) (world.getTimeOfDay(Minecraft.getInstance().getPartialTick()) * 360.0F), 0, (int) (255 << 24 | 255 << 16 | 255 << 8 | 255), true);
-			renderStars(500, 413, 180, (float) (world.getTimeOfDay(Minecraft.getInstance().getPartialTick()) * 360.0F), 0, (int) (255 << 24 | 255 << 16 | 255 << 8 | 255), true);
+			renderStars(1000, 413, 0, (float) (world.getTimeOfDay(Minecraft.getInstance().getPartialTick()) * 360.0F), 0, (int) (255 << 24 | 255 << 16 | 255 << 8 | 255), true);
 		}
 	}
 }

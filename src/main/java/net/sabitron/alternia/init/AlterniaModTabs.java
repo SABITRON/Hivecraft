@@ -187,6 +187,12 @@ public class AlterniaModTabs {
 				tabData.accept(AlterniaModItems.FAIRY_BULL_SPAWN_EGG.get());
 				tabData.accept(AlterniaModItems.CRAB_LUSUS_SPAWN_EGG.get());
 				tabData.accept(AlterniaModItems.RAM_LUSUS_SPAWN_EGG.get());
+				tabData.accept(AlterniaModItems.ALTERNIA.get());
+				tabData.accept(AlterniaModBlocks.STARGATE_FRAME.get().asItem());
+				tabData.accept(AlterniaModBlocks.STARGATE_CORNER.get().asItem());
+				tabData.accept(AlterniaModItems.STARGATE_SHIELDING.get());
+				tabData.accept(AlterniaModItems.STARGATE_PANEL.get());
+				tabData.accept(AlterniaModItems.STARGATE_PLATE.get());
 			})
 
 					.build());

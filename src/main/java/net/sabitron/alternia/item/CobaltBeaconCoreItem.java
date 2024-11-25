@@ -12,7 +12,7 @@ import java.util.List;
 
 public class CobaltBeaconCoreItem extends Item {
 	public CobaltBeaconCoreItem() {
-		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON));
+		super(new Item.Properties().stacksTo(64).rarity(Rarity.RARE));
 	}
 
 	@Override

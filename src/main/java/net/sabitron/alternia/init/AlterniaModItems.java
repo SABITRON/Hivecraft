@@ -12,6 +12,9 @@ import net.sabitron.alternia.item.TealShadesItem;
 import net.sabitron.alternia.item.TealHemodyeItem;
 import net.sabitron.alternia.item.TealBloodItem;
 import net.sabitron.alternia.item.SulfurItem;
+import net.sabitron.alternia.item.StargateShieldingItem;
+import net.sabitron.alternia.item.StargatePlateItem;
+import net.sabitron.alternia.item.StargatePanelItem;
 import net.sabitron.alternia.item.SpadeCandyItem;
 import net.sabitron.alternia.item.SoporSlimeItem;
 import net.sabitron.alternia.item.ShattergrainItem;
@@ -87,6 +90,7 @@ import net.sabitron.alternia.item.BronzeShadesItem;
 import net.sabitron.alternia.item.BronzeHemodyeItem;
 import net.sabitron.alternia.item.BronzeBloodItem;
 import net.sabitron.alternia.item.BeetleItem;
+import net.sabitron.alternia.item.AlterniaItem;
 import net.sabitron.alternia.AlterniaMod;
 
 import net.minecraftforge.registries.RegistryObject;
@@ -451,6 +455,7 @@ public class AlterniaModItems {
 	public static final RegistryObject<Item> FUCHSIA_SHADES_HELMET = REGISTRY.register("fuchsia_shades_helmet", () -> new FuchsiaShadesItem.Helmet());
 	public static final RegistryObject<Item> FUCHSIA_LAMP = block(AlterniaModBlocks.FUCHSIA_LAMP);
 	public static final RegistryObject<Item> MOD_ICON = REGISTRY.register("mod_icon", () -> new ModIconItem());
+	public static final RegistryObject<Item> ALTERNIA = REGISTRY.register("alternia", () -> new AlterniaItem());
 	public static final RegistryObject<Item> SHATTERGRAIN_STAGE_1 = block(AlterniaModBlocks.SHATTERGRAIN_STAGE_1);
 	public static final RegistryObject<Item> SHATTERGRAIN_STAGE_2 = block(AlterniaModBlocks.SHATTERGRAIN_STAGE_2);
 	public static final RegistryObject<Item> SHATTERGRAIN_STAGE_3 = block(AlterniaModBlocks.SHATTERGRAIN_STAGE_3);
@@ -461,6 +466,11 @@ public class AlterniaModItems {
 	public static final RegistryObject<Item> LIT_DARKSTONE_REDSTONE_ORE = block(AlterniaModBlocks.LIT_DARKSTONE_REDSTONE_ORE);
 	public static final RegistryObject<Item> HEMOSPECTRUM_TAB_ICON = REGISTRY.register("hemospectrum_tab_icon", () -> new HemospectrumTabIconItem());
 	public static final RegistryObject<Item> MUTANT_BLOOD = REGISTRY.register("mutant_blood", () -> new MutantBloodItem());
+	public static final RegistryObject<Item> STARGATE_FRAME = block(AlterniaModBlocks.STARGATE_FRAME);
+	public static final RegistryObject<Item> STARGATE_CORNER = block(AlterniaModBlocks.STARGATE_CORNER);
+	public static final RegistryObject<Item> STARGATE_SHIELDING = REGISTRY.register("stargate_shielding", () -> new StargateShieldingItem());
+	public static final RegistryObject<Item> STARGATE_PANEL = REGISTRY.register("stargate_panel", () -> new StargatePanelItem());
+	public static final RegistryObject<Item> STARGATE_PLATE = REGISTRY.register("stargate_plate", () -> new StargatePlateItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

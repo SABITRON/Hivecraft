@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcd",
+    " e "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:quartz"
+    },
+    "b": {
+      "item": "alternia:oracle_button"
+    },
+    "c": {
+      "item": "alternia:stargate_frame"
+    },
+    "d": {
+      "item": "alternia:bramble_button"
+    },
+    "e": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "alternia:alternia",
+    "count": 1
+  }
+}

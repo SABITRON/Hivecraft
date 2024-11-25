@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bbb",
+    " b "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:redstone_block"
+    },
+    "b": {
+      "item": "minecraft:copper_ingot"
+    }
+  },
+  "result": {
+    "item": "alternia:stargate_plate",
+    "count": 2
+  }
+}

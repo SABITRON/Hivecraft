@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "alternia:stargate_panel"
+    },
+    "b": {
+      "item": "alternia:stargate_shielding"
+    },
+    "c": {
+      "item": "alternia:stargate_plate"
+    },
+    "d": {
+      "item": "alternia:cobalt_beacon_core"
+    }
+  },
+  "result": {
+    "item": "alternia:stargate_frame",
+    "count": 3
+  }
+}
