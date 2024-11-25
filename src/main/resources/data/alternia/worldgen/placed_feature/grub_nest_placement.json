@@ -2,6 +2,15 @@
   "feature": "alternia:grub_nest_placement",
   "placement": [
     {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:would_survive",
+        "state": {
+          "Name": "alternia:rust_hemo_flower"
+        }
+      }
+    },
+    {
       "type": "minecraft:rarity_filter",
       "chance": 16
     },

@@ -1,10 +1,10 @@
 {
   "type": "minecraft:smithing_transform",
   "template": {
-    "item": "minecraft:diamond_axe"
+    "item": "alternia:cobalt_ingot"
   },
   "base": {
-    "item": "alternia:cobalt_ingot"
+    "item": "minecraft:diamond_axe"
   },
   "addition": {
     "item": "alternia:cobalt_ingot"

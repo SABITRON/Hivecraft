@@ -872,7 +872,7 @@ public class RenderPinkMoonProcedure {
 			}
 			RenderSystem.enableBlend();
 			RenderSystem.blendFuncSeparate(GlStateManager.SourceFactor.SRC_ALPHA, GlStateManager.DestFactor.ONE, GlStateManager.SourceFactor.ONE, GlStateManager.DestFactor.ZERO);
-			renderMoon(40, (float) (world.getTimeOfDay(Minecraft.getInstance().getPartialTick()) * 360.0F + 20), (int) (255 << 24 | 255 << 16 | 255 << 8 | 255), false, false);
+			renderMoon(40, (float) (world.getTimeOfDay(Minecraft.getInstance().getPartialTick()) * 360.0F + 20), (int) (255 << 24 | 255 << 16 | 255 << 8 | 255), false, true);
 		}
 	}
 }

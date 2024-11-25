@@ -2,8 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "building",
   "pattern": [
-    "aaa",
-    "aaa"
+    "aa",
+    "aa"
   ],
   "key": {
     "a": {
@@ -12,6 +12,6 @@
   },
   "result": {
     "item": "alternia:hive_trapdoor",
-    "count": 2
+    "count": 1
   }
 }

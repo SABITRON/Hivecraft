@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "alternia:gold_meat_block"
+    }
+  },
+  "result": {
+    "item": "alternia:gold_meat_wall",
+    "count": 6
+  }
+}

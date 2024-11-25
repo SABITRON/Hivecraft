@@ -6,28 +6,28 @@
       "item": "alternia:darkstone_dust"
     },
     {
-      "item": "minecraft:sugar"
-    },
-    {
-      "item": "minecraft:sugar"
-    },
-    {
-      "item": "alternia:salt"
-    },
-    {
-      "item": "alternia:salt"
-    },
-    {
-      "item": "minecraft:water_bucket"
-    },
-    {
-      "tag": "alternia:hemodye"
-    },
-    {
       "item": "minecraft:bucket"
     },
     {
-      "item": "alternia:rotten_troll_flesh"
+      "item": "alternia:darkstone_dust"
+    },
+    {
+      "item": "alternia:shatterflour"
+    },
+    {
+      "item": "alternia:shatterflour"
+    },
+    {
+      "item": "alternia:shatterflour"
+    },
+    {
+      "tag": "alternia:blood"
+    },
+    {
+      "tag": "alternia:blood"
+    },
+    {
+      "tag": "alternia:blood"
     }
   ],
   "result": {

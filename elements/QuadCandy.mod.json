@@ -1,0 +1,28 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:HeartCandy"
+      },
+      {
+        "value": "CUSTOM:DiamondCandy"
+      },
+      {
+        "value": "CUSTOM:SpadeCandy"
+      },
+      {
+        "value": "CUSTOM:ClubCandy"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "quadrant_candy",
+    "namespace": "mod"
+  }
+}

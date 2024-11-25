@@ -12,7 +12,7 @@
     "recipeShapeless": true,
     "recipeSlots": [
       {
-        "value": "TAG:minecraft:wool"
+        "value": "CUSTOM:LususWool"
       },
       {
         "value": "CUSTOM:TealHemodye"

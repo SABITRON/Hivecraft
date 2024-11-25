@@ -2,29 +2,28 @@
   "type": "create:mixing",
   "ingredients": [
     {
-      "amount": 1000,
-      "fluid": "minecraft:water"
+      "item": "alternia:darkstone_dust"
     },
     {
       "item": "alternia:darkstone_dust"
     },
     {
-      "item": "minecraft:sugar"
+      "item": "alternia:shatterflour"
     },
     {
-      "item": "minecraft:sugar"
+      "item": "alternia:shatterflour"
     },
     {
-      "item": "alternia:salt"
+      "item": "alternia:shatterflour"
     },
     {
-      "item": "alternia:salt"
+      "tag": "alternia:blood"
     },
     {
-      "tag": "alternia:hemodye"
+      "tag": "alternia:blood"
     },
     {
-      "item": "alternia:rotten_troll_flesh"
+      "tag": "alternia:blood"
     }
   ],
   "results": [

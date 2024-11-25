@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:bread"
+    },
+    {
+      "item": "alternia:cooked_grub_meat"
+    },
+    {
+      "item": "alternia:beetle"
+    },
+    {
+      "item": "minestuck:grasshopper"
+    },
+    {
+      "item": "minestuck:cone_of_flies"
+    },
+    {
+      "item": "minestuck:jar_of_bugs"
+    },
+    {
+      "item": "minestuck:grub_sauce"
+    },
+    {
+      "tag": "alternia:quadrant_candy"
+    },
+    {
+      "tag": "alternia:quadrant_candy"
+    }
+  ],
+  "result": {
+    "item": "alternia:ration",
+    "count": 1
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:RustBlood"
+      },
+      {
+        "value": "CUSTOM:BronzeBlood"
+      },
+      {
+        "value": "CUSTOM:GoldBlood"
+      },
+      {
+        "value": "CUSTOM:LimeBlood"
+      },
+      {
+        "value": "CUSTOM:OliveBlood"
+      },
+      {
+        "value": "CUSTOM:JadeBlood"
+      },
+      {
+        "value": "CUSTOM:TealBlood"
+      },
+      {
+        "value": "CUSTOM:CobaltBlood"
+      },
+      {
+        "value": "CUSTOM:IndigoBlood"
+      },
+      {
+        "value": "CUSTOM:PurpleBlood"
+      },
+      {
+        "value": "CUSTOM:VioletBlood"
+      },
+      {
+        "value": "CUSTOM:FuchsiaBlood"
+      },
+      {
+        "value": "CUSTOM:MutantBlood"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "blood",
+    "namespace": "mod"
+  }
+}

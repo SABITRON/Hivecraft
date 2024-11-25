@@ -3,7 +3,7 @@
   "category": "building",
   "ingredients": [
     {
-      "tag": "minecraft:wool"
+      "item": "alternia:lusus_wool"
     },
     {
       "item": "alternia:teal_hemodye"

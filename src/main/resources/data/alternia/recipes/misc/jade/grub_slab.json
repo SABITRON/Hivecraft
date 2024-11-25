@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "alternia:jade_meat_block"
+    }
+  },
+  "result": {
+    "item": "alternia:jade_meat_slab",
+    "count": 6
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "alternia:block/rust_meat_block_top",
+    "top": "alternia:block/rust_meat_block_top",
+    "side": "alternia:block/rust_meat_block"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "alternia:heart_candy",
+    "alternia:diamond_candy",
+    "alternia:spade_candy",
+    "alternia:club_candy"
+  ]
+}

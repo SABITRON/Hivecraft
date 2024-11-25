@@ -31,6 +31,42 @@
       },
       {
         "value": "CUSTOM:DarkstoneShinglesWall"
+      },
+      {
+        "value": "CUSTOM:RustMeatWall"
+      },
+      {
+        "value": "CUSTOM:GoldMeatWall"
+      },
+      {
+        "value": "CUSTOM:LimeMeatWall"
+      },
+      {
+        "value": "CUSTOM:BronzeMeatWall"
+      },
+      {
+        "value": "CUSTOM:OliveMeatWall"
+      },
+      {
+        "value": "CUSTOM:JadeMeatWall"
+      },
+      {
+        "value": "CUSTOM:TealMeatWall"
+      },
+      {
+        "value": "CUSTOM:CobaltMeatWall"
+      },
+      {
+        "value": "CUSTOM:IndigoMeatWall"
+      },
+      {
+        "value": "CUSTOM:PurpleMeatWall"
+      },
+      {
+        "value": "CUSTOM:VioletMeatWall"
+      },
+      {
+        "value": "CUSTOM:FuchsiaMeatWall"
       }
     ],
     "functions": [],

@@ -1,0 +1,9 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "alternia:block/gold_meat_block_top",
+    "top": "alternia:block/gold_meat_block_top",
+    "side": "alternia:block/gold_meat_block"
+  },
+  "render_type": "solid"
+}

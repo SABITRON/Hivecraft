@@ -1,0 +1,9 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "alternia:block/lime_meat_block_top",
+    "top": "alternia:block/lime_meat_block_top",
+    "side": "alternia:block/lime_meat_block"
+  },
+  "render_type": "solid"
+}

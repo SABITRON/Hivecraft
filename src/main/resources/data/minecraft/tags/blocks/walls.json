@@ -9,6 +9,18 @@
     "alternia:hive_drywall_wall",
     "alternia:darkstone_tiles_wall",
     "alternia:packed_darkstone_wall",
-    "alternia:darkstone_shingles_wall"
+    "alternia:darkstone_shingles_wall",
+    "alternia:rust_meat_wall",
+    "alternia:gold_meat_wall",
+    "alternia:lime_meat_wall",
+    "alternia:bronze_meat_wall",
+    "alternia:olive_meat_wall",
+    "alternia:jade_meat_wall",
+    "alternia:teal_meat_wall",
+    "alternia:cobalt_meat_wall",
+    "alternia:indigo_meat_wall",
+    "alternia:purple_meat_wall",
+    "alternia:violet_meat_wall",
+    "alternia:fuchsia_meat_wall"
   ]
 }

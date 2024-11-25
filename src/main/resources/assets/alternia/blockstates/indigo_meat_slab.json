@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "alternia:block/indigo_meat_slab"
+    },
+    "type=top": {
+      "model": "alternia:block/indigo_meat_slab_top"
+    },
+    "type=double": {
+      "model": "alternia:block/indigo_meat_slab_full"
+    }
+  }
+}

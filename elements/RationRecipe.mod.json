@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "Items.BREAD"
+      },
+      {
+        "value": "CUSTOM:CookedGrub"
+      },
+      {
+        "value": "CUSTOM:Beetle"
+      },
+      {
+        "value": "TAG:alternia:quadrant_candy"
+      },
+      {
+        "value": "TAG:alternia:quadrant_candy"
+      },
+      {
+        "value": "CUSTOM:TrollHorn"
+      },
+      {
+        "value": "CUSTOM:TrollHorn"
+      },
+      {
+        "value": "CUSTOM:TrollHorn"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Ration"
+    },
+    "name": "ration_recipe",
+    "namespace": "mod"
+  }
+}

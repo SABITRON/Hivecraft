@@ -11,6 +11,6 @@
         "value": "CUSTOM:OracleCanopy"
       }
     ],
-    "featurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"feature_container\" deletable=\"false\" x=\"40\" y=\"40\"><value name=\"feature\"><block type=\"feature_simple_block\"><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">CUSTOM:GrubNest</field></block></value></block></value><next><block type=\"placement_rarity\"><field name=\"rarity\">16</field><next><block type=\"placement_in_square\"><next><block type=\"placement_heightmap\"><field name=\"heightmap\">OCEAN_FLOOR_WG</field></block></next></block></next></block></next></block></xml>"
+    "featurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"feature_container\" deletable=\"false\" x=\"40\" y=\"40\"><value name=\"feature\"><block type=\"feature_simple_block\"><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">CUSTOM:GrubNest</field></block></value></block></value><next><block type=\"placement_block_survival_filter\"><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">CUSTOM:RustHemoFlower</field></block></value><next><block type=\"placement_rarity\"><field name=\"rarity\">16</field><next><block type=\"placement_in_square\"><next><block type=\"placement_heightmap\"><field name=\"heightmap\">OCEAN_FLOOR_WG</field></block></next></block></next></block></next></block></next></block></xml>"
   }
 }

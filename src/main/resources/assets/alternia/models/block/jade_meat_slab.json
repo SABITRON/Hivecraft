@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "alternia:block/jade_meat_block_top",
+    "top": "alternia:block/jade_meat_block_top",
+    "side": "alternia:block/jade_meat_block"
+  },
+  "render_type": "solid"
+}

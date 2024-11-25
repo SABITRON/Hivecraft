@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "alternia:rust_blood",
+    "alternia:bronze_blood",
+    "alternia:gold_blood",
+    "alternia:lime_blood",
+    "alternia:olive_blood",
+    "alternia:jade_blood",
+    "alternia:teal_blood",
+    "alternia:cobalt_blood",
+    "alternia:indigo_blood",
+    "alternia:purple_blood",
+    "alternia:violet_blood",
+    "alternia:fuchsia_blood",
+    "alternia:mutant_blood"
+  ]
+}

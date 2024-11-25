@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "alternia:cobalt_blood"
+    }
+  ],
+  "result": {
+    "item": "alternia:cobalt_hemodye",
+    "count": 1
+  }
+}

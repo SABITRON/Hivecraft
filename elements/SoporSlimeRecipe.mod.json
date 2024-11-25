@@ -15,28 +15,28 @@
         "value": "CUSTOM:DarkstoneDust"
       },
       {
-        "value": "Items.SUGAR"
-      },
-      {
-        "value": "Items.SUGAR"
-      },
-      {
-        "value": "CUSTOM:Salt"
-      },
-      {
-        "value": "CUSTOM:Salt"
-      },
-      {
-        "value": "Items.WATER_BUCKET"
-      },
-      {
-        "value": "TAG:alternia:hemodye"
-      },
-      {
         "value": "Items.BUCKET"
       },
       {
-        "value": "CUSTOM:RottenTrollFlesh"
+        "value": "CUSTOM:DarkstoneDust"
+      },
+      {
+        "value": "CUSTOM:Shatterflour"
+      },
+      {
+        "value": "CUSTOM:Shatterflour"
+      },
+      {
+        "value": "CUSTOM:Shatterflour"
+      },
+      {
+        "value": "TAG:alternia:blood"
+      },
+      {
+        "value": "TAG:alternia:blood"
+      },
+      {
+        "value": "TAG:alternia:blood"
       }
     ],
     "recipeReturnStack": {

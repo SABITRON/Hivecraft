@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "a  ",
+    "aa ",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "alternia:cobalt_meat_block"
+    }
+  },
+  "result": {
+    "item": "alternia:cobalt_meat_stairs",
+    "count": 4
+  }
+}
