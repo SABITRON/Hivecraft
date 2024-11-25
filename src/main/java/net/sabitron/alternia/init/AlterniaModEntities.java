@@ -37,23 +37,23 @@ public class AlterniaModEntities {
 
 					.sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<CatLususEntity>> CAT_LUSUS = register("cat_lusus",
-			EntityType.Builder.<CatLususEntity>of(CatLususEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CatLususEntity::new)
+			EntityType.Builder.<CatLususEntity>of(CatLususEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CatLususEntity::new)
 
 					.sized(0.7f, 0.7f));
 	public static final RegistryObject<EntityType<SpiderLususEntity>> SPIDER_LUSUS = register("spider_lusus",
-			EntityType.Builder.<SpiderLususEntity>of(SpiderLususEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(SpiderLususEntity::new)
+			EntityType.Builder.<SpiderLususEntity>of(SpiderLususEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(SpiderLususEntity::new)
 
 					.sized(1.4f, 0.9f));
 	public static final RegistryObject<EntityType<FairyBullEntity>> FAIRY_BULL = register("fairy_bull",
-			EntityType.Builder.<FairyBullEntity>of(FairyBullEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(32).setUpdateInterval(3).setCustomClientFactory(FairyBullEntity::new)
+			EntityType.Builder.<FairyBullEntity>of(FairyBullEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(32).setUpdateInterval(3).setCustomClientFactory(FairyBullEntity::new)
 
 					.sized(0.8f, 0.9f));
 	public static final RegistryObject<EntityType<CrabLususEntity>> CRAB_LUSUS = register("crab_lusus",
-			EntityType.Builder.<CrabLususEntity>of(CrabLususEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CrabLususEntity::new)
+			EntityType.Builder.<CrabLususEntity>of(CrabLususEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CrabLususEntity::new)
 
 					.sized(1.7f, 2.9f));
 	public static final RegistryObject<EntityType<RamLususEntity>> RAM_LUSUS = register("ram_lusus",
-			EntityType.Builder.<RamLususEntity>of(RamLususEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(RamLususEntity::new)
+			EntityType.Builder.<RamLususEntity>of(RamLususEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(RamLususEntity::new)
 
 					.sized(0.8f, 0.7f));
 

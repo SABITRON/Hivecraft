@@ -20,13 +20,22 @@ public class ZombieTrollAddEquipmentProcedure {
 			return;
 		if (Math.random() < 0.5) {
 			if (entity instanceof LivingEntity _entity) {
-				ItemStack _setstack = (EnchantmentHelper.enchantItem(RandomSource.create(),
-						new ItemStack((ForgeRegistries.ITEMS.tags().getTag(ItemTags.create(new ResourceLocation("alternia:shadow_dropper_weapons"))).getRandomElement(RandomSource.create()).orElseGet(() -> Items.AIR))),
-						Mth.nextInt(RandomSource.create(), 1, 30), true));
+				ItemStack _setstack = new ItemStack((ForgeRegistries.ITEMS.tags().getTag(ItemTags.create(new ResourceLocation("alternia:shadow_dropper_weapons"))).getRandomElement(RandomSource.create()).orElseGet(() -> Items.AIR)));
 				_setstack.setCount(1);
 				_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack);
 				if (_entity instanceof Player _player)
 					_player.getInventory().setChanged();
+			}
+			if (Math.random() < 0.1) {
+				if (entity instanceof LivingEntity _entity) {
+					ItemStack _setstack = (EnchantmentHelper.enchantItem(RandomSource.create(),
+							new ItemStack((ForgeRegistries.ITEMS.tags().getTag(ItemTags.create(new ResourceLocation("alternia:shadow_dropper_weapons"))).getRandomElement(RandomSource.create()).orElseGet(() -> Items.AIR))),
+							Mth.nextInt(RandomSource.create(), 1, 30), true));
+					_setstack.setCount(1);
+					_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack);
+					if (_entity instanceof Player _player)
+						_player.getInventory().setChanged();
+				}
 			}
 		}
 	}

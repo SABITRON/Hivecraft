@@ -79,6 +79,7 @@ public class CrabLususEntity extends TamableAnimal implements GeoEntity {
 		super(type, world);
 		xpReward = 5;
 		setNoAi(false);
+		setPersistenceRequired();
 	}
 
 	@Override
@@ -136,6 +137,11 @@ public class CrabLususEntity extends TamableAnimal implements GeoEntity {
 	@Override
 	public MobType getMobType() {
 		return MobType.WATER;
+	}
+
+	@Override
+	public boolean removeWhenFarAway(double distanceToClosestPlayer) {
+		return false;
 	}
 
 	@Override

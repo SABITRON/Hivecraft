@@ -63,6 +63,7 @@ public class CatLususEntity extends TamableAnimal {
 		setMaxUpStep(1.2f);
 		xpReward = 0;
 		setNoAi(false);
+		setPersistenceRequired();
 		refreshDimensions();
 	}
 
@@ -103,6 +104,11 @@ public class CatLususEntity extends TamableAnimal {
 	@Override
 	public MobType getMobType() {
 		return MobType.UNDEFINED;
+	}
+
+	@Override
+	public boolean removeWhenFarAway(double distanceToClosestPlayer) {
+		return false;
 	}
 
 	@Override

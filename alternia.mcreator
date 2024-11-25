@@ -14256,6 +14256,20 @@
         ]
       },
       "path": "~/Tags"
+    },
+    {
+      "name": "Flour",
+      "type": "tag",
+      "sortid": 866,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flour",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/flour/wheat.json"
+        ]
+      },
+      "path": "~/Tags"
     }
   ],
   "variable_elements": [
@@ -14831,7 +14845,7 @@
   "workspaceSettings": {
     "modid": "alternia",
     "modName": "Hivecraft: An Alternia addon for Minestuck",
-    "version": "1.1.13",
+    "version": "1.1.2",
     "author": "V_SABITRON",
     "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/hivecraft-an-alternia-addon-for-minestuck",
     "license": "Academic Free License v3.0",

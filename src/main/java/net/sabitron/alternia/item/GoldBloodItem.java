@@ -19,12 +19,7 @@ public class GoldBloodItem extends Item {
 
 	@Override
 	public UseAnim getUseAnimation(ItemStack itemstack) {
-		return UseAnim.NONE;
-	}
-
-	@Override
-	public int getUseDuration(ItemStack itemstack) {
-		return 0;
+		return UseAnim.DRINK;
 	}
 
 	@Override

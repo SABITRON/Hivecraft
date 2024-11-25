@@ -19,12 +19,12 @@ public class MutantBloodItem extends Item {
 
 	@Override
 	public UseAnim getUseAnimation(ItemStack itemstack) {
-		return UseAnim.NONE;
+		return UseAnim.DRINK;
 	}
 
 	@Override
 	public int getUseDuration(ItemStack itemstack) {
-		return 0;
+		return 320;
 	}
 
 	@Override
