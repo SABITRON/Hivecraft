@@ -26,7 +26,7 @@ public class AlterniaDimension {
 
 				@Override
 				public boolean isFoggyAt(int x, int y) {
-					return true;
+					return false;
 				}
 			};
 			event.register(new ResourceLocation("alternia:alternia"), customEffect);

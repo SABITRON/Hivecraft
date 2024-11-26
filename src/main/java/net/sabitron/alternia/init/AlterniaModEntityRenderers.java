@@ -5,12 +5,12 @@
 package net.sabitron.alternia.init;
 
 import net.sabitron.alternia.client.renderer.ZombieTrollRenderer;
-import net.sabitron.alternia.client.renderer.SpiderLususRenderer;
-import net.sabitron.alternia.client.renderer.RamLususRenderer;
+import net.sabitron.alternia.client.renderer.LususSpiderRenderer;
+import net.sabitron.alternia.client.renderer.LususRamRenderer;
+import net.sabitron.alternia.client.renderer.LususCrabRenderer;
+import net.sabitron.alternia.client.renderer.LususCatRenderer;
 import net.sabitron.alternia.client.renderer.GrubRenderer;
 import net.sabitron.alternia.client.renderer.FairyBullRenderer;
-import net.sabitron.alternia.client.renderer.CrabLususRenderer;
-import net.sabitron.alternia.client.renderer.CatLususRenderer;
 
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -23,10 +23,10 @@ public class AlterniaModEntityRenderers {
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
 		event.registerEntityRenderer(AlterniaModEntities.GRUB.get(), GrubRenderer::new);
 		event.registerEntityRenderer(AlterniaModEntities.ZOMBIE_TROLL.get(), ZombieTrollRenderer::new);
-		event.registerEntityRenderer(AlterniaModEntities.CAT_LUSUS.get(), CatLususRenderer::new);
-		event.registerEntityRenderer(AlterniaModEntities.SPIDER_LUSUS.get(), SpiderLususRenderer::new);
+		event.registerEntityRenderer(AlterniaModEntities.LUSUS_CRAB.get(), LususCrabRenderer::new);
+		event.registerEntityRenderer(AlterniaModEntities.LUSUS_RAM.get(), LususRamRenderer::new);
 		event.registerEntityRenderer(AlterniaModEntities.FAIRY_BULL.get(), FairyBullRenderer::new);
-		event.registerEntityRenderer(AlterniaModEntities.CRAB_LUSUS.get(), CrabLususRenderer::new);
-		event.registerEntityRenderer(AlterniaModEntities.RAM_LUSUS.get(), RamLususRenderer::new);
+		event.registerEntityRenderer(AlterniaModEntities.LUSUS_CAT.get(), LususCatRenderer::new);
+		event.registerEntityRenderer(AlterniaModEntities.LUSUS_SPIDER.get(), LususSpiderRenderer::new);
 	}
 }

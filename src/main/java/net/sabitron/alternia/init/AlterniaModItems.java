@@ -269,11 +269,17 @@ public class AlterniaModItems {
 	public static final RegistryObject<Item> LUSUS_HIDE = REGISTRY.register("lusus_hide", () -> new LususHideItem());
 	public static final RegistryObject<Item> GRUB_SPAWN_EGG = REGISTRY.register("grub_spawn_egg", () -> new ForgeSpawnEggItem(AlterniaModEntities.GRUB, -6447219, -11314100, new Item.Properties()));
 	public static final RegistryObject<Item> ZOMBIE_TROLL_SPAWN_EGG = REGISTRY.register("zombie_troll_spawn_egg", () -> new ForgeSpawnEggItem(AlterniaModEntities.ZOMBIE_TROLL, -4934476, -627940, new Item.Properties()));
-	public static final RegistryObject<Item> CAT_LUSUS_SPAWN_EGG = REGISTRY.register("cat_lusus_spawn_egg", () -> new ForgeSpawnEggItem(AlterniaModEntities.CAT_LUSUS, -1, -13408768, new Item.Properties()));
-	public static final RegistryObject<Item> SPIDER_LUSUS_SPAWN_EGG = REGISTRY.register("spider_lusus_spawn_egg", () -> new ForgeSpawnEggItem(AlterniaModEntities.SPIDER_LUSUS, -1, -16764058, new Item.Properties()));
-	public static final RegistryObject<Item> FAIRY_BULL_SPAWN_EGG = REGISTRY.register("fairy_bull_spawn_egg", () -> new ForgeSpawnEggItem(AlterniaModEntities.FAIRY_BULL, -1, -6204925, new Item.Properties()));
-	public static final RegistryObject<Item> CRAB_LUSUS_SPAWN_EGG = REGISTRY.register("crab_lusus_spawn_egg", () -> new ForgeSpawnEggItem(AlterniaModEntities.CRAB_LUSUS, -1, -65536, new Item.Properties()));
-	public static final RegistryObject<Item> RAM_LUSUS_SPAWN_EGG = REGISTRY.register("ram_lusus_spawn_egg", () -> new ForgeSpawnEggItem(AlterniaModEntities.RAM_LUSUS, -1, -10092544, new Item.Properties()));
+	public static final RegistryObject<Item> ALTERNIA = REGISTRY.register("alternia", () -> new AlterniaItem());
+	public static final RegistryObject<Item> STARGATE_FRAME = block(AlterniaModBlocks.STARGATE_FRAME);
+	public static final RegistryObject<Item> STARGATE_CORNER = block(AlterniaModBlocks.STARGATE_CORNER);
+	public static final RegistryObject<Item> STARGATE_SHIELDING = REGISTRY.register("stargate_shielding", () -> new StargateShieldingItem());
+	public static final RegistryObject<Item> STARGATE_PANEL = REGISTRY.register("stargate_panel", () -> new StargatePanelItem());
+	public static final RegistryObject<Item> STARGATE_PLATE = REGISTRY.register("stargate_plate", () -> new StargatePlateItem());
+	public static final RegistryObject<Item> LUSUS_CRAB_SPAWN_EGG = REGISTRY.register("lusus_crab_spawn_egg", () -> new ForgeSpawnEggItem(AlterniaModEntities.LUSUS_CRAB, -6710887, -1, new Item.Properties()));
+	public static final RegistryObject<Item> LUSUS_RAM_SPAWN_EGG = REGISTRY.register("lusus_ram_spawn_egg", () -> new ForgeSpawnEggItem(AlterniaModEntities.LUSUS_RAM, -4194304, -1, new Item.Properties()));
+	public static final RegistryObject<Item> FAIRY_BULL_SPAWN_EGG = REGISTRY.register("fairy_bull_spawn_egg", () -> new ForgeSpawnEggItem(AlterniaModEntities.FAIRY_BULL, -4169468, -1, new Item.Properties()));
+	public static final RegistryObject<Item> LUSUS_CAT_SPAWN_EGG = REGISTRY.register("lusus_cat_spawn_egg", () -> new ForgeSpawnEggItem(AlterniaModEntities.LUSUS_CAT, -11238144, -1, new Item.Properties()));
+	public static final RegistryObject<Item> LUSUS_SPIDER_SPAWN_EGG = REGISTRY.register("lusus_spider_spawn_egg", () -> new ForgeSpawnEggItem(AlterniaModEntities.LUSUS_SPIDER, -16756575, -1, new Item.Properties()));
 	public static final RegistryObject<Item> RUST_BLOOD = REGISTRY.register("rust_blood", () -> new RustBloodItem());
 	public static final RegistryObject<Item> RUST_HEMO_FLOWER = block(AlterniaModBlocks.RUST_HEMO_FLOWER);
 	public static final RegistryObject<Item> RUST_HEMODYE = REGISTRY.register("rust_hemodye", () -> new RustHemodyeItem());
@@ -455,7 +461,6 @@ public class AlterniaModItems {
 	public static final RegistryObject<Item> FUCHSIA_SHADES_HELMET = REGISTRY.register("fuchsia_shades_helmet", () -> new FuchsiaShadesItem.Helmet());
 	public static final RegistryObject<Item> FUCHSIA_LAMP = block(AlterniaModBlocks.FUCHSIA_LAMP);
 	public static final RegistryObject<Item> MOD_ICON = REGISTRY.register("mod_icon", () -> new ModIconItem());
-	public static final RegistryObject<Item> ALTERNIA = REGISTRY.register("alternia", () -> new AlterniaItem());
 	public static final RegistryObject<Item> SHATTERGRAIN_STAGE_1 = block(AlterniaModBlocks.SHATTERGRAIN_STAGE_1);
 	public static final RegistryObject<Item> SHATTERGRAIN_STAGE_2 = block(AlterniaModBlocks.SHATTERGRAIN_STAGE_2);
 	public static final RegistryObject<Item> SHATTERGRAIN_STAGE_3 = block(AlterniaModBlocks.SHATTERGRAIN_STAGE_3);
@@ -466,11 +471,6 @@ public class AlterniaModItems {
 	public static final RegistryObject<Item> LIT_DARKSTONE_REDSTONE_ORE = block(AlterniaModBlocks.LIT_DARKSTONE_REDSTONE_ORE);
 	public static final RegistryObject<Item> HEMOSPECTRUM_TAB_ICON = REGISTRY.register("hemospectrum_tab_icon", () -> new HemospectrumTabIconItem());
 	public static final RegistryObject<Item> MUTANT_BLOOD = REGISTRY.register("mutant_blood", () -> new MutantBloodItem());
-	public static final RegistryObject<Item> STARGATE_FRAME = block(AlterniaModBlocks.STARGATE_FRAME);
-	public static final RegistryObject<Item> STARGATE_CORNER = block(AlterniaModBlocks.STARGATE_CORNER);
-	public static final RegistryObject<Item> STARGATE_SHIELDING = REGISTRY.register("stargate_shielding", () -> new StargateShieldingItem());
-	public static final RegistryObject<Item> STARGATE_PANEL = REGISTRY.register("stargate_panel", () -> new StargatePanelItem());
-	public static final RegistryObject<Item> STARGATE_PLATE = REGISTRY.register("stargate_plate", () -> new StargatePlateItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

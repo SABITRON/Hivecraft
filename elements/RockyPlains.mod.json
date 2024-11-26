@@ -117,16 +117,16 @@
     "spawnEntries": [
       {
         "entity": {
-          "value": "CUSTOM:SpiderLusus"
+          "value": "CUSTOM:ZombieTroll"
         },
         "minGroup": 1,
         "maxGroup": 1,
-        "weight": 5,
+        "weight": 20,
         "spawnType": "monster"
       },
       {
         "entity": {
-          "value": "CUSTOM:ZombieTroll"
+          "value": "CUSTOM:LususSpider"
         },
         "minGroup": 1,
         "maxGroup": 1,

@@ -13,8 +13,8 @@
   "spawners": {
     "monster": [
       {
-        "type": "alternia:spider_lusus",
-        "weight": 5,
+        "type": "alternia:lusus_spider",
+        "weight": 20,
         "minCount": 1,
         "maxCount": 1
       }

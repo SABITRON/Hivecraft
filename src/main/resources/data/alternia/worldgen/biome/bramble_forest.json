@@ -1,6 +1,6 @@
 {
   "has_precipitation": false,
-  "temperature": 0.5,
+  "temperature": 2,
   "downfall": 0,
   "effects": {
     "foliage_color": -3124241,
@@ -13,16 +13,16 @@
   "spawners": {
     "monster": [
       {
-        "type": "alternia:cat_lusus",
-        "weight": 2,
-        "minCount": 1,
-        "maxCount": 1
-      },
-      {
         "type": "alternia:zombie_troll",
         "weight": 8,
         "minCount": 1,
         "maxCount": 3
+      },
+      {
+        "type": "alternia:lusus_cat",
+        "weight": 20,
+        "minCount": 1,
+        "maxCount": 1
       }
     ],
     "creature": [],

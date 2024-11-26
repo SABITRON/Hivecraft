@@ -18,7 +18,6 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.network.PlayMessages;
 import net.minecraftforge.network.NetworkHooks;
 
-import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.crafting.Ingredient;
@@ -36,12 +35,9 @@ import net.minecraft.world.entity.ai.goal.WaterAvoidingRandomStrollGoal;
 import net.minecraft.world.entity.ai.goal.TemptGoal;
 import net.minecraft.world.entity.ai.goal.RandomStrollGoal;
 import net.minecraft.world.entity.ai.goal.RandomLookAroundGoal;
-import net.minecraft.world.entity.ai.goal.PanicGoal;
-import net.minecraft.world.entity.ai.goal.LeapAtTargetGoal;
-import net.minecraft.world.entity.ai.goal.Goal;
+import net.minecraft.world.entity.ai.goal.MeleeAttackGoal;
 import net.minecraft.world.entity.ai.goal.FollowOwnerGoal;
 import net.minecraft.world.entity.ai.goal.FloatGoal;
-import net.minecraft.world.entity.ai.goal.AvoidEntityGoal;
 import net.minecraft.world.entity.ai.control.FlyingMoveControl;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
@@ -57,7 +53,6 @@ import net.minecraft.world.entity.AgeableMob;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.InteractionHand;
-import net.minecraft.util.RandomSource;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.resources.ResourceLocation;
@@ -70,7 +65,6 @@ import net.minecraft.nbt.CompoundTag;
 import net.minecraft.core.BlockPos;
 
 import java.util.List;
-import java.util.EnumSet;
 
 public class FairyBullEntity extends TamableAnimal implements GeoEntity {
 	public static final EntityDataAccessor<Boolean> SHOOT = SynchedEntityData.defineId(FairyBullEntity.class, EntityDataSerializers.BOOLEAN);
@@ -88,9 +82,8 @@ public class FairyBullEntity extends TamableAnimal implements GeoEntity {
 
 	public FairyBullEntity(EntityType<FairyBullEntity> type, Level world) {
 		super(type, world);
-		xpReward = 1;
+		xpReward = 0;
 		setNoAi(false);
-		setPersistenceRequired();
 		this.moveControl = new FlyingMoveControl(this, 10, true);
 	}
 
@@ -111,11 +104,6 @@ public class FairyBullEntity extends TamableAnimal implements GeoEntity {
 	}
 
 	@Override
-	protected float getStandingEyeHeight(Pose poseIn, EntityDimensions sizeIn) {
-		return 0.85F;
-	}
-
-	@Override
 	public Packet<ClientGamePacketListener> getAddEntityPacket() {
 		return NetworkHooks.getEntitySpawningPacket(this);
 	}
@@ -128,69 +116,27 @@ public class FairyBullEntity extends TamableAnimal implements GeoEntity {
 	@Override
 	protected void registerGoals() {
 		super.registerGoals();
-		this.goalSelector.addGoal(1, new RandomStrollGoal(this, 1, 20) {
+		this.goalSelector.addGoal(1, new FloatGoal(this));
+		this.goalSelector.addGoal(2, new TemptGoal(this, 1, Ingredient.of(AlterniaModItems.SHATTERFLOUR.get()), false));
+		this.goalSelector.addGoal(3, new MeleeAttackGoal(this, 1.2, false) {
 			@Override
-			protected Vec3 getPosition() {
-				RandomSource random = FairyBullEntity.this.getRandom();
-				double dir_x = FairyBullEntity.this.getX() + ((random.nextFloat() * 2 - 1) * 16);
-				double dir_y = FairyBullEntity.this.getY() + ((random.nextFloat() * 2 - 1) * 16);
-				double dir_z = FairyBullEntity.this.getZ() + ((random.nextFloat() * 2 - 1) * 16);
-				return new Vec3(dir_x, dir_y, dir_z);
+			protected double getAttackReachSqr(LivingEntity entity) {
+				return this.mob.getBbWidth() * this.mob.getBbWidth() + entity.getBbWidth();
 			}
 		});
-		this.goalSelector.addGoal(2, new WaterAvoidingRandomStrollGoal(this, 1));
-		this.goalSelector.addGoal(3, new AvoidEntityGoal<>(this, CrabLususEntity.class, (float) 6, 1, 1.2));
-		this.goalSelector.addGoal(4, new AvoidEntityGoal<>(this, SpiderLususEntity.class, (float) 6, 1, 1.2));
-		this.goalSelector.addGoal(5, new FollowOwnerGoal(this, 1, (float) 10, (float) 2, false));
-		this.goalSelector.addGoal(6, new RandomLookAroundGoal(this));
-		this.goalSelector.addGoal(7, new FloatGoal(this));
-		this.goalSelector.addGoal(8, new LeapAtTargetGoal(this, (float) 0.5));
-		this.goalSelector.addGoal(9, new TemptGoal(this, 1, Ingredient.of(AlterniaModItems.SHATTERFLOUR.get()), true));
-		this.goalSelector.addGoal(10, new Goal() {
-			{
-				this.setFlags(EnumSet.of(Goal.Flag.MOVE));
-			}
-
-			public boolean canUse() {
-				if (FairyBullEntity.this.getTarget() != null && !FairyBullEntity.this.getMoveControl().hasWanted()) {
-					return true;
-				} else {
-					return false;
-				}
-			}
-
-			@Override
-			public boolean canContinueToUse() {
-				return FairyBullEntity.this.getMoveControl().hasWanted() && FairyBullEntity.this.getTarget() != null && FairyBullEntity.this.getTarget().isAlive();
-			}
-
-			@Override
-			public void start() {
-				LivingEntity livingentity = FairyBullEntity.this.getTarget();
-				Vec3 vec3d = livingentity.getEyePosition(1);
-				FairyBullEntity.this.moveControl.setWantedPosition(vec3d.x, vec3d.y, vec3d.z, 1);
-			}
-
-			@Override
-			public void tick() {
-				LivingEntity livingentity = FairyBullEntity.this.getTarget();
-				if (FairyBullEntity.this.getBoundingBox().intersects(livingentity.getBoundingBox())) {
-					FairyBullEntity.this.doHurtTarget(livingentity);
-				} else {
-					double d0 = FairyBullEntity.this.distanceToSqr(livingentity);
-					if (d0 < 16) {
-						Vec3 vec3d = livingentity.getEyePosition(1);
-						FairyBullEntity.this.moveControl.setWantedPosition(vec3d.x, vec3d.y, vec3d.z, 1);
-					}
-				}
-			}
-		});
-		this.targetSelector.addGoal(11, new HurtByTargetGoal(this));
-		this.goalSelector.addGoal(12, new PanicGoal(this, 1.2));
-		this.targetSelector.addGoal(13, new NearestAttackableTargetGoal(this, ZombieTrollEntity.class, true, true));
-		this.targetSelector.addGoal(14, new NearestAttackableTargetGoal(this, FairyBullEntity.class, true, true));
-		this.targetSelector.addGoal(15, new OwnerHurtTargetGoal(this));
-		this.goalSelector.addGoal(16, new OwnerHurtByTargetGoal(this));
+		this.targetSelector.addGoal(4, new NearestAttackableTargetGoal(this, ZombieTrollEntity.class, true, true));
+		this.targetSelector.addGoal(5, new NearestAttackableTargetGoal(this, FairyBullEntity.class, true, true));
+		this.targetSelector.addGoal(6, new NearestAttackableTargetGoal(this, LususCatEntity.class, true, true));
+		this.targetSelector.addGoal(7, new NearestAttackableTargetGoal(this, LususCrabEntity.class, true, true));
+		this.targetSelector.addGoal(8, new NearestAttackableTargetGoal(this, LususRamEntity.class, true, true));
+		this.targetSelector.addGoal(9, new NearestAttackableTargetGoal(this, LususSpiderEntity.class, true, true));
+		this.targetSelector.addGoal(10, new HurtByTargetGoal(this));
+		this.goalSelector.addGoal(11, new OwnerHurtByTargetGoal(this));
+		this.targetSelector.addGoal(12, new OwnerHurtTargetGoal(this));
+		this.goalSelector.addGoal(13, new FollowOwnerGoal(this, 1, (float) 2, (float) 20, false));
+		this.goalSelector.addGoal(14, new WaterAvoidingRandomStrollGoal(this, 0.8));
+		this.goalSelector.addGoal(15, new RandomStrollGoal(this, 1));
+		this.goalSelector.addGoal(16, new RandomLookAroundGoal(this));
 	}
 
 	@Override
@@ -199,18 +145,8 @@ public class FairyBullEntity extends TamableAnimal implements GeoEntity {
 	}
 
 	@Override
-	public boolean removeWhenFarAway(double distanceToClosestPlayer) {
-		return false;
-	}
-
-	protected void dropCustomDeathLoot(DamageSource source, int looting, boolean recentlyHitIn) {
-		super.dropCustomDeathLoot(source, looting, recentlyHitIn);
-		this.spawnAtLocation(new ItemStack(AlterniaModItems.LUSUS_HIDE.get()));
-	}
-
-	@Override
 	public SoundEvent getAmbientSound() {
-		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.phantom.flap"));
+		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.cow.ambient"));
 	}
 
 	@Override
@@ -334,23 +270,17 @@ public class FairyBullEntity extends TamableAnimal implements GeoEntity {
 
 	public static AttributeSupplier.Builder createAttributes() {
 		AttributeSupplier.Builder builder = Mob.createMobAttributes();
-		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.5);
+		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.3);
 		builder = builder.add(Attributes.MAX_HEALTH, 10);
 		builder = builder.add(Attributes.ARMOR, 0);
 		builder = builder.add(Attributes.ATTACK_DAMAGE, 3);
-		builder = builder.add(Attributes.FOLLOW_RANGE, 8);
-		builder = builder.add(Attributes.FLYING_SPEED, 0.5);
+		builder = builder.add(Attributes.FOLLOW_RANGE, 16);
+		builder = builder.add(Attributes.FLYING_SPEED, 0.3);
 		return builder;
 	}
 
 	private PlayState movementPredicate(AnimationState event) {
 		if (this.animationprocedure.equals("empty")) {
-			if ((event.isMoving() || !(event.getLimbSwingAmount() > -0.15F && event.getLimbSwingAmount() < 0.15F)) && this.onGround()) {
-				return event.setAndContinue(RawAnimation.begin().thenLoop("animation.fairy_bull.idle"));
-			}
-			if (!this.onGround()) {
-				return event.setAndContinue(RawAnimation.begin().thenLoop("animation.fairy_bull.idle"));
-			}
 			return event.setAndContinue(RawAnimation.begin().thenLoop("animation.fairy_bull.idle"));
 		}
 		return PlayState.STOP;

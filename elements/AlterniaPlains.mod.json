@@ -51,7 +51,7 @@
     },
     "particlesProbability": 0.5,
     "rainingPossibility": 0.0,
-    "temperature": 0.5,
+    "temperature": 2.0,
     "spawnBiome": false,
     "spawnInCaves": false,
     "spawnBiomeNether": false,
@@ -120,11 +120,11 @@
     "spawnEntries": [
       {
         "entity": {
-          "value": "CUSTOM:RamLusus"
+          "value": "CUSTOM:LususRam"
         },
         "minGroup": 1,
         "maxGroup": 1,
-        "weight": 2,
+        "weight": 20,
         "spawnType": "monster"
       }
     ]

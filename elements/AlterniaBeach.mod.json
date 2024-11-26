@@ -118,12 +118,12 @@
     "spawnEntries": [
       {
         "entity": {
-          "value": "CUSTOM:CrabLusus"
+          "value": "CUSTOM:LususCrab"
         },
         "minGroup": 1,
         "maxGroup": 1,
-        "weight": 5,
-        "spawnType": "waterCreature"
+        "weight": 20,
+        "spawnType": "monster"
       }
     ]
   }

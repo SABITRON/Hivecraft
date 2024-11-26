@@ -405,6 +405,9 @@ public class AlterniaModBlocks {
 	public static final RegistryObject<Block> RAW_COBALT_BLOCK = REGISTRY.register("raw_cobalt_block", () -> new RawCobaltBlockBlock());
 	public static final RegistryObject<Block> COBALT_BLOCK = REGISTRY.register("cobalt_block", () -> new CobaltBlockBlock());
 	public static final RegistryObject<Block> SHATTERGRAIN_SEEDS = REGISTRY.register("shattergrain_seeds", () -> new ShattergrainSeedsBlock());
+	public static final RegistryObject<Block> ALTERNIA_PORTAL = REGISTRY.register("alternia_portal", () -> new AlterniaPortalBlock());
+	public static final RegistryObject<Block> STARGATE_FRAME = REGISTRY.register("stargate_frame", () -> new StargateFrameBlock());
+	public static final RegistryObject<Block> STARGATE_CORNER = REGISTRY.register("stargate_corner", () -> new StargateCornerBlock());
 	public static final RegistryObject<Block> RUST_HEMO_FLOWER = REGISTRY.register("rust_hemo_flower", () -> new RustHemoFlowerBlock());
 	public static final RegistryObject<Block> RUST_HEMOGLASS = REGISTRY.register("rust_hemoglass", () -> new RustHemoglassBlock());
 	public static final RegistryObject<Block> RUST_HEMOGLASS_PANE = REGISTRY.register("rust_hemoglass_pane", () -> new RustHemoglassPaneBlock());
@@ -549,7 +552,6 @@ public class AlterniaModBlocks {
 	public static final RegistryObject<Block> FUCHSIA_MEAT_WALL = REGISTRY.register("fuchsia_meat_wall", () -> new FuchsiaMeatWallBlock());
 	public static final RegistryObject<Block> FUCHSIA_RECUPERACOON_CORE = REGISTRY.register("fuchsia_recuperacoon_core", () -> new FuchsiaRecuperacoonCoreBlock());
 	public static final RegistryObject<Block> FUCHSIA_LAMP = REGISTRY.register("fuchsia_lamp", () -> new FuchsiaLampBlock());
-	public static final RegistryObject<Block> ALTERNIA_PORTAL = REGISTRY.register("alternia_portal", () -> new AlterniaPortalBlock());
 	public static final RegistryObject<Block> SHATTERGRAIN_STAGE_1 = REGISTRY.register("shattergrain_stage_1", () -> new ShattergrainStage1Block());
 	public static final RegistryObject<Block> SHATTERGRAIN_STAGE_2 = REGISTRY.register("shattergrain_stage_2", () -> new ShattergrainStage2Block());
 	public static final RegistryObject<Block> SHATTERGRAIN_STAGE_3 = REGISTRY.register("shattergrain_stage_3", () -> new ShattergrainStage3Block());
@@ -558,8 +560,6 @@ public class AlterniaModBlocks {
 	public static final RegistryObject<Block> BUG_NEST_BEETLES = REGISTRY.register("bug_nest_beetles", () -> new BugNestBeetlesBlock());
 	public static final RegistryObject<Block> BUG_NEST_GRASSHOPPERS = REGISTRY.register("bug_nest_grasshoppers", () -> new BugNestGrasshoppersBlock());
 	public static final RegistryObject<Block> LIT_DARKSTONE_REDSTONE_ORE = REGISTRY.register("lit_darkstone_redstone_ore", () -> new LitDarkstoneRedstoneOreBlock());
-	public static final RegistryObject<Block> STARGATE_FRAME = REGISTRY.register("stargate_frame", () -> new StargateFrameBlock());
-	public static final RegistryObject<Block> STARGATE_CORNER = REGISTRY.register("stargate_corner", () -> new StargateCornerBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

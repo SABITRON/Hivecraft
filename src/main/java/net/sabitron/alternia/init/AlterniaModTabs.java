@@ -182,17 +182,17 @@ public class AlterniaModTabs {
 				tabData.accept(AlterniaModItems.LUSUS_HIDE.get());
 				tabData.accept(AlterniaModItems.GRUB_SPAWN_EGG.get());
 				tabData.accept(AlterniaModItems.ZOMBIE_TROLL_SPAWN_EGG.get());
-				tabData.accept(AlterniaModItems.CAT_LUSUS_SPAWN_EGG.get());
-				tabData.accept(AlterniaModItems.SPIDER_LUSUS_SPAWN_EGG.get());
-				tabData.accept(AlterniaModItems.FAIRY_BULL_SPAWN_EGG.get());
-				tabData.accept(AlterniaModItems.CRAB_LUSUS_SPAWN_EGG.get());
-				tabData.accept(AlterniaModItems.RAM_LUSUS_SPAWN_EGG.get());
 				tabData.accept(AlterniaModItems.ALTERNIA.get());
 				tabData.accept(AlterniaModBlocks.STARGATE_FRAME.get().asItem());
 				tabData.accept(AlterniaModBlocks.STARGATE_CORNER.get().asItem());
 				tabData.accept(AlterniaModItems.STARGATE_SHIELDING.get());
 				tabData.accept(AlterniaModItems.STARGATE_PANEL.get());
 				tabData.accept(AlterniaModItems.STARGATE_PLATE.get());
+				tabData.accept(AlterniaModItems.LUSUS_CRAB_SPAWN_EGG.get());
+				tabData.accept(AlterniaModItems.LUSUS_RAM_SPAWN_EGG.get());
+				tabData.accept(AlterniaModItems.FAIRY_BULL_SPAWN_EGG.get());
+				tabData.accept(AlterniaModItems.LUSUS_CAT_SPAWN_EGG.get());
+				tabData.accept(AlterniaModItems.LUSUS_SPIDER_SPAWN_EGG.get());
 			})
 
 					.build());

@@ -51,7 +51,7 @@
     },
     "particlesProbability": 0.5,
     "rainingPossibility": 0.0,
-    "temperature": 0.5,
+    "temperature": 2.0,
     "spawnBiome": false,
     "spawnInCaves": false,
     "spawnBiomeNether": false,
@@ -120,10 +120,10 @@
     "spawnEntries": [
       {
         "entity": {
-          "value": "CUSTOM:ZombieTroll"
+          "value": "CUSTOM:FairyBull"
         },
-        "minGroup": 3,
-        "maxGroup": 4,
+        "minGroup": 1,
+        "maxGroup": 1,
         "weight": 20,
         "spawnType": "monster"
       }

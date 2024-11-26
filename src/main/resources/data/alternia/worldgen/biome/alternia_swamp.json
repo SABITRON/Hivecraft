@@ -1,6 +1,6 @@
 {
   "has_precipitation": false,
-  "temperature": 0.5,
+  "temperature": 2,
   "downfall": 0,
   "effects": {
     "foliage_color": -12702367,
@@ -13,10 +13,10 @@
   "spawners": {
     "monster": [
       {
-        "type": "alternia:zombie_troll",
+        "type": "alternia:fairy_bull",
         "weight": 20,
-        "minCount": 3,
-        "maxCount": 4
+        "minCount": 1,
+        "maxCount": 1
       }
     ],
     "creature": [],
