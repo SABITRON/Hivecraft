@@ -47,7 +47,7 @@ public class SetupAlterniaProcedure {
 		@Override
 		public boolean renderClouds(ClientLevel level, int ticks, float partialTick, PoseStack poseStack, double camX, double camY, double camZ, Matrix4f projectionMatrix) {
 			if (CUSTOM_CLOUDS != null && !CUSTOM_CLOUDS.isEmpty()) {
-				boolean flag = false;
+				boolean flag = true;
 				Object[] objects = new Object[]{level, ticks, partialTick, poseStack, camX, camY, camZ, projectionMatrix};
 				for (Predicate<Object[]> predicate : CUSTOM_CLOUDS) {
 					RenderSystem.depthMask(true);
@@ -66,13 +66,13 @@ public class SetupAlterniaProcedure {
 				}
 				return flag;
 			}
-			return false;
+			return true;
 		}
 
 		@Override
 		public boolean renderSky(ClientLevel level, int ticks, float partialTick, PoseStack poseStack, Camera camera, Matrix4f projectionMatrix, boolean isFoggy, Runnable setupFog) {
 			if (CUSTOM_SKY != null && !CUSTOM_SKY.isEmpty()) {
-				boolean flag = false;
+				boolean flag = true;
 				Object[] objects = new Object[]{level, ticks, partialTick, poseStack, camera, projectionMatrix, isFoggy, setupFog};
 				for (Predicate<Object[]> predicate : CUSTOM_SKY) {
 					RenderSystem.depthMask(false);
@@ -91,7 +91,7 @@ public class SetupAlterniaProcedure {
 				}
 				return flag;
 			}
-			return false;
+			return true;
 		}
 
 		@Override
@@ -202,6 +202,6 @@ public class SetupAlterniaProcedure {
 	}
 
 	private static void execute(@Nullable Event event) {
-		register((ResourceKey.create(Registries.DIMENSION, new ResourceLocation("alternia:alternia"))), createOverworldEffects(false, false, true));
+		register((ResourceKey.create(Registries.DIMENSION, new ResourceLocation("alternia:alternia"))), createOverworldEffects(false, false, false));
 	}
 }

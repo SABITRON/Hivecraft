@@ -2,6 +2,7 @@ package net.sabitron.alternia.procedures;
 
 import net.sabitron.alternia.init.AlterniaModItems;
 import net.sabitron.alternia.init.AlterniaModEntities;
+import net.sabitron.alternia.init.AlterniaModBlocks;
 import net.sabitron.alternia.AlterniaMod;
 
 import net.minecraftforge.registries.ForgeRegistries;
@@ -13,6 +14,8 @@ import net.minecraft.world.entity.MobSpawnType;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.InteractionHand;
+import net.minecraft.util.RandomSource;
+import net.minecraft.util.Mth;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.resources.ResourceLocation;
@@ -33,11 +36,13 @@ public class GrubNestFeedProcedure {
 					_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.generic.eat")), SoundSource.NEUTRAL, 1, 1, false);
 				}
 			}
-			AlterniaMod.queueServerWork(6000, () -> {
-				if (world instanceof ServerLevel _level) {
-					Entity entityToSpawn = AlterniaModEntities.GRUB.get().spawn(_level, BlockPos.containing(x, y + 1, z), MobSpawnType.MOB_SUMMONED);
-					if (entityToSpawn != null) {
-						entityToSpawn.setDeltaMovement(0, 0, 0);
+			AlterniaMod.queueServerWork(Mth.nextInt(RandomSource.create(), 6000, 24000), () -> {
+				if ((world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == AlterniaModBlocks.GRUB_NEST.get()) {
+					if (world instanceof ServerLevel _level) {
+						Entity entityToSpawn = AlterniaModEntities.GRUB.get().spawn(_level, BlockPos.containing(x, y + 1, z), MobSpawnType.MOB_SUMMONED);
+						if (entityToSpawn != null) {
+							entityToSpawn.setDeltaMovement(0, 0, 0);
+						}
 					}
 				}
 			});

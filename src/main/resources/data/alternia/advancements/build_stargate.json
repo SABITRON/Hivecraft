@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "alternia:alternia"
+    },
+    "title": {
+      "translate": "advancements.build_stargate.title"
+    },
+    "description": {
+      "translate": "advancements.build_stargate.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "build_stargate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "alternia:stargate_frame"
+            ],
+            "count": {
+              "min": 10,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "alternia:get_cobalt"
+}

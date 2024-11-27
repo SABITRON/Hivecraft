@@ -10,6 +10,7 @@ import software.bernie.geckolib.core.animation.AnimatableManager;
 import software.bernie.geckolib.core.animatable.instance.AnimatableInstanceCache;
 import software.bernie.geckolib.animatable.GeoEntity;
 
+import net.sabitron.alternia.procedures.LususRegenProcedure;
 import net.sabitron.alternia.init.AlterniaModItems;
 import net.sabitron.alternia.init.AlterniaModEntities;
 
@@ -46,6 +47,7 @@ import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.EntityDimensions;
 import net.minecraft.world.entity.AgeableMob;
+import net.minecraft.world.damagesource.DamageTypes;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.InteractionHand;
@@ -78,7 +80,7 @@ public class LususRamEntity extends TamableAnimal implements GeoEntity {
 
 	public LususRamEntity(EntityType<LususRamEntity> type, Level world) {
 		super(type, world);
-		xpReward = 0;
+		xpReward = 2;
 		setNoAi(false);
 	}
 
@@ -152,6 +154,14 @@ public class LususRamEntity extends TamableAnimal implements GeoEntity {
 	@Override
 	public SoundEvent getDeathSound() {
 		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.goat.death"));
+	}
+
+	@Override
+	public boolean hurt(DamageSource source, float amount) {
+		LususRegenProcedure.execute(this);
+		if (source.is(DamageTypes.FALL))
+			return false;
+		return super.hurt(source, amount);
 	}
 
 	@Override
@@ -245,10 +255,11 @@ public class LususRamEntity extends TamableAnimal implements GeoEntity {
 	public static AttributeSupplier.Builder createAttributes() {
 		AttributeSupplier.Builder builder = Mob.createMobAttributes();
 		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.3);
-		builder = builder.add(Attributes.MAX_HEALTH, 10);
-		builder = builder.add(Attributes.ARMOR, 0);
-		builder = builder.add(Attributes.ATTACK_DAMAGE, 3);
+		builder = builder.add(Attributes.MAX_HEALTH, 20);
+		builder = builder.add(Attributes.ARMOR, 20);
+		builder = builder.add(Attributes.ATTACK_DAMAGE, 5);
 		builder = builder.add(Attributes.FOLLOW_RANGE, 16);
+		builder = builder.add(Attributes.ATTACK_KNOCKBACK, 1);
 		return builder;
 	}
 

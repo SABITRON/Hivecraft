@@ -10,37 +10,33 @@ import software.bernie.geckolib.core.animation.AnimatableManager;
 import software.bernie.geckolib.core.animatable.instance.AnimatableInstanceCache;
 import software.bernie.geckolib.animatable.GeoEntity;
 
+import net.sabitron.alternia.procedures.LususRegenProcedure;
 import net.sabitron.alternia.init.AlterniaModItems;
 import net.sabitron.alternia.init.AlterniaModEntities;
 
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.network.PlayMessages;
 import net.minecraftforge.network.NetworkHooks;
-import net.minecraftforge.common.ForgeMod;
 
-import net.minecraft.world.level.pathfinder.BlockPathTypes;
+import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.level.LevelReader;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.SpawnEggItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.entity.ai.navigation.WaterBoundPathNavigation;
-import net.minecraft.world.entity.ai.navigation.PathNavigation;
 import net.minecraft.world.entity.ai.goal.target.OwnerHurtTargetGoal;
 import net.minecraft.world.entity.ai.goal.target.OwnerHurtByTargetGoal;
 import net.minecraft.world.entity.ai.goal.target.NearestAttackableTargetGoal;
 import net.minecraft.world.entity.ai.goal.target.HurtByTargetGoal;
 import net.minecraft.world.entity.ai.goal.WaterAvoidingRandomStrollGoal;
 import net.minecraft.world.entity.ai.goal.TemptGoal;
-import net.minecraft.world.entity.ai.goal.RandomSwimmingGoal;
 import net.minecraft.world.entity.ai.goal.RandomStrollGoal;
 import net.minecraft.world.entity.ai.goal.RandomLookAroundGoal;
 import net.minecraft.world.entity.ai.goal.MeleeAttackGoal;
+import net.minecraft.world.entity.ai.goal.FollowOwnerGoal;
 import net.minecraft.world.entity.ai.goal.FloatGoal;
-import net.minecraft.world.entity.ai.control.MoveControl;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.TamableAnimal;
@@ -51,12 +47,12 @@ import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.EntityDimensions;
+import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.AgeableMob;
 import net.minecraft.world.damagesource.DamageTypes;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.InteractionHand;
-import net.minecraft.util.Mth;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.resources.ResourceLocation;
@@ -86,41 +82,8 @@ public class LususCrabEntity extends TamableAnimal implements GeoEntity {
 
 	public LususCrabEntity(EntityType<LususCrabEntity> type, Level world) {
 		super(type, world);
-		xpReward = 0;
+		xpReward = 3;
 		setNoAi(false);
-		this.setPathfindingMalus(BlockPathTypes.WATER, 0);
-		this.moveControl = new MoveControl(this) {
-			@Override
-			public void tick() {
-				if (LususCrabEntity.this.isInWater())
-					LususCrabEntity.this.setDeltaMovement(LususCrabEntity.this.getDeltaMovement().add(0, 0.005, 0));
-				if (this.operation == MoveControl.Operation.MOVE_TO && !LususCrabEntity.this.getNavigation().isDone()) {
-					double dx = this.wantedX - LususCrabEntity.this.getX();
-					double dy = this.wantedY - LususCrabEntity.this.getY();
-					double dz = this.wantedZ - LususCrabEntity.this.getZ();
-					float f = (float) (Mth.atan2(dz, dx) * (double) (180 / Math.PI)) - 90;
-					float f1 = (float) (this.speedModifier * LususCrabEntity.this.getAttribute(Attributes.MOVEMENT_SPEED).getValue());
-					LususCrabEntity.this.setYRot(this.rotlerp(LususCrabEntity.this.getYRot(), f, 10));
-					LususCrabEntity.this.yBodyRot = LususCrabEntity.this.getYRot();
-					LususCrabEntity.this.yHeadRot = LususCrabEntity.this.getYRot();
-					if (LususCrabEntity.this.isInWater()) {
-						LususCrabEntity.this.setSpeed((float) LususCrabEntity.this.getAttribute(Attributes.MOVEMENT_SPEED).getValue());
-						float f2 = -(float) (Mth.atan2(dy, (float) Math.sqrt(dx * dx + dz * dz)) * (180 / Math.PI));
-						f2 = Mth.clamp(Mth.wrapDegrees(f2), -85, 85);
-						LususCrabEntity.this.setXRot(this.rotlerp(LususCrabEntity.this.getXRot(), f2, 5));
-						float f3 = Mth.cos(LususCrabEntity.this.getXRot() * (float) (Math.PI / 180.0));
-						LususCrabEntity.this.setZza(f3 * f1);
-						LususCrabEntity.this.setYya((float) (f1 * dy));
-					} else {
-						LususCrabEntity.this.setSpeed(f1 * 0.05F);
-					}
-				} else {
-					LususCrabEntity.this.setSpeed(0);
-					LususCrabEntity.this.setYya(0);
-					LususCrabEntity.this.setZza(0);
-				}
-			}
-		};
 	}
 
 	@Override
@@ -140,13 +103,13 @@ public class LususCrabEntity extends TamableAnimal implements GeoEntity {
 	}
 
 	@Override
-	public Packet<ClientGamePacketListener> getAddEntityPacket() {
-		return NetworkHooks.getEntitySpawningPacket(this);
+	protected float getStandingEyeHeight(Pose poseIn, EntityDimensions sizeIn) {
+		return 2F;
 	}
 
 	@Override
-	protected PathNavigation createNavigation(Level world) {
-		return new WaterBoundPathNavigation(this, world);
+	public Packet<ClientGamePacketListener> getAddEntityPacket() {
+		return NetworkHooks.getEntitySpawningPacket(this);
 	}
 
 	@Override
@@ -155,30 +118,35 @@ public class LususCrabEntity extends TamableAnimal implements GeoEntity {
 		this.goalSelector.addGoal(1, new FloatGoal(this));
 		this.goalSelector.addGoal(2, new TemptGoal(this, 1, Ingredient.of(AlterniaModItems.RAW_GRUB_MEAT.get()), false));
 		this.goalSelector.addGoal(3, new TemptGoal(this, 1, Ingredient.of(AlterniaModItems.LIVE_GRUB.get()), false));
-		this.goalSelector.addGoal(4, new MeleeAttackGoal(this, 1.2, false) {
+		this.goalSelector.addGoal(4, new WaterAvoidingRandomStrollGoal(this, 0.8));
+		this.goalSelector.addGoal(5, new MeleeAttackGoal(this, 1.2, false) {
 			@Override
 			protected double getAttackReachSqr(LivingEntity entity) {
 				return this.mob.getBbWidth() * this.mob.getBbWidth() + entity.getBbWidth();
 			}
 		});
-		this.targetSelector.addGoal(5, new NearestAttackableTargetGoal(this, ZombieTrollEntity.class, true, true));
-		this.targetSelector.addGoal(6, new NearestAttackableTargetGoal(this, FairyBullEntity.class, true, true));
-		this.targetSelector.addGoal(7, new NearestAttackableTargetGoal(this, LususCatEntity.class, true, true));
-		this.targetSelector.addGoal(8, new NearestAttackableTargetGoal(this, LususCrabEntity.class, true, true));
-		this.targetSelector.addGoal(9, new NearestAttackableTargetGoal(this, LususRamEntity.class, true, true));
-		this.targetSelector.addGoal(10, new NearestAttackableTargetGoal(this, LususSpiderEntity.class, true, true));
-		this.targetSelector.addGoal(11, new HurtByTargetGoal(this));
-		this.goalSelector.addGoal(12, new OwnerHurtByTargetGoal(this));
-		this.targetSelector.addGoal(13, new OwnerHurtTargetGoal(this));
-		this.goalSelector.addGoal(15, new RandomSwimmingGoal(this, 1, 40));
-		this.goalSelector.addGoal(16, new WaterAvoidingRandomStrollGoal(this, 0.8));
-		this.goalSelector.addGoal(17, new RandomStrollGoal(this, 1));
-		this.goalSelector.addGoal(18, new RandomLookAroundGoal(this));
+		this.targetSelector.addGoal(6, new NearestAttackableTargetGoal(this, ZombieTrollEntity.class, true, true));
+		this.targetSelector.addGoal(7, new NearestAttackableTargetGoal(this, FairyBullEntity.class, true, true));
+		this.targetSelector.addGoal(8, new NearestAttackableTargetGoal(this, LususCatEntity.class, true, true));
+		this.targetSelector.addGoal(9, new NearestAttackableTargetGoal(this, LususCrabEntity.class, true, true));
+		this.targetSelector.addGoal(10, new NearestAttackableTargetGoal(this, LususRamEntity.class, true, true));
+		this.targetSelector.addGoal(11, new NearestAttackableTargetGoal(this, LususSpiderEntity.class, true, true));
+		this.targetSelector.addGoal(12, new HurtByTargetGoal(this));
+		this.goalSelector.addGoal(13, new OwnerHurtByTargetGoal(this));
+		this.targetSelector.addGoal(14, new OwnerHurtTargetGoal(this));
+		this.goalSelector.addGoal(15, new FollowOwnerGoal(this, 1, (float) 2, (float) 20, false));
+		this.goalSelector.addGoal(16, new RandomStrollGoal(this, 1));
+		this.goalSelector.addGoal(17, new RandomLookAroundGoal(this));
 	}
 
 	@Override
 	public MobType getMobType() {
 		return MobType.WATER;
+	}
+
+	@Override
+	public double getPassengersRidingOffset() {
+		return super.getPassengersRidingOffset() + 1;
 	}
 
 	@Override
@@ -203,6 +171,7 @@ public class LususCrabEntity extends TamableAnimal implements GeoEntity {
 
 	@Override
 	public boolean hurt(DamageSource source, float amount) {
+		LususRegenProcedure.execute(this);
 		if (source.is(DamageTypes.DROWN))
 			return false;
 		return super.hurt(source, amount);
@@ -261,6 +230,7 @@ public class LususCrabEntity extends TamableAnimal implements GeoEntity {
 					this.setPersistenceRequired();
 			}
 		}
+		sourceentity.startRiding(this);
 		return retval;
 	}
 
@@ -288,18 +258,34 @@ public class LususCrabEntity extends TamableAnimal implements GeoEntity {
 	}
 
 	@Override
-	public boolean canBreatheUnderwater() {
-		return true;
-	}
-
-	@Override
-	public boolean checkSpawnObstruction(LevelReader world) {
-		return world.isUnobstructed(this);
-	}
-
-	@Override
-	public boolean isPushedByFluid() {
-		return false;
+	public void travel(Vec3 dir) {
+		Entity entity = this.getPassengers().isEmpty() ? null : (Entity) this.getPassengers().get(0);
+		if (this.isVehicle()) {
+			this.setYRot(entity.getYRot());
+			this.yRotO = this.getYRot();
+			this.setXRot(entity.getXRot() * 0.5F);
+			this.setRot(this.getYRot(), this.getXRot());
+			this.yBodyRot = entity.getYRot();
+			this.yHeadRot = entity.getYRot();
+			this.setMaxUpStep(1.0F);
+			if (entity instanceof LivingEntity passenger) {
+				this.setSpeed((float) this.getAttributeValue(Attributes.MOVEMENT_SPEED));
+				float forward = 0;
+				float strafe = passenger.xxa;
+				super.travel(new Vec3(strafe, 0, forward));
+			}
+			double d1 = this.getX() - this.xo;
+			double d0 = this.getZ() - this.zo;
+			float f1 = (float) Math.sqrt(d1 * d1 + d0 * d0) * 4;
+			if (f1 > 1.0F)
+				f1 = 1.0F;
+			this.walkAnimation.setSpeed(this.walkAnimation.speed() + (f1 - this.walkAnimation.speed()) * 0.4F);
+			this.walkAnimation.position(this.walkAnimation.position() + this.walkAnimation.speed());
+			this.calculateEntityAnimation(true);
+			return;
+		}
+		this.setMaxUpStep(0.5F);
+		super.travel(dir);
 	}
 
 	@Override
@@ -313,12 +299,12 @@ public class LususCrabEntity extends TamableAnimal implements GeoEntity {
 
 	public static AttributeSupplier.Builder createAttributes() {
 		AttributeSupplier.Builder builder = Mob.createMobAttributes();
-		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.3);
-		builder = builder.add(Attributes.MAX_HEALTH, 10);
-		builder = builder.add(Attributes.ARMOR, 0);
-		builder = builder.add(Attributes.ATTACK_DAMAGE, 3);
+		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.2);
+		builder = builder.add(Attributes.MAX_HEALTH, 40);
+		builder = builder.add(Attributes.ARMOR, 20);
+		builder = builder.add(Attributes.ATTACK_DAMAGE, 7);
 		builder = builder.add(Attributes.FOLLOW_RANGE, 16);
-		builder = builder.add(ForgeMod.SWIM_SPEED.get(), 0.3);
+		builder = builder.add(Attributes.KNOCKBACK_RESISTANCE, 1);
 		return builder;
 	}
 

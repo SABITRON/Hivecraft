@@ -156,6 +156,7 @@ public class AlterniaModTabs {
 				tabData.accept(AlterniaModItems.COBALT_KNIFE.get());
 				tabData.accept(AlterniaModItems.CULLING_FORK.get());
 				tabData.accept(AlterniaModItems.POSEIDONS_ENTENTE.get());
+				tabData.accept(AlterniaModItems.ZINC.get());
 				tabData.accept(AlterniaModBlocks.SHATTERGRAIN_SEEDS.get().asItem());
 				tabData.accept(AlterniaModItems.SHATTERGRAIN.get());
 				tabData.accept(AlterniaModItems.GLASSY_SHATTERGRAIN.get());
@@ -177,6 +178,7 @@ public class AlterniaModTabs {
 				tabData.accept(AlterniaModItems.SPADE_CANDY.get());
 				tabData.accept(AlterniaModItems.DIAMOND_CANDY.get());
 				tabData.accept(AlterniaModItems.CLUB_CANDY.get());
+				tabData.accept(AlterniaModItems.GRUB_SLIDER.get());
 				tabData.accept(AlterniaModItems.LUSUS_MEAT.get());
 				tabData.accept(AlterniaModItems.RATION.get());
 				tabData.accept(AlterniaModItems.LUSUS_HIDE.get());

@@ -39,11 +39,11 @@ public class AlterniaModEntities {
 	public static final RegistryObject<EntityType<LususCrabEntity>> LUSUS_CRAB = register("lusus_crab",
 			EntityType.Builder.<LususCrabEntity>of(LususCrabEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(LususCrabEntity::new)
 
-					.sized(0.6f, 1.8f));
+					.sized(1.8f, 2.8f));
 	public static final RegistryObject<EntityType<LususRamEntity>> LUSUS_RAM = register("lusus_ram",
 			EntityType.Builder.<LususRamEntity>of(LususRamEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(LususRamEntity::new)
 
-					.sized(0.6f, 1.8f));
+					.sized(1.8f, 0.6f));
 	public static final RegistryObject<EntityType<FairyBullEntity>> FAIRY_BULL = register("fairy_bull",
 			EntityType.Builder.<FairyBullEntity>of(FairyBullEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(FairyBullEntity::new)
 

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aba",
+    "ccc",
+    "ccc"
+  ],
+  "key": {
+    "a": {
+      "tag": "forge:nuggets/zinc"
+    },
+    "b": {
+      "item": "minecraft:water_bucket"
+    },
+    "c": {
+      "tag": "forge:salt"
+    }
+  },
+  "result": {
+    "item": "alternia:eye_drops",
+    "count": 16
+  }
+}

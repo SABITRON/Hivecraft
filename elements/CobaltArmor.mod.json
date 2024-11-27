@@ -76,7 +76,7 @@
     "damageValueLeggings": 6,
     "damageValueBoots": 3,
     "enchantability": 15,
-    "toughness": 2.0,
+    "toughness": 3.0,
     "knockbackResistance": 0.1,
     "equipSound": {
       "value": "item.armor.equip_gold"
@@ -84,6 +84,9 @@
     "repairItems": [
       {
         "value": "CUSTOM:CobaltIngot"
+      },
+      {
+        "value": "Items.DIAMOND"
       }
     ]
   }

@@ -21,7 +21,7 @@ public class AlterniaDimension {
 			DimensionSpecialEffects customEffect = new DimensionSpecialEffects(Float.NaN, true, DimensionSpecialEffects.SkyType.NONE, false, false) {
 				@Override
 				public Vec3 getBrightnessDependentFogColor(Vec3 color, float sunHeight) {
-					return new Vec3(0.1294117647, 0.0784313725, 0.1490196078);
+					return color;
 				}
 
 				@Override

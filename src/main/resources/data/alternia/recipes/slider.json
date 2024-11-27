@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:bread"
+    },
+    {
+      "item": "alternia:cooked_grub_meat"
+    },
+    {
+      "item": "alternia:cooked_grub_meat"
+    },
+    {
+      "item": "minestuck:grub_sauce"
+    }
+  ],
+  "result": {
+    "item": "alternia:grub_slider",
+    "count": 2
+  }
+}

@@ -12,10 +12,6 @@
     "underwaterBlock": {
       "value": "CUSTOM:Darksand"
     },
-    "airColor": {
-      "value": -15332076,
-      "falpha": 0.0
-    },
     "grassColor": {
       "value": -10211826,
       "falpha": 0.0

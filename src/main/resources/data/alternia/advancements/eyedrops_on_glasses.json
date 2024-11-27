@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "alternia:shades_helmet"
+    },
+    "title": {
+      "translate": "advancements.eyedrops_on_glasses.title"
+    },
+    "description": {
+      "translate": "advancements.eyedrops_on_glasses.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "eyedrops_on_glasses": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "alternia:alternia_root"
+}

@@ -34,4 +34,9 @@ public class LususRamRenderer extends GeoEntityRenderer<LususRamEntity> {
 		this.scaleWidth = scale;
 		super.preRender(poseStack, entity, model, bufferSource, buffer, isReRender, partialTick, packedLight, packedOverlay, red, green, blue, alpha);
 	}
+
+	@Override
+	protected float getDeathMaxRotation(LususRamEntity entityLivingBaseIn) {
+		return 0.0F;
+	}
 }

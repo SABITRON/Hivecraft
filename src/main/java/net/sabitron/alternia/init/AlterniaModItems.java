@@ -4,6 +4,7 @@
  */
 package net.sabitron.alternia.init;
 
+import net.sabitron.alternia.item.ZincItem;
 import net.sabitron.alternia.item.VioletShadesItem;
 import net.sabitron.alternia.item.VioletHemodyeItem;
 import net.sabitron.alternia.item.VioletBloodItem;
@@ -55,6 +56,7 @@ import net.sabitron.alternia.item.IndigoHemodyeItem;
 import net.sabitron.alternia.item.IndigoBloodItem;
 import net.sabitron.alternia.item.HemospectrumTabIconItem;
 import net.sabitron.alternia.item.HeartCandyItem;
+import net.sabitron.alternia.item.GrubSliderItem;
 import net.sabitron.alternia.item.GoldShadesItem;
 import net.sabitron.alternia.item.GoldHemodyeItem;
 import net.sabitron.alternia.item.GoldBloodItem;
@@ -243,6 +245,7 @@ public class AlterniaModItems {
 	public static final RegistryObject<Item> COBALT_KNIFE = REGISTRY.register("cobalt_knife", () -> new CobaltKnifeItem());
 	public static final RegistryObject<Item> CULLING_FORK = REGISTRY.register("culling_fork", () -> new CullingForkItem());
 	public static final RegistryObject<Item> POSEIDONS_ENTENTE = REGISTRY.register("poseidons_entente", () -> new PoseidonsEntenteItem());
+	public static final RegistryObject<Item> ZINC = REGISTRY.register("zinc", () -> new ZincItem());
 	public static final RegistryObject<Item> SHATTERGRAIN_SEEDS = block(AlterniaModBlocks.SHATTERGRAIN_SEEDS);
 	public static final RegistryObject<Item> SHATTERGRAIN = REGISTRY.register("shattergrain", () -> new ShattergrainItem());
 	public static final RegistryObject<Item> GLASSY_SHATTERGRAIN = REGISTRY.register("glassy_shattergrain", () -> new GlassyShattergrainItem());
@@ -264,6 +267,7 @@ public class AlterniaModItems {
 	public static final RegistryObject<Item> SPADE_CANDY = REGISTRY.register("spade_candy", () -> new SpadeCandyItem());
 	public static final RegistryObject<Item> DIAMOND_CANDY = REGISTRY.register("diamond_candy", () -> new DiamondCandyItem());
 	public static final RegistryObject<Item> CLUB_CANDY = REGISTRY.register("club_candy", () -> new ClubCandyItem());
+	public static final RegistryObject<Item> GRUB_SLIDER = REGISTRY.register("grub_slider", () -> new GrubSliderItem());
 	public static final RegistryObject<Item> LUSUS_MEAT = REGISTRY.register("lusus_meat", () -> new LususMeatItem());
 	public static final RegistryObject<Item> RATION = REGISTRY.register("ration", () -> new RationItem());
 	public static final RegistryObject<Item> LUSUS_HIDE = REGISTRY.register("lusus_hide", () -> new LususHideItem());

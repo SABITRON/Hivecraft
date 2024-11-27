@@ -18,7 +18,7 @@ import com.mojang.blaze3d.vertex.PoseStack;
 public class LususCrabRenderer extends GeoEntityRenderer<LususCrabEntity> {
 	public LususCrabRenderer(EntityRendererProvider.Context renderManager) {
 		super(renderManager, new LususCrabModel());
-		this.shadowRadius = 0.5f;
+		this.shadowRadius = 1f;
 	}
 
 	@Override

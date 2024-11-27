@@ -8,6 +8,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.TooltipFlag;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ArmorMaterial;
@@ -46,7 +47,7 @@ public abstract class CobaltArmorItem extends ArmorItem {
 
 			@Override
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(AlterniaModItems.COBALT_INGOT.get()));
+				return Ingredient.of(new ItemStack(AlterniaModItems.COBALT_INGOT.get()), new ItemStack(Items.DIAMOND));
 			}
 
 			@Override
@@ -56,7 +57,7 @@ public abstract class CobaltArmorItem extends ArmorItem {
 
 			@Override
 			public float getToughness() {
-				return 2f;
+				return 3f;
 			}
 
 			@Override

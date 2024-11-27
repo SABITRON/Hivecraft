@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 16,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "TAG:forge:nuggets/zinc"
+      },
+      {
+        "value": "Items.WATER_BUCKET"
+      },
+      {
+        "value": "TAG:forge:nuggets/zinc"
+      },
+      {
+        "value": "TAG:forge:salt"
+      },
+      {
+        "value": "TAG:forge:salt"
+      },
+      {
+        "value": "TAG:forge:salt"
+      },
+      {
+        "value": "TAG:forge:salt"
+      },
+      {
+        "value": "TAG:forge:salt"
+      },
+      {
+        "value": "TAG:forge:salt"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:EyeDrops"
+    },
+    "name": "eye_drop",
+    "namespace": "mod"
+  }
+}
