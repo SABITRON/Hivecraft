@@ -104,7 +104,7 @@ public class LususCrabEntity extends TamableAnimal implements GeoEntity {
 
 	@Override
 	protected float getStandingEyeHeight(Pose poseIn, EntityDimensions sizeIn) {
-		return 2F;
+		return 2.8F;
 	}
 
 	@Override
