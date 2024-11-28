@@ -15,12 +15,12 @@
       {
         "type": "alternia:zombie_troll",
         "weight": 20,
-        "minCount": 1,
-        "maxCount": 1
+        "minCount": 4,
+        "maxCount": 4
       },
       {
         "type": "alternia:lusus_spider",
-        "weight": 20,
+        "weight": 5,
         "minCount": 1,
         "maxCount": 1
       }

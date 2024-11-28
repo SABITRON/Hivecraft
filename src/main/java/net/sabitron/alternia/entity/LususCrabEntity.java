@@ -84,6 +84,7 @@ public class LususCrabEntity extends TamableAnimal implements GeoEntity {
 		super(type, world);
 		xpReward = 3;
 		setNoAi(false);
+		setPersistenceRequired();
 	}
 
 	@Override
@@ -145,6 +146,11 @@ public class LususCrabEntity extends TamableAnimal implements GeoEntity {
 	}
 
 	@Override
+	public boolean removeWhenFarAway(double distanceToClosestPlayer) {
+		return false;
+	}
+
+	@Override
 	public double getPassengersRidingOffset() {
 		return super.getPassengersRidingOffset() + 1;
 	}
@@ -172,6 +178,8 @@ public class LususCrabEntity extends TamableAnimal implements GeoEntity {
 	@Override
 	public boolean hurt(DamageSource source, float amount) {
 		LususRegenProcedure.execute(this);
+		if (source.is(DamageTypes.FALL))
+			return false;
 		if (source.is(DamageTypes.DROWN))
 			return false;
 		return super.hurt(source, amount);

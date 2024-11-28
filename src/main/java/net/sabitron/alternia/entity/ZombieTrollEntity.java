@@ -7,6 +7,7 @@ import net.sabitron.alternia.init.AlterniaModEntities;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.network.PlayMessages;
 import net.minecraftforge.network.NetworkHooks;
+import net.minecraftforge.common.DungeonHooks;
 
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.ServerLevelAccessor;
@@ -49,7 +50,7 @@ public class ZombieTrollEntity extends Monster {
 	public ZombieTrollEntity(EntityType<ZombieTrollEntity> type, Level world) {
 		super(type, world);
 		setMaxUpStep(0.6f);
-		xpReward = 0;
+		xpReward = 5;
 		setNoAi(false);
 	}
 
@@ -122,6 +123,7 @@ public class ZombieTrollEntity extends Monster {
 	}
 
 	public static void init() {
+		DungeonHooks.addDungeonMob(AlterniaModEntities.ZOMBIE_TROLL.get(), 180);
 	}
 
 	public static AttributeSupplier.Builder createAttributes() {

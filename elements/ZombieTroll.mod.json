@@ -70,7 +70,7 @@
     "trackingRange": 64,
     "followRange": 16,
     "health": 10,
-    "xpAmount": 0,
+    "xpAmount": 5,
     "waterMob": false,
     "breatheUnderwater": {
       "fixedValue": false
@@ -135,9 +135,28 @@
     "doesDespawnWhenIdle": true,
     "spawningProbability": 20,
     "mobSpawningType": "monster",
-    "minNumberOfMobsPerGroup": 4,
-    "maxNumberOfMobsPerGroup": 4,
-    "restrictionBiomes": [],
-    "spawnInDungeons": false
+    "minNumberOfMobsPerGroup": 2,
+    "maxNumberOfMobsPerGroup": 3,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:AlterniaMountains"
+      },
+      {
+        "value": "CUSTOM:AlterniaSwamp"
+      },
+      {
+        "value": "CUSTOM:BrambleForest"
+      },
+      {
+        "value": "CUSTOM:OracleCanopyModified"
+      },
+      {
+        "value": "CUSTOM:RockyPlains"
+      },
+      {
+        "value": "CUSTOM:ShimmeringDesert"
+      }
+    ],
+    "spawnInDungeons": true
   }
 }

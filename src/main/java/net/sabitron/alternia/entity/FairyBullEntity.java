@@ -84,6 +84,7 @@ public class FairyBullEntity extends TamableAnimal implements GeoEntity {
 		super(type, world);
 		xpReward = 0;
 		setNoAi(false);
+		setPersistenceRequired();
 		this.moveControl = new FlyingMoveControl(this, 10, true);
 	}
 
@@ -142,6 +143,11 @@ public class FairyBullEntity extends TamableAnimal implements GeoEntity {
 	@Override
 	public MobType getMobType() {
 		return MobType.UNDEFINED;
+	}
+
+	@Override
+	public boolean removeWhenFarAway(double distanceToClosestPlayer) {
+		return false;
 	}
 
 	@Override

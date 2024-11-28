@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "alternia:insect_food"
+    },
+    "title": {
+      "translate": "advancements.make_bug_food.title"
+    },
+    "description": {
+      "translate": "advancements.make_bug_food.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "make_bug_food": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "alternia:insect_food"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "alternia:bug_nest"
+}

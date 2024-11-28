@@ -13,7 +13,7 @@ public class DamagedVisionApplyBlindnessProcedure {
 			return;
 		if (Mth.nextInt(RandomSource.create(), 1, 5000) == 413) {
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-				_entity.addEffect(new MobEffectInstance(MobEffects.BLINDNESS, 100, 0, false, false));
+				_entity.addEffect(new MobEffectInstance(MobEffects.DARKNESS, 600, 0, false, false));
 		}
 	}
 }

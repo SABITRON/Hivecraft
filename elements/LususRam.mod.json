@@ -146,12 +146,16 @@
     "rangedAttackRadius": 10.0,
     "height": 1.0,
     "spawnThisMob": false,
-    "doesDespawnWhenIdle": true,
-    "spawningProbability": 20,
+    "doesDespawnWhenIdle": false,
+    "spawningProbability": 5,
     "mobSpawningType": "monster",
-    "minNumberOfMobsPerGroup": 4,
-    "maxNumberOfMobsPerGroup": 4,
-    "restrictionBiomes": [],
+    "minNumberOfMobsPerGroup": 1,
+    "maxNumberOfMobsPerGroup": 1,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:AlterniaPlains"
+      }
+    ],
     "spawnInDungeons": false
   }
 }

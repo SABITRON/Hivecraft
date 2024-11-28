@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "alternia:flushed_darkstone"
+    },
+    "b": {
+      "item": "alternia:pitch_darkstone"
+    },
+    "c": {
+      "tag": "alternia:blood"
+    }
+  },
+  "result": {
+    "item": "alternia:mod_icon",
+    "count": 1
+  }
+}

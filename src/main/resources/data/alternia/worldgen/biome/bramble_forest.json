@@ -13,16 +13,16 @@
   "spawners": {
     "monster": [
       {
-        "type": "alternia:zombie_troll",
-        "weight": 8,
-        "minCount": 1,
-        "maxCount": 3
-      },
-      {
         "type": "alternia:lusus_cat",
-        "weight": 20,
+        "weight": 5,
         "minCount": 1,
         "maxCount": 1
+      },
+      {
+        "type": "alternia:zombie_troll",
+        "weight": 20,
+        "minCount": 2,
+        "maxCount": 3
       }
     ],
     "creature": [],

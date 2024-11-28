@@ -82,6 +82,7 @@ public class LususRamEntity extends TamableAnimal implements GeoEntity {
 		super(type, world);
 		xpReward = 2;
 		setNoAi(false);
+		setPersistenceRequired();
 	}
 
 	@Override
@@ -134,6 +135,11 @@ public class LususRamEntity extends TamableAnimal implements GeoEntity {
 	@Override
 	public MobType getMobType() {
 		return MobType.UNDEFINED;
+	}
+
+	@Override
+	public boolean removeWhenFarAway(double distanceToClosestPlayer) {
+		return false;
 	}
 
 	@Override

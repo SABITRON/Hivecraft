@@ -4,7 +4,7 @@
   "definition": {
     "name": "Alternia Swamp",
     "groundBlock": {
-      "value": "CUSTOM:AlternianGrassBlock"
+      "value": "Blocks.MUD"
     },
     "undergroundBlock": {
       "value": "CUSTOM:AlternianSoil"
@@ -116,10 +116,10 @@
     "spawnEntries": [
       {
         "entity": {
-          "value": "CUSTOM:FairyBull"
+          "value": "CUSTOM:ZombieTroll"
         },
-        "minGroup": 1,
-        "maxGroup": 1,
+        "minGroup": 2,
+        "maxGroup": 3,
         "weight": 20,
         "spawnType": "monster"
       }

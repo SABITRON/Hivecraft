@@ -3,7 +3,7 @@
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
-    "recipeRetstackSize": 12,
+    "recipeRetstackSize": 1,
     "group": "",
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -12,37 +12,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:DarkstoneDust"
+        "value": "CUSTOM:FlushedDarkstone"
       },
       {
-        "value": "TAG:minecraft:planks"
+        "value": "CUSTOM:PitchDarkstone"
       },
       {
-        "value": "CUSTOM:DarkstoneDust"
+        "value": "CUSTOM:FlushedDarkstone"
       },
       {
-        "value": "TAG:minecraft:planks"
+        "value": "CUSTOM:PitchDarkstone"
       },
       {
-        "value": "CUSTOM:DarkstoneDust"
+        "value": "TAG:alternia:blood"
       },
       {
-        "value": "TAG:minecraft:planks"
+        "value": "CUSTOM:PitchDarkstone"
       },
       {
-        "value": "CUSTOM:DarkstoneDust"
+        "value": "CUSTOM:FlushedDarkstone"
       },
       {
-        "value": "TAG:minecraft:planks"
+        "value": "CUSTOM:PitchDarkstone"
       },
       {
-        "value": "CUSTOM:DarkstoneDust"
+        "value": "CUSTOM:FlushedDarkstone"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:HiveDrywall"
+      "value": "CUSTOM:ModIcon"
     },
-    "name": "hive_drywall",
+    "name": "troll_face",
     "namespace": "mod"
   }
 }

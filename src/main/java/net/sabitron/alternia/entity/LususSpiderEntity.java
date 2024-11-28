@@ -60,6 +60,7 @@ public class LususSpiderEntity extends TamableAnimal {
 		setMaxUpStep(2f);
 		xpReward = 8;
 		setNoAi(false);
+		setPersistenceRequired();
 		refreshDimensions();
 	}
 
@@ -97,6 +98,11 @@ public class LususSpiderEntity extends TamableAnimal {
 	@Override
 	public MobType getMobType() {
 		return MobType.UNDEFINED;
+	}
+
+	@Override
+	public boolean removeWhenFarAway(double distanceToClosestPlayer) {
+		return false;
 	}
 
 	@Override

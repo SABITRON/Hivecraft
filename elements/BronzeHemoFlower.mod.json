@@ -126,7 +126,7 @@
     "onBonemealSuccess": {
       "name": "BonemealBronzeFlower"
     },
-    "frequencyOnChunks": 8,
+    "frequencyOnChunks": 32,
     "generateFeature": true,
     "restrictionBiomes": [
       {

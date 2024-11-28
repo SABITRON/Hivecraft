@@ -14,6 +14,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.Entity;
+import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.sounds.SoundSource;
@@ -40,7 +41,9 @@ public class GetTerezidProcedure {
 	private static void execute(@Nullable Event event, LevelAccessor world, Entity entity) {
 		if (entity == null)
 			return;
-		if (0 < world.dayTime() && world.dayTime() < 13000) {
+		double timeOfDay = 0;
+		timeOfDay = world.dayTime() - 24000 * Math.floor(world.dayTime() / 24000);
+		if (0 < timeOfDay && timeOfDay < 13000) {
 			if ((ResourceKey.create(Registries.DIMENSION, new ResourceLocation("alternia:alternia"))) == (entity.level().dimension())) {
 				if (world.canSeeSkyFromBelowWater(BlockPos.containing(entity.getX(), entity.getY(), entity.getZ()))) {
 					if (0.75 < entity.getLookAngle().y) {
@@ -55,6 +58,8 @@ public class GetTerezidProcedure {
 										_level.playLocalSound((entity.getX()), (entity.getY()), (entity.getZ()), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.fire.extinguish")), SoundSource.PLAYERS, 1, 1, false);
 									}
 								}
+								if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
+									_entity.addEffect(new MobEffectInstance(MobEffects.DARKNESS, 600, 0, false, false));
 							}
 						}
 					}

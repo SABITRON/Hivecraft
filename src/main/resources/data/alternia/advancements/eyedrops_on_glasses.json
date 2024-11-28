@@ -19,5 +19,5 @@
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "alternia:alternia_root"
+  "parent": "alternia:craft_eye_drops"
 }
