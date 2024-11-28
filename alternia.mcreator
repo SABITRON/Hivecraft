@@ -14266,34 +14266,6 @@
       "path": "~/SkyRender"
     },
     {
-      "name": "RenderSky",
-      "type": "procedure",
-      "sortid": 870,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "render_sky",
-      "metadata": {
-        "files": [
-          "src/main/java/net/sabitron/alternia/procedures/RenderSkyProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "partialTick",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/SkyRender"
-    },
-    {
       "name": "Sunglassesarmor",
       "type": "tag",
       "sortid": 871,
@@ -14490,6 +14462,98 @@
         ]
       },
       "path": "~/Recipes"
+    },
+    {
+      "name": "RenderSun",
+      "type": "procedure",
+      "sortid": 885,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "render_sun",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sabitron/alternia/procedures/RenderSunProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/SkyRender"
+    },
+    {
+      "name": "RenderMoon",
+      "type": "procedure",
+      "sortid": 886,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "render_moon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sabitron/alternia/procedures/RenderMoonProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/SkyRender"
+    },
+    {
+      "name": "RenderStars",
+      "type": "procedure",
+      "sortid": 887,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "render_stars",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sabitron/alternia/procedures/RenderStarsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/SkyRender"
+    },
+    {
+      "name": "RenderDeepSky",
+      "type": "procedure",
+      "sortid": 888,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "render_deep_sky",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sabitron/alternia/procedures/RenderDeepSkyProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/SkyRender"
     }
   ],
   "variable_elements": [
