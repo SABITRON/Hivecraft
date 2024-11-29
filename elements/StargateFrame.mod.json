@@ -35,7 +35,9 @@
     ],
     "name": "Stargate Frame Tile",
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "§7Unstable! Will explode if not placed on Earth or Alternia"
+      ]
     },
     "hardness": 10.0,
     "resistance": 100.0,
@@ -119,6 +121,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onTickUpdate": {
+      "name": "StargateDestroyInMedium"
+    },
     "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [

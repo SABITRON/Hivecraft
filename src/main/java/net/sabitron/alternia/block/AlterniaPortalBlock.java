@@ -35,7 +35,7 @@ public class AlterniaPortalBlock extends NetherPortalBlock {
 	public AlterniaPortalBlock() {
 		super(BlockBehaviour.Properties.of().noCollission().randomTicks().pushReaction(PushReaction.BLOCK).strength(-1.0F).sound(SoundType.GLASS).lightLevel(s -> 15).noLootTable());
 	}
-
+	
 	@Override
 	public void randomTick(BlockState state, ServerLevel world, BlockPos pos, RandomSource random) {
 	}

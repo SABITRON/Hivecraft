@@ -80,6 +80,9 @@
     },
     "texture": "stargate_remote",
     "portalTexture": "alterniaportal",
-    "enablePortal": true
+    "enablePortal": true,
+    "onPortalTickUpdate": {
+      "name": "AlterniaPortalDenyDimensions"
+    }
   }
 }
