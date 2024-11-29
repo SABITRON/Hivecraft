@@ -154,6 +154,7 @@ public class AlterniaModTabs {
 				tabData.accept(AlterniaModItems.COBALT_ARMOR_CHESTPLATE.get());
 				tabData.accept(AlterniaModItems.COBALT_ARMOR_LEGGINGS.get());
 				tabData.accept(AlterniaModItems.COBALT_ARMOR_BOOTS.get());
+				tabData.accept(AlterniaModItems.COBALT_VISOR_HELMET.get());
 				tabData.accept(AlterniaModItems.COBALT_KNIFE.get());
 				tabData.accept(AlterniaModItems.CULLING_FORK.get());
 				tabData.accept(AlterniaModItems.POSEIDONS_ENTENTE.get());

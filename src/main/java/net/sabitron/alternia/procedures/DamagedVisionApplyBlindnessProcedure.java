@@ -11,7 +11,7 @@ public class DamagedVisionApplyBlindnessProcedure {
 	public static void execute(Entity entity) {
 		if (entity == null)
 			return;
-		if (Mth.nextInt(RandomSource.create(), 1, 5000) == 413) {
+		if (Mth.nextInt(RandomSource.create(), 1, 2500) == 413) {
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 				_entity.addEffect(new MobEffectInstance(MobEffects.DARKNESS, 600, 0, false, false));
 		}

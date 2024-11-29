@@ -1,0 +1,28 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "recipeRetstackSize": 1,
+    "group": "equipment",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "CUSTOM:CobaltArmor.helmet"
+    },
+    "smithingInputAdditionStack": {
+      "value": "CUSTOM:Shades.helmet"
+    },
+    "smithingInputTemplateStack": {
+      "value": "CUSTOM:CobaltIngot"
+    },
+    "smithingReturnStack": {
+      "value": "CUSTOM:CobaltVisor.helmet"
+    },
+    "name": "cobalt_visor",
+    "namespace": "mod"
+  }
+}

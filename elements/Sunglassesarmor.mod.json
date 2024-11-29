@@ -42,6 +42,12 @@
       },
       {
         "value": "CUSTOM:FuchsiaShades.helmet"
+      },
+      {
+        "value": "CUSTOM:CobaltVisor.helmet"
+      },
+      {
+        "value": "TAG:alternia:sunglasses"
       }
     ],
     "blocks": [],

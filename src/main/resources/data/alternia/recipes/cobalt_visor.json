@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "alternia:cobalt_ingot"
+  },
+  "base": {
+    "item": "alternia:cobalt_armor_helmet"
+  },
+  "addition": {
+    "item": "alternia:shades_helmet"
+  },
+  "result": {
+    "item": "alternia:cobalt_visor_helmet"
+  }
+}

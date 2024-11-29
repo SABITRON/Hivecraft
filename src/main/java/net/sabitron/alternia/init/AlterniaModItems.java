@@ -72,6 +72,7 @@ import net.sabitron.alternia.item.CullingForkItem;
 import net.sabitron.alternia.item.CrushedRawCobaltItem;
 import net.sabitron.alternia.item.CookedGrubMeatItem;
 import net.sabitron.alternia.item.CookedGrubItem;
+import net.sabitron.alternia.item.CobaltVisorItem;
 import net.sabitron.alternia.item.CobaltSwordItem;
 import net.sabitron.alternia.item.CobaltShovelItem;
 import net.sabitron.alternia.item.CobaltSheetItem;
@@ -244,6 +245,7 @@ public class AlterniaModItems {
 	public static final RegistryObject<Item> COBALT_ARMOR_CHESTPLATE = REGISTRY.register("cobalt_armor_chestplate", () -> new CobaltArmorItem.Chestplate());
 	public static final RegistryObject<Item> COBALT_ARMOR_LEGGINGS = REGISTRY.register("cobalt_armor_leggings", () -> new CobaltArmorItem.Leggings());
 	public static final RegistryObject<Item> COBALT_ARMOR_BOOTS = REGISTRY.register("cobalt_armor_boots", () -> new CobaltArmorItem.Boots());
+	public static final RegistryObject<Item> COBALT_VISOR_HELMET = REGISTRY.register("cobalt_visor_helmet", () -> new CobaltVisorItem.Helmet());
 	public static final RegistryObject<Item> COBALT_KNIFE = REGISTRY.register("cobalt_knife", () -> new CobaltKnifeItem());
 	public static final RegistryObject<Item> CULLING_FORK = REGISTRY.register("culling_fork", () -> new CullingForkItem());
 	public static final RegistryObject<Item> POSEIDONS_ENTENTE = REGISTRY.register("poseidons_entente", () -> new PoseidonsEntenteItem());

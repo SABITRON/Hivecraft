@@ -43,9 +43,9 @@ public class AlterniaTeleportProcedure {
 			}
 			{
 				Entity _ent = entity;
-				_ent.teleportTo(0, 75, 0);
+				_ent.teleportTo(0.5, 75, 0.5);
 				if (_ent instanceof ServerPlayer _serverPlayer)
-					_serverPlayer.connection.teleport(0, 75, 0, _ent.getYRot(), _ent.getXRot());
+					_serverPlayer.connection.teleport(0.5, 75, 0.5, _ent.getYRot(), _ent.getXRot());
 			}
 			if (world instanceof ServerLevel _level)
 				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(0, 0, 0), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
@@ -58,9 +58,9 @@ public class AlterniaTeleportProcedure {
 						"execute in alternia:alternia run fill -1 78 -1 1 78 1 alternia:hive_drywall");
 			{
 				Entity _ent = entity;
-				_ent.teleportTo(0, 75, 0);
+				_ent.teleportTo(0.5, 75, 0.5);
 				if (_ent instanceof ServerPlayer _serverPlayer)
-					_serverPlayer.connection.teleport(0, 75, 0, _ent.getYRot(), _ent.getXRot());
+					_serverPlayer.connection.teleport(0.5, 75, 0.5, _ent.getYRot(), _ent.getXRot());
 			}
 			AlterniaMod.queueServerWork(20, () -> {
 				if (world instanceof ServerLevel _level)
@@ -74,9 +74,9 @@ public class AlterniaTeleportProcedure {
 							"execute in alternia:alternia run fill -1 78 -1 1 78 1 alternia:hive_drywall");
 				{
 					Entity _ent = entity;
-					_ent.teleportTo(0, 75, 0);
+					_ent.teleportTo(0.5, 75, 0.5);
 					if (_ent instanceof ServerPlayer _serverPlayer)
-						_serverPlayer.connection.teleport(0, 75, 0, _ent.getYRot(), _ent.getXRot());
+						_serverPlayer.connection.teleport(0.5, 75, 0.5, _ent.getYRot(), _ent.getXRot());
 				}
 			});
 		}
