@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "  c",
+    "ac ",
+    "ba "
+  ],
+  "key": {
+    "a": {
+      "item": "minestuck:dagger"
+    },
+    "b": {
+      "item": "minecraft:string"
+    },
+    "c": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "alternia:knife_spear",
+    "count": 1
+  }
+}

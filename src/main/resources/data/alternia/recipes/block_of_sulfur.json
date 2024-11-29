@@ -3,31 +3,31 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "alternia:sulfur"
+      "tag": "forge:dusts/sulfur"
     },
     {
-      "item": "alternia:sulfur"
+      "tag": "forge:dusts/sulfur"
     },
     {
-      "item": "alternia:sulfur"
+      "tag": "forge:dusts/sulfur"
     },
     {
-      "item": "alternia:sulfur"
+      "tag": "forge:dusts/sulfur"
     },
     {
-      "item": "alternia:sulfur"
+      "tag": "forge:dusts/sulfur"
     },
     {
-      "item": "alternia:sulfur"
+      "tag": "forge:dusts/sulfur"
     },
     {
-      "item": "alternia:sulfur"
+      "tag": "forge:dusts/sulfur"
     },
     {
-      "item": "alternia:sulfur"
+      "tag": "forge:dusts/sulfur"
     },
     {
-      "item": "alternia:sulfur"
+      "tag": "forge:dusts/sulfur"
     }
   ],
   "result": {

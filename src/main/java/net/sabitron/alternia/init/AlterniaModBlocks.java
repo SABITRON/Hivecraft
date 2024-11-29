@@ -45,6 +45,7 @@ import net.sabitron.alternia.block.ShattergrainStage3Block;
 import net.sabitron.alternia.block.ShattergrainStage2Block;
 import net.sabitron.alternia.block.ShattergrainStage1Block;
 import net.sabitron.alternia.block.ShattergrainSeedsBlock;
+import net.sabitron.alternia.block.SaltBlockBlock;
 import net.sabitron.alternia.block.RustRecuperacoonCoreBlock;
 import net.sabitron.alternia.block.RustMeatWallBlock;
 import net.sabitron.alternia.block.RustMeatStairsBlock;
@@ -401,6 +402,7 @@ public class AlterniaModBlocks {
 	public static final RegistryObject<Block> EMPTY_BUG_NEST = REGISTRY.register("empty_bug_nest", () -> new EmptyBugNestBlock());
 	public static final RegistryObject<Block> FLESH_BUG_NEST = REGISTRY.register("flesh_bug_nest", () -> new FleshBugNestBlock());
 	public static final RegistryObject<Block> FOOD_BUG_NEST = REGISTRY.register("food_bug_nest", () -> new FoodBugNestBlock());
+	public static final RegistryObject<Block> SALT_BLOCK = REGISTRY.register("salt_block", () -> new SaltBlockBlock());
 	public static final RegistryObject<Block> SULFUR_BLOCK = REGISTRY.register("sulfur_block", () -> new SulfurBlockBlock());
 	public static final RegistryObject<Block> RAW_COBALT_BLOCK = REGISTRY.register("raw_cobalt_block", () -> new RawCobaltBlockBlock());
 	public static final RegistryObject<Block> COBALT_BLOCK = REGISTRY.register("cobalt_block", () -> new CobaltBlockBlock());

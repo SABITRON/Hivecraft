@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "alternia:item/knife_spear_inventory"
+  }
+}

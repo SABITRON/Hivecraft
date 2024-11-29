@@ -2,7 +2,7 @@
   "_fv": 57,
   "_type": "block",
   "definition": {
-    "texture": "sulfur_block",
+    "texture": "salt_block",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Block of Sulfur",
+    "name": "Block of Salt",
     "specialInformation": {
       "fixedValue": []
     },
@@ -65,7 +65,7 @@
     "emittedRedstonePower": {
       "fixedValue": 15.0
     },
-    "colorOnMap": "ADOBE",
+    "colorOnMap": "IRON",
     "creativePickItem": {
       "value": ""
     },

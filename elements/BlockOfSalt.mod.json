@@ -12,37 +12,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "TAG:forge:ingots/cobalt"
+        "value": "TAG:forge:salt"
       },
       {
-        "value": "TAG:forge:ingots/cobalt"
+        "value": "TAG:forge:salt"
       },
       {
-        "value": "TAG:forge:ingots/cobalt"
+        "value": "TAG:forge:salt"
       },
       {
-        "value": "TAG:forge:ingots/cobalt"
+        "value": "TAG:forge:salt"
       },
       {
-        "value": "TAG:forge:ingots/cobalt"
+        "value": "TAG:forge:salt"
       },
       {
-        "value": "TAG:forge:ingots/cobalt"
+        "value": "TAG:forge:salt"
       },
       {
-        "value": "TAG:forge:ingots/cobalt"
+        "value": "TAG:forge:salt"
       },
       {
-        "value": "TAG:forge:ingots/cobalt"
+        "value": "TAG:forge:salt"
       },
       {
-        "value": "TAG:forge:ingots/cobalt"
+        "value": "TAG:forge:salt"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:CobaltBlock"
+      "value": "CUSTOM:SaltBlock"
     },
-    "name": "cobalt_block_recipe",
+    "name": "block_of_salt",
     "namespace": "mod"
   }
 }

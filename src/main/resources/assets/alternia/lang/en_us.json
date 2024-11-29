@@ -333,6 +333,7 @@
   "block.alternia.darkstone_zinc_ore": "Darkstone Zinc Ore",
   "block.alternia.rust_meat_slab": "Rust Grub Slab",
   "biome.alternia.bramble_forest": "Bramble Forest",
+  "block.alternia.salt_block": "Block of Salt",
   "item.alternia.troll_horn": "Troll Horn",
   "block.alternia.teal_meat_wall": "Teal Grub Wall",
   "effect.alternia.damaged_vision": "Damaged Vision",
@@ -409,5 +410,6 @@
   "item.alternia.olive_shades_helmet": "Olive Glasses",
   "block.alternia.violet_hemo_wool_slab": "Violet Wool Slab",
   "block.alternia.teal_hemo_wool_stairs": "Teal Wool Stairs",
-  "block.alternia.cracked_darkstone_brick_wall": "Cracked Darkstone Brick Wall"
+  "block.alternia.cracked_darkstone_brick_wall": "Cracked Darkstone Brick Wall",
+  "item.alternia.knife_spear": "Knife Spear"
 }

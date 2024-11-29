@@ -3,7 +3,7 @@
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
-    "recipeRetstackSize": 1,
+    "recipeRetstackSize": 9,
     "group": "",
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -12,37 +12,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "TAG:forge:ingots/cobalt"
+        "value": ""
       },
       {
-        "value": "TAG:forge:ingots/cobalt"
+        "value": ""
       },
       {
-        "value": "TAG:forge:ingots/cobalt"
+        "value": ""
       },
       {
-        "value": "TAG:forge:ingots/cobalt"
+        "value": ""
       },
       {
-        "value": "TAG:forge:ingots/cobalt"
+        "value": "CUSTOM:SaltBlock"
       },
       {
-        "value": "TAG:forge:ingots/cobalt"
+        "value": ""
       },
       {
-        "value": "TAG:forge:ingots/cobalt"
+        "value": ""
       },
       {
-        "value": "TAG:forge:ingots/cobalt"
+        "value": ""
       },
       {
-        "value": "TAG:forge:ingots/cobalt"
+        "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:CobaltBlock"
+      "value": "CUSTOM:Salt"
     },
-    "name": "cobalt_block_recipe",
+    "name": "salt_from_block",
     "namespace": "mod"
   }
 }

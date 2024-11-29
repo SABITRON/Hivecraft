@@ -12,31 +12,31 @@
     "recipeShapeless": true,
     "recipeSlots": [
       {
-        "value": "CUSTOM:Sulfur"
+        "value": "TAG:forge:dusts/sulfur"
       },
       {
-        "value": "CUSTOM:Sulfur"
+        "value": "TAG:forge:dusts/sulfur"
       },
       {
-        "value": "CUSTOM:Sulfur"
+        "value": "TAG:forge:dusts/sulfur"
       },
       {
-        "value": "CUSTOM:Sulfur"
+        "value": "TAG:forge:dusts/sulfur"
       },
       {
-        "value": "CUSTOM:Sulfur"
+        "value": "TAG:forge:dusts/sulfur"
       },
       {
-        "value": "CUSTOM:Sulfur"
+        "value": "TAG:forge:dusts/sulfur"
       },
       {
-        "value": "CUSTOM:Sulfur"
+        "value": "TAG:forge:dusts/sulfur"
       },
       {
-        "value": "CUSTOM:Sulfur"
+        "value": "TAG:forge:dusts/sulfur"
       },
       {
-        "value": "CUSTOM:Sulfur"
+        "value": "TAG:forge:dusts/sulfur"
       }
     ],
     "recipeReturnStack": {

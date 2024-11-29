@@ -2,17 +2,15 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "aaa",
-    "aaa",
-    "aaa"
+    "a"
   ],
   "key": {
     "a": {
-      "tag": "forge:ingots/cobalt"
+      "item": "alternia:salt_block"
     }
   },
   "result": {
-    "item": "alternia:cobalt_block",
-    "count": 1
+    "item": "alternia:salt",
+    "count": 9
   }
 }

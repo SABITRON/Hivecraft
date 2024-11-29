@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:item/handheld",
+  "loader": "forge:separate_transforms",
+  "base": {
+    "parent": "alternia:item/knife_spear_handheld"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "alternia:item/knife_spear_gui"
+    }
+  }
+}

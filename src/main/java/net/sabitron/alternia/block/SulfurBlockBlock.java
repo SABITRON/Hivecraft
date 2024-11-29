@@ -2,6 +2,7 @@
 package net.sabitron.alternia.block;
 
 import net.minecraft.world.level.storage.loot.LootParams;
+import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -20,7 +21,7 @@ import java.util.Collections;
 
 public class SulfurBlockBlock extends FallingBlock {
 	public SulfurBlockBlock() {
-		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.STONE).strength(2f, 10f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).mapColor(MapColor.COLOR_ORANGE).sound(SoundType.STONE).strength(2f, 10f).requiresCorrectToolForDrops());
 	}
 
 	@Override

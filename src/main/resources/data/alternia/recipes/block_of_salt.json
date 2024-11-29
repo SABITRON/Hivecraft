@@ -8,11 +8,11 @@
   ],
   "key": {
     "a": {
-      "tag": "forge:ingots/cobalt"
+      "tag": "forge:salt"
     }
   },
   "result": {
-    "item": "alternia:cobalt_block",
+    "item": "alternia:salt_block",
     "count": 1
   }
 }

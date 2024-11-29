@@ -134,6 +134,7 @@ public class AlterniaModTabs {
 				tabData.accept(AlterniaModItems.INSECT_FOOD.get());
 				tabData.accept(AlterniaModBlocks.FOOD_BUG_NEST.get().asItem());
 				tabData.accept(AlterniaModItems.SALT.get());
+				tabData.accept(AlterniaModBlocks.SALT_BLOCK.get().asItem());
 				tabData.accept(AlterniaModItems.SULFUR.get());
 				tabData.accept(AlterniaModBlocks.SULFUR_BLOCK.get().asItem());
 				tabData.accept(AlterniaModItems.RAW_COBALT.get());
@@ -156,6 +157,7 @@ public class AlterniaModTabs {
 				tabData.accept(AlterniaModItems.COBALT_KNIFE.get());
 				tabData.accept(AlterniaModItems.CULLING_FORK.get());
 				tabData.accept(AlterniaModItems.POSEIDONS_ENTENTE.get());
+				tabData.accept(AlterniaModItems.KNIFE_SPEAR.get());
 				tabData.accept(AlterniaModItems.ZINC.get());
 				tabData.accept(AlterniaModBlocks.SHATTERGRAIN_SEEDS.get().asItem());
 				tabData.accept(AlterniaModItems.SHATTERGRAIN.get());
@@ -182,14 +184,14 @@ public class AlterniaModTabs {
 				tabData.accept(AlterniaModItems.LUSUS_MEAT.get());
 				tabData.accept(AlterniaModItems.RATION.get());
 				tabData.accept(AlterniaModItems.LUSUS_HIDE.get());
-				tabData.accept(AlterniaModItems.GRUB_SPAWN_EGG.get());
-				tabData.accept(AlterniaModItems.ZOMBIE_TROLL_SPAWN_EGG.get());
 				tabData.accept(AlterniaModItems.ALTERNIA.get());
 				tabData.accept(AlterniaModBlocks.STARGATE_FRAME.get().asItem());
 				tabData.accept(AlterniaModBlocks.STARGATE_CORNER.get().asItem());
 				tabData.accept(AlterniaModItems.STARGATE_SHIELDING.get());
 				tabData.accept(AlterniaModItems.STARGATE_PANEL.get());
 				tabData.accept(AlterniaModItems.STARGATE_PLATE.get());
+				tabData.accept(AlterniaModItems.GRUB_SPAWN_EGG.get());
+				tabData.accept(AlterniaModItems.ZOMBIE_TROLL_SPAWN_EGG.get());
 				tabData.accept(AlterniaModItems.LUSUS_CRAB_SPAWN_EGG.get());
 				tabData.accept(AlterniaModItems.LUSUS_RAM_SPAWN_EGG.get());
 				tabData.accept(AlterniaModItems.FAIRY_BULL_SPAWN_EGG.get());
