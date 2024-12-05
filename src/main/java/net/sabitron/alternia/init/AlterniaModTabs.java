@@ -133,6 +133,8 @@ public class AlterniaModTabs {
 				tabData.accept(AlterniaModBlocks.FLESH_BUG_NEST.get().asItem());
 				tabData.accept(AlterniaModItems.INSECT_FOOD.get());
 				tabData.accept(AlterniaModBlocks.FOOD_BUG_NEST.get().asItem());
+				tabData.accept(AlterniaModItems.TREASURE_KEY.get());
+				tabData.accept(AlterniaModBlocks.TREASURE_VAULT.get().asItem());
 				tabData.accept(AlterniaModItems.SALT.get());
 				tabData.accept(AlterniaModBlocks.SALT_BLOCK.get().asItem());
 				tabData.accept(AlterniaModItems.SULFUR.get());

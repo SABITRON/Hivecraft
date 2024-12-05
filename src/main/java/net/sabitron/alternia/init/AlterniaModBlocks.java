@@ -16,6 +16,8 @@ import net.sabitron.alternia.block.VioletHemoWoolStairsBlock;
 import net.sabitron.alternia.block.VioletHemoWoolSlabBlock;
 import net.sabitron.alternia.block.VioletHemoWoolBlock;
 import net.sabitron.alternia.block.VioletHemoFlowerBlock;
+import net.sabitron.alternia.block.UnlockedVaultBlock;
+import net.sabitron.alternia.block.TreasureVaultBlock;
 import net.sabitron.alternia.block.TealRecuperacoonCoreBlock;
 import net.sabitron.alternia.block.TealMeatWallBlock;
 import net.sabitron.alternia.block.TealMeatStairsBlock;
@@ -402,6 +404,7 @@ public class AlterniaModBlocks {
 	public static final RegistryObject<Block> EMPTY_BUG_NEST = REGISTRY.register("empty_bug_nest", () -> new EmptyBugNestBlock());
 	public static final RegistryObject<Block> FLESH_BUG_NEST = REGISTRY.register("flesh_bug_nest", () -> new FleshBugNestBlock());
 	public static final RegistryObject<Block> FOOD_BUG_NEST = REGISTRY.register("food_bug_nest", () -> new FoodBugNestBlock());
+	public static final RegistryObject<Block> TREASURE_VAULT = REGISTRY.register("treasure_vault", () -> new TreasureVaultBlock());
 	public static final RegistryObject<Block> SALT_BLOCK = REGISTRY.register("salt_block", () -> new SaltBlockBlock());
 	public static final RegistryObject<Block> SULFUR_BLOCK = REGISTRY.register("sulfur_block", () -> new SulfurBlockBlock());
 	public static final RegistryObject<Block> RAW_COBALT_BLOCK = REGISTRY.register("raw_cobalt_block", () -> new RawCobaltBlockBlock());
@@ -410,6 +413,7 @@ public class AlterniaModBlocks {
 	public static final RegistryObject<Block> ALTERNIA_PORTAL = REGISTRY.register("alternia_portal", () -> new AlterniaPortalBlock());
 	public static final RegistryObject<Block> STARGATE_FRAME = REGISTRY.register("stargate_frame", () -> new StargateFrameBlock());
 	public static final RegistryObject<Block> STARGATE_CORNER = REGISTRY.register("stargate_corner", () -> new StargateCornerBlock());
+	public static final RegistryObject<Block> UNLOCKED_VAULT = REGISTRY.register("unlocked_vault", () -> new UnlockedVaultBlock());
 	public static final RegistryObject<Block> RUST_HEMO_FLOWER = REGISTRY.register("rust_hemo_flower", () -> new RustHemoFlowerBlock());
 	public static final RegistryObject<Block> RUST_HEMOGLASS = REGISTRY.register("rust_hemoglass", () -> new RustHemoglassBlock());
 	public static final RegistryObject<Block> RUST_HEMOGLASS_PANE = REGISTRY.register("rust_hemoglass_pane", () -> new RustHemoglassPaneBlock());

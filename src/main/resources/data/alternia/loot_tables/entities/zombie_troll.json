@@ -17,9 +17,12 @@
               }
             },
             {
-              "function": "minecraft:apply_bonus",
-              "enchantment": "minecraft:fortune",
-              "formula": "minecraft:ore_drops"
+              "function": "minecraft:looting_enchant",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 1
+              }
             }
           ]
         }
@@ -38,14 +41,6 @@
               "count": {
                 "min": 0,
                 "max": 2
-              }
-            },
-            {
-              "function": "enchant_with_levels",
-              "treasure": true,
-              "levels": {
-                "min": 1,
-                "max": 1
               }
             }
           ]
@@ -66,11 +61,6 @@
                 "min": 0,
                 "max": 1
               }
-            },
-            {
-              "function": "minecraft:apply_bonus",
-              "enchantment": "minecraft:fortune",
-              "formula": "minecraft:ore_drops"
             }
           ]
         },
@@ -85,11 +75,6 @@
                 "min": 0,
                 "max": 1
               }
-            },
-            {
-              "function": "minecraft:apply_bonus",
-              "enchantment": "minecraft:fortune",
-              "formula": "minecraft:ore_drops"
             }
           ]
         },
@@ -104,11 +89,6 @@
                 "min": 0,
                 "max": 1
               }
-            },
-            {
-              "function": "minecraft:apply_bonus",
-              "enchantment": "minecraft:fortune",
-              "formula": "minecraft:ore_drops"
             }
           ]
         },
@@ -123,11 +103,6 @@
                 "min": 0,
                 "max": 1
               }
-            },
-            {
-              "function": "minecraft:apply_bonus",
-              "enchantment": "minecraft:fortune",
-              "formula": "minecraft:ore_drops"
             }
           ]
         },
@@ -142,11 +117,6 @@
                 "min": 0,
                 "max": 1
               }
-            },
-            {
-              "function": "minecraft:apply_bonus",
-              "enchantment": "minecraft:fortune",
-              "formula": "minecraft:ore_drops"
             }
           ]
         },
@@ -161,11 +131,6 @@
                 "min": 0,
                 "max": 1
               }
-            },
-            {
-              "function": "minecraft:apply_bonus",
-              "enchantment": "minecraft:fortune",
-              "formula": "minecraft:ore_drops"
             }
           ]
         },
@@ -180,11 +145,6 @@
                 "min": 0,
                 "max": 1
               }
-            },
-            {
-              "function": "minecraft:apply_bonus",
-              "enchantment": "minecraft:fortune",
-              "formula": "minecraft:ore_drops"
             }
           ]
         },
@@ -199,11 +159,6 @@
                 "min": 0,
                 "max": 1
               }
-            },
-            {
-              "function": "minecraft:apply_bonus",
-              "enchantment": "minecraft:fortune",
-              "formula": "minecraft:ore_drops"
             }
           ]
         },
@@ -218,11 +173,6 @@
                 "min": 0,
                 "max": 1
               }
-            },
-            {
-              "function": "minecraft:apply_bonus",
-              "enchantment": "minecraft:fortune",
-              "formula": "minecraft:ore_drops"
             }
           ]
         },
@@ -237,11 +187,6 @@
                 "min": 0,
                 "max": 1
               }
-            },
-            {
-              "function": "minecraft:apply_bonus",
-              "enchantment": "minecraft:fortune",
-              "formula": "minecraft:ore_drops"
             }
           ]
         },
@@ -256,11 +201,6 @@
                 "min": 0,
                 "max": 1
               }
-            },
-            {
-              "function": "minecraft:apply_bonus",
-              "enchantment": "minecraft:fortune",
-              "formula": "minecraft:ore_drops"
             }
           ]
         },
@@ -275,11 +215,6 @@
                 "min": 0,
                 "max": 1
               }
-            },
-            {
-              "function": "minecraft:apply_bonus",
-              "enchantment": "minecraft:fortune",
-              "formula": "minecraft:ore_drops"
             }
           ]
         }
@@ -296,14 +231,17 @@
             {
               "function": "set_count",
               "count": {
-                "min": 1,
+                "min": 0,
                 "max": 2
               }
             },
             {
-              "function": "minecraft:apply_bonus",
-              "enchantment": "minecraft:fortune",
-              "formula": "minecraft:ore_drops"
+              "function": "minecraft:looting_enchant",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 1
+              }
             }
           ]
         }
@@ -328,9 +266,12 @@
               }
             },
             {
-              "function": "minecraft:apply_bonus",
-              "enchantment": "minecraft:fortune",
-              "formula": "minecraft:ore_drops"
+              "function": "minecraft:looting_enchant",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 1
+              }
             }
           ]
         },
@@ -347,25 +288,52 @@
               }
             },
             {
-              "function": "minecraft:apply_bonus",
-              "enchantment": "minecraft:fortune",
-              "formula": "minecraft:ore_drops"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "alternia:darkstone_dust",
-          "weight": 48,
-          "functions": [
-            {
-              "function": "set_count",
+              "function": "minecraft:looting_enchant",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 0,
                 "max": 1
               }
             }
           ]
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 48
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "alternia:treasure_key",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            },
+            {
+              "function": "minecraft:looting_enchant",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 75
         }
       ]
     }

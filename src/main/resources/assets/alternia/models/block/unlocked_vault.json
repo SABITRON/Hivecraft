@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "alternia:block/crate_side",
+    "up": "alternia:block/crate_side",
+    "north": "alternia:block/crate_open",
+    "east": "alternia:block/crate_side",
+    "south": "alternia:block/crate_side",
+    "west": "alternia:block/crate_side",
+    "particle": "alternia:block/crate_side"
+  },
+  "render_type": "solid"
+}

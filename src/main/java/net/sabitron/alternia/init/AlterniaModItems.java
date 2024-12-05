@@ -9,6 +9,7 @@ import net.sabitron.alternia.item.VioletShadesItem;
 import net.sabitron.alternia.item.VioletHemodyeItem;
 import net.sabitron.alternia.item.VioletBloodItem;
 import net.sabitron.alternia.item.TrollHornItem;
+import net.sabitron.alternia.item.TreasureKeyItem;
 import net.sabitron.alternia.item.TealShadesItem;
 import net.sabitron.alternia.item.TealHemodyeItem;
 import net.sabitron.alternia.item.TealBloodItem;
@@ -224,6 +225,8 @@ public class AlterniaModItems {
 	public static final RegistryObject<Item> FLESH_BUG_NEST = block(AlterniaModBlocks.FLESH_BUG_NEST);
 	public static final RegistryObject<Item> INSECT_FOOD = REGISTRY.register("insect_food", () -> new InsectFoodItem());
 	public static final RegistryObject<Item> FOOD_BUG_NEST = block(AlterniaModBlocks.FOOD_BUG_NEST);
+	public static final RegistryObject<Item> TREASURE_KEY = REGISTRY.register("treasure_key", () -> new TreasureKeyItem());
+	public static final RegistryObject<Item> TREASURE_VAULT = block(AlterniaModBlocks.TREASURE_VAULT);
 	public static final RegistryObject<Item> SALT = REGISTRY.register("salt", () -> new SaltItem());
 	public static final RegistryObject<Item> SALT_BLOCK = block(AlterniaModBlocks.SALT_BLOCK);
 	public static final RegistryObject<Item> SULFUR = REGISTRY.register("sulfur", () -> new SulfurItem());
@@ -290,6 +293,7 @@ public class AlterniaModItems {
 	public static final RegistryObject<Item> LUSUS_CAT_SPAWN_EGG = REGISTRY.register("lusus_cat_spawn_egg", () -> new ForgeSpawnEggItem(AlterniaModEntities.LUSUS_CAT, -11238144, -1, new Item.Properties()));
 	public static final RegistryObject<Item> LUSUS_SPIDER_SPAWN_EGG = REGISTRY.register("lusus_spider_spawn_egg", () -> new ForgeSpawnEggItem(AlterniaModEntities.LUSUS_SPIDER, -16756575, -1, new Item.Properties()));
 	public static final RegistryObject<Item> MOD_ICON = REGISTRY.register("mod_icon", () -> new ModIconItem());
+	public static final RegistryObject<Item> UNLOCKED_VAULT = block(AlterniaModBlocks.UNLOCKED_VAULT);
 	public static final RegistryObject<Item> RUST_BLOOD = REGISTRY.register("rust_blood", () -> new RustBloodItem());
 	public static final RegistryObject<Item> RUST_HEMO_FLOWER = block(AlterniaModBlocks.RUST_HEMO_FLOWER);
 	public static final RegistryObject<Item> RUST_HEMODYE = REGISTRY.register("rust_hemodye", () -> new RustHemodyeItem());

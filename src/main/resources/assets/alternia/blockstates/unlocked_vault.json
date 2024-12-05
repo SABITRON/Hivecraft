@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "alternia:block/unlocked_vault"
+    },
+    "facing=east": {
+      "model": "alternia:block/unlocked_vault",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "alternia:block/unlocked_vault",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "alternia:block/unlocked_vault",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "alternia:block/unlocked_vault",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "alternia:block/unlocked_vault",
+      "x": 90
+    }
+  }
+}
