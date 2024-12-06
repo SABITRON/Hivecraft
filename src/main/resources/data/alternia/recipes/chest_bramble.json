@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "b b",
+    "bbb"
+  ],
+  "key": {
+    "a": {
+      "item": "alternia:bramble_slab"
+    },
+    "b": {
+      "item": "alternia:bramble_planks"
+    }
+  },
+  "result": {
+    "item": "minecraft:chest",
+    "count": 1
+  }
+}
