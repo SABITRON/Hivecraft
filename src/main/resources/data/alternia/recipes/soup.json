@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+  	"feg",
+    "adb",
+    " c "
+  ],
+  "key": {
+    "a": {
+      "item": "alternia:cooked_beetle"
+    },
+    "b": {
+      "item": "alternia:cooked_grasshopper"
+    },
+    "c": {
+      "item": "minecraft:bowl"
+    },
+    "d": {
+      "item": "minestuck:grub_sauce"
+    },
+    "e": {
+      "item": "minestuck:cicada"
+    },
+    "f": {
+      "item": "alternia:cooked_grub_meat"
+    },
+    "g": {
+      "item": "minestuck:cone_of_flies"
+    }
+  },
+  "result": {
+    "item": "alternia:hivemade_stew",
+    "count": 1
+  }
+}

@@ -17,7 +17,7 @@ import java.util.List;
 
 public class BrambleLeavesBlock extends LeavesBlock {
 	public BrambleLeavesBlock() {
-		super(BlockBehaviour.Properties.of().ignitedByLava().mapColor(MapColor.TERRACOTTA_GRAY).sound(SoundType.GRASS).strength(0.2f).noOcclusion().noLootTable());
+		super(BlockBehaviour.Properties.of().ignitedByLava().mapColor(MapColor.TERRACOTTA_GRAY).sound(SoundType.GRASS).strength(0.2f).noOcclusion());
 	}
 
 	@Override

@@ -120,6 +120,15 @@
         "maxGroup": 1,
         "weight": 5,
         "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "CUSTOM:ZombieTroll"
+        },
+        "minGroup": 1,
+        "maxGroup": 2,
+        "weight": 2,
+        "spawnType": "monster"
       }
     ]
   }

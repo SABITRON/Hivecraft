@@ -1,7 +1,21 @@
 {
   "variants": {
-    "": {
-      "model": "alternia:block/alternian_grass_block"
-    }
+    "blockstate=0": [
+      {
+        "model": "alternia:block/alternian_grass_block"
+      },
+      {
+        "model": "alternia:block/alternian_grass_block",
+        "y": 90
+      },
+      {
+        "model": "alternia:block/alternian_grass_block",
+        "y": 180
+      },
+      {
+        "model": "alternia:block/alternian_grass_block",
+        "y": 270
+      }
+    ]
   }
 }

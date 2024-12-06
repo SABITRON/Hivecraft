@@ -17,7 +17,7 @@ import java.util.List;
 
 public class OracleLeavesBlock extends LeavesBlock {
 	public OracleLeavesBlock() {
-		super(BlockBehaviour.Properties.of().ignitedByLava().mapColor(MapColor.COLOR_PINK).sound(SoundType.GRASS).strength(0.2f).noOcclusion().noLootTable());
+		super(BlockBehaviour.Properties.of().ignitedByLava().mapColor(MapColor.COLOR_PINK).sound(SoundType.GRASS).strength(0.2f).noOcclusion());
 	}
 
 	@Override

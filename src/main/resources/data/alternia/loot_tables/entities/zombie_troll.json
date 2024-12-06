@@ -255,7 +255,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "alternia:shattergrain",
+          "name": "alternia:glassy_shattergrain",
           "weight": 1,
           "functions": [
             {

@@ -124,7 +124,6 @@ public class AlterniaModTabs {
 				tabData.accept(AlterniaModBlocks.LUSUS_WOOL.get().asItem());
 				tabData.accept(AlterniaModBlocks.LUSUS_WOOL_STAIRS.get().asItem());
 				tabData.accept(AlterniaModBlocks.LUSUS_WOOL_SLAB.get().asItem());
-				tabData.accept(AlterniaModBlocks.ALTERNIA_TPZ.get().asItem());
 				tabData.accept(AlterniaModItems.SOPOR_SLIME_BUCKET.get());
 				tabData.accept(AlterniaModItems.DARKSTONE_DUST.get());
 				tabData.accept(AlterniaModBlocks.GRUB_NEST.get().asItem());
@@ -175,10 +174,14 @@ public class AlterniaModTabs {
 				tabData.accept(AlterniaModItems.PIE_PLATE.get());
 				tabData.accept(AlterniaModItems.BUG_JAR.get());
 				tabData.accept(AlterniaModItems.BEETLE.get());
+				tabData.accept(AlterniaModItems.COOKED_BEETLE.get());
+				tabData.accept(AlterniaModItems.COOKED_BEETLE_ON_STICK.get());
+				tabData.accept(AlterniaModItems.COOKED_GRASSHOPPER.get());
 				tabData.accept(AlterniaModItems.RAW_GRUB_MEAT.get());
 				tabData.accept(AlterniaModItems.COOKED_GRUB_MEAT.get());
 				tabData.accept(AlterniaModItems.LIVE_GRUB.get());
 				tabData.accept(AlterniaModItems.COOKED_GRUB.get());
+				tabData.accept(AlterniaModItems.HIVEMADE_STEW.get());
 				tabData.accept(AlterniaModItems.HEART_CANDY.get());
 				tabData.accept(AlterniaModItems.SPADE_CANDY.get());
 				tabData.accept(AlterniaModItems.DIAMOND_CANDY.get());
@@ -187,9 +190,10 @@ public class AlterniaModTabs {
 				tabData.accept(AlterniaModItems.LUSUS_MEAT.get());
 				tabData.accept(AlterniaModItems.RATION.get());
 				tabData.accept(AlterniaModItems.LUSUS_HIDE.get());
-				tabData.accept(AlterniaModItems.ALTERNIA.get());
+				tabData.accept(AlterniaModBlocks.ALTERNIA_TPZ.get().asItem());
 				tabData.accept(AlterniaModBlocks.STARGATE_FRAME.get().asItem());
 				tabData.accept(AlterniaModBlocks.STARGATE_CORNER.get().asItem());
+				tabData.accept(AlterniaModItems.ALTERNIA.get());
 				tabData.accept(AlterniaModItems.STARGATE_SHIELDING.get());
 				tabData.accept(AlterniaModItems.STARGATE_PANEL.get());
 				tabData.accept(AlterniaModItems.STARGATE_PLATE.get());

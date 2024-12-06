@@ -1,7 +1,21 @@
 {
   "variants": {
-    "": {
-      "model": "alternia:block/alternian_soil"
-    }
+    "blockstate=0": [
+      {
+        "model": "alternia:block/alternian_soil"
+      },
+      {
+        "model": "alternia:block/alternian_soil",
+        "y": 90
+      },
+      {
+        "model": "alternia:block/alternian_soil",
+        "y": 180
+      },
+      {
+        "model": "alternia:block/alternian_soil",
+        "y": 270
+      }
+    ]
   }
 }

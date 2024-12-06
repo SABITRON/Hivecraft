@@ -56,6 +56,7 @@ import net.sabitron.alternia.item.InsectFoodItem;
 import net.sabitron.alternia.item.IndigoShadesItem;
 import net.sabitron.alternia.item.IndigoHemodyeItem;
 import net.sabitron.alternia.item.IndigoBloodItem;
+import net.sabitron.alternia.item.HivemadeStewItem;
 import net.sabitron.alternia.item.HemospectrumTabIconItem;
 import net.sabitron.alternia.item.HeartCandyItem;
 import net.sabitron.alternia.item.GrubSliderItem;
@@ -73,6 +74,9 @@ import net.sabitron.alternia.item.CullingForkItem;
 import net.sabitron.alternia.item.CrushedRawCobaltItem;
 import net.sabitron.alternia.item.CookedGrubMeatItem;
 import net.sabitron.alternia.item.CookedGrubItem;
+import net.sabitron.alternia.item.CookedGrasshopperItem;
+import net.sabitron.alternia.item.CookedBeetleOnStickItem;
+import net.sabitron.alternia.item.CookedBeetleItem;
 import net.sabitron.alternia.item.CobaltVisorItem;
 import net.sabitron.alternia.item.CobaltSwordItem;
 import net.sabitron.alternia.item.CobaltShovelItem;
@@ -216,7 +220,6 @@ public class AlterniaModItems {
 	public static final RegistryObject<Item> LUSUS_WOOL = block(AlterniaModBlocks.LUSUS_WOOL);
 	public static final RegistryObject<Item> LUSUS_WOOL_STAIRS = block(AlterniaModBlocks.LUSUS_WOOL_STAIRS);
 	public static final RegistryObject<Item> LUSUS_WOOL_SLAB = block(AlterniaModBlocks.LUSUS_WOOL_SLAB);
-	public static final RegistryObject<Item> ALTERNIA_TPZ = block(AlterniaModBlocks.ALTERNIA_TPZ);
 	public static final RegistryObject<Item> SOPOR_SLIME_BUCKET = REGISTRY.register("sopor_slime_bucket", () -> new SoporSlimeItem());
 	public static final RegistryObject<Item> DARKSTONE_DUST = REGISTRY.register("darkstone_dust", () -> new DarkstoneDustItem());
 	public static final RegistryObject<Item> GRUB_NEST = block(AlterniaModBlocks.GRUB_NEST);
@@ -267,10 +270,14 @@ public class AlterniaModItems {
 	public static final RegistryObject<Item> PIE_PLATE = REGISTRY.register("pie_plate", () -> new PiePlateItem());
 	public static final RegistryObject<Item> BUG_JAR = REGISTRY.register("bug_jar", () -> new BugJarItem());
 	public static final RegistryObject<Item> BEETLE = REGISTRY.register("beetle", () -> new BeetleItem());
+	public static final RegistryObject<Item> COOKED_BEETLE = REGISTRY.register("cooked_beetle", () -> new CookedBeetleItem());
+	public static final RegistryObject<Item> COOKED_BEETLE_ON_STICK = REGISTRY.register("cooked_beetle_on_stick", () -> new CookedBeetleOnStickItem());
+	public static final RegistryObject<Item> COOKED_GRASSHOPPER = REGISTRY.register("cooked_grasshopper", () -> new CookedGrasshopperItem());
 	public static final RegistryObject<Item> RAW_GRUB_MEAT = REGISTRY.register("raw_grub_meat", () -> new RawGrubMeatItem());
 	public static final RegistryObject<Item> COOKED_GRUB_MEAT = REGISTRY.register("cooked_grub_meat", () -> new CookedGrubMeatItem());
 	public static final RegistryObject<Item> LIVE_GRUB = REGISTRY.register("live_grub", () -> new LiveGrubItem());
 	public static final RegistryObject<Item> COOKED_GRUB = REGISTRY.register("cooked_grub", () -> new CookedGrubItem());
+	public static final RegistryObject<Item> HIVEMADE_STEW = REGISTRY.register("hivemade_stew", () -> new HivemadeStewItem());
 	public static final RegistryObject<Item> HEART_CANDY = REGISTRY.register("heart_candy", () -> new HeartCandyItem());
 	public static final RegistryObject<Item> SPADE_CANDY = REGISTRY.register("spade_candy", () -> new SpadeCandyItem());
 	public static final RegistryObject<Item> DIAMOND_CANDY = REGISTRY.register("diamond_candy", () -> new DiamondCandyItem());
@@ -279,9 +286,10 @@ public class AlterniaModItems {
 	public static final RegistryObject<Item> LUSUS_MEAT = REGISTRY.register("lusus_meat", () -> new LususMeatItem());
 	public static final RegistryObject<Item> RATION = REGISTRY.register("ration", () -> new RationItem());
 	public static final RegistryObject<Item> LUSUS_HIDE = REGISTRY.register("lusus_hide", () -> new LususHideItem());
-	public static final RegistryObject<Item> ALTERNIA = REGISTRY.register("alternia", () -> new AlterniaItem());
+	public static final RegistryObject<Item> ALTERNIA_TPZ = block(AlterniaModBlocks.ALTERNIA_TPZ);
 	public static final RegistryObject<Item> STARGATE_FRAME = block(AlterniaModBlocks.STARGATE_FRAME);
 	public static final RegistryObject<Item> STARGATE_CORNER = block(AlterniaModBlocks.STARGATE_CORNER);
+	public static final RegistryObject<Item> ALTERNIA = REGISTRY.register("alternia", () -> new AlterniaItem());
 	public static final RegistryObject<Item> STARGATE_SHIELDING = REGISTRY.register("stargate_shielding", () -> new StargateShieldingItem());
 	public static final RegistryObject<Item> STARGATE_PANEL = REGISTRY.register("stargate_panel", () -> new StargatePanelItem());
 	public static final RegistryObject<Item> STARGATE_PLATE = REGISTRY.register("stargate_plate", () -> new StargatePlateItem());
@@ -293,7 +301,6 @@ public class AlterniaModItems {
 	public static final RegistryObject<Item> LUSUS_CAT_SPAWN_EGG = REGISTRY.register("lusus_cat_spawn_egg", () -> new ForgeSpawnEggItem(AlterniaModEntities.LUSUS_CAT, -11238144, -1, new Item.Properties()));
 	public static final RegistryObject<Item> LUSUS_SPIDER_SPAWN_EGG = REGISTRY.register("lusus_spider_spawn_egg", () -> new ForgeSpawnEggItem(AlterniaModEntities.LUSUS_SPIDER, -16756575, -1, new Item.Properties()));
 	public static final RegistryObject<Item> MOD_ICON = REGISTRY.register("mod_icon", () -> new ModIconItem());
-	public static final RegistryObject<Item> UNLOCKED_VAULT = block(AlterniaModBlocks.UNLOCKED_VAULT);
 	public static final RegistryObject<Item> RUST_BLOOD = REGISTRY.register("rust_blood", () -> new RustBloodItem());
 	public static final RegistryObject<Item> RUST_HEMO_FLOWER = block(AlterniaModBlocks.RUST_HEMO_FLOWER);
 	public static final RegistryObject<Item> RUST_HEMODYE = REGISTRY.register("rust_hemodye", () -> new RustHemodyeItem());
@@ -484,6 +491,7 @@ public class AlterniaModItems {
 	public static final RegistryObject<Item> LIT_DARKSTONE_REDSTONE_ORE = block(AlterniaModBlocks.LIT_DARKSTONE_REDSTONE_ORE);
 	public static final RegistryObject<Item> HEMOSPECTRUM_TAB_ICON = REGISTRY.register("hemospectrum_tab_icon", () -> new HemospectrumTabIconItem());
 	public static final RegistryObject<Item> MUTANT_BLOOD = REGISTRY.register("mutant_blood", () -> new MutantBloodItem());
+	public static final RegistryObject<Item> UNLOCKED_VAULT = block(AlterniaModBlocks.UNLOCKED_VAULT);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

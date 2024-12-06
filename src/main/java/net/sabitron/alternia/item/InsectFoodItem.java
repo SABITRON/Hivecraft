@@ -13,7 +13,7 @@ import java.util.List;
 
 public class InsectFoodItem extends Item {
 	public InsectFoodItem() {
-		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(1).saturationMod(0.1f).build()));
+		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(1).saturationMod(0.2f).build()));
 	}
 
 	@Override

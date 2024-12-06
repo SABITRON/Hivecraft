@@ -18,6 +18,15 @@
       },
       {
         "value": "CUSTOM:CookedGrub"
+      },
+      {
+        "value": "CUSTOM:CookedBeetle"
+      },
+      {
+        "value": "CUSTOM:CookedBeetleOnStick"
+      },
+      {
+        "value": "CUSTOM:CookedGrasshopper"
       }
     ],
     "blocks": [],

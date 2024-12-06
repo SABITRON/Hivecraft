@@ -398,7 +398,6 @@ public class AlterniaModBlocks {
 	public static final RegistryObject<Block> LUSUS_WOOL = REGISTRY.register("lusus_wool", () -> new LususWoolBlock());
 	public static final RegistryObject<Block> LUSUS_WOOL_STAIRS = REGISTRY.register("lusus_wool_stairs", () -> new LususWoolStairsBlock());
 	public static final RegistryObject<Block> LUSUS_WOOL_SLAB = REGISTRY.register("lusus_wool_slab", () -> new LususWoolSlabBlock());
-	public static final RegistryObject<Block> ALTERNIA_TPZ = REGISTRY.register("alternia_tpz", () -> new AlterniaTpzBlock());
 	public static final RegistryObject<Block> SOPOR_SLIME = REGISTRY.register("sopor_slime", () -> new SoporSlimeBlock());
 	public static final RegistryObject<Block> GRUB_NEST = REGISTRY.register("grub_nest", () -> new GrubNestBlock());
 	public static final RegistryObject<Block> EMPTY_BUG_NEST = REGISTRY.register("empty_bug_nest", () -> new EmptyBugNestBlock());
@@ -410,10 +409,10 @@ public class AlterniaModBlocks {
 	public static final RegistryObject<Block> RAW_COBALT_BLOCK = REGISTRY.register("raw_cobalt_block", () -> new RawCobaltBlockBlock());
 	public static final RegistryObject<Block> COBALT_BLOCK = REGISTRY.register("cobalt_block", () -> new CobaltBlockBlock());
 	public static final RegistryObject<Block> SHATTERGRAIN_SEEDS = REGISTRY.register("shattergrain_seeds", () -> new ShattergrainSeedsBlock());
-	public static final RegistryObject<Block> ALTERNIA_PORTAL = REGISTRY.register("alternia_portal", () -> new AlterniaPortalBlock());
+	public static final RegistryObject<Block> ALTERNIA_TPZ = REGISTRY.register("alternia_tpz", () -> new AlterniaTpzBlock());
 	public static final RegistryObject<Block> STARGATE_FRAME = REGISTRY.register("stargate_frame", () -> new StargateFrameBlock());
 	public static final RegistryObject<Block> STARGATE_CORNER = REGISTRY.register("stargate_corner", () -> new StargateCornerBlock());
-	public static final RegistryObject<Block> UNLOCKED_VAULT = REGISTRY.register("unlocked_vault", () -> new UnlockedVaultBlock());
+	public static final RegistryObject<Block> ALTERNIA_PORTAL = REGISTRY.register("alternia_portal", () -> new AlterniaPortalBlock());
 	public static final RegistryObject<Block> RUST_HEMO_FLOWER = REGISTRY.register("rust_hemo_flower", () -> new RustHemoFlowerBlock());
 	public static final RegistryObject<Block> RUST_HEMOGLASS = REGISTRY.register("rust_hemoglass", () -> new RustHemoglassBlock());
 	public static final RegistryObject<Block> RUST_HEMOGLASS_PANE = REGISTRY.register("rust_hemoglass_pane", () -> new RustHemoglassPaneBlock());
@@ -566,6 +565,7 @@ public class AlterniaModBlocks {
 	public static final RegistryObject<Block> BUG_NEST_BEETLES = REGISTRY.register("bug_nest_beetles", () -> new BugNestBeetlesBlock());
 	public static final RegistryObject<Block> BUG_NEST_GRASSHOPPERS = REGISTRY.register("bug_nest_grasshoppers", () -> new BugNestGrasshoppersBlock());
 	public static final RegistryObject<Block> LIT_DARKSTONE_REDSTONE_ORE = REGISTRY.register("lit_darkstone_redstone_ore", () -> new LitDarkstoneRedstoneOreBlock());
+	public static final RegistryObject<Block> UNLOCKED_VAULT = REGISTRY.register("unlocked_vault", () -> new UnlockedVaultBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

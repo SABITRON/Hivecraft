@@ -13,7 +13,7 @@ import java.util.List;
 
 public class CookedGrubMeatItem extends Item {
 	public CookedGrubMeatItem() {
-		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(4).saturationMod(0.5f).meat().build()));
+		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(4).saturationMod(0.8f).meat().build()));
 	}
 
 	@Override

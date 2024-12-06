@@ -13,7 +13,7 @@ import java.util.List;
 
 public class GrubSliderItem extends Item {
 	public GrubSliderItem() {
-		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(6).saturationMod(1.6f).build()));
+		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(6).saturationMod(1.2f).build()));
 	}
 
 	@Override

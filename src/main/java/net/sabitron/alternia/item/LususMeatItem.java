@@ -13,7 +13,7 @@ import java.util.List;
 
 public class LususMeatItem extends Item {
 	public LususMeatItem() {
-		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(6).saturationMod(0.6f).meat().build()));
+		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(6).saturationMod(0.8f).meat().build()));
 	}
 
 	@Override

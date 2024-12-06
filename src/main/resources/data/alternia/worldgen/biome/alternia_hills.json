@@ -17,6 +17,12 @@
         "weight": 5,
         "minCount": 1,
         "maxCount": 1
+      },
+      {
+        "type": "alternia:grub",
+        "weight": 1,
+        "minCount": 2,
+        "maxCount": 3
       }
     ],
     "creature": [],
