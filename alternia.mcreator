@@ -15037,6 +15037,34 @@
         ]
       },
       "path": "~/Recipes"
+    },
+    {
+      "name": "WoodenSlabs",
+      "type": "tag",
+      "sortid": 916,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_slabs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/wooden_slabs.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "WoodenStairs",
+      "type": "tag",
+      "sortid": 917,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/wooden_stairs.json"
+        ]
+      },
+      "path": "~/Tags"
     }
   ],
   "variable_elements": [

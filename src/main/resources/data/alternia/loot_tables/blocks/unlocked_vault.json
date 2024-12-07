@@ -178,7 +178,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "alternia:cobalt_ingot",
+          "name": "alternia:cobalt_knife",
           "weight": 1,
           "conditions": [
             {
@@ -210,7 +210,7 @@
         },
         {
           "type": "minecraft:empty",
-          "weight": 3
+          "weight": 9
         }
       ]
     },
