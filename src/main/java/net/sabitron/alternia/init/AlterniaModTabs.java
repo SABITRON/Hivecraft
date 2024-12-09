@@ -160,6 +160,8 @@ public class AlterniaModTabs {
 				tabData.accept(AlterniaModItems.CULLING_FORK.get());
 				tabData.accept(AlterniaModItems.POSEIDONS_ENTENTE.get());
 				tabData.accept(AlterniaModItems.KNIFE_SPEAR.get());
+				tabData.accept(AlterniaModItems.AHABS_CROSSHAIRS.get());
+				tabData.accept(AlterniaModItems.AHABS_AMMO.get());
 				tabData.accept(AlterniaModItems.ZINC.get());
 				tabData.accept(AlterniaModBlocks.SHATTERGRAIN_SEEDS.get().asItem());
 				tabData.accept(AlterniaModItems.SHATTERGRAIN.get());

@@ -4,11 +4,11 @@ license="Academic Free License v3.0"
 
 [[mods]]
 modId="alternia"
-version="1.2.3"
+version="1.2.5"
 displayName="Hivecraft: An Alternia addon for Minestuck"
 displayURL="https://modrinth.com/mod/hivecraft"
 logoFile="logo.png"
-credits="Uses some textures from Minecraft, Minestuck, Zinc ore texture from Create, Fairy Bull model by yanasakanadev"
+credits="Uses some textures from Minecraft, Minestuck, Zinc ore texture from Create, Fairy Bull, Crab Lusus, Ram Lusus models by yanasakanadev"
 authors="V_SABITRON"
 
 [[dependencies.alternia]]
@@ -39,13 +39,13 @@ authors="V_SABITRON"
     side="BOTH"
 
 [[dependencies.alternia]]
-    modId="create"
+    modId="geckolib"
     mandatory=false
     versionRange="[0,)"
     ordering="NONE"
     side="BOTH"
 [[dependencies.alternia]]
-    modId="geckolib"
+    modId="jei"
     mandatory=false
     versionRange="[0,)"
     ordering="NONE"

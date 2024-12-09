@@ -1,0 +1,14 @@
+{
+  "_fv": 57,
+  "_type": "jeiinformation",
+  "definition": {
+    "items": [
+      {
+        "value": "CUSTOM:AhabsCrosshairs"
+      }
+    ],
+    "information": [
+      "Drops rarely from Treasure Vaults. It fires Imperial Crystal Rounds and does 30 damage per shot. It charges for 10 seconds and reloads for 5, but these can be reduced with enchants. Watch out for the recoil!"
+    ]
+  }
+}

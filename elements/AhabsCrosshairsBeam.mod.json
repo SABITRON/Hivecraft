@@ -1,0 +1,31 @@
+{
+  "_fv": 57,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:AhabsAmmo"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": "entity.wither.hurt"
+    },
+    "igniteFire": false,
+    "power": 10.0,
+    "damage": 1.5,
+    "knockback": 5,
+    "entityModel": "ModelCrystalBeam",
+    "customModelTexture": "crystal_beam.png",
+    "onHitsBlock": {
+      "name": "CrystalBeamImpact"
+    },
+    "onHitsPlayer": {
+      "name": "CrystalBeamImpact"
+    },
+    "onHitsEntity": {
+      "name": "CrystalBeamImpact"
+    },
+    "onFlyingTick": {
+      "name": "GetRidOfThatFuckingGravity"
+    }
+  }
+}

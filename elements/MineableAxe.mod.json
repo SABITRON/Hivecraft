@@ -175,6 +175,114 @@
       },
       {
         "value": "CUSTOM:HiveDrywallPanelSlab"
+      },
+      {
+        "value": "CUSTOM:RustMeatSlab"
+      },
+      {
+        "value": "CUSTOM:RustMeatStairs"
+      },
+      {
+        "value": "CUSTOM:RustMeatWall"
+      },
+      {
+        "value": "CUSTOM:BronzeMeatSlab"
+      },
+      {
+        "value": "CUSTOM:GoldMeatSlab"
+      },
+      {
+        "value": "CUSTOM:GoldMeatStairs"
+      },
+      {
+        "value": "CUSTOM:GoldMeatWall"
+      },
+      {
+        "value": "CUSTOM:LimeMeatSlab"
+      },
+      {
+        "value": "CUSTOM:LimeMeatStairs"
+      },
+      {
+        "value": "CUSTOM:LimeMeatWall"
+      },
+      {
+        "value": "CUSTOM:BronzeMeatStairs"
+      },
+      {
+        "value": "CUSTOM:BronzeMeatWall"
+      },
+      {
+        "value": "CUSTOM:OliveMeatSlab"
+      },
+      {
+        "value": "CUSTOM:OliveMeatStairs"
+      },
+      {
+        "value": "CUSTOM:OliveMeatWall"
+      },
+      {
+        "value": "CUSTOM:JadeMeatSlab"
+      },
+      {
+        "value": "CUSTOM:JadeMeatStairs"
+      },
+      {
+        "value": "CUSTOM:JadeMeatWall"
+      },
+      {
+        "value": "CUSTOM:TealMeatSlab"
+      },
+      {
+        "value": "CUSTOM:TealMeatStairs"
+      },
+      {
+        "value": "CUSTOM:TealMeatWall"
+      },
+      {
+        "value": "CUSTOM:CobaltMeatSlab"
+      },
+      {
+        "value": "CUSTOM:CobaltMeatStairs"
+      },
+      {
+        "value": "CUSTOM:CobaltMeatWall"
+      },
+      {
+        "value": "CUSTOM:IndigoMeatSlab"
+      },
+      {
+        "value": "CUSTOM:IndigoMeatStairs"
+      },
+      {
+        "value": "CUSTOM:IndigoMeatWall"
+      },
+      {
+        "value": "CUSTOM:PurpleMeatSlab"
+      },
+      {
+        "value": "CUSTOM:PurpleMeatStairs"
+      },
+      {
+        "value": "CUSTOM:PurpleMeatWall"
+      },
+      {
+        "value": "CUSTOM:VioletMeatSlab"
+      },
+      {
+        "value": "CUSTOM:VioletMeatStairs"
+      },
+      {
+        "value": "CUSTOM:VioletMeatWall"
+      },
+      {
+        "value": "CUSTOM:FuchsiaMeatSlab"
+      },
+      {
+        "value": "CUSTOM:FuchsiaMeatStairs"
+      },
+      {
+        "value": "CUSTOM:FuchsiaMeatWall"
       }
     ],
     "functions": [],

@@ -1,0 +1,40 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:AlterniaTpz"
+      },
+      {
+        "value": "CUSTOM:PoseidonsEntente"
+      },
+      {
+        "value": "CUSTOM:Matriorb"
+      },
+      {
+        "value": "CUSTOM:CobaltBeaconCore"
+      },
+      {
+        "value": "CUSTOM:StargateFrame"
+      },
+      {
+        "value": "CUSTOM:StargateCorner"
+      },
+      {
+        "value": "CUSTOM:AhabsCrosshairs"
+      },
+      {
+        "value": "CUSTOM:AhabsAmmo"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "unreadable",
+    "namespace": "minestuck"
+  }
+}

@@ -12,7 +12,7 @@
     },
     {
       "chance": 1,
-      "item": "minecraft:glowstone_dust"
+      "item": "alternia:sulfur"
     }
   ]
 }

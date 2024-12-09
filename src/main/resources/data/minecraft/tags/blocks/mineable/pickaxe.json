@@ -68,6 +68,24 @@
     "alternia:polished_pitch_darkstone",
     "alternia:polished_flushed_darkstone",
     "alternia:polished_ashen_darkstone",
-    "alternia:polished_pale_darkstone"
+    "alternia:polished_pale_darkstone",
+    "alternia:rust_lamp",
+    "alternia:bronze_lamp",
+    "alternia:gold_lamp",
+    "alternia:lime_lamp",
+    "alternia:olive_lamp",
+    "alternia:jade_lamp",
+    "alternia:teal_lamp",
+    "alternia:cobalt_lamp",
+    "alternia:indigo_lamp",
+    "alternia:purple_lamp",
+    "alternia:violet_lamp",
+    "alternia:fuchsia_lamp",
+    "alternia:sulfur_block",
+    "alternia:stargate_frame",
+    "alternia:stargate_corner",
+    "alternia:salt_block",
+    "alternia:treasure_vault",
+    "alternia:unlocked_vault"
   ]
 }

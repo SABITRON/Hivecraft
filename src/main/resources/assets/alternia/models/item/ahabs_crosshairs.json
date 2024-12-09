@@ -1,0 +1,7 @@
+{
+  "parent": "alternia:custom/ahabs_crosshairs",
+  "textures": {
+    "1": "alternia:block/ahabs_crosshairs",
+    "particle": "alternia:item/ahabs_crosshairs"
+  }
+}

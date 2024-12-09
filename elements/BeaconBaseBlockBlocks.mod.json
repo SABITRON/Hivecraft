@@ -7,6 +7,12 @@
     "blocks": [
       {
         "value": "CUSTOM:CobaltBlock"
+      },
+      {
+        "value": "CUSTOM:StargateFrame"
+      },
+      {
+        "value": "CUSTOM:StargateCorner"
       }
     ],
     "functions": [],

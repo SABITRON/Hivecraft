@@ -1,0 +1,62 @@
+{
+  "_fv": 57,
+  "_type": "item",
+  "definition": {
+    "renderType": 1,
+    "texture": "ahabs_crosshairs",
+    "customModelName": "ahabs_crosshairs:default",
+    "customProperties": {},
+    "states": [],
+    "name": "Ahab's Crosshairs",
+    "rarity": "UNCOMMON",
+    "creativeTab": {
+      "value": "CUSTOM:AlterniaTab"
+    },
+    "stackSize": 1,
+    "enchantability": 0,
+    "useDuration": 220,
+    "toolType": 1.0,
+    "damageCount": 100,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "onFinishUsingItem": {
+      "name": "AhabsCrosshairsUsed"
+    },
+    "enableRanged": true,
+    "shootConstantly": true,
+    "projectile": {
+      "value": "CUSTOM:AhabsCrosshairsBeam"
+    },
+    "onRangedItemUsed": {
+      "name": "AhabsCrosshairsBang"
+    },
+    "rangedUseCondition": {
+      "name": "AhabsCrosshairsCheck"
+    },
+    "isFood": false,
+    "nutritionalValue": 4,
+    "saturation": 0.3,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": false,
+    "isAlwaysEdible": false,
+    "animation": "bow"
+  }
+}

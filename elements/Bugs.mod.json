@@ -12,21 +12,6 @@
       },
       {
         "value": "CUSTOM:LiveGrub"
-      },
-      {
-        "value": "CUSTOM:CookedGrubMeat"
-      },
-      {
-        "value": "CUSTOM:CookedGrub"
-      },
-      {
-        "value": "CUSTOM:CookedBeetle"
-      },
-      {
-        "value": "CUSTOM:CookedBeetleOnStick"
-      },
-      {
-        "value": "CUSTOM:CookedGrasshopper"
       }
     ],
     "blocks": [],

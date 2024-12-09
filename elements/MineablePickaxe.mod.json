@@ -208,6 +208,60 @@
       },
       {
         "value": "CUSTOM:PolishedPaleDarkstone"
+      },
+      {
+        "value": "CUSTOM:RustLamp"
+      },
+      {
+        "value": "CUSTOM:BronzeLamp"
+      },
+      {
+        "value": "CUSTOM:GoldLamp"
+      },
+      {
+        "value": "CUSTOM:LimeLamp"
+      },
+      {
+        "value": "CUSTOM:OliveLamp"
+      },
+      {
+        "value": "CUSTOM:JadeLamp"
+      },
+      {
+        "value": "CUSTOM:TealLamp"
+      },
+      {
+        "value": "CUSTOM:CobaltLamp"
+      },
+      {
+        "value": "CUSTOM:IndigoLamp"
+      },
+      {
+        "value": "CUSTOM:PurpleLamp"
+      },
+      {
+        "value": "CUSTOM:VioletLamp"
+      },
+      {
+        "value": "CUSTOM:FuchsiaLamp"
+      },
+      {
+        "value": "CUSTOM:SulfurBlock"
+      },
+      {
+        "value": "CUSTOM:StargateFrame"
+      },
+      {
+        "value": "CUSTOM:StargateCorner"
+      },
+      {
+        "value": "CUSTOM:SaltBlock"
+      },
+      {
+        "value": "CUSTOM:TreasureVault"
+      },
+      {
+        "value": "CUSTOM:UnlockedVault"
       }
     ],
     "functions": [],

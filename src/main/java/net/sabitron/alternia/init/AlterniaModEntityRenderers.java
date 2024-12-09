@@ -11,6 +11,7 @@ import net.sabitron.alternia.client.renderer.LususCrabRenderer;
 import net.sabitron.alternia.client.renderer.LususCatRenderer;
 import net.sabitron.alternia.client.renderer.GrubRenderer;
 import net.sabitron.alternia.client.renderer.FairyBullRenderer;
+import net.sabitron.alternia.client.renderer.AhabsCrosshairsBeamRenderer;
 
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -28,5 +29,6 @@ public class AlterniaModEntityRenderers {
 		event.registerEntityRenderer(AlterniaModEntities.FAIRY_BULL.get(), FairyBullRenderer::new);
 		event.registerEntityRenderer(AlterniaModEntities.LUSUS_CAT.get(), LususCatRenderer::new);
 		event.registerEntityRenderer(AlterniaModEntities.LUSUS_SPIDER.get(), LususSpiderRenderer::new);
+		event.registerEntityRenderer(AlterniaModEntities.AHABS_CROSSHAIRS_BEAM.get(), AhabsCrosshairsBeamRenderer::new);
 	}
 }

@@ -43,6 +43,7 @@ import net.minecraft.world.damagesource.DamageTypes;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.InteractionHand;
+import net.minecraft.tags.ItemTags;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.resources.ResourceLocation;
@@ -72,27 +73,26 @@ public class LususCatEntity extends TamableAnimal {
 	protected void registerGoals() {
 		super.registerGoals();
 		this.goalSelector.addGoal(1, new FloatGoal(this));
-		this.goalSelector.addGoal(2, new TemptGoal(this, 1, Ingredient.of(AlterniaModItems.COOKED_GRUB_MEAT.get()), false));
-		this.goalSelector.addGoal(3, new TemptGoal(this, 1, Ingredient.of(AlterniaModItems.COOKED_GRUB.get()), false));
-		this.goalSelector.addGoal(4, new MeleeAttackGoal(this, 1.2, false) {
+		this.goalSelector.addGoal(2, new TemptGoal(this, 1, Ingredient.of(AlterniaModItems.COOKED_GRUB.get()), false));
+		this.goalSelector.addGoal(3, new MeleeAttackGoal(this, 1.2, false) {
 			@Override
 			protected double getAttackReachSqr(LivingEntity entity) {
 				return this.mob.getBbWidth() * this.mob.getBbWidth() + entity.getBbWidth();
 			}
 		});
-		this.targetSelector.addGoal(5, new NearestAttackableTargetGoal(this, ZombieTrollEntity.class, true, true));
-		this.targetSelector.addGoal(6, new NearestAttackableTargetGoal(this, FairyBullEntity.class, true, true));
-		this.targetSelector.addGoal(7, new NearestAttackableTargetGoal(this, LususCatEntity.class, true, true));
-		this.targetSelector.addGoal(8, new NearestAttackableTargetGoal(this, LususCrabEntity.class, true, true));
-		this.targetSelector.addGoal(9, new NearestAttackableTargetGoal(this, LususRamEntity.class, true, true));
-		this.targetSelector.addGoal(10, new NearestAttackableTargetGoal(this, LususSpiderEntity.class, true, true));
-		this.targetSelector.addGoal(11, new HurtByTargetGoal(this));
-		this.goalSelector.addGoal(12, new OwnerHurtByTargetGoal(this));
-		this.targetSelector.addGoal(13, new OwnerHurtTargetGoal(this));
-		this.goalSelector.addGoal(14, new FollowOwnerGoal(this, 1, (float) 2, (float) 20, false));
-		this.goalSelector.addGoal(15, new WaterAvoidingRandomStrollGoal(this, 0.8));
-		this.goalSelector.addGoal(16, new RandomStrollGoal(this, 1));
-		this.goalSelector.addGoal(17, new RandomLookAroundGoal(this));
+		this.targetSelector.addGoal(4, new NearestAttackableTargetGoal(this, ZombieTrollEntity.class, true, true));
+		this.targetSelector.addGoal(5, new NearestAttackableTargetGoal(this, FairyBullEntity.class, true, true));
+		this.targetSelector.addGoal(6, new NearestAttackableTargetGoal(this, LususCatEntity.class, true, true));
+		this.targetSelector.addGoal(7, new NearestAttackableTargetGoal(this, LususCrabEntity.class, true, true));
+		this.targetSelector.addGoal(8, new NearestAttackableTargetGoal(this, LususRamEntity.class, true, true));
+		this.targetSelector.addGoal(9, new NearestAttackableTargetGoal(this, LususSpiderEntity.class, true, true));
+		this.targetSelector.addGoal(10, new HurtByTargetGoal(this));
+		this.goalSelector.addGoal(11, new OwnerHurtByTargetGoal(this));
+		this.targetSelector.addGoal(12, new OwnerHurtTargetGoal(this));
+		this.goalSelector.addGoal(13, new FollowOwnerGoal(this, 1, (float) 2, (float) 20, false));
+		this.goalSelector.addGoal(14, new WaterAvoidingRandomStrollGoal(this, 0.8));
+		this.goalSelector.addGoal(15, new RandomStrollGoal(this, 1));
+		this.goalSelector.addGoal(16, new RandomLookAroundGoal(this));
 	}
 
 	@Override
@@ -189,7 +189,7 @@ public class LususCatEntity extends TamableAnimal {
 
 	@Override
 	public boolean isFood(ItemStack stack) {
-		return Ingredient.of(new ItemStack(AlterniaModItems.COOKED_GRUB_MEAT.get()), new ItemStack(AlterniaModItems.COOKED_GRUB.get())).test(stack);
+		return Ingredient.of(ItemTags.create(new ResourceLocation("alternia:cooked_bugs"))).test(stack);
 	}
 
 	@Override

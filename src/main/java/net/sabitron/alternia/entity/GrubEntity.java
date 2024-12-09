@@ -97,7 +97,7 @@ public class GrubEntity extends PathfinderMob implements GeoEntity {
 		this.goalSelector.addGoal(1, new RandomStrollGoal(this, 1));
 		this.goalSelector.addGoal(2, new AvoidEntityGoal<>(this, Player.class, (float) 6, 1, 1.2));
 		this.goalSelector.addGoal(3, new RandomLookAroundGoal(this));
-		this.goalSelector.addGoal(5, new TemptGoal(this, 1, Ingredient.of(AlterniaModItems.INSECT_FOOD.get()), false));
+		this.goalSelector.addGoal(5, new TemptGoal(this, 1, Ingredient.of(AlterniaModItems.INSECT_FOOD.get()), true));
 		this.goalSelector.addGoal(6, new PanicGoal(this, 1.2));
 	}
 

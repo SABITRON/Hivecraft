@@ -3,11 +3,6 @@
   "values": [
     "alternia:beetle",
     "alternia:raw_grub_meat",
-    "alternia:live_grub",
-    "alternia:cooked_grub_meat",
-    "alternia:cooked_grub",
-    "alternia:cooked_beetle",
-    "alternia:cooked_beetle_on_stick",
-    "alternia:cooked_grasshopper"
+    "alternia:live_grub"
   ]
 }

@@ -11,6 +11,7 @@ import net.sabitron.alternia.entity.LususCrabEntity;
 import net.sabitron.alternia.entity.LususCatEntity;
 import net.sabitron.alternia.entity.GrubEntity;
 import net.sabitron.alternia.entity.FairyBullEntity;
+import net.sabitron.alternia.entity.AhabsCrosshairsBeamEntity;
 import net.sabitron.alternia.AlterniaMod;
 
 import net.minecraftforge.registries.RegistryObject;
@@ -56,6 +57,8 @@ public class AlterniaModEntities {
 			EntityType.Builder.<LususSpiderEntity>of(LususSpiderEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(LususSpiderEntity::new)
 
 					.sized(1.4f, 0.9f));
+	public static final RegistryObject<EntityType<AhabsCrosshairsBeamEntity>> AHABS_CROSSHAIRS_BEAM = register("projectile_ahabs_crosshairs_beam", EntityType.Builder.<AhabsCrosshairsBeamEntity>of(AhabsCrosshairsBeamEntity::new, MobCategory.MISC)
+			.setCustomClientFactory(AhabsCrosshairsBeamEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));

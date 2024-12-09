@@ -22,6 +22,7 @@ import net.sabitron.alternia.init.AlterniaModItems;
 import net.sabitron.alternia.init.AlterniaModFluids;
 import net.sabitron.alternia.init.AlterniaModFluidTypes;
 import net.sabitron.alternia.init.AlterniaModEntities;
+import net.sabitron.alternia.init.AlterniaModEnchantments;
 import net.sabitron.alternia.init.AlterniaModBlocks;
 
 import net.minecraftforge.network.simple.SimpleChannel;
@@ -59,7 +60,7 @@ public class AlterniaMod {
 
 		AlterniaModItems.REGISTRY.register(bus);
 		AlterniaModEntities.REGISTRY.register(bus);
-
+		AlterniaModEnchantments.REGISTRY.register(bus);
 		AlterniaModTabs.REGISTRY.register(bus);
 
 		AlterniaModMobEffects.REGISTRY.register(bus);

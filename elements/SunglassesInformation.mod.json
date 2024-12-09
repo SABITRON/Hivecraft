@@ -1,0 +1,53 @@
+{
+  "_fv": 57,
+  "_type": "jeiinformation",
+  "definition": {
+    "items": [
+      {
+        "value": "CUSTOM:Shades.helmet"
+      },
+      {
+        "value": "CUSTOM:RustShades.helmet"
+      },
+      {
+        "value": "CUSTOM:BronzeShades.helmet"
+      },
+      {
+        "value": "CUSTOM:GoldShades.helmet"
+      },
+      {
+        "value": "CUSTOM:LimeShades.helmet"
+      },
+      {
+        "value": "CUSTOM:OliveShades.helmet"
+      },
+      {
+        "value": "CUSTOM:JadeShades.helmet"
+      },
+      {
+        "value": "CUSTOM:TealShades.helmet"
+      },
+      {
+        "value": "CUSTOM:CobaltShades.helmet"
+      },
+      {
+        "value": "CUSTOM:IndigoShades.helmet"
+      },
+      {
+        "value": "CUSTOM:PurpleShades.helmet"
+      },
+      {
+        "value": "CUSTOM:VioletShades.helmet"
+      },
+      {
+        "value": "CUSTOM:FuchsiaShades.helmet"
+      },
+      {
+        "value": "CUSTOM:CobaltVisor.helmet"
+      }
+    ],
+    "information": [
+      "Alternia's sun is harmful to the naked eye! A pair of sunglasses will protect you from the sunlight, at the cost of your helmet slot."
+    ]
+  }
+}

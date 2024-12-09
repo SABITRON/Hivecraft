@@ -122,6 +122,12 @@
     "onTickUpdate": {
       "name": "LitDarkstoneRedstoneOreReset"
     },
+    "onDestroyedByPlayer": {
+      "name": "XpOreDrops"
+    },
+    "onDestroyedByExplosion": {
+      "name": "XpOreDrops"
+    },
     "generateFeature": false,
     "restrictionBiomes": [
       {

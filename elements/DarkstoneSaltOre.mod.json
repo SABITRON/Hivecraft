@@ -119,6 +119,12 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onDestroyedByPlayer": {
+      "name": "XpOreDrops"
+    },
+    "onDestroyedByExplosion": {
+      "name": "XpOreDrops"
+    },
     "generateFeature": true,
     "restrictionBiomes": [
       {

@@ -872,7 +872,7 @@ public class RenderSunProcedure {
 				RenderSystem.setShaderTexture(0, _texturelocation);
 				Minecraft.getInstance().getTextureManager().bindForSetup(_texturelocation);
 			}
-			renderSun(60, (float) (world.getTimeOfDay(Minecraft.getInstance().getPartialTick()) * 360.0F), (int) (255 << 24 | 255 << 16 | 255 << 8 | 255), false);
+			renderSun(60, (float) (world.getTimeOfDay(Minecraft.getInstance().getPartialTick()) * 360.0F), (int) (255 << 24 | 255 << 16 | 255 << 8 | 255), true);
 		}
 	}
 }

@@ -868,7 +868,7 @@ public class RenderStarsProcedure {
 			RenderSystem.enableBlend();
 			RenderSystem.blendFuncSeparate(GlStateManager.SourceFactor.SRC_ALPHA, GlStateManager.DestFactor.ONE, GlStateManager.SourceFactor.ONE, GlStateManager.DestFactor.ZERO);
 			renderStars(1000, 413, 90, (float) (world.getTimeOfDay(Minecraft.getInstance().getPartialTick()) * 360.0F), 0,
-					(int) ((int) ((world instanceof ClientLevel _level ? _level.getStarBrightness(Minecraft.getInstance().getPartialTick()) : 0.0F) * 127) << 24 | 255 << 16 | 255 << 8 | 255), false);
+					(int) ((int) ((world instanceof ClientLevel _level ? _level.getStarBrightness(Minecraft.getInstance().getPartialTick()) : 0.0F) * 127) << 24 | 255 << 16 | 255 << 8 | 255), true);
 		}
 	}
 }

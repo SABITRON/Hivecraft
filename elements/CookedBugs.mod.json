@@ -5,19 +5,19 @@
     "type": "Items",
     "items": [
       {
-        "value": "CUSTOM:RawGrubMeat"
-      },
-      {
-        "value": "CUSTOM:LiveGrub"
-      },
-      {
         "value": "CUSTOM:CookedGrubMeat"
       },
       {
         "value": "CUSTOM:CookedGrub"
       },
       {
-        "value": "CUSTOM:LususMeat"
+        "value": "CUSTOM:CookedBeetle"
+      },
+      {
+        "value": "CUSTOM:CookedBeetleOnStick"
+      },
+      {
+        "value": "CUSTOM:CookedGrasshopper"
       }
     ],
     "blocks": [],
@@ -25,7 +25,7 @@
     "entities": [],
     "biomes": [],
     "damageTypes": [],
-    "name": "lusus_food",
-    "namespace": "mod"
+    "name": "cooked_bugs",
+    "namespace": "alternia"
   }
 }

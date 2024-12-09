@@ -1,0 +1,17 @@
+{
+  "_fv": 57,
+  "_type": "jeiinformation",
+  "definition": {
+    "items": [
+      {
+        "value": "CUSTOM:LiveGrub"
+      },
+      {
+        "value": "CUSTOM:GrubNest"
+      }
+    ],
+    "information": [
+      "You can breed Alternian Grubs by putting Insect Food into their nests. Eventually, a new grub will emerge from the top of the nest."
+    ]
+  }
+}

@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
-    "alternia:cobalt_block"
+    "alternia:cobalt_block",
+    "alternia:stargate_frame",
+    "alternia:stargate_corner"
   ]
 }

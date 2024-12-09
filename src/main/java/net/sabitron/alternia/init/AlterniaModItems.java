@@ -100,6 +100,8 @@ import net.sabitron.alternia.item.BronzeHemodyeItem;
 import net.sabitron.alternia.item.BronzeBloodItem;
 import net.sabitron.alternia.item.BeetleItem;
 import net.sabitron.alternia.item.AlterniaItem;
+import net.sabitron.alternia.item.AhabsCrosshairsItem;
+import net.sabitron.alternia.item.AhabsAmmoItem;
 import net.sabitron.alternia.AlterniaMod;
 
 import net.minecraftforge.registries.RegistryObject;
@@ -256,6 +258,8 @@ public class AlterniaModItems {
 	public static final RegistryObject<Item> CULLING_FORK = REGISTRY.register("culling_fork", () -> new CullingForkItem());
 	public static final RegistryObject<Item> POSEIDONS_ENTENTE = REGISTRY.register("poseidons_entente", () -> new PoseidonsEntenteItem());
 	public static final RegistryObject<Item> KNIFE_SPEAR = REGISTRY.register("knife_spear", () -> new KnifeSpearItem());
+	public static final RegistryObject<Item> AHABS_CROSSHAIRS = REGISTRY.register("ahabs_crosshairs", () -> new AhabsCrosshairsItem());
+	public static final RegistryObject<Item> AHABS_AMMO = REGISTRY.register("ahabs_ammo", () -> new AhabsAmmoItem());
 	public static final RegistryObject<Item> ZINC = REGISTRY.register("zinc", () -> new ZincItem());
 	public static final RegistryObject<Item> SHATTERGRAIN_SEEDS = block(AlterniaModBlocks.SHATTERGRAIN_SEEDS);
 	public static final RegistryObject<Item> SHATTERGRAIN = REGISTRY.register("shattergrain", () -> new ShattergrainItem());
