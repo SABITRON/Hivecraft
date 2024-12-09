@@ -18,7 +18,6 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.projectile.ItemSupplier;
 import net.minecraft.world.entity.projectile.AbstractArrow;
-import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.util.RandomSource;
@@ -70,12 +69,6 @@ public class AhabsCrosshairsBeamEntity extends AbstractArrow implements ItemSupp
 	}
 
 	@Override
-	public void playerTouch(Player entity) {
-		super.playerTouch(entity);
-		CrystalBeamImpactProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ());
-	}
-
-	@Override
 	public void onHitEntity(EntityHitResult entityHitResult) {
 		super.onHitEntity(entityHitResult);
 		CrystalBeamImpactProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ());
@@ -103,7 +96,7 @@ public class AhabsCrosshairsBeamEntity extends AbstractArrow implements ItemSupp
 		AhabsCrosshairsBeamEntity entityarrow = new AhabsCrosshairsBeamEntity(AlterniaModEntities.AHABS_CROSSHAIRS_BEAM.get(), entity, world);
 		entityarrow.shoot(entity.getViewVector(1).x, entity.getViewVector(1).y, entity.getViewVector(1).z, power * 2, 0);
 		entityarrow.setSilent(true);
-		entityarrow.setCritArrow(false);
+		entityarrow.setCritArrow(true);
 		entityarrow.setBaseDamage(damage);
 		entityarrow.setKnockback(knockback);
 		world.addFreshEntity(entityarrow);
@@ -120,7 +113,7 @@ public class AhabsCrosshairsBeamEntity extends AbstractArrow implements ItemSupp
 		entityarrow.setSilent(true);
 		entityarrow.setBaseDamage(1.5);
 		entityarrow.setKnockback(5);
-		entityarrow.setCritArrow(false);
+		entityarrow.setCritArrow(true);
 		entity.level().addFreshEntity(entityarrow);
 		entity.level().playSound(null, entity.getX(), entity.getY(), entity.getZ(), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.wither.hurt")), SoundSource.PLAYERS, 1, 1f / (RandomSource.create().nextFloat() * 0.5f + 1));
 		return entityarrow;

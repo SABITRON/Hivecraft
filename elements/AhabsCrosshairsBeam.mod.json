@@ -5,7 +5,7 @@
     "projectileItem": {
       "value": "CUSTOM:AhabsAmmo"
     },
-    "showParticles": false,
+    "showParticles": true,
     "actionSound": {
       "value": "entity.wither.hurt"
     },
@@ -16,9 +16,6 @@
     "entityModel": "ModelCrystalBeam",
     "customModelTexture": "crystal_beam.png",
     "onHitsBlock": {
-      "name": "CrystalBeamImpact"
-    },
-    "onHitsPlayer": {
       "name": "CrystalBeamImpact"
     },
     "onHitsEntity": {

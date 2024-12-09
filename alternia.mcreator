@@ -15187,10 +15187,6 @@
             "type": "entity"
           },
           {
-            "name": "itemstack",
-            "type": "itemstack"
-          },
-          {
             "name": "x",
             "type": "number"
           },
@@ -15232,21 +15228,6 @@
             "type": "itemstack"
           }
         ]
-      },
-      "path": "~/EridanGun"
-    },
-    {
-      "name": "AhabsCrosshairsUsed",
-      "type": "procedure",
-      "sortid": 927,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ahabs_crosshairs_used",
-      "metadata": {
-        "files": [
-          "src/main/java/net/sabitron/alternia/procedures/AhabsCrosshairsUsedProcedure.java"
-        ],
-        "dependencies": []
       },
       "path": "~/EridanGun"
     },
@@ -15426,6 +15407,34 @@
         ]
       },
       "path": "~/Tags"
+    },
+    {
+      "name": "HeatLandSulfur",
+      "type": "recipe",
+      "sortid": 939,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "heat_land_sulfur",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alternia/recipes/heat_land_sulfur.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "BugMac",
+      "type": "recipe",
+      "sortid": 940,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "bug_mac",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alternia/recipes/bug_mac.json"
+        ]
+      },
+      "path": "~/Recipes"
     }
   ],
   "variable_elements": [
@@ -15474,7 +15483,7 @@
       "block.alternia.cobalt_meat_block": "Cobalt Grub Block",
       "block.alternia.olive_hemoglass_pane": "Olive Hemoglass Pane",
       "block.alternia.gold_hemoglass": "Gold Hemoglass",
-      "jei.alternia.ahab_crosshairs_info": "Drops rarely from Treasure Vaults. It fires Imperial Crystal Rounds and does 30 damage per shot. It charges for 10 seconds and reloads for 5, but these can be reduced with enchants. Watch out for the recoil!",
+      "jei.alternia.ahab_crosshairs_info": "Drops rarely from Treasure Vaults. It fires Imperial Crystal Rounds and does 30 damage per shot. It charges for 10 seconds and reloads for 5, but these can be reduced with enchants.",
       "block.alternia.flesh_bug_nest": "Bug Nest w/ Rotten Flesh",
       "item.alternia.zinc": "Zinc",
       "item.alternia.diamond_candy": "Diamond Candy",
@@ -15686,7 +15695,7 @@
       "item.alternia.crushed_raw_cobalt": "Crushed Raw Cobalt",
       "item.alternia.lusus_hide": "Lusus Hide",
       "item.alternia.darkstone_dust": "Darkstone Dust",
-      "item.alternia.stargate_plate": "Stargate Conductor Plating",
+      "item.alternia.stargate_plate": "Stargate Induction Plating",
       "block.alternia.bronze_hemoglass_pane": "Bronze Hemoglass Pane",
       "block.alternia.fuchsia_hemo_wool_stairs": "Fuchsia Wool Stairs",
       "item.alternia.cooked_beetle": "Roasted Beetle",

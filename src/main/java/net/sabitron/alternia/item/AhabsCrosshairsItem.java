@@ -1,7 +1,6 @@
 
 package net.sabitron.alternia.item;
 
-import net.sabitron.alternia.procedures.AhabsCrosshairsUsedProcedure;
 import net.sabitron.alternia.procedures.AhabsCrosshairsCheckProcedure;
 import net.sabitron.alternia.procedures.AhabsCrosshairsBangProcedure;
 import net.sabitron.alternia.entity.AhabsCrosshairsBeamEntity;
@@ -51,16 +50,6 @@ public class AhabsCrosshairsItem extends Item {
 	}
 
 	@Override
-	public ItemStack finishUsingItem(ItemStack itemstack, Level world, LivingEntity entity) {
-		ItemStack retval = super.finishUsingItem(itemstack, world, entity);
-		double x = entity.getX();
-		double y = entity.getY();
-		double z = entity.getZ();
-		AhabsCrosshairsUsedProcedure.execute();
-		return retval;
-	}
-
-	@Override
 	public void onUseTick(Level world, LivingEntity entity, ItemStack itemstack, int count) {
 		if (!world.isClientSide() && entity instanceof ServerPlayer player) {
 			double x = entity.getX();
@@ -96,7 +85,7 @@ public class AhabsCrosshairsItem extends Item {
 								player.getInventory().removeItem(stack);
 						}
 					}
-					AhabsCrosshairsBangProcedure.execute(world, entity.getX(), entity.getY(), entity.getZ(), entity, stack);
+					AhabsCrosshairsBangProcedure.execute(world, entity.getX(), entity.getY(), entity.getZ(), entity);
 				}
 				entity.releaseUsingItem();
 			}

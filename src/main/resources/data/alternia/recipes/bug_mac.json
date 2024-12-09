@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "alternia:cooked_bugs"
+    },
+    {
+      "item": "minecraft:bread"
+    },
+    {
+      "item": "minestuck:grub_sauce"
+    },
+    {
+      "item": "minestuck:french_fry"
+    }
+  ],
+  "result": {
+    "item": "minestuck:bug_mac",
+    "count": 1
+  }
+}
