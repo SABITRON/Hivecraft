@@ -11,21 +11,21 @@
     "water_fog_color": -12177084
   },
   "spawners": {
-    "monster": [
+    "monster": [],
+    "creature": [
       {
         "type": "alternia:fairy_bull",
-        "weight": 5,
+        "weight": 9,
         "minCount": 1,
         "maxCount": 1
       },
       {
         "type": "alternia:grub",
         "weight": 1,
-        "minCount": 2,
-        "maxCount": 3
+        "minCount": 1,
+        "maxCount": 1
       }
     ],
-    "creature": [],
     "ambient": [],
     "axolotls": [],
     "underground_water_creature": [],

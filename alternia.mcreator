@@ -15435,6 +15435,48 @@
         ]
       },
       "path": "~/Recipes"
+    },
+    {
+      "name": "InfiniburnOverworld",
+      "type": "tag",
+      "sortid": 941,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infiniburn_overworld",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/infiniburn_overworld.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "InfiniburnNether",
+      "type": "tag",
+      "sortid": 942,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infiniburn_nether",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/infiniburn_nether.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "InfiniburnEnd",
+      "type": "tag",
+      "sortid": 943,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infiniburn_end",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/infiniburn_end.json"
+        ]
+      },
+      "path": "~/Tags"
     }
   ],
   "variable_elements": [

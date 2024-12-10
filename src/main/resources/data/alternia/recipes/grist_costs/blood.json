@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:build": 5,
+    "minestuck:garnet": 50,
+    "minestuck:ruby": 50
+  },
+  "ingredient": {
+    "tag": "alternia:blood"
+  }
+}

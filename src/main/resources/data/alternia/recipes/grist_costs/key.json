@@ -1,0 +1,10 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:build": 100,
+    "minestuck:rust": 50
+  },
+  "ingredient": {
+    "item": "alternia:treasure_key"
+  }
+}

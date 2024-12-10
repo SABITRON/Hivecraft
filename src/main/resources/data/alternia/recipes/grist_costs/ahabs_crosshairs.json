@@ -1,0 +1,10 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:cobalt": 888888,
+    "minestuck:diamond": 1
+  },
+  "ingredient": {
+    "item": "alternia:ahabs_crosshairs"
+  }
+}
