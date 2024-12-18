@@ -1,0 +1,13 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "alternia:cobalt_sword"
+  },
+  "input2": {
+    "item": "minestuck:tilldeath_handbook"
+  },
+  "mode": "or",
+  "output": {
+    "item": "alternia:tilde_ath_do_we_part"
+  }
+}

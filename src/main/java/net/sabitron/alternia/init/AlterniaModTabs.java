@@ -129,9 +129,7 @@ public class AlterniaModTabs {
 				tabData.accept(AlterniaModBlocks.GRUB_NEST.get().asItem());
 				tabData.accept(AlterniaModBlocks.EMPTY_BUG_NEST.get().asItem());
 				tabData.accept(AlterniaModItems.ROTTEN_TROLL_FLESH.get());
-				tabData.accept(AlterniaModBlocks.FLESH_BUG_NEST.get().asItem());
 				tabData.accept(AlterniaModItems.INSECT_FOOD.get());
-				tabData.accept(AlterniaModBlocks.FOOD_BUG_NEST.get().asItem());
 				tabData.accept(AlterniaModItems.TREASURE_KEY.get());
 				tabData.accept(AlterniaModBlocks.TREASURE_VAULT.get().asItem());
 				tabData.accept(AlterniaModItems.SALT.get());
@@ -159,12 +157,15 @@ public class AlterniaModTabs {
 				tabData.accept(AlterniaModItems.COBALT_KNIFE.get());
 				tabData.accept(AlterniaModItems.CULLING_FORK.get());
 				tabData.accept(AlterniaModItems.POSEIDONS_ENTENTE.get());
+				tabData.accept(AlterniaModItems.BRAINFORK.get());
 				tabData.accept(AlterniaModItems.KNIFE_SPEAR.get());
+				tabData.accept(AlterniaModItems.TILDE_ATH_DO_WE_PART.get());
 				tabData.accept(AlterniaModItems.AHABS_CROSSHAIRS.get());
 				tabData.accept(AlterniaModItems.AHABS_AMMO.get());
 				tabData.accept(AlterniaModItems.ZINC.get());
 				tabData.accept(AlterniaModBlocks.SHATTERGRAIN_SEEDS.get().asItem());
 				tabData.accept(AlterniaModItems.SHATTERGRAIN.get());
+				tabData.accept(AlterniaModBlocks.SHATTERGRAIN_BALE.get().asItem());
 				tabData.accept(AlterniaModItems.GLASSY_SHATTERGRAIN.get());
 				tabData.accept(AlterniaModItems.SHATTERFLOUR.get());
 				tabData.accept(AlterniaModItems.SHADES_HELMET.get());

@@ -15,12 +15,6 @@
     "knockback": 5,
     "entityModel": "ModelCrystalBeam",
     "customModelTexture": "crystal_beam.png",
-    "onHitsBlock": {
-      "name": "CrystalBeamImpact"
-    },
-    "onHitsEntity": {
-      "name": "CrystalBeamImpact"
-    },
     "onFlyingTick": {
       "name": "GetRidOfThatFuckingGravity"
     }

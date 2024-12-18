@@ -1,0 +1,17 @@
+{
+  "_fv": 57,
+  "_type": "jeiinformation",
+  "definition": {
+    "items": [
+      {
+        "value": "CUSTOM:OracleLeaves"
+      },
+      {
+        "value": "CUSTOM:BrambleLeaves"
+      }
+    ],
+    "information": [
+      "Much like Apples fall from leaves in the overworld, a Cicada may occasionally fall out of the leaves on Alternia."
+    ]
+  }
+}

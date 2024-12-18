@@ -1,0 +1,11 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:tar": 1000,
+    "minestuck:garnet": 400,
+    "minestuck:cobalt": 400
+  },
+  "ingredient": {
+    "item": "alternia:tilde_ath_do_we_part"
+  }
+}

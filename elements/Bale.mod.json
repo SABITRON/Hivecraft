@@ -12,37 +12,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "CUSTOM:Shattergrain"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Shattergrain"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Shattergrain"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Shattergrain"
       },
       {
-        "value": "CUSTOM:RottenTrollFlesh"
+        "value": "CUSTOM:Shattergrain"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Shattergrain"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Shattergrain"
       },
       {
-        "value": "CUSTOM:EmptyBugNest"
+        "value": "CUSTOM:Shattergrain"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Shattergrain"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:FleshBugNest"
+      "value": "CUSTOM:ShattergrainBale"
     },
-    "name": "bug_nest_flesh",
+    "name": "bale",
     "namespace": "mod"
   }
 }

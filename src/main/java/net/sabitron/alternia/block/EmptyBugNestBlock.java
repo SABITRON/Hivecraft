@@ -32,7 +32,7 @@ public class EmptyBugNestBlock extends Block {
 	@Override
 	public void appendHoverText(ItemStack itemstack, BlockGetter world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(Component.literal("\u00A77A suitable home for a variety of insects. Bait it with rotten flesh, or some insect food"));
+		list.add(Component.literal("\u00A77A suitable home for a variety of insects. Bait it with rotten flesh, or some insect food by right clicking with either."));
 	}
 
 	@Override

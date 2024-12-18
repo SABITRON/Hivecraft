@@ -59,7 +59,7 @@
       "value": "WOOD"
     },
     "tickRate": 1,
-    "tickRandomly": false,
+    "tickRandomly": true,
     "isReplaceable": false,
     "canProvidePower": false,
     "emittedRedstonePower": {
@@ -67,7 +67,7 @@
     },
     "colorOnMap": "GREEN",
     "creativePickItem": {
-      "value": "CUSTOM:FleshBugNest"
+      "value": "CUSTOM:EmptyBugNest"
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
@@ -102,10 +102,10 @@
     "unbreakable": false,
     "breakHarvestLevel": 0,
     "isBonemealable": false,
-    "hasInventory": false,
+    "hasInventory": true,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,
-    "inventorySize": 9,
+    "inventorySize": 0,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
@@ -120,7 +120,7 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "onTickUpdate": {
-      "name": "BugNestCollect"
+      "name": "BugNestGetBugs"
     },
     "generateFeature": false,
     "restrictionBiomes": [],

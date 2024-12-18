@@ -18,7 +18,7 @@ public class DryCandyPissThrobblerItem extends SwordItem {
 	public DryCandyPissThrobblerItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 12;
+				return 2;
 			}
 
 			public float getSpeed() {
@@ -26,7 +26,7 @@ public class DryCandyPissThrobblerItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 48f;
+				return 12f;
 			}
 
 			public int getLevel() {
@@ -34,13 +34,13 @@ public class DryCandyPissThrobblerItem extends SwordItem {
 			}
 
 			public int getEnchantmentValue() {
-				return 50000;
+				return 69;
 			}
 
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(ItemTags.create(new ResourceLocation("minestuck:grist_candy")));
 			}
-		}, 3, -3.999f, new Item.Properties());
+		}, 3, -2.4f, new Item.Properties());
 	}
 
 	@Override

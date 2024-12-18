@@ -1,0 +1,39 @@
+{
+  "_fv": 57,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "tilde_ath_do_us_part",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "~ATH Do We Part",
+    "specialInformation": {
+      "fixedValue": [
+        "§7~ATH is a programming language designed for the imminently deceased, which includes anyone on the pointy end of this blade."
+      ]
+    },
+    "creativeTab": {
+      "value": "CUSTOM:AlterniaTab"
+    },
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.6,
+    "enchantability": 12,
+    "damageVsEntity": 9.0,
+    "usageCount": 4321,
+    "blocksAffected": [],
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:CobaltIngot"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

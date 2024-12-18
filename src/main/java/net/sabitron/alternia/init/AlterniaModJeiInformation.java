@@ -30,5 +30,8 @@ public class AlterniaModJeiInformation implements IModPlugin {
 				new ItemStack(AlterniaModItems.COBALT_VISOR_HELMET.get())), VanillaTypes.ITEM_STACK, Component.translatable("jei.alternia.sunglasses_information"));
 		registration.addIngredientInfo(List.of(new ItemStack(AlterniaModItems.LIVE_GRUB.get()), new ItemStack(AlterniaModBlocks.GRUB_NEST.get())), VanillaTypes.ITEM_STACK, Component.translatable("jei.alternia.grub_nest_info"));
 		registration.addIngredientInfo(List.of(new ItemStack(AlterniaModItems.AHABS_CROSSHAIRS.get())), VanillaTypes.ITEM_STACK, Component.translatable("jei.alternia.ahab_crosshairs_info"));
+		registration.addIngredientInfo(List.of(new ItemStack(AlterniaModBlocks.EMPTY_BUG_NEST.get())), VanillaTypes.ITEM_STACK, Component.translatable("jei.alternia.bug_nest_info"));
+		registration.addIngredientInfo(List.of(new ItemStack(AlterniaModBlocks.ORACLE_LEAVES.get()), new ItemStack(AlterniaModBlocks.BRAMBLE_LEAVES.get())), VanillaTypes.ITEM_STACK, Component.translatable("jei.alternia.leaves_info"));
+		registration.addIngredientInfo(List.of(new ItemStack(AlterniaModBlocks.SULFUR_BLOCK.get())), VanillaTypes.ITEM_STACK, Component.translatable("jei.alternia.sulfur_block_info"));
 	}
 }

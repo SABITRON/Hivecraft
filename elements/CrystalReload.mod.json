@@ -3,8 +3,8 @@
   "_type": "enchantment",
   "definition": {
     "name": "Crystal Reload",
-    "type": "BREAKABLE",
-    "rarity": "VERY_RARE",
+    "type": "WEAPON",
+    "rarity": "RARE",
     "minLevel": 1,
     "maxLevel": 3,
     "damageModifier": 0,

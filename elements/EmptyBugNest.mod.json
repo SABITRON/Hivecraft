@@ -33,10 +33,10 @@
         "subtract": false
       }
     ],
-    "name": "Empty Bug Nest",
+    "name": "Bug Nest",
     "specialInformation": {
       "fixedValue": [
-        "§7A suitable home for a variety of insects. Bait it with rotten flesh, or some insect food"
+        "§7A suitable home for a variety of insects. Bait it with rotten flesh, or some insect food by right clicking with either."
       ]
     },
     "hardness": 2.0,

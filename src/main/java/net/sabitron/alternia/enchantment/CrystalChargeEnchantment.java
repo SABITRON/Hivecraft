@@ -11,7 +11,7 @@ import net.minecraft.world.entity.EquipmentSlot;
 
 public class CrystalChargeEnchantment extends Enchantment {
 	public CrystalChargeEnchantment(EquipmentSlot... slots) {
-		super(Enchantment.Rarity.VERY_RARE, EnchantmentCategory.BREAKABLE, slots);
+		super(Enchantment.Rarity.RARE, EnchantmentCategory.WEAPON, slots);
 	}
 
 	@Override

@@ -1,0 +1,12 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:ruby": 1024,
+    "minestuck:garnet": 512,
+    "minestuck:amethyst": 256,
+    "minestuck:chalk": 128
+  },
+  "ingredient": {
+    "item": "alternia:brainfork"
+  }
+}

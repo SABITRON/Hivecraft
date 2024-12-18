@@ -1,0 +1,13 @@
+{
+  "type": "minestuck:combination",
+  "input1": {
+    "item": "alternia:poseidons_entente"
+  },
+  "input2": {
+    "item": "minestuck:brain_juice_bucket"
+  },
+  "mode": "or",
+  "output": {
+    "item": "alternia:brainfork"
+  }
+}

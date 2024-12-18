@@ -27,7 +27,7 @@ public class PoseidonsEntenteItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 6f;
+				return 5f;
 			}
 
 			public int getLevel() {

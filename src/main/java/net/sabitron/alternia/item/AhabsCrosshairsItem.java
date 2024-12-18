@@ -24,12 +24,17 @@ import java.util.List;
 
 public class AhabsCrosshairsItem extends Item {
 	public AhabsCrosshairsItem() {
-		super(new Item.Properties().durability(100).fireResistant().rarity(Rarity.UNCOMMON));
+		super(new Item.Properties().durability(100).rarity(Rarity.UNCOMMON));
 	}
 
 	@Override
 	public UseAnim getUseAnimation(ItemStack itemstack) {
 		return UseAnim.BOW;
+	}
+
+	@Override
+	public int getEnchantmentValue() {
+		return 3;
 	}
 
 	@Override

@@ -18,31 +18,31 @@
         "value": ""
       },
       {
-        "value": ""
+        "value": "Items.IRON_INGOT"
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:InsectFood"
+        "value": "Items.STICK"
       },
       {
         "value": ""
       },
       {
-        "value": ""
+        "value": "CUSTOM:LususWool"
       },
       {
-        "value": "CUSTOM:EmptyBugNest"
+        "value": ""
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:FoodBugNest"
+      "value": "CUSTOM:TrollHorn"
     },
-    "name": "bug_nest_food",
+    "name": "horn",
     "namespace": "mod"
   }
 }

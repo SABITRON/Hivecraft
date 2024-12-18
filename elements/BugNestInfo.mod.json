@@ -1,0 +1,14 @@
+{
+  "_fv": 57,
+  "_type": "jeiinformation",
+  "definition": {
+    "items": [
+      {
+        "value": "CUSTOM:EmptyBugNest"
+      }
+    ],
+    "information": [
+      "Bug Nests can be baited with Insect Food or Shadow Dropper Flesh. Insect Food will attract Beetles and Grasshoppers. Shadow Dropper Flesh will attract Flies. Grasshoppers and Beetles can be collected by hand, but Flies must be stored in a Paper Cone. Each food item can attract 16 bugs, and each nest can hold 8 food items."
+    ]
+  }
+}

@@ -2,19 +2,17 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "a",
-    "b"
+    "aaa",
+    "aaa",
+    "aaa"
   ],
   "key": {
     "a": {
-      "item": "alternia:insect_food"
-    },
-    "b": {
-      "item": "alternia:empty_bug_nest"
+      "item": "alternia:shattergrain"
     }
   },
   "result": {
-    "item": "alternia:food_bug_nest",
+    "item": "alternia:shattergrain_bale",
     "count": 1
   }
 }

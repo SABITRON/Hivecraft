@@ -19,5 +19,6 @@ public class AlterniaModCompostableItems {
 		ComposterBlock.COMPOSTABLES.put(AlterniaModItems.INSECT_FOOD.get(), 0.5f);
 		ComposterBlock.COMPOSTABLES.put(AlterniaModBlocks.SHATTERGRAIN_SEEDS.get().asItem(), 0.3f);
 		ComposterBlock.COMPOSTABLES.put(AlterniaModBlocks.ORACLE_LEAVES.get().asItem(), 0.3f);
+		ComposterBlock.COMPOSTABLES.put(AlterniaModBlocks.SHATTERGRAIN_BALE.get().asItem(), 0.85f);
 	}
 }

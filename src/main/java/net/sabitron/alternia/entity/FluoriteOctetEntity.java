@@ -1,6 +1,7 @@
 
 package net.sabitron.alternia.entity;
 
+import net.sabitron.alternia.procedures.DiceRollProcedure;
 import net.sabitron.alternia.init.AlterniaModItems;
 import net.sabitron.alternia.init.AlterniaModEntities;
 
@@ -9,6 +10,7 @@ import net.minecraftforge.network.NetworkHooks;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
+import net.minecraft.world.phys.EntityHitResult;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.projectile.ItemSupplier;
@@ -59,6 +61,12 @@ public class FluoriteOctetEntity extends AbstractArrow implements ItemSupplier {
 	protected void doPostHurtEffects(LivingEntity entity) {
 		super.doPostHurtEffects(entity);
 		entity.setArrowCount(entity.getArrowCount() - 1);
+	}
+
+	@Override
+	public void onHitEntity(EntityHitResult entityHitResult) {
+		super.onHitEntity(entityHitResult);
+		DiceRollProcedure.execute(this);
 	}
 
 	@Override

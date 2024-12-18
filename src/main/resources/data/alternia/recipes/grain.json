@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "alternia:shattergrain_bale"
+    }
+  ],
+  "result": {
+    "item": "alternia:shattergrain",
+    "count": 9
+  }
+}

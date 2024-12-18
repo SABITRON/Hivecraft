@@ -24,6 +24,7 @@ import net.sabitron.alternia.init.AlterniaModFluidTypes;
 import net.sabitron.alternia.init.AlterniaModEntities;
 import net.sabitron.alternia.init.AlterniaModEnchantments;
 import net.sabitron.alternia.init.AlterniaModBlocks;
+import net.sabitron.alternia.init.AlterniaModBlockEntities;
 
 import net.minecraftforge.network.simple.SimpleChannel;
 import net.minecraftforge.network.NetworkRegistry;
@@ -57,7 +58,7 @@ public class AlterniaMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
 		AlterniaModBlocks.REGISTRY.register(bus);
-
+		AlterniaModBlockEntities.REGISTRY.register(bus);
 		AlterniaModItems.REGISTRY.register(bus);
 		AlterniaModEntities.REGISTRY.register(bus);
 		AlterniaModEnchantments.REGISTRY.register(bus);

@@ -2,7 +2,6 @@
 package net.sabitron.alternia.entity;
 
 import net.sabitron.alternia.procedures.GetRidOfThatFuckingGravityProcedure;
-import net.sabitron.alternia.procedures.CrystalBeamImpactProcedure;
 import net.sabitron.alternia.init.AlterniaModItems;
 import net.sabitron.alternia.init.AlterniaModEntities;
 
@@ -12,8 +11,6 @@ import net.minecraftforge.network.NetworkHooks;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
-import net.minecraft.world.phys.EntityHitResult;
-import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.projectile.ItemSupplier;
@@ -66,18 +63,6 @@ public class AhabsCrosshairsBeamEntity extends AbstractArrow implements ItemSupp
 	protected void doPostHurtEffects(LivingEntity entity) {
 		super.doPostHurtEffects(entity);
 		entity.setArrowCount(entity.getArrowCount() - 1);
-	}
-
-	@Override
-	public void onHitEntity(EntityHitResult entityHitResult) {
-		super.onHitEntity(entityHitResult);
-		CrystalBeamImpactProcedure.execute(this.level(), this);
-	}
-
-	@Override
-	public void onHitBlock(BlockHitResult blockHitResult) {
-		super.onHitBlock(blockHitResult);
-		CrystalBeamImpactProcedure.execute(this.level(), this);
 	}
 
 	@Override

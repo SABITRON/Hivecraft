@@ -8,7 +8,7 @@
     "texture": "dry_candy_piss_throbbler",
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
-    "name": "Dry Candy Piss Throbbler",
+    "name": "Dry Candy Piss-Throbbler",
     "specialInformation": {
       "fixedValue": [
         "§7At long last, you've done it. You've created the shittiest weapon in the universe. It's almost touching."
@@ -19,10 +19,10 @@
     },
     "harvestLevel": 69,
     "efficiency": 69.0,
-    "attackSpeed": 0.001,
-    "enchantability": 50000,
-    "damageVsEntity": 50.0,
-    "usageCount": 12,
+    "attackSpeed": 1.6,
+    "enchantability": 69,
+    "damageVsEntity": 14.0,
+    "usageCount": 2,
     "blocksAffected": [],
     "glowCondition": {
       "fixedValue": false
