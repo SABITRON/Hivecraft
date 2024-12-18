@@ -1,0 +1,39 @@
+{
+  "_fv": 57,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "dry_candy_piss_throbbler",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Dry Candy Piss Throbbler",
+    "specialInformation": {
+      "fixedValue": [
+        "§7At long last, you've done it. You've created the shittiest weapon in the universe. It's almost touching."
+      ]
+    },
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "harvestLevel": 69,
+    "efficiency": 69.0,
+    "attackSpeed": 0.001,
+    "enchantability": 50000,
+    "damageVsEntity": 50.0,
+    "usageCount": 12,
+    "blocksAffected": [],
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "TAG:minestuck:grist_candy"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

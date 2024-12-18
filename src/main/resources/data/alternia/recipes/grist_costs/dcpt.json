@@ -1,0 +1,12 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:artifact": 1000000,
+    "minestuck:iodine": 80,
+    "minestuck:garnet": 50,
+    "minestuck:amber": 506
+  },
+  "ingredient": {
+    "item": "alternia:dry_candy_piss_throbbler"
+  }
+}

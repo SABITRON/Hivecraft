@@ -5,7 +5,7 @@
     "projectileItem": {
       "value": "CUSTOM:AhabsAmmo"
     },
-    "showParticles": true,
+    "showParticles": false,
     "actionSound": {
       "value": "entity.wither.hurt"
     },

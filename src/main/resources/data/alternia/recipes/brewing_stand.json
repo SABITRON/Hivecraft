@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aba",
+    "aba",
+    "ccc"
+  ],
+  "key": {
+    "a": {
+      "item": "alternia:sulfur"
+    },
+    "b": {
+      "item": "alternia:cobalt_ingot"
+    },
+    "c": {
+      "item": "alternia:smooth_darkstone_slab"
+    }
+  },
+  "result": {
+    "item": "minecraft:brewing_stand",
+    "count": 1
+  }
+}

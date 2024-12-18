@@ -15125,7 +15125,7 @@
       "type": "item",
       "sortid": 140,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "ahabs_crosshairs",
       "metadata": {
         "files": [
@@ -15301,16 +15301,8 @@
         ],
         "dependencies": [
           {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
+            "name": "immediatesourceentity",
+            "type": "entity"
           },
           {
             "name": "world",
@@ -15477,22 +15469,252 @@
         ]
       },
       "path": "~/Tags"
-    }
-  ],
-  "variable_elements": [
-    {
-      "name": "DaylightHandler",
-      "type": "number",
-      "scope": "map",
-      "value": "0.0"
     },
     {
-      "name": "TimeOfDayAlternia",
-      "type": "number",
-      "scope": "map",
-      "value": "0.0"
+      "name": "Stonecutter",
+      "type": "recipe",
+      "sortid": 944,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stonecutter",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alternia/recipes/stonecutter.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "BlastFurnace",
+      "type": "recipe",
+      "sortid": 945,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blast_furnace",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alternia/recipes/blast_furnace.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "BrewingStand",
+      "type": "recipe",
+      "sortid": 946,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brewing_stand",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alternia/recipes/brewing_stand.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "LetEmRoll",
+      "type": "procedure",
+      "sortid": 947,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "let_em_roll",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sabitron/alternia/procedures/LetEmRollProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/VriskaDice"
+    },
+    {
+      "name": "FluoriteOctet",
+      "type": "projectile",
+      "sortid": 948,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluorite_octet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sabitron/alternia/entity/FluoriteOctetEntity.java"
+        ]
+      },
+      "path": "~/VriskaDice"
+    },
+    {
+      "name": "FluoriteOctetTag",
+      "type": "tag",
+      "sortid": 949,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "fluorite_octet_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/fluorite_octet.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "FluoriteSinglet",
+      "type": "item",
+      "sortid": 950,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluorite_singlet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sabitron/alternia/item/FluoriteSingletItem.java",
+          "src/main/resources/assets/alternia/models/item/fluorite_singlet.json"
+        ]
+      },
+      "path": "~/VriskaDice"
+    },
+    {
+      "name": "Reroll",
+      "type": "enchantment",
+      "sortid": 977,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reroll",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sabitron/alternia/enchantment/RerollEnchantment.java"
+        ]
+      },
+      "path": "~/VriskaDice"
+    },
+    {
+      "name": "FakeDice",
+      "type": "projectile",
+      "sortid": 978,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fake_dice",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sabitron/alternia/entity/FakeDiceEntity.java"
+        ]
+      },
+      "path": "~/VriskaDice"
+    },
+    {
+      "name": "LegendaryWeapons",
+      "type": "tag",
+      "sortid": 979,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "legendary_weapons",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minestuck/tags/items/legendary.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "OctetFunctions",
+      "type": "tag",
+      "sortid": 980,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "octet_functions",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alternia/tags/functions/octet_functions.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "DiceRoll",
+      "type": "procedure",
+      "sortid": 981,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dice_roll",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sabitron/alternia/procedures/DiceRollProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/VriskaDice"
+    },
+    {
+      "name": "DryCandyPissThrobbler",
+      "type": "tool",
+      "sortid": 982,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dry_candy_piss_throbbler",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sabitron/alternia/item/DryCandyPissThrobblerItem.java",
+          "src/main/resources/assets/alternia/models/item/dry_candy_piss_throbbler.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "LetEmRollWip",
+      "type": "procedure",
+      "sortid": 983,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "let_em_roll_wip",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sabitron/alternia/procedures/LetEmRollWipProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/VriskaDice"
     }
   ],
+  "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
@@ -15503,37 +15725,38 @@
       "block.alternia.rust_hemo_wool_stairs": "Rust Wool Stairs",
       "block.alternia.smooth_darkstone": "Smooth Darkstone",
       "advancements.craft_eye_drops.title": "GOD DAMN THE SUN",
-      "block.alternia.cobalt_lamp": "Cobalt Crystal Lamp",
       "block.alternia.darkstone_copper_ore": "Darkstone Copper Ore",
-      "block.alternia.purple_lamp": "Purple Crystal Lamp",
-      "block.alternia.alternian_farmland": "Alternian Farmland",
-      "block.alternia.jade_hemoglass": "Jade Hemoglass",
+      "block.alternia.cobalt_lamp": "Cobalt Crystal Lamp",
       "biome.alternia.rocky_plateau": "Rocky Plateau",
+      "block.alternia.jade_hemoglass": "Jade Hemoglass",
+      "block.alternia.alternian_farmland": "Alternian Farmland",
+      "block.alternia.purple_lamp": "Purple Crystal Lamp",
       "item.alternia.eye_drops": "Eye Drops",
       "item.alternia.fuchsia_shades_helmet": "Fuchsia Glasses",
       "item.alternia.fuchsia_blood": "Fuchsia Blood",
       "entity.alternia.zombie_troll": "Shadow Dropper",
       "block.alternia.purple_recuperacoon_core": "Purple Recuperacoon Core",
-      "block.alternia.cobalt_meat_stairs": "Cobalt Grub Stairs",
       "block.alternia.hive_drywall": "Hive Drywall",
-      "block.alternia.gold_hemo_wool_stairs": "Gold Wool Stairs",
+      "block.alternia.cobalt_meat_stairs": "Cobalt Grub Stairs",
       "effect.alternia.damaged_vision.desc": "1/2500 chance every tick to apply 30 seconds of Darkness",
+      "block.alternia.gold_hemo_wool_stairs": "Gold Wool Stairs",
       "block.alternia.smooth_darkstone_wall": "Smooth Darkstone Wall",
       "block.alternia.fuchsia_meat_block": "Fuchsia Grub Block",
       "block.alternia.bronze_meat_stairs": "Bronze Grub Stairs",
       "biome.alternia.oracle_canopy": "Oracle Canopy",
       "block.alternia.cobalt_meat_block": "Cobalt Grub Block",
       "block.alternia.olive_hemoglass_pane": "Olive Hemoglass Pane",
-      "block.alternia.gold_hemoglass": "Gold Hemoglass",
+      "item.alternia.dry_candy_piss_throbbler": "Dry Candy Piss Throbbler",
       "jei.alternia.ahab_crosshairs_info": "Drops rarely from Treasure Vaults. It fires Imperial Crystal Rounds and does 30 damage per shot. It charges for 10 seconds and reloads for 5, but these can be reduced with enchants.",
+      "block.alternia.gold_hemoglass": "Gold Hemoglass",
       "block.alternia.flesh_bug_nest": "Bug Nest w/ Rotten Flesh",
-      "item.alternia.zinc": "Zinc",
       "item.alternia.diamond_candy": "Diamond Candy",
+      "item.alternia.zinc": "Zinc",
       "block.alternia.purple_hemo_flower": "Purple Carnation",
-      "block.alternia.oracle_stairs": "Oracle Stairs",
       "block.alternia.bramble_fence_gate": "Bramble Fence Gate",
-      "enchantment.alternia.crystal_charge": "Crystal Charge",
+      "block.alternia.oracle_stairs": "Oracle Stairs",
       "item.alternia.alternia": "Stargate Remote",
+      "enchantment.alternia.crystal_charge": "Crystal Charge",
       "item.alternia.ahabs_ammo": "Imperial Crystal Round",
       "block.alternia.shattergrain_seeds": "Shattergrain Seeds",
       "block.alternia.gold_meat_wall": "Gold Grub Wall",
@@ -15548,11 +15771,11 @@
       "item.alternia.mutant_blood": "Blood",
       "block.alternia.rust_lamp": "Rust Crystal Lamp",
       "block.alternia.fuchsia_lamp": "Fuchsia Crystal Lamp",
-      "item.alternia.ration": "Alternian Survival Ration",
       "item.alternia.matriorb": "Matriorb",
+      "item.alternia.ration": "Alternian Survival Ration",
       "block.alternia.purple_hemo_wool_slab": "Purple Wool Slab",
-      "block.alternia.darkstone_wall": "Darkstone Wall",
       "block.alternia.bramble_log": "Bramble Log",
+      "block.alternia.darkstone_wall": "Darkstone Wall",
       "block.alternia.bug_nest_grasshoppers": "Bug Nest w/ Grasshoppers",
       "block.alternia.olive_hemo_wool": "Olive Wool",
       "block.alternia.darkstone_gold_ore": "Darkstone Gold Ore",
@@ -15563,24 +15786,25 @@
       "item.alternia.lusus_meat": "Lusus Meat",
       "item.alternia.mod_icon": "Decorative Troll Face",
       "item.alternia.lusus_cat_spawn_egg": "Cat Lusus Spawn Egg",
+      "item.alternia.fluorite_singlet": "Fluorite Singlet",
       "block.alternia.darkstone_coal_ore": "Darkstone Coal Ore",
       "biome.alternia.alternia_ocean": "Alternia Ocean",
       "block.alternia.bronze_meat_block": "Bronze Grub Block",
       "block.alternia.stargate_corner": "Stargate Frame Corner",
       "entity.alternia.lusus_spider": "Spider Lusus",
       "block.alternia.bronze_meat_wall": "Bronze Grub Wall",
-      "block.alternia.bramble_slab": "Bramble Slab",
       "block.alternia.hive_drywall_slab": "Hive Drywall Slab",
+      "block.alternia.bramble_slab": "Bramble Slab",
       "block.alternia.teal_hemo_flower": "Teal Daisy",
-      "block.alternia.polished_ashen_darkstone": "Polished Ashen Darkstone",
       "block.alternia.bramble_pressure_plate": "Bramble Pressure Plate",
+      "block.alternia.polished_ashen_darkstone": "Polished Ashen Darkstone",
       "block.alternia.lusus_wool_stairs": "Lusus Wool Stairs",
       "block.alternia.teal_meat_slab": "Teal Grub Slab",
       "item.alternia.heart_candy": "Heart Candy",
       "block.alternia.jade_hemo_flower": "Jade Celosia",
       "block.alternia.cracked_darkstone_bricks": "Cracked Darkstone Bricks",
-      "block.alternia.polished_flushed_darkstone": "Polished Flushed Darkstone",
       "item.alternia.cobalt_hoe": "Cobalt Hoe",
+      "block.alternia.polished_flushed_darkstone": "Polished Flushed Darkstone",
       "block.alternia.cobalt_hemo_wool_stairs": "Cobalt Wool Stairs",
       "block.alternia.fuchsia_hemoglass_pane": "Fuchsia Hemoglass Pane",
       "block.alternia.cobalt_hemo_wool_slab": "Cobalt Wool Slab",
@@ -15606,15 +15830,15 @@
       "item.alternia.bronze_blood": "Bronze Blood",
       "item.alternia.jade_shades_helmet": "Jade Glasses",
       "block.alternia.hive_drywall_panel_slab": "Hive Drywall Panel Slab",
-      "block.alternia.darkstone_brick_slab": "Darkstone Brick Slab",
-      "block.alternia.darkstone_stairs": "Darkstone Stairs",
       "item.alternia.jade_hemodye": "Jade Hemodye",
+      "block.alternia.darkstone_stairs": "Darkstone Stairs",
+      "block.alternia.darkstone_brick_slab": "Darkstone Brick Slab",
       "block.alternia.jade_meat_wall": "Jade Grub Wall",
       "block.alternia.olive_meat_wall": "Olive Grub Wall",
       "item.alternia.purple_blood": "Purple Blood",
       "block.alternia.darkstone_pillar": "Darkstone Pillar",
-      "item.alternia.grub_slider": "Grub Slider",
       "block.alternia.jade_hemoglass_pane": "Jade Hemoglass Pane",
+      "item.alternia.grub_slider": "Grub Slider",
       "item.alternia.purple_shades_helmet": "Purple Glasses",
       "block.alternia.packed_darkstone_stairs": "Cut Darkstone Stairs",
       "item.alternia.cobalt_knife": "Cobalt Combat Knife",
@@ -15628,7 +15852,7 @@
       "block.alternia.packed_darkstone": "Cut Darkstone",
       "biome.alternia.alternia_swamp": "Alternia Swamp",
       "block.alternia.gold_hemo_wool": "Gold Wool",
-      "item.alternia.stargate_panel": "Stargate Resonance Panel",
+      "item.alternia.stargate_panel": "Resonance Panel",
       "item.alternia.indigo_hemodye": "Indigo Hemodye",
       "item.alternia.rust_hemodye": "Rust Hemodye",
       "block.alternia.cobalt_hemoglass": "Cobalt Hemoglass",
@@ -15737,7 +15961,7 @@
       "item.alternia.crushed_raw_cobalt": "Crushed Raw Cobalt",
       "item.alternia.lusus_hide": "Lusus Hide",
       "item.alternia.darkstone_dust": "Darkstone Dust",
-      "item.alternia.stargate_plate": "Stargate Induction Plating",
+      "item.alternia.stargate_plate": "Induction Plating",
       "block.alternia.bronze_hemoglass_pane": "Bronze Hemoglass Pane",
       "block.alternia.fuchsia_hemo_wool_stairs": "Fuchsia Wool Stairs",
       "item.alternia.cooked_beetle": "Roasted Beetle",
@@ -15795,7 +16019,7 @@
       "block.alternia.darkstone_cruxite_ore": "Darkstone Cruxite Ore",
       "jei.alternia.grub_nest_info": "You can breed Alternian Grubs by putting Insect Food into their nests. Eventually, a new grub will emerge from the top of the nest.",
       "block.alternia.indigo_hemo_wool_slab": "Indigo Wool Slab",
-      "item.alternia.stargate_shielding": "Stargate Advanced Shielding",
+      "item.alternia.stargate_shielding": "Advanced Shielding",
       "advancements.make_bug_food.descr": "Make some Insect Food to start properly farming on Alternia.",
       "block.alternia.bramble_fence": "Bramble Fence",
       "item.alternia.cobalt_shades_helmet": "Cobalt Glasses",
@@ -15850,6 +16074,7 @@
       "block.alternia.teal_meat_wall": "Teal Grub Wall",
       "effect.alternia.damaged_vision": "Damaged Vision",
       "item.alternia.poseidons_entente": "Ψdon\u0027s Entente",
+      "enchantment.alternia.reroll": "Reroll",
       "block.alternia.polished_pitch_darkstone": "Polished Pitch Darkstone",
       "item_group.alternia.alternia_tab": "Hivecraft",
       "item.alternia.teal_blood": "Teal Blood",
@@ -15893,6 +16118,7 @@
       "block.alternia.lime_lamp": "Lime Crystal Lamp",
       "item.alternia.fairy_bull_spawn_egg": "Fairy Bull Spawn Egg",
       "block.alternia.oracle_leaves": "Oracle Leaves",
+      "enchantment.alternia.reroll.desc": "Fluorite Octet cooldown reduced by 3 seconds per level",
       "block.alternia.violet_hemo_wool": "Violet Wool",
       "item.alternia.olive_hemodye": "Olive Hemodye",
       "block.alternia.purple_hemo_wool": "Purple Wool",
@@ -16093,13 +16319,17 @@
       {
         "name": "JeiInfo",
         "children": []
+      },
+      {
+        "name": "VriskaDice",
+        "children": []
       }
     ]
   },
   "workspaceSettings": {
     "modid": "alternia",
     "modName": "Hivecraft: An Alternia addon for Minestuck",
-    "version": "1.2.5",
+    "version": "1.2.6",
     "author": "V_SABITRON",
     "websiteURL": "https://modrinth.com/mod/hivecraft",
     "license": "Academic Free License v3.0",

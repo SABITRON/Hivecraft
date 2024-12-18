@@ -71,13 +71,13 @@ public class AhabsCrosshairsBeamEntity extends AbstractArrow implements ItemSupp
 	@Override
 	public void onHitEntity(EntityHitResult entityHitResult) {
 		super.onHitEntity(entityHitResult);
-		CrystalBeamImpactProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ());
+		CrystalBeamImpactProcedure.execute(this.level(), this);
 	}
 
 	@Override
 	public void onHitBlock(BlockHitResult blockHitResult) {
 		super.onHitBlock(blockHitResult);
-		CrystalBeamImpactProcedure.execute(this.level(), blockHitResult.getBlockPos().getX(), blockHitResult.getBlockPos().getY(), blockHitResult.getBlockPos().getZ());
+		CrystalBeamImpactProcedure.execute(this.level(), this);
 	}
 
 	@Override
@@ -96,7 +96,7 @@ public class AhabsCrosshairsBeamEntity extends AbstractArrow implements ItemSupp
 		AhabsCrosshairsBeamEntity entityarrow = new AhabsCrosshairsBeamEntity(AlterniaModEntities.AHABS_CROSSHAIRS_BEAM.get(), entity, world);
 		entityarrow.shoot(entity.getViewVector(1).x, entity.getViewVector(1).y, entity.getViewVector(1).z, power * 2, 0);
 		entityarrow.setSilent(true);
-		entityarrow.setCritArrow(true);
+		entityarrow.setCritArrow(false);
 		entityarrow.setBaseDamage(damage);
 		entityarrow.setKnockback(knockback);
 		world.addFreshEntity(entityarrow);
@@ -113,7 +113,7 @@ public class AhabsCrosshairsBeamEntity extends AbstractArrow implements ItemSupp
 		entityarrow.setSilent(true);
 		entityarrow.setBaseDamage(1.5);
 		entityarrow.setKnockback(5);
-		entityarrow.setCritArrow(true);
+		entityarrow.setCritArrow(false);
 		entity.level().addFreshEntity(entityarrow);
 		entity.level().playSound(null, entity.getX(), entity.getY(), entity.getZ(), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.wither.hurt")), SoundSource.PLAYERS, 1, 1f / (RandomSource.create().nextFloat() * 0.5f + 1));
 		return entityarrow;

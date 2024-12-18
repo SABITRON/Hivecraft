@@ -4,6 +4,7 @@
  */
 package net.sabitron.alternia.init;
 
+import net.sabitron.alternia.enchantment.RerollEnchantment;
 import net.sabitron.alternia.enchantment.CrystalReloadEnchantment;
 import net.sabitron.alternia.enchantment.CrystalChargeEnchantment;
 import net.sabitron.alternia.AlterniaMod;
@@ -18,4 +19,5 @@ public class AlterniaModEnchantments {
 	public static final DeferredRegister<Enchantment> REGISTRY = DeferredRegister.create(ForgeRegistries.ENCHANTMENTS, AlterniaMod.MODID);
 	public static final RegistryObject<Enchantment> CRYSTAL_CHARGE = REGISTRY.register("crystal_charge", () -> new CrystalChargeEnchantment());
 	public static final RegistryObject<Enchantment> CRYSTAL_RELOAD = REGISTRY.register("crystal_reload", () -> new CrystalReloadEnchantment());
+	public static final RegistryObject<Enchantment> REROLL = REGISTRY.register("reroll", () -> new RerollEnchantment());
 }

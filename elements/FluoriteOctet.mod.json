@@ -1,0 +1,19 @@
+{
+  "_fv": 57,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:FluoriteSinglet"
+    },
+    "showParticles": true,
+    "actionSound": {
+      "value": ""
+    },
+    "igniteFire": false,
+    "power": 0.5,
+    "damage": 1.0,
+    "knockback": 0,
+    "entityModel": "Default",
+    "customModelTexture": ""
+  }
+}

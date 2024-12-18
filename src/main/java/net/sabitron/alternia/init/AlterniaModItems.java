@@ -67,7 +67,9 @@ import net.sabitron.alternia.item.GlassyShattergrainItem;
 import net.sabitron.alternia.item.FuchsiaShadesItem;
 import net.sabitron.alternia.item.FuchsiaHemodyeItem;
 import net.sabitron.alternia.item.FuchsiaBloodItem;
+import net.sabitron.alternia.item.FluoriteSingletItem;
 import net.sabitron.alternia.item.EyeDropsItem;
+import net.sabitron.alternia.item.DryCandyPissThrobblerItem;
 import net.sabitron.alternia.item.DiamondCandyItem;
 import net.sabitron.alternia.item.DarkstoneDustItem;
 import net.sabitron.alternia.item.CullingForkItem;
@@ -496,6 +498,8 @@ public class AlterniaModItems {
 	public static final RegistryObject<Item> HEMOSPECTRUM_TAB_ICON = REGISTRY.register("hemospectrum_tab_icon", () -> new HemospectrumTabIconItem());
 	public static final RegistryObject<Item> MUTANT_BLOOD = REGISTRY.register("mutant_blood", () -> new MutantBloodItem());
 	public static final RegistryObject<Item> UNLOCKED_VAULT = block(AlterniaModBlocks.UNLOCKED_VAULT);
+	public static final RegistryObject<Item> FLUORITE_SINGLET = REGISTRY.register("fluorite_singlet", () -> new FluoriteSingletItem());
+	public static final RegistryObject<Item> DRY_CANDY_PISS_THROBBLER = REGISTRY.register("dry_candy_piss_throbbler", () -> new DryCandyPissThrobblerItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

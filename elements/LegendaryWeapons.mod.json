@@ -1,0 +1,22 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:PoseidonsEntente"
+      },
+      {
+        "value": "CUSTOM:AhabsCrosshairs"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "legendary",
+    "namespace": "minestuck"
+  }
+}

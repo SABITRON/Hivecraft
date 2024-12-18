@@ -10,6 +10,8 @@ import net.sabitron.alternia.entity.LususRamEntity;
 import net.sabitron.alternia.entity.LususCrabEntity;
 import net.sabitron.alternia.entity.LususCatEntity;
 import net.sabitron.alternia.entity.GrubEntity;
+import net.sabitron.alternia.entity.FluoriteOctetEntity;
+import net.sabitron.alternia.entity.FakeDiceEntity;
 import net.sabitron.alternia.entity.FairyBullEntity;
 import net.sabitron.alternia.entity.AhabsCrosshairsBeamEntity;
 import net.sabitron.alternia.AlterniaMod;
@@ -59,6 +61,10 @@ public class AlterniaModEntities {
 					.sized(1.4f, 0.9f));
 	public static final RegistryObject<EntityType<AhabsCrosshairsBeamEntity>> AHABS_CROSSHAIRS_BEAM = register("projectile_ahabs_crosshairs_beam", EntityType.Builder.<AhabsCrosshairsBeamEntity>of(AhabsCrosshairsBeamEntity::new, MobCategory.MISC)
 			.setCustomClientFactory(AhabsCrosshairsBeamEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<FluoriteOctetEntity>> FLUORITE_OCTET = register("projectile_fluorite_octet",
+			EntityType.Builder.<FluoriteOctetEntity>of(FluoriteOctetEntity::new, MobCategory.MISC).setCustomClientFactory(FluoriteOctetEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<FakeDiceEntity>> FAKE_DICE = register("projectile_fake_dice",
+			EntityType.Builder.<FakeDiceEntity>of(FakeDiceEntity::new, MobCategory.MISC).setCustomClientFactory(FakeDiceEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));

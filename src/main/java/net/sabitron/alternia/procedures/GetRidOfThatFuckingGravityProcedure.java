@@ -7,5 +7,9 @@ public class GetRidOfThatFuckingGravityProcedure {
 		if (immediatesourceentity == null)
 			return;
 		immediatesourceentity.setNoGravity(true);
+		if (immediatesourceentity.isInWater()) {
+			if (!immediatesourceentity.level().isClientSide())
+				immediatesourceentity.discard();
+		}
 	}
 }

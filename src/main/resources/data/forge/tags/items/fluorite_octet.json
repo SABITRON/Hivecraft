@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "minestuck:fluorite_octet",
+    {
+      "id": "alternia:nothing_should_be_in_this_tag_except_the_fluorite_octet_do_not_fucking_put_anything_in_here_except_the_fluorite_octet_anything_you_put_in_here_becomes_a_fluorite_octet",
+      "required": false
+    }
+  ]
+}

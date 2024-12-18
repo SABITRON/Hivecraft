@@ -18,6 +18,8 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.api.distmarker.Dist;
 
+import net.minecraft.client.renderer.entity.ThrownItemRenderer;
+
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class AlterniaModEntityRenderers {
 	@SubscribeEvent
@@ -30,5 +32,7 @@ public class AlterniaModEntityRenderers {
 		event.registerEntityRenderer(AlterniaModEntities.LUSUS_CAT.get(), LususCatRenderer::new);
 		event.registerEntityRenderer(AlterniaModEntities.LUSUS_SPIDER.get(), LususSpiderRenderer::new);
 		event.registerEntityRenderer(AlterniaModEntities.AHABS_CROSSHAIRS_BEAM.get(), AhabsCrosshairsBeamRenderer::new);
+		event.registerEntityRenderer(AlterniaModEntities.FLUORITE_OCTET.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(AlterniaModEntities.FAKE_DICE.get(), ThrownItemRenderer::new);
 	}
 }
