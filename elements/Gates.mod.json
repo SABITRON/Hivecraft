@@ -1,0 +1,22 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:OracleFenceGate"
+      },
+      {
+        "value": "CUSTOM:BrambleFenceGate"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "fence_gates/wooden",
+    "namespace": "forge"
+  }
+}

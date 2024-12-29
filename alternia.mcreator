@@ -15979,6 +15979,90 @@
         ]
       },
       "path": "~/Recipes"
+    },
+    {
+      "name": "Mushroom",
+      "type": "tag",
+      "sortid": 970,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "mushroom",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/mushrooms.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "Gates",
+      "type": "tag",
+      "sortid": 971,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gates",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/fence_gates/wooden.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "Fences",
+      "type": "tag",
+      "sortid": 972,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fences",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/wooden_fences.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "Plates",
+      "type": "tag",
+      "sortid": 973,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plates",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/wooden_pressure_plates.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "Buttons",
+      "type": "tag",
+      "sortid": 974,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "buttons",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/wooden_buttons.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "BookshelfBooks",
+      "type": "tag",
+      "sortid": 975,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "bookshelf_books",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/bookshelf_books.json"
+        ]
+      },
+      "path": "~/Tags"
     }
   ],
   "variable_elements": [],

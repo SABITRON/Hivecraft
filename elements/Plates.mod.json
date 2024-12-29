@@ -1,0 +1,22 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:OraclePressurePlate"
+      },
+      {
+        "value": "CUSTOM:BramblePressurePlate"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "wooden_pressure_plates",
+    "namespace": "minecraft"
+  }
+}
