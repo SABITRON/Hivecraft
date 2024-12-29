@@ -15,7 +15,7 @@
       {
         "type": "alternia:zombie_troll",
         "weight": 20,
-        "minCount": 4,
+        "minCount": 1,
         "maxCount": 4
       },
       {

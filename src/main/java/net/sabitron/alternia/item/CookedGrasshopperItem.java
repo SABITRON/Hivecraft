@@ -13,7 +13,7 @@ import java.util.List;
 
 public class CookedGrasshopperItem extends Item {
 	public CookedGrasshopperItem() {
-		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(8).saturationMod(0.8f).meat().build()));
+		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(7).saturationMod(0.8f).meat().build()));
 	}
 
 	@Override

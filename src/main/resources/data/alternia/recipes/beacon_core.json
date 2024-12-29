@@ -8,7 +8,7 @@
   ],
   "key": {
     "a": {
-      "item": "minecraft:diamond"
+      "item": "alternia:cobalt_ingot"
     },
     "b": {
       "item": "minestuck:computer_parts"
@@ -17,7 +17,7 @@
       "item": "minestuck:energy_core"
     },
     "d": {
-      "item": "alternia:cobalt_block"
+      "item": "minecraft:diamond"
     }
   },
   "result": {
