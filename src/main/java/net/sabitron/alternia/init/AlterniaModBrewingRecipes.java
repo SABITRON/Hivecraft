@@ -1,6 +1,8 @@
 
 package net.sabitron.alternia.init;
 
+import net.minecraft.world.item.alchemy.Potions;
+import net.minecraft.world.item.alchemy.PotionUtils;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.resources.ResourceLocation;
@@ -30,6 +32,11 @@ public class AlterniaModBrewingRecipes implements IModPlugin {
 		ItemStack potion2 = new ItemStack(Items.POTION);
 		List<ItemStack> ingredientStack = new ArrayList<>();
 		List<ItemStack> inputStack = new ArrayList<>();
+		ingredientStack.add(new ItemStack(AlterniaModItems.GLASSY_SHATTERGRAIN.get()));
+		PotionUtils.setPotion(potion, Potions.WATER);
+		PotionUtils.setPotion(potion2, Potions.AWKWARD);
+		brewingRecipes.add(factory.createBrewingRecipe(List.copyOf(ingredientStack), potion.copy(), potion2.copy()));
+		ingredientStack.clear();
 		registration.addRecipes(RecipeTypes.BREWING, brewingRecipes);
 	}
 }

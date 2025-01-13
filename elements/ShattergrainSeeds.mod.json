@@ -14,7 +14,7 @@
     "suspiciousStewEffect": "SPEED",
     "suspiciousStewDuration": 0,
     "growapableSpawnType": "Plains",
-    "growapableMaxHeight": 3,
+    "growapableMaxHeight": 1,
     "customBoundingBox": false,
     "disableOffset": false,
     "boundingBoxes": [

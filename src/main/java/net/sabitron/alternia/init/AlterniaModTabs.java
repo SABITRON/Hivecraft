@@ -208,6 +208,7 @@ public class AlterniaModTabs {
 				tabData.accept(AlterniaModItems.LUSUS_CAT_SPAWN_EGG.get());
 				tabData.accept(AlterniaModItems.LUSUS_SPIDER_SPAWN_EGG.get());
 				tabData.accept(AlterniaModItems.MOD_ICON.get());
+				tabData.accept(AlterniaModItems.COBALT_FORTRESS_CHESTPLATE.get());
 			})
 
 					.build());

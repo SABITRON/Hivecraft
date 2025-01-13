@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "alternia:stargate_shielding"
+  },
+  "base": {
+    "item": "alternia:cobalt_armor_chestplate"
+  },
+  "addition": {
+    "item": "alternia:stargate_shielding"
+  },
+  "result": {
+    "item": "alternia:cobalt_fortress_chestplate"
+  }
+}

@@ -11,8 +11,8 @@
       "item": "alternia:cobalt_nugget"
     },
     {
-      "chance": 1,
-      "item": "alternia:sulfur"
+      "chance": 0.5,
+      "item": "alternia:cobalt_dust"
     }
   ]
 }

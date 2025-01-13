@@ -2,22 +2,22 @@
   "_fv": 57,
   "_type": "armor",
   "definition": {
-    "enableHelmet": true,
-    "textureHelmet": "cobalt_visor_helmet",
-    "enableBody": false,
-    "textureBody": "cobalt_chestplate",
+    "enableHelmet": false,
+    "textureHelmet": "",
+    "enableBody": true,
+    "textureBody": "cobalt_fortress_chestplate",
     "enableLeggings": false,
-    "textureLeggings": "cobalt_leggings",
+    "textureLeggings": "",
     "enableBoots": false,
-    "textureBoots": "cobalt_boots",
+    "textureBoots": "",
     "creativeTab": {
       "value": "CUSTOM:AlterniaTab"
     },
     "armorTextureFile": "cobalt_alternate_",
-    "helmetName": "Cobalt Visor Helmet",
-    "bodyName": "Cobalt Chestplate",
-    "leggingsName": "Cobalt Leggings",
-    "bootsName": "Cobalt Boots",
+    "helmetName": "Cobalt Fortress Helmet",
+    "bodyName": "Cobalt Fortress Chestplate",
+    "leggingsName": "Cobalt Fortress Leggings",
+    "bootsName": "Cobalt Fortress Boots",
     "helmetSpecialInformation": {
       "fixedValue": []
     },
@@ -54,10 +54,10 @@
     "leggingsItemCustomModelName": "Normal",
     "bootsItemRenderType": 0,
     "bootsItemCustomModelName": "Normal",
-    "helmetImmuneToFire": true,
-    "bodyImmuneToFire": true,
-    "leggingsImmuneToFire": true,
-    "bootsImmuneToFire": true,
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
     "helmetPiglinNeutral": {
       "fixedValue": false
     },
@@ -70,23 +70,20 @@
     "bootsPiglinNeutral": {
       "fixedValue": false
     },
-    "maxDamage": 37,
-    "damageValueHelmet": 3,
-    "damageValueBody": 8,
-    "damageValueLeggings": 6,
-    "damageValueBoots": 3,
+    "maxDamage": 45,
+    "damageValueHelmet": 0,
+    "damageValueBody": 12,
+    "damageValueLeggings": 0,
+    "damageValueBoots": 0,
     "enchantability": 15,
-    "toughness": 3.0,
-    "knockbackResistance": 0.1,
+    "toughness": 5.0,
+    "knockbackResistance": 0.25,
     "equipSound": {
-      "value": "item.armor.equip_gold"
+      "value": ""
     },
     "repairItems": [
       {
-        "value": "CUSTOM:CobaltIngot"
-      },
-      {
-        "value": "Items.DIAMOND"
+        "value": "CUSTOM:StargateShielding"
       }
     ]
   }

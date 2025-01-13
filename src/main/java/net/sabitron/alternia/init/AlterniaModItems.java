@@ -91,6 +91,7 @@ import net.sabitron.alternia.item.CobaltKnifeItem;
 import net.sabitron.alternia.item.CobaltIngotItem;
 import net.sabitron.alternia.item.CobaltHoeItem;
 import net.sabitron.alternia.item.CobaltHemodyeItem;
+import net.sabitron.alternia.item.CobaltFortressItem;
 import net.sabitron.alternia.item.CobaltDustItem;
 import net.sabitron.alternia.item.CobaltBloodItem;
 import net.sabitron.alternia.item.CobaltBeaconCoreItem;
@@ -505,6 +506,7 @@ public class AlterniaModItems {
 	public static final RegistryObject<Item> UNLOCKED_VAULT = block(AlterniaModBlocks.UNLOCKED_VAULT);
 	public static final RegistryObject<Item> FLUORITE_SINGLET = REGISTRY.register("fluorite_singlet", () -> new FluoriteSingletItem());
 	public static final RegistryObject<Item> DRY_CANDY_PISS_THROBBLER = REGISTRY.register("dry_candy_piss_throbbler", () -> new DryCandyPissThrobblerItem());
+	public static final RegistryObject<Item> COBALT_FORTRESS_CHESTPLATE = REGISTRY.register("cobalt_fortress_chestplate", () -> new CobaltFortressItem.Chestplate());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

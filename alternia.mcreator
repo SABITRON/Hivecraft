@@ -16063,6 +16063,49 @@
         ]
       },
       "path": "~/Tags"
+    },
+    {
+      "name": "AwkwardPotionAlternia",
+      "type": "recipe",
+      "sortid": 976,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "awkward_potion_alternia",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sabitron/alternia/recipes/brewing/AwkwardPotionAlterniaBrewingRecipe.java"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "CobaltFortress",
+      "type": "armor",
+      "sortid": 977,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_fortress",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alternia/models/item/cobalt_fortress_chestplate.json",
+          "src/main/java/net/sabitron/alternia/item/CobaltFortressItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "CobaltFortressChestplate",
+      "type": "recipe",
+      "sortid": 978,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_fortress_chestplate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alternia/recipes/cobalt_fortress_chestplate.json"
+        ]
+      },
+      "path": "~/Recipes/CobaltUpgrade"
     }
   ],
   "variable_elements": [],
@@ -16249,6 +16292,7 @@
       "item.alternia.zombie_troll_spawn_egg": "Shadow Dropper Spawn Egg",
       "item.alternia.jade_blood": "Jade Blood",
       "block.alternia.olive_hemoglass": "Olive Hemoglass",
+      "item.alternia.cobalt_fortress_chestplate": "Cobalt Fortress Chestplate",
       "block.alternia.pitch_darkstone": "Pitch Darkstone",
       "block.alternia.jade_hemo_wool": "Jade Wool",
       "advancements.eyedrops_on_glasses.title": "Wait a minute... My sunglasses are in the way!",
@@ -16686,7 +16730,7 @@
   "workspaceSettings": {
     "modid": "alternia",
     "modName": "Hivecraft: An Alternia addon for Minestuck",
-    "version": "1.2.8",
+    "version": "1.2.9",
     "author": "V_SABITRON",
     "websiteURL": "https://modrinth.com/mod/hivecraft",
     "license": "Academic Free License v3.0",
