@@ -154,6 +154,7 @@ public class AlterniaModTabs {
 				tabData.accept(AlterniaModItems.COBALT_ARMOR_LEGGINGS.get());
 				tabData.accept(AlterniaModItems.COBALT_ARMOR_BOOTS.get());
 				tabData.accept(AlterniaModItems.COBALT_VISOR_HELMET.get());
+				tabData.accept(AlterniaModItems.COBALT_FORTRESS_CHESTPLATE.get());
 				tabData.accept(AlterniaModItems.COBALT_KNIFE.get());
 				tabData.accept(AlterniaModItems.CULLING_FORK.get());
 				tabData.accept(AlterniaModItems.POSEIDONS_ENTENTE.get());
@@ -173,6 +174,7 @@ public class AlterniaModTabs {
 				tabData.accept(AlterniaModItems.TROLL_HORN.get());
 				tabData.accept(AlterniaModItems.MATRIORB.get());
 				tabData.accept(AlterniaModItems.COBALT_BEACON_CORE.get());
+				tabData.accept(AlterniaModItems.MUSIC_DISC_GRIEFED_RESPITEBLOCK.get());
 				tabData.accept(AlterniaModItems.PAPER_CONE.get());
 				tabData.accept(AlterniaModItems.PIE_PLATE.get());
 				tabData.accept(AlterniaModItems.BUG_JAR.get());
@@ -208,7 +210,6 @@ public class AlterniaModTabs {
 				tabData.accept(AlterniaModItems.LUSUS_CAT_SPAWN_EGG.get());
 				tabData.accept(AlterniaModItems.LUSUS_SPIDER_SPAWN_EGG.get());
 				tabData.accept(AlterniaModItems.MOD_ICON.get());
-				tabData.accept(AlterniaModItems.COBALT_FORTRESS_CHESTPLATE.get());
 			})
 
 					.build());

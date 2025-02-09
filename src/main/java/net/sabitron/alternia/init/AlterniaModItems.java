@@ -41,6 +41,7 @@ import net.sabitron.alternia.item.OliveShadesItem;
 import net.sabitron.alternia.item.OliveHemodyeItem;
 import net.sabitron.alternia.item.OliveBloodItem;
 import net.sabitron.alternia.item.MutantBloodItem;
+import net.sabitron.alternia.item.MusicDiscGriefedRespiteblockItem;
 import net.sabitron.alternia.item.ModIconItem;
 import net.sabitron.alternia.item.MatriorbItem;
 import net.sabitron.alternia.item.LususMeatItem;
@@ -257,6 +258,7 @@ public class AlterniaModItems {
 	public static final RegistryObject<Item> COBALT_ARMOR_LEGGINGS = REGISTRY.register("cobalt_armor_leggings", () -> new CobaltArmorItem.Leggings());
 	public static final RegistryObject<Item> COBALT_ARMOR_BOOTS = REGISTRY.register("cobalt_armor_boots", () -> new CobaltArmorItem.Boots());
 	public static final RegistryObject<Item> COBALT_VISOR_HELMET = REGISTRY.register("cobalt_visor_helmet", () -> new CobaltVisorItem.Helmet());
+	public static final RegistryObject<Item> COBALT_FORTRESS_CHESTPLATE = REGISTRY.register("cobalt_fortress_chestplate", () -> new CobaltFortressItem.Chestplate());
 	public static final RegistryObject<Item> COBALT_KNIFE = REGISTRY.register("cobalt_knife", () -> new CobaltKnifeItem());
 	public static final RegistryObject<Item> CULLING_FORK = REGISTRY.register("culling_fork", () -> new CullingForkItem());
 	public static final RegistryObject<Item> POSEIDONS_ENTENTE = REGISTRY.register("poseidons_entente", () -> new PoseidonsEntenteItem());
@@ -276,6 +278,7 @@ public class AlterniaModItems {
 	public static final RegistryObject<Item> TROLL_HORN = REGISTRY.register("troll_horn", () -> new TrollHornItem());
 	public static final RegistryObject<Item> MATRIORB = REGISTRY.register("matriorb", () -> new MatriorbItem());
 	public static final RegistryObject<Item> COBALT_BEACON_CORE = REGISTRY.register("cobalt_beacon_core", () -> new CobaltBeaconCoreItem());
+	public static final RegistryObject<Item> MUSIC_DISC_GRIEFED_RESPITEBLOCK = REGISTRY.register("music_disc_griefed_respiteblock", () -> new MusicDiscGriefedRespiteblockItem());
 	public static final RegistryObject<Item> PAPER_CONE = REGISTRY.register("paper_cone", () -> new PaperConeItem());
 	public static final RegistryObject<Item> PIE_PLATE = REGISTRY.register("pie_plate", () -> new PiePlateItem());
 	public static final RegistryObject<Item> BUG_JAR = REGISTRY.register("bug_jar", () -> new BugJarItem());
@@ -506,7 +509,6 @@ public class AlterniaModItems {
 	public static final RegistryObject<Item> UNLOCKED_VAULT = block(AlterniaModBlocks.UNLOCKED_VAULT);
 	public static final RegistryObject<Item> FLUORITE_SINGLET = REGISTRY.register("fluorite_singlet", () -> new FluoriteSingletItem());
 	public static final RegistryObject<Item> DRY_CANDY_PISS_THROBBLER = REGISTRY.register("dry_candy_piss_throbbler", () -> new DryCandyPissThrobblerItem());
-	public static final RegistryObject<Item> COBALT_FORTRESS_CHESTPLATE = REGISTRY.register("cobalt_fortress_chestplate", () -> new CobaltFortressItem.Chestplate());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

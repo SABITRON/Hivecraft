@@ -1,0 +1,18 @@
+{
+  "mus.alternia_1": {
+    "sounds": [
+      {
+        "name": "alternia:mus_alternia_1",
+        "stream": true
+      }
+    ]
+  },
+  "mus.griefed_respiteblock": {
+    "sounds": [
+      {
+        "name": "alternia:mus_griefed_respiteblock",
+        "stream": true
+      }
+    ]
+  }
+}

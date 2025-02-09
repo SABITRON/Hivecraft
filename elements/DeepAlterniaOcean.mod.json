@@ -35,7 +35,7 @@
       "value": ""
     },
     "music": {
-      "value": ""
+      "value": "CUSTOM:mus.alternia_1"
     },
     "moodSound": {
       "value": ""
@@ -100,7 +100,7 @@
     "spawnDesertPyramid": false,
     "spawnSwampHut": false,
     "spawnIgloo": false,
-    "spawnOceanMonument": false,
+    "spawnOceanMonument": true,
     "spawnShipwreck": false,
     "spawnShipwreckBeached": false,
     "spawnBuriedTreasure": false,

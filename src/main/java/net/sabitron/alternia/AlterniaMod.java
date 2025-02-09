@@ -17,6 +17,7 @@ import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
 import net.sabitron.alternia.init.AlterniaModTabs;
+import net.sabitron.alternia.init.AlterniaModSounds;
 import net.sabitron.alternia.init.AlterniaModMobEffects;
 import net.sabitron.alternia.init.AlterniaModItems;
 import net.sabitron.alternia.init.AlterniaModFluids;
@@ -56,7 +57,7 @@ public class AlterniaMod {
 	public AlterniaMod() {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-
+		AlterniaModSounds.REGISTRY.register(bus);
 		AlterniaModBlocks.REGISTRY.register(bus);
 		AlterniaModBlockEntities.REGISTRY.register(bus);
 		AlterniaModItems.REGISTRY.register(bus);

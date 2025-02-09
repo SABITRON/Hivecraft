@@ -35,7 +35,7 @@
       "value": ""
     },
     "music": {
-      "value": ""
+      "value": "CUSTOM:mus.alternia_1"
     },
     "moodSound": {
       "value": ""
@@ -104,7 +104,7 @@
     "spawnOceanMonument": false,
     "spawnShipwreck": false,
     "spawnShipwreckBeached": false,
-    "spawnBuriedTreasure": false,
+    "spawnBuriedTreasure": true,
     "oceanRuinType": "NONE",
     "spawnNetherBridge": false,
     "spawnNetherFossil": false,

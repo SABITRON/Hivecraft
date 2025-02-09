@@ -3,6 +3,12 @@
   "temperature": 2,
   "downfall": 0,
   "effects": {
+    "music": {
+      "sound": "alternia:mus.alternia_1",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": true
+    },
     "foliage_color": -10265495,
     "grass_color": -10211826,
     "sky_color": 7972607,
