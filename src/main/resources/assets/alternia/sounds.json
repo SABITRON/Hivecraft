@@ -14,5 +14,13 @@
         "stream": true
       }
     ]
+  },
+  "mus.alternia_ocean": {
+    "sounds": [
+      {
+        "name": "alternia:mus_alternia_ocean",
+        "stream": true
+      }
+    ]
   }
 }

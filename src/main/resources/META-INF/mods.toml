@@ -8,7 +8,7 @@ version="1.2.9"
 displayName="Hivecraft: An Alternia addon for Minestuck"
 displayURL="https://modrinth.com/mod/hivecraft"
 logoFile="logo.png"
-credits="Uses some textures from Minecraft, Minestuck, Zinc ore texture from Create, Fairy Bull, Crab Lusus, Ram Lusus models by yanasakanadev"
+credits="Uses some textures from Minecraft, Minestuck, Zinc ore texture from Create, Fairy Bull, Crab Lusus, Ram Lusus models by yanasakanadev, Music by HeartsRemedy and Joan Stein"
 authors="V_SABITRON"
 
 [[dependencies.alternia]]
