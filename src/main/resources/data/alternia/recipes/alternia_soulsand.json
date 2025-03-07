@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "alternia:salt"
+    },
+    "b": {
+      "item": "alternia:rotten_troll_flesh"
+    },
+    "c": {
+      "item": "alternia:darksand"
+    }
+  },
+  "result": {
+    "item": "minecraft:soul_sand",
+    "count": 1
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:StrippedOracleLog"
+      },
+      {
+        "value": "CUSTOM:StrippedBrambleLog"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "stripped_logs",
+    "namespace": "minecraft"
+  }
+}

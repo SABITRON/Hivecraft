@@ -12,7 +12,7 @@ public class SoporSlimeEffectProcedure {
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 			_entity.addEffect(new MobEffectInstance(MobEffects.DARKNESS, 60, 0, false, false));
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-			_entity.addEffect(new MobEffectInstance(MobEffects.SATURATION, 20, 0, false, false));
+			_entity.addEffect(new MobEffectInstance(MobEffects.REGENERATION, 20, 0, false, false));
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 			_entity.addEffect(new MobEffectInstance(MobEffects.WEAKNESS, 200, 1, false, false));
 	}

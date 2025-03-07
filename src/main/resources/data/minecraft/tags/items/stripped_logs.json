@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "alternia:stripped_oracle_log",
+    "alternia:stripped_bramble_log"
+  ]
+}
