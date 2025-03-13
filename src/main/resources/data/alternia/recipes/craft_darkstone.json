@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab",
+    "ba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:cobblestone"
+    },
+    "b": {
+      "item": "alternia:darkstone_dust"
+    }
+  },
+  "result": {
+    "item": "alternia:cobbled_darkstone",
+    "count": 2
+  }
+}

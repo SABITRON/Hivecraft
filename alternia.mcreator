@@ -16468,6 +16468,20 @@
         ]
       },
       "path": "~/Recipes"
+    },
+    {
+      "name": "CraftDarkstone",
+      "type": "recipe",
+      "sortid": 1000,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_darkstone",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alternia/recipes/craft_darkstone.json"
+        ]
+      },
+      "path": "~/Recipes"
     }
   ],
   "variable_elements": [],

@@ -1,37 +1,35 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "pattern": [
-  	"fe ",
-    "adb",
-    "cgh"
-  ],
-  "key": {
-    "a": {
-      "item": "alternia:cooked_beetle"
+  "ingredients": [
+    {
+      "item": "alternia:cooked_green_mushroom"
     },
-    "b": {
-      "item": "alternia:cooked_grasshopper"
-    },
-    "c": {
-      "item": "minecraft:bowl"
-    },
-    "d": {
-      "item": "minestuck:grub_sauce"
-    },
-    "e": {
-      "item": "minestuck:cicada"
-    },
-    "f": {
+    {
       "item": "alternia:cooked_grub_meat"
     },
-    "g": {
+    {
+      "item": "alternia:cooked_beetle"
+    },
+    {
+      "item": "alternia:cooked_grasshopper"
+    },
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "minestuck:grub_sauce"
+    },
+    {
+      "item": "minestuck:grub_sauce"
+    },
+    {
       "item": "minestuck:cone_of_flies"
     },
-    "h": {
-      "item": "alternia:cooked_green_mushroom"
+    {
+      "item": "minestuck:cicada"
     }
-  },
+  ],
   "result": {
     "item": "alternia:hivemade_stew",
     "count": 1

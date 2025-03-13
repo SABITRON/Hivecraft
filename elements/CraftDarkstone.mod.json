@@ -3,46 +3,46 @@
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
-    "recipeRetstackSize": 1,
+    "recipeRetstackSize": 2,
     "group": "",
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
     "cookingTime": 200,
     "craftingBookCategory": "MISC",
-    "recipeShapeless": true,
+    "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:CookedGreenMushroom"
+        "value": "Blocks.COBBLESTONE"
       },
       {
-        "value": "CUSTOM:CookedGrubMeat"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:CookedBeetle"
+        "value": "CUSTOM:DarkstoneDust"
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:CookedGrasshopper"
+        "value": "CUSTOM:DarkstoneDust"
+      },
+      {
+        "value": "Blocks.COBBLESTONE"
       },
       {
         "value": ""
       },
       {
-        "value": "Items.BOWL"
+        "value": ""
+      },
+      {
+        "value": ""
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:HivemadeStew"
+      "value": "CUSTOM:CobbledDarkstone"
     },
-    "name": "soup",
+    "name": "craft_darkstone",
     "namespace": "mod"
   }
 }
