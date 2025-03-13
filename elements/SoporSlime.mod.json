@@ -43,6 +43,9 @@
     "colorOnMap": "LIME",
     "onEntityCollides": {
       "name": "SoporSlimeEffect"
+    },
+    "beforeReplacingBlock": {
+      "name": "SoporSlimeBeforeReplacingABlock"
     }
   }
 }
