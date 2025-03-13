@@ -2,9 +2,9 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-  	"feg",
+  	"fe ",
     "adb",
-    " c "
+    "cgh"
   ],
   "key": {
     "a": {
@@ -27,6 +27,9 @@
     },
     "g": {
       "item": "minestuck:cone_of_flies"
+    },
+    "h": {
+      "item": "alternia:cooked_green_mushroom"
     }
   },
   "result": {

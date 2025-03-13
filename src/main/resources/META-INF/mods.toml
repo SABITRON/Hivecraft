@@ -4,7 +4,7 @@ license="Academic Free License v3.0"
 
 [[mods]]
 modId="alternia"
-version="1.2.11"
+version="1.2.12"
 displayName="Hivecraft: An Alternia addon for Minestuck"
 displayURL="https://modrinth.com/mod/hivecraft"
 logoFile="logo.png"

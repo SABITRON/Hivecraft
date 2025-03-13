@@ -1,0 +1,96 @@
+{
+  "_fv": 57,
+  "_type": "plant",
+  "definition": {
+    "renderType": 13,
+    "texture": "spores",
+    "textureBottom": "",
+    "customModelName": "Crop model",
+    "itemTexture": "green_mushroom_spores",
+    "particleTexture": "",
+    "tintType": "No tint",
+    "isItemTinted": false,
+    "plantType": "normal",
+    "suspiciousStewEffect": "BAD_OMEN",
+    "suspiciousStewDuration": 0,
+    "growapableSpawnType": "Cave",
+    "growapableMaxHeight": 3,
+    "customBoundingBox": true,
+    "disableOffset": true,
+    "boundingBoxes": [
+      {
+        "mx": 0.0,
+        "my": 0.0,
+        "mz": 0.0,
+        "Mx": 16.0,
+        "My": 1.0,
+        "Mz": 16.0,
+        "subtract": false
+      }
+    ],
+    "name": "Green Mushroom Spores",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTab": {
+      "value": "CUSTOM:AlterniaTab"
+    },
+    "hardness": 0.0,
+    "resistance": 0.0,
+    "luminance": 0,
+    "unbreakable": false,
+    "isSolid": false,
+    "isCustomSoundType": false,
+    "soundOnStep": {
+      "value": "EMPTY"
+    },
+    "breakSound": {
+      "value": ""
+    },
+    "stepSound": {
+      "value": ""
+    },
+    "placeSound": {
+      "value": ""
+    },
+    "hitSound": {
+      "value": ""
+    },
+    "fallSound": {
+      "value": ""
+    },
+    "useLootTableForDrops": false,
+    "customDrop": {
+      "value": ""
+    },
+    "dropAmount": 1,
+    "forceTicking": true,
+    "emissiveRendering": false,
+    "hasTileEntity": false,
+    "isReplaceable": true,
+    "colorOnMap": "AIR",
+    "creativePickItem": {
+      "value": ""
+    },
+    "offsetType": "XZ",
+    "aiPathNodeType": "DEFAULT",
+    "flammability": 100,
+    "fireSpreadSpeed": 60,
+    "jumpFactor": 1.0,
+    "speedFactor": 1.0,
+    "canBePlacedOn": [],
+    "isBonemealable": true,
+    "onBonemealSuccess": {
+      "name": "GreenSporesGrow"
+    },
+    "frequencyOnChunks": 5,
+    "generateFeature": false,
+    "restrictionBiomes": [],
+    "generationType": "Flower",
+    "patchSize": 64,
+    "generateAtAnyHeight": false,
+    "onTickUpdate": {
+      "name": "GreenSporesGrow"
+    }
+  }
+}

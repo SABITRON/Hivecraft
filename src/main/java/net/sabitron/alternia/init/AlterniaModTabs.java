@@ -164,8 +164,11 @@ public class AlterniaModTabs {
 				tabData.accept(AlterniaModItems.AHABS_CROSSHAIRS.get());
 				tabData.accept(AlterniaModItems.AHABS_AMMO.get());
 				tabData.accept(AlterniaModItems.ZINC.get());
-				tabData.accept(AlterniaModBlocks.SHATTERGRAIN_SEEDS.get().asItem());
+				tabData.accept(AlterniaModBlocks.GREEN_MUSHROOM.get().asItem());
+				tabData.accept(AlterniaModBlocks.GREEN_SPORES.get().asItem());
+				tabData.accept(AlterniaModItems.COOKED_GREEN_MUSHROOM.get());
 				tabData.accept(AlterniaModItems.SHATTERGRAIN.get());
+				tabData.accept(AlterniaModBlocks.SHATTERGRAIN_SEEDS.get().asItem());
 				tabData.accept(AlterniaModBlocks.SHATTERGRAIN_BALE.get().asItem());
 				tabData.accept(AlterniaModItems.GLASSY_SHATTERGRAIN.get());
 				tabData.accept(AlterniaModItems.SHATTERFLOUR.get());

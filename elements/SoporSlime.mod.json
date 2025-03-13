@@ -41,11 +41,11 @@
     "flammability": 0,
     "fireSpreadSpeed": 0,
     "colorOnMap": "LIME",
+    "onNeighbourChanges": {
+      "name": "SoporSlimeBeforeReplacingABlock"
+    },
     "onEntityCollides": {
       "name": "SoporSlimeEffect"
-    },
-    "beforeReplacingBlock": {
-      "name": "SoporSlimeBeforeReplacingABlock"
     }
   }
 }

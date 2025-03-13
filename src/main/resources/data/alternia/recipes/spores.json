@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "alternia:green_mushroom"
+    }
+  ],
+  "result": {
+    "item": "alternia:green_spores",
+    "count": 2
+  }
+}

@@ -1,7 +1,6 @@
 
 package net.sabitron.alternia.fluid;
 
-import net.sabitron.alternia.procedures.SoporSlimeBeforeReplacingABlockProcedure;
 import net.sabitron.alternia.init.AlterniaModItems;
 import net.sabitron.alternia.init.AlterniaModFluids;
 import net.sabitron.alternia.init.AlterniaModFluidTypes;
@@ -12,12 +11,9 @@ import net.minecraftforge.fluids.ForgeFlowingFluid;
 import net.minecraft.world.level.material.FluidState;
 import net.minecraft.world.level.material.Fluid;
 import net.minecraft.world.level.block.state.StateDefinition;
-import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.LiquidBlock;
-import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.core.particles.ParticleOptions;
-import net.minecraft.core.BlockPos;
 
 public abstract class SoporSlimeFluid extends ForgeFlowingFluid {
 	public static final ForgeFlowingFluid.Properties PROPERTIES = new ForgeFlowingFluid.Properties(() -> AlterniaModFluidTypes.SOPOR_SLIME_TYPE.get(), () -> AlterniaModFluids.SOPOR_SLIME.get(), () -> AlterniaModFluids.FLOWING_SOPOR_SLIME.get())
@@ -30,11 +26,6 @@ public abstract class SoporSlimeFluid extends ForgeFlowingFluid {
 	@Override
 	public ParticleOptions getDripParticle() {
 		return ParticleTypes.ITEM_SLIME;
-	}
-
-	@Override
-	protected void beforeDestroyingBlock(LevelAccessor world, BlockPos pos, BlockState blockstate) {
-		SoporSlimeBeforeReplacingABlockProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ(), blockstate);
 	}
 
 	public static class Source extends SoporSlimeFluid {

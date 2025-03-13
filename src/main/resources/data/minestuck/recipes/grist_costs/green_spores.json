@@ -1,0 +1,10 @@
+{
+  "type": "minestuck:grist_cost",
+  "grist_cost": {
+    "minestuck:iodine": 1,
+    "minestuck:uranium": 1
+  },
+  "ingredient": {
+    "item": "alternia:green_spores"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "experience": 1,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "alternia:green_mushroom"
+  },
+  "result": "alternia:cooked_green_mushroom"
+}

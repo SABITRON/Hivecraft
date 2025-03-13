@@ -1,0 +1,25 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:GreenMushroom"
+      },
+      {
+        "value": "CUSTOM:CookedGreenMushroom"
+      },
+      {
+        "value": "CUSTOM:GreenSpores"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "mushrooms",
+    "namespace": "forge"
+  }
+}

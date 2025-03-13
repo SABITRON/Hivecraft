@@ -163,6 +163,8 @@ import net.sabitron.alternia.block.HiveDrywallPanelBlock;
 import net.sabitron.alternia.block.HiveDrywallBlock;
 import net.sabitron.alternia.block.HiveDoorBlock;
 import net.sabitron.alternia.block.GrubNestBlock;
+import net.sabitron.alternia.block.GreenSporesBlock;
+import net.sabitron.alternia.block.GreenMushroomBlock;
 import net.sabitron.alternia.block.GoldRecuperacoonCoreBlock;
 import net.sabitron.alternia.block.GoldMeatWallBlock;
 import net.sabitron.alternia.block.GoldMeatStairsBlock;
@@ -407,6 +409,8 @@ public class AlterniaModBlocks {
 	public static final RegistryObject<Block> SULFUR_BLOCK = REGISTRY.register("sulfur_block", () -> new SulfurBlockBlock());
 	public static final RegistryObject<Block> RAW_COBALT_BLOCK = REGISTRY.register("raw_cobalt_block", () -> new RawCobaltBlockBlock());
 	public static final RegistryObject<Block> COBALT_BLOCK = REGISTRY.register("cobalt_block", () -> new CobaltBlockBlock());
+	public static final RegistryObject<Block> GREEN_MUSHROOM = REGISTRY.register("green_mushroom", () -> new GreenMushroomBlock());
+	public static final RegistryObject<Block> GREEN_SPORES = REGISTRY.register("green_spores", () -> new GreenSporesBlock());
 	public static final RegistryObject<Block> SHATTERGRAIN_SEEDS = REGISTRY.register("shattergrain_seeds", () -> new ShattergrainSeedsBlock());
 	public static final RegistryObject<Block> SHATTERGRAIN_BALE = REGISTRY.register("shattergrain_bale", () -> new ShattergrainBaleBlock());
 	public static final RegistryObject<Block> ALTERNIA_TPZ = REGISTRY.register("alternia_tpz", () -> new AlterniaTpzBlock());
