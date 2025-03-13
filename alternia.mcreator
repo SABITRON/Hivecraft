@@ -16482,6 +16482,30 @@
         ]
       },
       "path": "~/Recipes"
+    },
+    {
+      "name": "GreenMushroomCompost",
+      "type": "itemextension",
+      "sortid": 1001,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_mushroom_compost",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "SporeCompost",
+      "type": "itemextension",
+      "sortid": 1002,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spore_compost",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Items"
     }
   ],
   "variable_elements": [],
