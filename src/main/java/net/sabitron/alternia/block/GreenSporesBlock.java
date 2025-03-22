@@ -33,7 +33,7 @@ import java.util.Collections;
 public class GreenSporesBlock extends FlowerBlock implements BonemealableBlock {
 	public GreenSporesBlock() {
 		super(() -> MobEffects.BAD_OMEN, 0,
-				BlockBehaviour.Properties.of().mapColor(MapColor.NONE).randomTicks().sound(SoundType.EMPTY).instabreak().noCollission().replaceable().offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.DESTROY));
+				BlockBehaviour.Properties.of().mapColor(MapColor.NONE).randomTicks().sound(SoundType.EMPTY).instabreak().noCollission().replaceable().offsetType(BlockBehaviour.OffsetType.NONE).pushReaction(PushReaction.DESTROY));
 	}
 
 	@Override

@@ -16137,34 +16137,6 @@
       "path": "~/Tags"
     },
     {
-      "name": "StrippedLogs",
-      "type": "tag",
-      "sortid": 984,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "stripped_logs",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/tags/items/stripped_logs.json"
-        ]
-      },
-      "path": "~/Tags"
-    },
-    {
-      "name": "StrippedLogsblcks",
-      "type": "tag",
-      "sortid": 985,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "stripped_logsblcks",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/tags/blocks/stripped_logs.json"
-        ]
-      },
-      "path": "~/Tags"
-    },
-    {
       "name": "TempleScanner",
       "type": "recipe",
       "sortid": 986,
@@ -16506,6 +16478,34 @@
         "files": []
       },
       "path": "~/Items"
+    },
+    {
+      "name": "StrippedLogs",
+      "type": "tag",
+      "sortid": 1003,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_logs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/blocks/stripped_logs.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "StrippedWood",
+      "type": "tag",
+      "sortid": 1004,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/blocks/stripped_wood.json"
+        ]
+      },
+      "path": "~/Tags"
     }
   ],
   "variable_elements": [],

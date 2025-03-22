@@ -3,7 +3,14 @@
   "_type": "tag",
   "definition": {
     "type": "Blocks",
-    "items": [],
+    "items": [
+      {
+        "value": "CUSTOM:StrippedOracleLog"
+      },
+      {
+        "value": "CUSTOM:StrippedBrambleLog"
+      }
+    ],
     "blocks": [
       {
         "value": "CUSTOM:StrippedOracleLog"
@@ -16,7 +23,7 @@
     "entities": [],
     "biomes": [],
     "damageTypes": [],
-    "name": "stripped_logs",
-    "namespace": "minecraft"
+    "name": "stripped_wood",
+    "namespace": "forge"
   }
 }
