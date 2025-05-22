@@ -18,4 +18,5 @@ public class AlterniaModSounds {
 	public static final RegistryObject<SoundEvent> MUS_ALTERNIA_1 = REGISTRY.register("mus.alternia_1", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("alternia", "mus.alternia_1")));
 	public static final RegistryObject<SoundEvent> MUS_GRIEFED_RESPITEBLOCK = REGISTRY.register("mus.griefed_respiteblock", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("alternia", "mus.griefed_respiteblock")));
 	public static final RegistryObject<SoundEvent> MUS_ALTERNIA_OCEAN = REGISTRY.register("mus.alternia_ocean", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("alternia", "mus.alternia_ocean")));
+	public static final RegistryObject<SoundEvent> MUS_ALTERNIA_2 = REGISTRY.register("mus.alternia_2", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("alternia", "mus.alternia_2")));
 }

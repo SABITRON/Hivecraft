@@ -22,5 +22,13 @@
         "stream": true
       }
     ]
+  },
+  "mus.alternia_2": {
+    "sounds": [
+      {
+        "name": "alternia:mus_alternia_2",
+        "stream": true
+      }
+    ]
   }
 }
